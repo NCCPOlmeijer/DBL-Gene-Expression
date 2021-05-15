@@ -118,4 +118,4 @@ cluster_resultaat = "Data/Voorbeeld_clusterresult.txt"
 
 
 for i in range(6):
-    expressie(cluster_invoer, cluster_resultaat, i)
+    expressie(cluster_invoer, cluster_resultaat)
