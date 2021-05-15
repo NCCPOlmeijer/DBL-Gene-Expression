@@ -32,28 +32,19 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
     # variable 'cluster_invoer'.
 
     with open(cluster_invoer) as cluster_invoer:
-        cluster_invoer = cluster_invoer.readlines()
+        cluster_invoer_data = cluster_invoer.read().split()
 
     # Inlezen van 'cluster_uitvoer' en
     # rauwe data uit 'cluster_uitvoer' toewijzen aan
     # variable 'cluster_uitvoer'.
 
     with open(cluster_resultaat) as cluster_uitvoer:
-        cluster_uitvoer = cluster_uitvoer.readlines()
-
-    # lijst aanmaken genaamd 'cluster_invoer_data' met per cloneID de
-    # corresponderende expressiewaarden.
-
-    cluster_invoer_data = [item for sublijst in [
-        regel.strip().split() for regel in cluster_invoer]
-        for item in sublijst]
+        cluster_uitvoer = cluster_uitvoer.read().split()
 
     # lijst aanmaken genaamd 'cluster_uitvoer_data' met per cloneID de
     # corresponderende clusters.
 
-    cluster_uitvoer_data = [int(nummer) for nummer in [item for sublijst in [
-        regel.strip().split() for regel in cluster_uitvoer]
-        for item in sublijst]]
+    cluster_uitvoer_data = [int(nummer) for nummer in cluster_uitvoer]
 
     # lijst aanmaken genaamd 'cloneID_lijst' met alle cloneIDs op volgorde die
     # is aangeleverd in 'cluster_invoer_data'.
@@ -71,8 +62,8 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
     # lijst aanmaken genaamd 'cluster_lijst' en cloneIDs_lijst die de
     # clusters en cloneIDs bevatten, respectievelijk.
 
-    cluster_lijst = [int(regel) for regel in cluster_uitvoer_data[1::2]]
-    cloneIDs_lijst = [int(regel) for regel in cluster_uitvoer_data[0::2]]
+    cluster_lijst = [regel for regel in cluster_uitvoer_data[1::2]]
+    cloneIDs_lijst = [regel for regel in cluster_uitvoer_data[0::2]]
 
     # lege dictionary aanmaken genaamd 'cloneID_dict'
 
@@ -97,7 +88,7 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
 
     for nummer in cloneID_dict[cluster_nummer]:
         ind = cluster_invoer_data.index(nummer)
-        plt.plot(x_axis, cluster_invoer_data[ind+1:ind+9])
+        plt.plot(x_axis, cluster_invoer_data[ind+1:ind+9], '-x')
 
     plt.ylabel("Meetwaarden")
     plt.title("Cluster" + " " + str(cluster_nummer))
@@ -116,6 +107,7 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
 cluster_invoer = "Data/Voorbeeld_clusterdata.txt"
 cluster_resultaat = "Data/Voorbeeld_clusterresult.txt"
 
+# aanroepen van functie expressie() voor alle 6 clusters range(6)
 
 for i in range(6):
     expressie(cluster_invoer, cluster_resultaat, i)
