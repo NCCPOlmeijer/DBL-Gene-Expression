@@ -12,21 +12,21 @@ def cluster_frequentie(gen_beschrijving, cluster_uitvoer):
     Parameters
     ----------
     gen_beschrijving: tekstfile
-    description: tekstbestand bevat per cloneID een tekstuele beschrijving
+    beschrijving: tekstbestand bevat per cloneID een tekstuele beschrijving
     van het (meest waarschijnlijke) bijbehorende gen.
 
     cluster_uitvoer: tekstfile
-    description: tekstbestand bevat per cloneID de corresponderende cluster
+    beschrijving: tekstbestand bevat per cloneID de corresponderende cluster
     waar die in voorkomt.
 
-    Returns
+    Uitvoer
     -------
     cluster_freq: dictionary
 
-    format: {'woord':[ci, ci+1, ..., ck-1]} met k aantal clusters, en ci
+    Formaat: {'woord':[ci, ci+1, ..., ck-1]} met k aantal clusters, en ci
     de clusterfrequentie van het woord in cluster i
 
-    description: Retourneert een dictionary met verschillende woorden en de
+    beschrijving: Retourneert een dictionary met verschillende woorden en de
     corresponderende clusterfrequentie samenstelling.
     """
     # Inlezen van 'gen_beschrijving' en
