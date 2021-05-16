@@ -44,7 +44,7 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
     # lijst aanmaken genaamd 'cluster_uitvoer_data' met per cloneID de
     # corresponderende clusters.
 
-    cluster_uitvoer_data = [int(nummer) for nummer in cluster_uitvoer]
+    cluster_uitvoer_data = list(map(int, cluster_uitvoer))
 
     # lijst aanmaken genaamd 'cloneID_lijst' met alle cloneIDs op volgorde die
     # is aangeleverd in 'cluster_invoer_data'.
