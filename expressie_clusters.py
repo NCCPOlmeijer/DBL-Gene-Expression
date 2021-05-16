@@ -62,8 +62,8 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
     # lijst aanmaken genaamd 'cluster_lijst' en cloneIDs_lijst die de
     # clusters en cloneIDs bevatten, respectievelijk.
 
-    cluster_lijst = [regel for regel in cluster_uitvoer_data[1::2]]
-    cloneIDs_lijst = [regel for regel in cluster_uitvoer_data[0::2]]
+    cluster_lijst = cluster_uitvoer_data[1::2]
+    cloneIDs_lijst = cluster_uitvoer_data[0::2]
 
     # lege dictionary aanmaken genaamd 'cloneID_dict'
 
