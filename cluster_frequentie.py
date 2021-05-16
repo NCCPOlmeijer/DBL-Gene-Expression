@@ -29,23 +29,15 @@ def cluster_frequentie(gen_beschrijving, cluster_uitvoer):
     beschrijving: Retourneert een dictionary met verschillende woorden en de
     corresponderende clusterfrequentie samenstelling.
     """
-    # Inlezen van 'gen_beschrijving' en
-    # rauwe data uit 'gen_beschrijving' toewijzen aan
-    # variable 'gen_beschrijving'.
-
+    # Inlezen van 'gen_beschrijving' en 'cluster_uitvoer'.
     with open(gen_beschrijving) as gen_beschrijving:
         gen_beschrijving = gen_beschrijving.readlines()
-
-    # Inlezen van 'cluster_uitvoer' en
-    # rauwe data uit 'cluster_uitvoer' toewijzen aan
-    # variable 'cluster_uitvoer'.
 
     with open(cluster_uitvoer) as cluster_uitvoer:
         cluster_uitvoer = cluster_uitvoer.readlines()
 
     # lijst aanmaken genaamd 'items' van alle losse woorden en integers
-    # uit 'data' zonder leestekens: '\x01', ',', '(', ')', '/'
-
+    # uit 'data' zonder leestekens: '\x01', ',', '(', ')', '/'.
     items = ' '.join([line.strip().lower() for line
                       in gen_beschrijving[1::3]]).replace('\x01', '')
 
@@ -56,40 +48,32 @@ def cluster_frequentie(gen_beschrijving, cluster_uitvoer):
 
     # lijsten aanmaken genaamd 'cloneIDs' en 'beschrijvingen' met inhoud
     # de cloneIDs en genbeschrijvingen, respectievelijk.
-
     cloneIDs = [line.strip() for line in gen_beschrijving[0::3]]
     beschrijvingen = [line.strip().lower() for line in gen_beschrijving[1::3]]
 
     # lijst aanmaken genaamd 'geen_integers' met uitsluitend woorden
-    # uit beschrijvingen
-
+    # uit beschrijvingen.
     geen_integers = [woord for woord in items if not (
         woord.isdigit() or woord[0] == '-' and woord[1:].isdigit())]
-
-    # lege dictionary aanmaken genaamd 'woord_freq'
 
     woord_freq = {}
 
     # per woord uit 'geen_integers' de frequentie bepalen
     # en toevoegen aan 'woord_freq'.
-
     for woord in geen_integers:
         if woord not in woord_freq:
             woord_freq[woord] = 1
         else:
             woord_freq[woord] += 1
 
-    # lijst aanmaken genaamd 'unieke_woorden' met alle keys uit 'woord_freq'
-    # (alle verschillende woorden uit 'gen_beschrijving')
-
+    # lijst aanmaken genaamd 'unieke_woorden' met alle keys uit 'woord_freq'.
     unieke_woorden = list(woord_freq.keys())
 
     # lege dictionary aanmaken genaamd 'beschrijving_cloneIDs'.
     beschrijving_cloneIDs = {}
 
     # per woord uit 'unieke_woorden' kijken welke cloneIDs daarbij horen en
-    # toevoegen aan 'beschrijving_cloneIDs'
-
+    # toevoegen aan 'beschrijving_cloneIDs'.
     for woord in range(len(unieke_woorden)):
         for beschrijving in range(len(beschrijvingen)):
             if ' ' + unieke_woorden[woord] \
@@ -104,8 +88,7 @@ def cluster_frequentie(gen_beschrijving, cluster_uitvoer):
                 pass
 
     # lijsten aanmaken genaamd 'cloneID_values' en 'cloneID_keys'
-    # met de values en keys uit 'beschrijving_cloneIDs', respectievelijk
-
+    # met de values en keys uit 'beschrijving_cloneIDs', respectievelijk.
     cloneID_values = list(beschrijving_cloneIDs.values())
     cloneID_keys = list(beschrijving_cloneIDs.keys())
 
@@ -117,12 +100,10 @@ def cluster_frequentie(gen_beschrijving, cluster_uitvoer):
     # lege dictionary aanmaken genaamd 'cluster_freq'.
     cluster_freq = {}
 
-    # ophalen van cluster aantal uit 'cluster_data' en toewijzen aan k
+    # ophalen van cluster aantal uit 'cluster_data' en toewijzen aan k.
+    k = int(max([line for line in cluster_data[1::2]])) + 1
 
-    k = int(max([line for line in cluster_data[1::2]]))+1
-
-    # per woord kijken wat de samenstelling is van frequenties in de clusters
-
+    # per woord kijken wat de samenstelling is van frequenties in de clusters.
     for woord in range(len(cloneID_keys)):
 
         cluster_freq[cloneID_keys[woord]] = [0] * k
