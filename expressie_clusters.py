@@ -49,21 +49,17 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
     # lijst aanmaken genaamd 'cloneID_lijst' met alle cloneIDs op volgorde die
     # is aangeleverd in 'cluster_invoer_data'.
 
-    cloneID_lijst = cluster_invoer_data[::9]
-
+    cloneID_lijst = list(map(int, cluster_invoer_data[::9]))
+       
     # verander str in int of float afhankelijk van het nummertype.
 
     for nummer in range(len(cluster_invoer_data)):
-        if cluster_invoer_data[nummer] in cloneID_lijst:
-            cluster_invoer_data[nummer] = int(cluster_invoer_data[nummer])
-        else:
+        if cluster_invoer_data[nummer] not in cloneID_lijst:
             cluster_invoer_data[nummer] = float(cluster_invoer_data[nummer])
 
-    # lijst aanmaken genaamd 'cluster_lijst' en cloneIDs_lijst die de
-    # clusters en cloneIDs bevatten, respectievelijk.
+    # lijst aanmaken genaamd 'cluster_lijst' die de clusters bevatten.
 
     cluster_lijst = cluster_uitvoer_data[1::2]
-    cloneIDs_lijst = cluster_uitvoer_data[0::2]
 
     # lege dictionary aanmaken genaamd 'cloneID_dict'
 
@@ -74,10 +70,10 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
 
     for cluster in range(len(cluster_lijst)):
         if cluster_lijst[cluster] not in cloneID_dict:
-            cloneID_dict[cluster_lijst[cluster]] = [cloneIDs_lijst[cluster]]
+            cloneID_dict[cluster_lijst[cluster]] = [cloneID_lijst[cluster]]
         else:
             cloneID_dict[cluster_lijst[cluster]].append(
-                cloneIDs_lijst[cluster])
+                cloneID_lijst[cluster])
 
     # genereer een lijst met integers 1 tot en met 8.
 
