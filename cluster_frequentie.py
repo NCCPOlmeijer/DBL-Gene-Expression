@@ -34,7 +34,7 @@ def cluster_frequentie(gen_beschrijving, cluster_uitvoer):
         gen_beschrijving = gen_beschrijving.readlines()
 
     with open(cluster_uitvoer) as cluster_uitvoer:
-        cluster_uitvoer = cluster_uitvoer.readlines()
+        cluster_data = cluster_uitvoer.read().split()
 
     # lijst aanmaken genaamd 'items' van alle losse woorden en integers
     # uit 'data' zonder leestekens: '\x01', ',', '(', ')', '/'.
@@ -91,11 +91,6 @@ def cluster_frequentie(gen_beschrijving, cluster_uitvoer):
     # met de values en keys uit 'beschrijving_cloneIDs', respectievelijk.
     cloneID_values = list(beschrijving_cloneIDs.values())
     cloneID_keys = list(beschrijving_cloneIDs.keys())
-
-    # lijst aanmaken genaamd 'cluster_data' met cloneIDs
-    # en bijbehorende cluster.
-    cluster_data = [item for sublist in [
-        line.strip().split() for line in cluster_uitvoer] for item in sublist]
 
     # lege dictionary aanmaken genaamd 'cluster_freq'.
     cluster_freq = {}
