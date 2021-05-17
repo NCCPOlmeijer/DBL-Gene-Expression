@@ -8,12 +8,12 @@ Created on Thu April 22 2021.
 GenDescription = 'Data/GenDescription.txt'
 
 
-def TelWoorden(bestandsnaam):
+def TelWoorden(gen_beschrijving):
     """Programma maakt een dictionary aan met de frequentie van beschrijvingen.
 
     Parameters
     ----------
-    bestandsnaam : textfile
+    gen_beschrijving : textfile
         Bevat per cloneID een tekstuele beschrijving van het
         (meest waarschijnlijke) bijbehorende gen.
 
@@ -25,15 +25,15 @@ def TelWoorden(bestandsnaam):
     de beschrijvingen van het invoerbestand
     en de daarbijhorende woordfrequentie.
     """
-    # inlezen van invoerbestand en
-    # rauwe data uit invoerbestand toewijzen aan variable 'data'.
-    with open(bestandsnaam) as tekst_bestand:
-        data = tekst_bestand.readlines()
+    # inlezen van invoerbestand en rauwe data uit het invoerbestand
+    # toewijzen aan variable 'gen_beschrijving'.
+    with open(gen_beschrijving) as gen_beschrijving:
+        gen_beschrijving = gen_beschrijving.readlines()
 
     # lijst aanmaken genaamd 'items' van alle losse woorden en integers
-    # uit 'data' zonder leestekens: '\x01', ',', '(', ')', '/'.
+    # uit 'gen_beschrijving' zonder leestekens: '\x01', ',', '(', ')', '/'.
     items = ' '.join([line.strip().lower() for line
-                      in data[1::3]]).replace('\x01', '')
+                      in gen_beschrijving[1::3]]).replace('\x01', '')
 
     for character in [',', '(', ')', '/', '[', ']']:
         if character in items:
@@ -41,11 +41,10 @@ def TelWoorden(bestandsnaam):
     items = items.split()
 
     # lijst aanmaken genaamd 'geen_integers' met uitsluitend
-    # woorden uit beschrijvingen.
+    # woorden uit beschrijvingen i.e. haalt de losse getallen uit de lijst.
     geen_integers = [woord for woord in items if not (
         woord.isdigit() or woord[0] == '-' and woord[1:].isdigit())]
 
-    # lege dictionary aanmaken genaamd 'woord_freq'.
     woord_freq = {}
 
     # per woord uit 'geen_integers' de frequentie bepalen
