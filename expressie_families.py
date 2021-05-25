@@ -33,7 +33,7 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
         cloneID_lijst = list(map(int, cluster_invoer_data[::9]))
 
     with open(cluster_resultaat) as cluster_uitvoer:
-        cluster_uitvoer = cluster_uitvoer.read().split()
+        cluster_uitvoer = cluster_uitvoer.read().split()[2:]
         cluster_uitvoer_data = list(map(int, cluster_uitvoer))
 
     # verander string in integer of float, afhankelijk van het nummertype.
@@ -44,9 +44,11 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
     # lijst aanmaken genaamd 'cluster_lijst' die de clusters bevatten.
     cluster_lijst = cluster_uitvoer_data[1::2]
 
+    cloneID_lijst = cluster_uitvoer_data[0::2]
+
     cloneID_dict = {}
 
-    for key in range(0, 6):
+    for key in range(1, 27):
         cloneID_dict[key] = []
 
     # voeg alle cloneIDs toe aan de corresponderende cluster in de dictionary
@@ -63,14 +65,17 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
     # plot alle meetwaarden van de cloneIDs in een bepaalde cluster en
     # stel de plottitel en astitels in.
     for nummer in cloneID_dict[cluster_nummer]:
-        ind = cluster_invoer_data.index(nummer)
-        plt.plot(x_axis, cluster_invoer_data[ind+1:ind+9], '-x')
+        if nummer in cluster_invoer_data:
+            ind = cluster_invoer_data.index(nummer)
+            plt.plot(x_axis, cluster_invoer_data[ind+1:ind+9], '-x')
+        else:
+            pass
 
     plt.ylabel("Meetwaarden")
-    plt.title("Cluster" + " " + str(cluster_nummer))
+    plt.title("Familie" + " " + str(cluster_nummer))
 
     # sla de gegenereerde plot op in map Cluster_Plots.
-    plt.savefig("Cluster_Plots/Cluster_"
+    plt.savefig("Cluster_Plots/Familie_"
                 + str(cluster_nummer)
                 + ".png", dpi=200)
 
@@ -81,8 +86,8 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
 
 
 cluster_invoer = "Data/Voorbeeld_clusterdata.txt"
-cluster_resultaat = "Data/Voorbeeld_clusterresult.txt"
+cluster_resultaat = "Data/CloneIdFamily.txt"
 
-# aanroepen van functie expressie() voor alle 6 clusters.
-for i in range(0, 6):
+# aanroepen van functie expressie() voor alle 26 families.
+for i in range(1, 27):
     expressie(cluster_invoer, cluster_resultaat, i)
