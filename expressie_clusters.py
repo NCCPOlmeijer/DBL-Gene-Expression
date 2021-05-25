@@ -55,16 +55,27 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
         cloneID_dict[cluster_lijst[cluster]].append(
             cloneID_lijst[cluster])
 
-    print(cloneID_dict)
-
     # genereer een lijst met integers 1 t/m 8 voor de plot.
     x_axis = list(range(1, 9))
+
+    som = [0] * 8
+    iteratie = 0
 
     # plot alle meetwaarden van de cloneIDs in een bepaalde cluster en
     # stel de plottitel en astitels in.
     for nummer in cloneID_dict[cluster_nummer]:
         ind = cluster_invoer_data.index(nummer)
-        plt.plot(x_axis, cluster_invoer_data[ind+1:ind+9], '-x')
+        plt.plot(x_axis, cluster_invoer_data[ind+1:ind+9], 'b-x', alpha=0.25)
+
+        # optellen van expressiewaarden en opslaan in 'som'.
+        z = zip(som, cluster_invoer_data[ind+1:ind+9])
+        som = [x + y for (x, y) in z]
+        iteratie += 1
+
+    # gemiddelde berekenen van alle expressiewaarden per colom.
+    gemiddelde = [num/iteratie for num in som]
+
+    plt.plot(x_axis, gemiddelde, 'r-x')
 
     plt.ylabel("Meetwaarden")
     plt.title("Cluster" + " " + str(cluster_nummer))

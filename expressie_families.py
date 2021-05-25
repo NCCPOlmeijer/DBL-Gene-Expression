@@ -27,12 +27,12 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
 
     Formaat: meetmoment op x-as, relatieve expressiewaarde op y-as.
     """
-    # inlezen van databestanden 'cluster_invoer' en 'cluster_resultaat'.
+    # inlezen van databestanden 'cluster_invoer' en 'familie_resultaat'.
     with open(cluster_invoer) as cluster_invoer:
         cluster_invoer_data = cluster_invoer.read().split()
         cloneID_lijst = list(map(int, cluster_invoer_data[::9]))
 
-    with open(cluster_resultaat) as cluster_uitvoer:
+    with open(familie_resultaat) as cluster_uitvoer:
         cluster_uitvoer = cluster_uitvoer.read().split()[2:]
         cluster_uitvoer_data = list(map(int, cluster_uitvoer))
 
@@ -44,6 +44,7 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
     # lijst aanmaken genaamd 'cluster_lijst' die de clusters bevatten.
     cluster_lijst = cluster_uitvoer_data[1::2]
 
+    # lijst aanmaken van cloneIDs uit 'familie_resultaat'.
     cloneID_lijst = cluster_uitvoer_data[0::2]
 
     cloneID_dict = {}
@@ -56,8 +57,6 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
     for cluster in range(len(cluster_lijst)):
         cloneID_dict[cluster_lijst[cluster]].append(
             cloneID_lijst[cluster])
-
-    print(cloneID_dict)
 
     # genereer een lijst met integers 1 t/m 8 voor de plot.
     x_axis = list(range(1, 9))
@@ -86,8 +85,8 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
 
 
 cluster_invoer = "Data/Voorbeeld_clusterdata.txt"
-cluster_resultaat = "Data/CloneIdFamily.txt"
+familie_resultaat = "Data/CloneIdFamily.txt"
 
 # aanroepen van functie expressie() voor alle 26 families.
 for i in range(1, 27):
-    expressie(cluster_invoer, cluster_resultaat, i)
+    expressie(cluster_invoer, familie_resultaat, i)
