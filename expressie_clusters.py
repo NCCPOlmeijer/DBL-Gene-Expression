@@ -23,9 +23,10 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
 
     Uitvoer
     -------
-    cluster_freq: lijnplot van cluster_nummer.
+    cluster_freq: lijnplot van cluster_nummer met de relatieve expressie-
+    waarden en het clustergemiddelde.
 
-    Formaat: meetmoment op x-as, relatieve expressiewaarde op y-as.
+    Formaat: meetwaarde-integer op x-as, relatieve expressiewaarde op y-as.
     """
     # inlezen van databestanden 'cluster_invoer' en 'cluster_resultaat'.
     with open(cluster_invoer) as cluster_invoer:
@@ -80,12 +81,12 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
     plt.ylabel("Meetwaarden")
     plt.title("Cluster" + " " + str(cluster_nummer))
 
+    plt.ylim(-13, 10)
+
     # sla de gegenereerde plot op in map Cluster_Plots.
     plt.savefig("Cluster_Plots/Cluster_"
                 + str(cluster_nummer)
                 + ".png", dpi=200)
-
-    plt.ylim(-13, 10)
 
     # geef de plot weer in de IDE.
     plt.show()

@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 
 def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
-    """Programma genereert grafieken van de rel. expressiewaarde per cluster.
+    """Programma genereert grafieken van de rel. expressiewaarde per fam. naam.
 
     Parameters
     ----------
@@ -18,14 +18,14 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
     expressiewaarden.
 
     cluster_uitvoer: tekstbestand
-    beschrijving: tekstbestand bevat per cloneID de corresponderende cluster
+    beschrijving: tekstbestand bevat per cloneID de corresponderende fam. naam
     waar die in voorkomt.
 
     Uitvoer
     -------
     cluster_freq: lijnplot van cluster_nummer.
 
-    Formaat: meetmoment op x-as, relatieve expressiewaarde op y-as.
+    Formaat: meetwaarde-integer op x-as, relatieve expressiewaarde op y-as.
     """
     # inlezen van databestanden 'cluster_invoer' en 'familie_resultaat'.
     with open(cluster_invoer) as cluster_invoer:
@@ -73,12 +73,12 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
     plt.ylabel("Meetwaarden")
     plt.title("Familie" + " " + str(cluster_nummer))
 
+    plt.ylim(-13, 10)
+
     # sla de gegenereerde plot op in map Cluster_Plots.
     plt.savefig("Cluster_Plots/Familie_"
                 + str(cluster_nummer)
                 + ".png", dpi=200)
-
-    plt.ylim(-13, 10)
 
     # geef de plot weer in de IDE.
     plt.show()
