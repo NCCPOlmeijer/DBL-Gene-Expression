@@ -19,7 +19,7 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
 
     cluster_uitvoer: tekstbestand
     beschrijving: tekstbestand bevat per cloneID de corresponderende cluster
-    waar die in voorkomt.
+    waar deze in voorkomt.
 
     Uitvoer
     -------

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon May 10 2021.
+Created on Tue May 25 2021.
 
 @author: NoahOlmeijer/20203063
 """
@@ -19,7 +19,7 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
 
     cluster_uitvoer: tekstbestand
     beschrijving: tekstbestand bevat per cloneID de corresponderende fam. naam
-    waar die in voorkomt.
+    waar deze in voorkomt.
 
     Uitvoer
     -------
@@ -49,6 +49,7 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
 
     cloneID_dict = {}
 
+    # de familienamen (keys) toevoegen met als waarde een lege lijst.
     for key in range(1, 27):
         cloneID_dict[key] = []
 
