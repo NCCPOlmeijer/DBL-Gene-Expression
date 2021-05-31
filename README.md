@@ -9,4 +9,5 @@ Bevat alle programma's, databestanden en versies van de interpretatiefase (fase 
      - Cluster_Plots/ m: bevat plots gegenereerd door 'expressie_clusters.py'<br>
      - cluster_frequentie.py<br>
      - expressie_clusters.py<br>
+     - expressie_families.py<br>
      - TelWoorden.py<br>
