@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu May 27 16:28:50 2021
+Created on Thu May 27 2021.
 
-@author: NoahPC
+@author: NoahOlmeijer/20203063
 """
 
 
@@ -11,7 +11,24 @@ import numpy as np
 
 
 def Histogram(cluster_uitvoer, FamilyCloneID):
+    """Stacked bar chart van de distributie van families over de clusters.
 
+    Parameters
+    ----------
+    cluster_uitvoer : tekstbestand
+    beschrijving: tekstbestand bevat per cloneID de relatieve
+    expressiewaarden.
+
+    FamilyCloneID : tekstbestand
+    beschrijving: tekstbestand bevat per cloneID de corresponderende
+    genfamilie.
+
+    Uitvoer
+    -------
+    familie_barchart: stacked bar chart met op de x-as de clusters
+    en de y-as de familiefrequentie.
+
+    """
     with open(cluster_uitvoer) as cluster_uitvoer:
         cluster_uitvoer_data = cluster_uitvoer.read().split()
         cluster_uitvoer = list(map(int, cluster_uitvoer_data))
@@ -58,7 +75,7 @@ def Histogram(cluster_uitvoer, FamilyCloneID):
     colors = ['#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4',
               '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', '#008080', '#e6beff',
               '#9a6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1',
-              '#000075', '#808080', '#ffffff', '#000000', '#eb5b01', '#db8c62',
+              '#000075', '#808080', '#ffffff', '#aa11ab', '#eb5b01', '#db8c62',
               '#f58b7a', '#288C00']
 
     i = 0
@@ -79,8 +96,9 @@ def Histogram(cluster_uitvoer, FamilyCloneID):
         labels = [a if a else '' for a in c.datavalues]
         ax.bar_label(c, labels=labels, label_type='center', size=10)
 
-    ax.set_yticks(list(range(0, 24, 2)))
     ax.set_title('Distributie van families over de clusters', size=15)
+    ax.set_ylabel('Familiefrequentie', size=15)
+    ax.set_xlabel('Clusters', size=15)
 
 
 cluster_uitvoer = "Data/Voorbeeld_clusterresult.txt"

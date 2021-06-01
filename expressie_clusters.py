@@ -23,7 +23,7 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
 
     Uitvoer
     -------
-    cluster_freq: lijnplot van cluster_nummer met de relatieve expressie-
+    cluster_freq: lijnplot van {cluster_nummer} met de relatieve expressie-
     waarden en het clustergemiddelde.
 
     Formaat: meetwaarde-integer op x-as, relatieve expressiewaarde op y-as.
