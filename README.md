@@ -10,4 +10,5 @@ Bevat alle programma's, databestanden en versies van de interpretatiefase (fase 
      - cluster_frequentie.py<br>
      - expressie_clusters.py<br>
      - expressie_families.py<br>
+     - Familie_Barchart.py<br>
      - TelWoorden.py<br>
