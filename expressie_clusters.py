@@ -31,11 +31,11 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
     # inlezen van databestanden 'cluster_invoer' en 'cluster_resultaat'.
     with open(cluster_invoer) as cluster_invoer:
         cluster_invoer_data = cluster_invoer.read().split()
-        cloneID_lijst = list(map(int, cluster_invoer_data[::9]))
 
     with open(cluster_resultaat) as cluster_uitvoer:
         cluster_uitvoer = cluster_uitvoer.read().split()
         cluster_uitvoer_data = list(map(int, cluster_uitvoer))
+        cloneID_lijst = cluster_uitvoer_data[::2]
 
     # verander string in integer of float, afhankelijk van het nummertype.
     for nummer in range(len(cluster_invoer_data)):
@@ -47,7 +47,7 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
 
     cloneID_dict = {}
 
-    for key in range(0, 6):
+    for key in range(1, 6):
         cloneID_dict[key] = []
 
     # voeg alle cloneIDs toe aan de corresponderende cluster in de dictionary
@@ -67,7 +67,7 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
     for nummer in cloneID_dict[cluster_nummer]:
         ind = cluster_invoer_data.index(nummer)
         plt.plot(x_axis, cluster_invoer_data[ind+1:ind+9], 'b-x', alpha=0.25)
-
+        print(nummer, cluster_invoer_data[ind+1:ind+9])
         # optellen van expressiewaarden en opslaan in 'som'.
         z = zip(som, cluster_invoer_data[ind+1:ind+9])
         som = [x + y for (x, y) in z]
@@ -92,9 +92,9 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
     plt.show()
 
 
-cluster_invoer = "Data/Voorbeeld_clusterdata.txt"
-cluster_resultaat = "Data/Voorbeeld_clusterresult.txt"
+cluster_invoer = "Data/Relatieve expressiewaarden.txt"
+cluster_resultaat = "Data/k5.txt"
 
 # aanroepen van functie expressie() voor alle 6 clusters.
-for i in range(0, 6):
+for i in range(1, 6):
     expressie(cluster_invoer, cluster_resultaat, i)

@@ -115,7 +115,48 @@ def cluster_frequentie(gen_beschrijving, cluster_uitvoer):
     return cluster_freq
 
 
-GenDescription = 'Data/GenDescription2.txt'
+GenDescription = 'Data/GenDescription.txt'
 clusterResultFile = "Data/Voorbeeld_clusterresult.txt"
 
-print(cluster_frequentie(GenDescription, clusterResultFile))
+# print(cluster_frequentie(GenDescription, clusterResultFile))
+
+def Format(cluster_freq, iteratie, woord):
+    print('>' , list(cluster_freq.items())[iteratie][0])
+    print(cluster_freq[woord])
+    print('//')
+
+def frequency_filter(cluster_freq, aantal_clusters, show_zero=False, 
+                     show_one=False, show_mult=False, show_full=False):
+
+    if show_zero == True:
+        iteratie = 0
+        for woord in cluster_freq:
+            if cluster_freq[woord].count(0) == aantal_clusters:
+                Format(cluster_freq, iteratie, woord)
+            iteratie += 1
+    
+    if show_one == True:
+        iteratie = 0
+        for woord in cluster_freq:
+            if cluster_freq[woord].count(0) == aantal_clusters-1:
+                Format(cluster_freq, iteratie, woord)
+            iteratie += 1
+    
+    if show_mult == True:
+        iteratie = 0
+        for woord in cluster_freq:
+            if (cluster_freq[woord].count(0) > 1) and \
+                    (cluster_freq[woord].count(0) < aantal_clusters-1):
+                        Format(cluster_freq, iteratie, woord)
+            iteratie += 1
+    
+    if show_full == True:
+        iteratie = 0
+        for woord in cluster_freq:
+            if cluster_freq[woord].count(0) == 0:
+                Format(cluster_freq, iteratie, woord)
+            iteratie += 1
+
+frequency_filter(cluster_frequentie(GenDescription, clusterResultFile), 6, 
+                  False, False, False, True)
+    
