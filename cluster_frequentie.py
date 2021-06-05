@@ -181,4 +181,4 @@ def frequency_filter(cluster_freq, aantal_clusters, show_zero=False,
 
 
 frequency_filter(cluster_frequentie(GenDescription, clusterResultFile), 6,
-                 False, False, False, True)
+                 False, True, False, False)

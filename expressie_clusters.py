@@ -32,7 +32,7 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
     with open(cluster_invoer) as cluster_invoer:
         cluster_invoer_data = cluster_invoer.read().split()
 
-    with open(cluster_resultaat) as cluster_uitvoer:
+    with open(cluster_uitvoer) as cluster_uitvoer:
         cluster_uitvoer = cluster_uitvoer.read().split()
         cluster_uitvoer_data = list(map(int, cluster_uitvoer))
         cloneID_lijst = cluster_uitvoer_data[::2]
@@ -59,6 +59,10 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
         cloneID_dict[cluster_lijst[cluster]].append(
             cloneID_lijst[cluster])
 
+    return cloneID_dict, cluster_invoer_data
+
+
+def Plot_clusters(cloneID_dict, cluster_invoer_data, cluster_nummer):
     # genereer een lijst met integers 1 t/m 8 voor de plot.
     x_axis = list(range(1, 9))
 
@@ -92,11 +96,3 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
 
     # geef de plot weer in de IDE.
     plt.show()
-
-
-cluster_invoer = "Data_out/relatieve_expressiewaarden.txt"
-cluster_resultaat = "Data_out/cluster_uitvoer.txt"
-
-# aanroepen van functie expressie() voor alle 6 clusters.
-for i in range(1, 6):
-    expressie(cluster_invoer, cluster_resultaat, i)

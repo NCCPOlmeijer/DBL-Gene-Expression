@@ -3198,6 +3198,6 @@ print(nieuwe_formaat)
 
 
 # Wegschrijven naar een tekstbestand met de CloneID's en de clusternummers
-f = open("nieuw_formaat_eigen_cluster.txt", "w")
+f = open("Data_out/cluster_uitvoer.txt", "w")
 f.write(nieuwe_formaat)
 f.close()

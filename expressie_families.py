@@ -8,7 +8,7 @@ Created on Tue May 25 2021.
 import matplotlib.pyplot as plt
 
 
-def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
+def expressie(cluster_invoer, familie_cloneID):
     """Programma genereert grafieken van de rel. expressiewaarde per fam. naam.
 
     Parameters
@@ -17,7 +17,7 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
     beschrijving: tekstbestand bevat per cloneID de relatieve
     expressiewaarden.
 
-    cluster_uitvoer: tekstbestand
+    familie_cloneID: tekstbestand
     beschrijving: tekstbestand bevat per cloneID de corresponderende fam. naam
     waar deze in voorkomt.
 
@@ -27,14 +27,14 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
 
     Formaat: meetwaarde-integer op x-as, relatieve expressiewaarde op y-as.
     """
-    # inlezen van databestanden 'cluster_invoer' en 'familie_resultaat'.
+    # inlezen van databestanden 'cluster_invoer' en 'familie_cloneID'.
     with open(cluster_invoer) as cluster_invoer:
         cluster_invoer_data = cluster_invoer.read().split()
         cloneID_lijst = list(map(int, cluster_invoer_data[::9]))
 
-    with open(familie_resultaat) as cluster_uitvoer:
-        cluster_uitvoer = cluster_uitvoer.read().split()[2:]
-        cluster_uitvoer_data = list(map(int, cluster_uitvoer))
+    with open(familie_cloneID) as familie_cloneID:
+        familie_cloneID = familie_cloneID.read().split()[2:]
+        familie_cloneID_data = list(map(int, familie_cloneID))
 
     # verander string in integer of float, afhankelijk van het nummertype.
     for nummer in range(len(cluster_invoer_data)):
@@ -42,10 +42,10 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
             cluster_invoer_data[nummer] = float(cluster_invoer_data[nummer])
 
     # lijst aanmaken genaamd 'cluster_lijst' die de clusters bevatten.
-    cluster_lijst = cluster_uitvoer_data[1::2]
+    cluster_lijst = familie_cloneID_data[1::2]
 
-    # lijst aanmaken van cloneIDs uit 'familie_resultaat'.
-    cloneID_lijst = cluster_uitvoer_data[0::2]
+    # lijst aanmaken van cloneIDs uit 'familie_cloneID'.
+    cloneID_lijst = familie_cloneID_data[0::2]
 
     cloneID_dict = {}
 
@@ -59,6 +59,10 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
         cloneID_dict[cluster_lijst[cluster]].append(
             cloneID_lijst[cluster])
 
+    return cloneID_dict, cluster_invoer_data
+
+
+def Plot_families(cloneID_dict, cluster_invoer_data, cluster_nummer):
     # genereer een lijst met integers 1 t/m 8 voor de plot.
     x_axis = list(range(1, 9))
 
@@ -74,7 +78,7 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
     plt.ylabel("Meetwaarden")
     plt.title("Familie" + " " + str(cluster_nummer))
 
-    plt.ylim(-13, 10)
+    plt.ylim(-7, 4)
 
     # sla de gegenereerde plot op in map Cluster_Plots.
     plt.savefig("Cluster_Plots/Familie_"
@@ -83,11 +87,3 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
 
     # geef de plot weer in de IDE.
     plt.show()
-
-
-cluster_invoer = "Data_out/relatieve_expressiewaarden.txt"
-familie_resultaat = "Data/CloneIdFamily.txt"
-
-# aanroepen van functie expressie() voor alle 26 families.
-for i in range(1, 27):
-    expressie(cluster_invoer, familie_resultaat, i)
