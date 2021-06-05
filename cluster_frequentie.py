@@ -120,43 +120,65 @@ clusterResultFile = "Data/Voorbeeld_clusterresult.txt"
 
 # print(cluster_frequentie(GenDescription, clusterResultFile))
 
+
 def Format(cluster_freq, iteratie, woord):
-    print('>' , list(cluster_freq.items())[iteratie][0])
+    """Netjes formatteren van data in drie regels.
+
+    Regel één, een spatie tussen het groter dan teken en het woord.
+    Regel twee, de distributie over de clusters van het woord.
+    Regel drie, dubbel slashteken.
+
+    Formaat Voorbeeld: > woord
+                       [0, 1, 0, 1, 1, 0]
+                       //
+    """
+    print('>', list(cluster_freq.items())[iteratie][0])
     print(cluster_freq[woord])
     print('//')
 
-def frequency_filter(cluster_freq, aantal_clusters, show_zero=False, 
-                     show_one=False, show_mult=False, show_full=False):
 
-    if show_zero == True:
+def frequency_filter(cluster_freq, aantal_clusters, show_zero=False,
+                     show_one=False, show_mult=False, show_full=False):
+    """Functie kan distributies filteren op inhoud.
+
+    Deze inhoud betreft zero lijsten: [0, 0, 0, ..., 0],
+                        non-zero lijsten: [1, 2, 3, 2, 1, ...]
+                        single-value lijsten: [0, 0, 1, 0, ..., 0]
+                        multiple-value lijsten: [1, 2, 0, 2, 4, ...]
+    """
+    if show_zero:
+        print('zero lijsten:')
         iteratie = 0
         for woord in cluster_freq:
             if cluster_freq[woord].count(0) == aantal_clusters:
                 Format(cluster_freq, iteratie, woord)
             iteratie += 1
-    
-    if show_one == True:
+
+    if show_one:
+        print('single-value lijsten:')
         iteratie = 0
         for woord in cluster_freq:
             if cluster_freq[woord].count(0) == aantal_clusters-1:
                 Format(cluster_freq, iteratie, woord)
             iteratie += 1
-    
-    if show_mult == True:
+
+    if show_mult:
+        print('multiple-value lijsten:')
         iteratie = 0
         for woord in cluster_freq:
             if (cluster_freq[woord].count(0) > 1) and \
                     (cluster_freq[woord].count(0) < aantal_clusters-1):
-                        Format(cluster_freq, iteratie, woord)
+                Format(cluster_freq, iteratie, woord)
             iteratie += 1
-    
-    if show_full == True:
+
+    if show_full:
+        print('non-zero lijsten:')
         iteratie = 0
         for woord in cluster_freq:
             if cluster_freq[woord].count(0) == 0:
                 Format(cluster_freq, iteratie, woord)
             iteratie += 1
 
-frequency_filter(cluster_frequentie(GenDescription, clusterResultFile), 6, 
-                  False, False, False, True)
-    
+
+frequency_filter(cluster_frequentie(GenDescription, clusterResultFile), 6,
+                 False, False, False, True)

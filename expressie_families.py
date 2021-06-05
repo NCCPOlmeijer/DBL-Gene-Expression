@@ -85,7 +85,7 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
     plt.show()
 
 
-cluster_invoer = "Data/Voorbeeld_clusterdata.txt"
+cluster_invoer = "Data_out/relatieve_expressiewaarden.txt"
 familie_resultaat = "Data/CloneIdFamily.txt"
 
 # aanroepen van functie expressie() voor alle 26 families.

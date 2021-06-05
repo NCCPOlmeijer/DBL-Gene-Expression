@@ -61,7 +61,7 @@ def Histogram(cluster_uitvoer, familie_cloneID, cluster_aantal):
     # een lege lijst.
     cluster_dict = {}
 
-    for cluster_nummer in range(0, cluster_aantal):
+    for cluster_nummer in range(1, cluster_aantal+1):
         cluster_dict[cluster_nummer] = []
 
     # alle cloneIDs toevoegen aan het corresponderende clusternummer.
@@ -77,7 +77,7 @@ def Histogram(cluster_uitvoer, familie_cloneID, cluster_aantal):
     # loop over alle familie lijsten.
     for familie in range(len(familie_dict)):
         # lege distributie lijst aanmaken.
-        cur_dist = [0]*6
+        cur_dist = [0]*cluster_aantal
         # loop over alle cloneIDs in de familielijst.
         for cloneID in range(len(families[familie])):
             # loop over elke cluster lijst.
@@ -93,9 +93,9 @@ def Histogram(cluster_uitvoer, familie_cloneID, cluster_aantal):
     kleuren = [
         '#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4',
         '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', '#008080', '#e6beff',
-        '#9a6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1',
-        '#000075', '#808080', '#ffffff', '#aa11ab', '#eb5b01', '#db8c62',
-        '#f58b7a', '#288C00']
+        '#9a6324', '#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231',
+        '#911eb4', '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', '#008080',
+        '#e6beff', '#9a6324']
 
     # omzetten van lijst naar numpy array en aanmaken van subplot.
     distributies = np.array(distributies)
@@ -105,7 +105,7 @@ def Histogram(cluster_uitvoer, familie_cloneID, cluster_aantal):
     sum_arr = distributies[0]
 
     # aanmaken van stacked bar chart + plotten van eerste familie.
-    ax.bar(range(cluster_aantal),
+    ax.bar(range(1, cluster_aantal+1),
            sum_arr, edgecolor='black', color=kleuren[0])
 
     iteratie = 0
@@ -114,8 +114,12 @@ def Histogram(cluster_uitvoer, familie_cloneID, cluster_aantal):
     # stacked bar chart ontstaat met per bar een andere kleur uit 'kleuren'.
     for dist in distributies[1:]:
         iteratie += 1
-        ax.bar(range(cluster_aantal), dist, bottom=sum_arr, edgecolor='black',
-               color=kleuren[iteratie])
+        if iteratie > 12:
+            ax.bar(range(1, cluster_aantal+1), dist, bottom=sum_arr,
+                   edgecolor='black', color=kleuren[iteratie], hatch='/')
+        else:
+            ax.bar(range(1, cluster_aantal+1), dist, bottom=sum_arr,
+                   edgecolor='black', color=kleuren[iteratie])
         sum_arr += dist
 
     # toevoegen van labels die de grootte aangeven per bar.
@@ -124,8 +128,8 @@ def Histogram(cluster_uitvoer, familie_cloneID, cluster_aantal):
         ax.bar_label(container, labels=labels, label_type='center', size=10)
 
     # aanmaken van legenda.
-    ax.legend(list(range(1, len(distributies))), title='families',
-              ncol=2, bbox_to_anchor=(1, 1))
+    ax.legend(list(range(1, len(distributies)+1)), title='families',
+              ncol=3, bbox_to_anchor=(1, 1))
 
     # toevoegen van plot -en astitels.
     ax.set_title('Distributie van families over de clusters', size=15)
@@ -133,7 +137,7 @@ def Histogram(cluster_uitvoer, familie_cloneID, cluster_aantal):
     ax.set_xlabel('Clusters', size=15)
 
 
-cluster_uitvoer = "Data/Voorbeeld_clusterresult.txt"
+cluster_uitvoer = "Data_out/cluster_uitvoer.txt"
 familie_no = "Data/CloneIdFamily.txt"
 
-Histogram(cluster_uitvoer, familie_no, 6)
+Histogram(cluster_uitvoer, familie_no, 5)
