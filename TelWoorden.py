@@ -28,22 +28,28 @@ def TelWoorden(gen_beschrijving):
     # inlezen van invoerbestand en rauwe data uit het invoerbestand
     # toewijzen aan variable 'gen_beschrijving'.
     with open(gen_beschrijving) as gen_beschrijving:
-        gen_beschrijving = gen_beschrijving.readlines()
+        gen_beschrijving = gen_beschrijving.readlines()[1::3]
+        gen_beschrijving = [line.strip() for line in gen_beschrijving]
 
     # lijst aanmaken genaamd 'items' van alle losse woorden en integers
     # uit 'gen_beschrijving' zonder leestekens: '\x01', ',', '(', ')', '/'.
-    items = ' '.join([line.strip().lower() for line
-                      in gen_beschrijving[1::3]]).replace('\x01', '')
+    items = ' '.join(gen_beschrijving).replace('\x01', '')
 
     for character in [',', '(', ')', '/', '[', ']']:
         if character in items:
             items = items.replace(character, ' ')
     items = items.split()
 
-    # lijst aanmaken genaamd 'geen_integers' met uitsluitend
-    # woorden uit beschrijvingen i.e. haalt de losse getallen uit de lijst.
-    geen_integers = [woord for woord in items if not (
-        woord.isdigit() or woord[0] == '-' and woord[1:].isdigit())]
+    # lijst filteren op integers en '-'
+    geen_integers = []
+
+    for woord in items:
+        try:
+            int(woord)
+            pass
+        except ValueError:
+            if woord != '-':
+                geen_integers.append(woord)
 
     woord_freq = {}
 
@@ -57,7 +63,7 @@ def TelWoorden(gen_beschrijving):
 
     # sorteer dictionary 'woord_freq' op frequentie van laag naar hoog.
     woord_freq = {keys: values for keys, values in sorted(
-        woord_freq.items(), key=lambda item: item[1])}
+        woord_freq.items(), key=lambda item: item[1], reverse=True)}
 
     return woord_freq
 

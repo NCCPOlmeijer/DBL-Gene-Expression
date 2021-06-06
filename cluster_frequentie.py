@@ -49,12 +49,20 @@ def cluster_frequentie(gen_beschrijving, cluster_uitvoer):
     # lijsten aanmaken genaamd 'cloneIDs' en 'beschrijvingen' met inhoud
     # de cloneIDs en genbeschrijvingen, respectievelijk.
     cloneIDs = [line.strip() for line in gen_beschrijving[0::3]]
-    beschrijvingen = [line.strip().lower() for line in gen_beschrijving[1::3]]
+    beschrijvingen = [' ' + line.strip().lower()
+                      for line in gen_beschrijving[1::3]]
 
     # lijst aanmaken genaamd 'geen_integers' met uitsluitend woorden
-    # uit beschrijvingen.
-    geen_integers = [woord for woord in items if not (
-        woord.isdigit() or woord[0] == '-' and woord[1:].isdigit())]
+    # uit beschrijvingen (int, letters, 'woorden' met lengte 1 verwijderen).
+    geen_integers = []
+
+    for woord in items:
+        try:
+            int(woord)
+            pass
+        except ValueError:
+            if (woord != '-') and (len(woord) > 1):
+                geen_integers.append(woord)
 
     woord_freq = {}
 
@@ -76,8 +84,8 @@ def cluster_frequentie(gen_beschrijving, cluster_uitvoer):
     # toevoegen aan 'beschrijving_cloneIDs'.
     for woord in range(len(unieke_woorden)):
         for beschrijving in range(len(beschrijvingen)):
-            if ' ' + unieke_woorden[woord] \
-                   + ' ' in beschrijvingen[beschrijving]:
+            if ' ' + unieke_woorden[woord] + ' ' \
+                    in beschrijvingen[beschrijving]:
                 if unieke_woorden[woord] not in beschrijving_cloneIDs:
                     beschrijving_cloneIDs[unieke_woorden[woord]] = \
                         [cloneIDs[beschrijving]]
@@ -96,7 +104,7 @@ def cluster_frequentie(gen_beschrijving, cluster_uitvoer):
     cluster_freq = {}
 
     # ophalen van cluster aantal uit 'cluster_data' en toewijzen aan k.
-    k = int(max([line for line in cluster_data[1::2]])) + 1
+    k = int(max([line for line in cluster_data[1::2]]))
 
     # per woord kijken wat de samenstelling is van frequenties in de clusters.
     for woord in range(len(cloneID_keys)):
@@ -107,7 +115,7 @@ def cluster_frequentie(gen_beschrijving, cluster_uitvoer):
             if cloneID_values[woord][cloneID] in cluster_data:
                 cluster_index = cluster_data.index(
                     cloneID_values[woord][cloneID]) + 1
-                cluster_value = int(cluster_data[cluster_index])
+                cluster_value = int(cluster_data[cluster_index]) - 1
                 cluster_freq[cloneID_keys[woord]][cluster_value] += 1
             else:
                 pass
@@ -121,7 +129,7 @@ clusterResultFile = "Data/Voorbeeld_clusterresult.txt"
 # print(cluster_frequentie(GenDescription, clusterResultFile))
 
 
-def Format(cluster_freq, iteratie, woord):
+def Format(cluster_freq, iteratie, woord, txt):
     """Netjes formatteren van data in drie regels.
 
     Regel één, een spatie tussen het groter dan teken en het woord.
@@ -136,9 +144,13 @@ def Format(cluster_freq, iteratie, woord):
     print(cluster_freq[woord])
     print('//')
 
+    txt.write('> ' + list(cluster_freq.items())[iteratie][0] + '\n')
+    txt.write(str(cluster_freq[woord]) + '\n')
+    txt.write('//\n')
 
-def frequency_filter(cluster_freq, aantal_clusters, show_zero=False,
-                     show_one=False, show_mult=False, show_full=False):
+
+def frequency_filter(cluster_freq, aantal_clusters, show_zero=True,
+                     show_one=True, show_mult=True, show_full=True):
     """Functie kan distributies filteren op inhoud.
 
     Deze inhoud betreft zero lijsten: [0, 0, 0, ..., 0],
@@ -147,38 +159,42 @@ def frequency_filter(cluster_freq, aantal_clusters, show_zero=False,
                         multiple-value lijsten: [1, 2, 0, 2, 4, ...]
     """
     if show_zero:
-        print('zero lijsten:')
-        iteratie = 0
-        for woord in cluster_freq:
-            if cluster_freq[woord].count(0) == aantal_clusters:
-                Format(cluster_freq, iteratie, woord)
-            iteratie += 1
+        with open('Data_out/zero lijsten.txt', 'w') as txt:
+            print('zero lijsten:')
+            txt.write('zero lijsten:\n')
+            iteratie = 0
+            for woord in cluster_freq:
+                if cluster_freq[woord].count(0) == aantal_clusters:
+                    Format(cluster_freq, iteratie, woord, txt)
+                iteratie += 1
 
     if show_one:
-        print('single-value lijsten:')
-        iteratie = 0
-        for woord in cluster_freq:
-            if cluster_freq[woord].count(0) == aantal_clusters-1:
-                Format(cluster_freq, iteratie, woord)
-            iteratie += 1
+        with open('Data_out/single-value lijsten.txt', 'w') as txt:
+            print('single-value lijsten:')
+            txt.write('single-value lijsten:\n')
+            iteratie = 0
+            for woord in cluster_freq:
+                if cluster_freq[woord].count(0) == aantal_clusters-1:
+                    Format(cluster_freq, iteratie, woord, txt)
+                iteratie += 1
 
     if show_mult:
-        print('multiple-value lijsten:')
-        iteratie = 0
-        for woord in cluster_freq:
-            if (cluster_freq[woord].count(0) > 1) and \
-                    (cluster_freq[woord].count(0) < aantal_clusters-1):
-                Format(cluster_freq, iteratie, woord)
-            iteratie += 1
+        with open('Data_out/multiple-value lijsten.txt', 'w') as txt:
+            print('multiple-value lijsten:')
+            txt.write('multiple-value lijsten:\n')
+            iteratie = 0
+            for woord in cluster_freq:
+                if (cluster_freq[woord].count(0) > 1) and \
+                        (cluster_freq[woord].count(0) < aantal_clusters-1):
+                    Format(cluster_freq, iteratie, woord, txt)
+                iteratie += 1
 
     if show_full:
-        print('non-zero lijsten:')
-        iteratie = 0
-        for woord in cluster_freq:
-            if cluster_freq[woord].count(0) == 0:
-                Format(cluster_freq, iteratie, woord)
-            iteratie += 1
-
-
-frequency_filter(cluster_frequentie(GenDescription, clusterResultFile), 6,
-                 False, True, False, False)
+        with open('Data_out/non-zero lijsten.txt', 'w') as txt:
+            print('non-zero lijsten:')
+            txt.write('non-zero lijsten:\n')
+            iteratie = 0
+            for woord in cluster_freq:
+                if cluster_freq[woord].count(0) == 0:
+                    Format(cluster_freq, iteratie, woord, txt)
+                iteratie += 1

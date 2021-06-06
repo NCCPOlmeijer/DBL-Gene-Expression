@@ -15,6 +15,7 @@ import preprocessing
 import expressie_clusters
 import expressie_families
 import Familie_Barchart
+import cluster_frequentie
 
 
 class Genexpressie:
@@ -103,6 +104,9 @@ class Genexpressie:
 
     def Preprocessing_fase(self):
         """Functie voert preprocessing programma uit."""
+        self.answer.config(text='Processing...' + ' '*45)
+        root.update_idletasks()
+
         # Pad naar de tekstbestanden, moet aangepast worden
         # als tekstbestanden verplaatst zijn.
         path_bestanden = "Data\\"
@@ -138,7 +142,6 @@ class Genexpressie:
 
         try:
             float(self.entry_pp1.get())
-            self.answer.config(text='Processing...' + ' '*45)
             rgrens = float(self.entry_pp1.get())
 
         except ValueError:
@@ -275,22 +278,35 @@ class Genexpressie:
         self.Frame_btn = ttk.Frame(self.Interpretatie)
         self.Frame_btn.grid(sticky='W', padx=(110, 0))
 
-        self.progressbar_ip = ttk.Progressbar(self.Frame_btn, length=300)
+        self.status_ip = ttk.Label(self.Frame_btn, text='')
+        self.status_ip.grid(sticky='W', padx=(70, 0), pady=(93, 0))
+
+        self.progressbar_ip = ttk.Progressbar(self.Frame_btn,
+                                              length=300)
         self.progressbar_ip.grid(column=0, row=2, padx=(
-            70, 0), pady=(114, 0), sticky='W')
+            70, 0), pady=(0, 0), sticky='W')
 
         ttk.Button(self.Interpretatie, text='Genereer bestanden', width=20,
                    command=self.Expressie_cluster_plot).grid(
                        column=0, row=2,
-                       padx=(30, 10), pady=(114, 0), sticky='W')
+                       padx=(30, 10), pady=(113, 0), sticky='W')
 
     def Expressie_cluster_plot(self):
 
         cluster_invoer = "Data_out/Relatieve expressiewaarden.txt"
         cluster_uitvoer = "Data_out/cluster_uitvoer.txt"
         familie_cloneID = "Data/CloneIdFamily.txt"
+        gen_beschrijving = "Data/GenDescription.txt"
+
+        self.status_ip.config(text='Processing...')
+        root.update_idletasks()
 
         k = 5
+        inc = 100/(k*self.chk_var_ip1.get()
+                   + 26 * self.chk_var_ip2.get()
+                   + self.chk_var_ip3.get()
+                   + 2 * self.chk_var_ip5.get())
+
         if self.chk_var_ip1.get() == 1:
             # aanroepen van functie expressie() voor alle 6 clusters.
             cloneID_dict, cluster_invoer_data = expressie_clusters.expressie(
@@ -299,6 +315,8 @@ class Genexpressie:
                 expressie_clusters.Plot_clusters(cloneID_dict,
                                                  cluster_invoer_data,
                                                  cluster)
+                self.progressbar_ip['value'] += inc
+                root.update_idletasks()
 
         if self.chk_var_ip2.get() == 1:
             # aanroepen van functie expressie() voor alle 26 families.
@@ -308,9 +326,29 @@ class Genexpressie:
                 expressie_families.Plot_families(cloneID_dict,
                                                  cluster_invoer_data,
                                                  familie)
+                self.progressbar_ip['value'] += inc
+                root.update_idletasks()
 
         if self.chk_var_ip3.get() == 1:
             Familie_Barchart.Histogram(cluster_uitvoer, familie_cloneID, k)
+            self.progressbar_ip['value'] += inc
+            root.update_idletasks()
+
+        if self.chk_var_ip5.get() == 1:
+            cluster_freq = cluster_frequentie.cluster_frequentie(
+                gen_beschrijving, cluster_uitvoer)
+
+            self.progressbar_ip['value'] += inc
+            root.update_idletasks()
+            cluster_frequentie.frequency_filter(cluster_freq, k)
+
+            self.progressbar_ip['value'] += inc
+            root.update_idletasks()
+
+        messagebox.showinfo('Melding', 'Bestanden zijn gegenereerd!')
+        self.progressbar_ip['value'] = 0
+        self.status_ip.config(text='')
+        root.update_idletasks()
 
 
 root = tk.Tk()
