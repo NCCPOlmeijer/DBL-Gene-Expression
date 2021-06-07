@@ -1,3061 +1,679 @@
 multiple-value lijsten:
-> proliferator
-[1, 0, 0, 1, 1]
+> activated
+[0, 2, 0, 0, 1]
 //
-> aldolase
-[1, 0, 0, 1, 0]
+> putative
+[0, 0, 1, 0, 1]
 //
-> notch
-[2, 1, 0, 2, 0]
-//
-> mast
+> serine
 [4, 1, 0, 0, 0]
 //
-> p450
-[2, 1, 0, 0, 1]
+> protease
+[4, 1, 0, 0, 1]
 //
-> distal-less
-[1, 1, 0, 0, 0]
-//
-> homo
-[1, 1, 0, 2, 0]
-//
-> sapiens
-[1, 1, 0, 2, 0]
-//
-> intercellular
-[2, 0, 0, 1, 0]
-//
-> tea
-[0, 2, 1, 0, 1]
-//
-> 5-azacytidine
+> homeobox
 [1, 0, 0, 1, 0]
 //
-> kl
-[0, 0, 1, 0, 1]
+> associated
+[1, 1, 4, 0, 0]
 //
-> mohlke
-[0, 0, 1, 0, 1]
+> complex
+[0, 1, 0, 1, 1]
+//
+> family
+[0, 0, 6, 1, 3]
+//
+> induced
+[0, 0, 1, 1, 1]
+//
+> antigen
+[1, 3, 1, 0, 0]
 //
 > lactate
-[0, 0, 1, 2, 0]
+[0, 0, 1, 0, 1]
 //
-> chondroitin
-[0, 1, 0, 1, 1]
+> transcription
+[0, 1, 1, 1, 0]
 //
-> proteoglycan
-[1, 3, 0, 1, 0]
-//
-> cop9
-[1, 0, 2, 5, 0]
-//
-> elav
-[3, 1, 0, 0, 0]
-//
-> embryonic
-[0, 2, 1, 5, 0]
-//
-> lethal
-[1, 0, 1, 1, 0]
-//
-> abnormal
-[3, 1, 0, 0, 0]
-//
-> phosphodiesterase
-[7, 5, 0, 7, 0]
-//
-> breast
-[1, 1, 1, 0, 0]
-//
-> cancer
+> guanine
 [1, 1, 2, 0, 0]
 //
-> sialyltransferase
-[3, 4, 0, 0, 1]
+> gamma
+[1, 1, 4, 0, 0]
 //
-> e2-17
-[1, 0, 1, 1, 0]
-//
-> m.musculus
-[0, 3, 2, 7, 0]
-//
-> elegans
-[1, 1, 1, 0, 0]
-//
-> anchor
-[2, 0, 2, 1, 0]
-//
-> kiaa1291
-[1, 0, 1, 0, 0]
-//
-> california
-[0, 1, 0, 3, 0]
-//
-> at
-[1, 1, 0, 4, 0]
-//
-> los
-[0, 1, 0, 3, 0]
-//
-> angeles
-[0, 1, 0, 3, 0]
-//
-> isomerase
-[2, 4, 0, 4, 0]
-//
-> 5-dioxygenase
-[0, 2, 1, 0, 0]
-//
-> a26882
-[0, 1, 0, 1, 0]
-//
-> pil2
-[0, 1, 0, 1, 0]
-//
-> nucleotide-binding
-[0, 1, 0, 2, 0]
-//
-> rattus
-[2, 3, 0, 6, 0]
-//
-> p58
-[2, 1, 0, 0, 0]
-//
-> trophoblast
-[1, 2, 0, 0, 0]
-//
-> a2
-[0, 1, 0, 2, 1]
-//
-> uncharacterized
-[1, 0, 2, 3, 0]
-//
-> hypothalamus
-[2, 0, 2, 2, 0]
-//
-> mo25
-[0, 2, 1, 0, 0]
-//
-> glucosidase
-[0, 2, 0, 2, 0]
-//
-> proteasome
-[0, 1, 8, 14, 0]
-//
-> 26s
-[0, 0, 5, 7, 0]
-//
-> phosphoglycerate
-[1, 0, 1, 1, 0]
-//
-> endoplasmic
-[1, 1, 0, 2, 0]
-//
-> reticulum
-[1, 1, 0, 2, 0]
-//
-> palmitoyltransferase
-[1, 0, 0, 2, 0]
-//
-> long
-[0, 5, 0, 2, 0]
-//
-> nucleosome
-[2, 0, 1, 1, 0]
-//
-> assembly
-[3, 0, 0, 6, 0]
-//
-> 1-like
-[2, 0, 0, 2, 1]
-//
-> development
-[1, 3, 0, 0, 0]
-//
-> differentiation
-[3, 11, 0, 0, 0]
-//
-> src
-[2, 0, 2, 0, 0]
-//
-> actin
-[2, 7, 0, 1, 0]
-//
-> chromatin
-[1, 0, 0, 1, 0]
-//
-> sm
-[1, 0, 1, 1, 0]
-//
-> novel
-[1, 1, 0, 0, 0]
-//
-> like
-[5, 0, 2, 7, 0]
-//
-> cds
-[2, 1, 0, 0, 1]
-//
-> c.elegans
-[1, 0, 0, 3, 0]
-//
-> coded
-[0, 1, 0, 1, 0]
-//
-> c.
-[2, 1, 1, 0, 0]
-//
-> topoisomerase
-[0, 2, 1, 2, 0]
-//
-> general
-[0, 3, 2, 1, 0]
-//
-> s-adenosylmethionine
-[1, 0, 0, 3, 0]
-//
-> snap
-[1, 1, 0, 0, 0]
-//
-> dual
-[0, 3, 0, 2, 0]
-//
-> meiosis
-[1, 1, 0, 1, 0]
-//
-> predicted
-[0, 0, 2, 3, 0]
-//
-> elongation
-[5, 7, 0, 5, 0]
-//
-> very
-[1, 3, 0, 2, 0]
-//
-> acids
-[1, 3, 0, 0, 0]
-//
-> yeast
-[0, 1, 0, 3, 0]
-//
-> hf.12
-[0, 1, 0, 1, 0]
-//
-> or
-[0, 0, 1, 2, 0]
-//
-> glutamine
-[0, 2, 1, 1, 0]
-//
-> protein-1
-[0, 0, 1, 2, 0]
-//
-> defensin
-[3, 1, 3, 0, 0]
-//
-> ferritin
-[0, 1, 1, 0, 1]
-//
-> autoantigenic
-[0, 1, 1, 0, 0]
-//
-> sperm
-[0, 2, 2, 1, 0]
-//
-> liver
-[3, 0, 0, 1, 0]
-//
-> vanin
-[1, 1, 0, 0, 0]
-//
-> oxidase
-[3, 1, 1, 0, 0]
-//
-> ectonucleotide
-[0, 0, 0, 1, 1]
-//
-> peroxisomal
-[2, 0, 2, 11, 0]
-//
-> carnitine
-[1, 0, 0, 5, 0]
-//
-> kidney
-[2, 4, 0, 0, 5]
-//
-> developmental
-[0, 1, 0, 0, 1]
-//
-> insulin
-[2, 0, 0, 1, 0]
-//
-> receptor-related
-[1, 1, 0, 1, 0]
-//
-> sodium
-[2, 3, 0, 0, 0]
-//
-> phosphate
-[2, 2, 0, 2, 0]
-//
-> hemoglobin
-[1, 0, 0, 4, 0]
-//
-> phospholipid
-[1, 1, 1, 0, 0]
-//
-> scramblase
-[1, 0, 1, 0, 0]
-//
-> fms-like
-[0, 0, 0, 1, 1]
-//
-> sulfotransferase
-[4, 0, 0, 0, 1]
-//
-> cytosolic
-[1, 4, 0, 2, 0]
-//
-> 2b
-[3, 3, 0, 1, 0]
-//
-> edp1
-[2, 2, 0, 0, 0]
-//
-> integral
-[0, 1, 1, 3, 0]
-//
-> mutase
-[1, 0, 0, 1, 0]
-//
-> s-transferase
+> finger
 [0, 0, 1, 1, 0]
 //
-> g-protein
-[3, 3, 0, 3, 0]
-//
-> guanosine
-[1, 1, 0, 1, 0]
-//
-> keratin
-[10, 9, 1, 0, 0]
-//
-> adipocyte
-[2, 0, 0, 1, 0]
-//
-> ral
-[0, 1, 1, 1, 0]
-//
-> structural
-[2, 2, 0, 0, 0]
-//
-> zipper
-[0, 1, 0, 1, 0]
-//
-> semaf
-[1, 1, 0, 0, 0]
-//
-> cosmid
-[1, 0, 0, 1, 0]
-//
-> acetyl-coenzyme
-[0, 2, 0, 2, 0]
-//
-> medium
-[1, 0, 0, 2, 0]
-//
-> lymphoid
-[1, 2, 0, 0, 1]
-//
-> inhibitory
-[2, 4, 0, 1, 0]
-//
-> alanine
-[0, 1, 1, 0, 0]
-//
-> down
-[1, 0, 0, 2, 0]
-//
-> critical
-[1, 0, 0, 2, 0]
-//
-> repressor
-[2, 2, 0, 2, 0]
-//
-> btb
-[0, 1, 0, 0, 1]
-//
-> cnc
-[0, 1, 0, 0, 1]
-//
-> homology
-[2, 1, 0, 0, 1]
-//
-> telomeric
-[1, 0, 0, 0, 1]
-//
-> intracellular
-[1, 0, 0, 1, 0]
-//
-> mediator
-[2, 0, 0, 1, 0]
-//
-> transporting
-[0, 1, 0, 2, 0]
-//
-> tryptophan
-[1, 1, 0, 1, 0]
-//
-> 5-monooxygenase
-[2, 3, 1, 0, 0]
-//
-> myeloid
-[3, 5, 0, 2, 0]
-//
-> ecotropic
-[1, 3, 0, 0, 0]
-//
-> viral
-[5, 7, 0, 2, 0]
-//
-> integration
-[7, 9, 0, 1, 0]
-//
-> site-related
-[1, 1, 0, 0, 0]
-//
-> cd82
-[1, 1, 0, 0, 0]
-//
-> factor-y
-[2, 0, 0, 1, 0]
-//
-> arrest
-[4, 4, 0, 1, 0]
-//
-> voltage
-[0, 2, 0, 0, 1]
-//
-> gated
-[0, 2, 0, 0, 1]
-//
-> 4a
-[0, 1, 0, 1, 0]
-//
-> eyes
-[1, 1, 0, 1, 0]
-//
-> polycystic
-[1, 2, 0, 0, 1]
-//
-> monooxygenase
-[1, 0, 1, 1, 0]
-//
-> calcitonin
-[1, 0, 0, 0, 1]
-//
-> activity
-[0, 3, 1, 2, 0]
-//
-> modifying
-[0, 2, 0, 2, 0]
-//
-> antagonist
-[1, 1, 0, 0, 0]
-//
-> sapiens;
-[4, 4, 0, 6, 0]
-//
-> trna
-[2, 0, 0, 1, 1]
-//
-> clathrin
-[1, 0, 0, 2, 0]
-//
-> arginine
-[2, 1, 0, 0, 1]
-//
-> tetraspan
-[0, 0, 1, 1, 0]
-//
-> glutamyl
-[1, 1, 0, 0, 0]
-//
-> e1
-[0, 0, 0, 3, 1]
-//
-> anion
-[0, 1, 0, 2, 0]
-//
-> cardiac
-[1, 0, 1, 5, 0]
-//
-> lectin
-[2, 1, 0, 0, 0]
-//
-> galactose
-[0, 3, 0, 1, 2]
-//
-> soluble
-[0, 3, 0, 1, 1]
-//
-> recognition
-[3, 0, 2, 5, 0]
-//
-> particle
-[1, 0, 1, 4, 0]
-//
-> actin-related
-[0, 0, 1, 1, 0]
-//
-> linked
-[1, 1, 0, 1, 0]
-//
-> aconitase
-[0, 0, 1, 1, 0]
-//
-> erythrocyte
-[1, 0, 1, 3, 0]
-//
-> murinoglobulin
-[0, 2, 0, 1, 0]
-//
-> fringe
-[1, 1, 0, 1, 0]
-//
-> ww
-[0, 2, 2, 1, 0]
-//
-> protein-related
-[1, 1, 0, 0, 0]
-//
-> isocitrate
-[1, 0, 0, 3, 0]
-//
-> paraoxonase
-[0, 2, 1, 0, 0]
-//
-> phenobarbitol
-[1, 1, 0, 0, 0]
-//
-> gmp
-[1, 0, 0, 1, 0]
-//
-> chitinase
-[2, 1, 1, 0, 0]
-//
-> 3-like
-[1, 1, 0, 0, 0]
-//
-> lung
-[0, 1, 0, 1, 0]
-//
-> carcinoma
-[1, 1, 1, 0, 0]
-//
-> myc
-[0, 2, 0, 1, 0]
-//
-> iib
-[0, 1, 0, 1, 0]
-//
-> motility
-[0, 1, 0, 1, 0]
-//
-> erythroid
-[2, 2, 0, 3, 0]
-//
-> transcriptional
-[3, 0, 3, 2, 0]
-//
-> match
-[1, 1, 0, 0, 0]
-//
-> proteolipid
-[0, 2, 0, 1, 0]
-//
-> zeste
-[0, 0, 1, 1, 0]
-//
-> lipase
-[2, 0, 1, 0, 0]
-//
-> secreted
-[2, 4, 0, 1, 0]
-//
-> retinoblastoma-like
-[1, 0, 0, 1, 0]
-//
-> 40s
-[0, 3, 0, 2, 0]
-//
-> ran
-[1, 0, 0, 3, 0]
-//
-> tnf
-[2, 3, 0, 0, 0]
-//
-> amplified
-[0, 1, 0, 1, 0]
-//
-> cysteine-rich
-[2, 1, 0, 1, 0]
-//
-> differentially
-[0, 2, 0, 1, 0]
-//
-> b16f10
-[0, 2, 0, 1, 0]
-//
-> fibrillin
-[0, 2, 0, 0, 1]
-//
-> af196304_1
-[0, 1, 0, 1, 0]
-//
-> sumo-1-specific
-[0, 1, 0, 1, 0]
-//
-> thioredoxin
-[1, 0, 0, 1, 0]
-//
-> lag
-[1, 1, 0, 1, 0]
-//
-> eph
-[2, 0, 2, 3, 0]
-//
-> fragile
-[0, 1, 0, 2, 1]
-//
-> mental
-[0, 1, 0, 1, 1]
-//
-> retardation
-[0, 1, 0, 1, 1]
-//
-> autosomal
-[0, 0, 0, 1, 1]
-//
-> factor-1
-[1, 1, 0, 1, 0]
-//
-> adenosine
-[2, 3, 0, 1, 0]
-//
-> androgen
-[2, 0, 0, 2, 0]
-//
-> peroxiredoxin
-[1, 1, 0, 5, 0]
-//
-> rna-binding
-[0, 1, 2, 6, 0]
-//
-> glycine
-[2, 2, 1, 0, 0]
-//
-> gamma-carboxyglutamate
-[0, 1, 0, 1, 0]
-//
-> stretch
-[0, 1, 0, 2, 1]
-//
-> transformation
-[1, 1, 0, 0, 1]
-//
-> adaptor-related
-[2, 3, 0, 1, 0]
-//
-> dnaj-like
-[0, 2, 0, 2, 1]
-//
-> signaling
-[5, 4, 0, 3, 0]
-//
-> dynein
-[1, 1, 0, 2, 0]
-//
-> intermediate
-[0, 1, 1, 4, 0]
-//
-> large
+> clone
 [0, 1, 1, 2, 0]
 //
-> ngfi-a
+> unknown
+[2, 0, 1, 1, 0]
+//
+> human
+[1, 0, 1, 0, 2]
+//
+> cyclin-dependent
+[1, 1, 0, 0, 0]
+//
+> mouse
+[1, 0, 2, 0, 0]
+//
+> m.musculus
+[0, 0, 2, 1, 2]
+//
+> chromosome
+[0, 2, 0, 0, 2]
+//
+> iii
+[1, 0, 0, 0, 2]
+//
+> anchor
 [1, 0, 0, 1, 0]
 //
-> adenylate
-[0, 2, 2, 3, 0]
+> peptidylprolyl
+[1, 1, 0, 0, 0]
 //
-> iv
-[1, 2, 0, 1, 0]
+> isomerase
+[1, 1, 0, 0, 0]
 //
-> ets
-[3, 3, 0, 1, 0]
+> 2-oxoglutarate
+[0, 1, 0, 1, 1]
 //
-> c3
-[0, 1, 1, 1, 0]
+> public
+[1, 0, 1, 2, 0]
 //
-> botulinum
-[0, 1, 1, 1, 0]
+> cyclin
+[0, 0, 1, 1, 1]
 //
-> aminolevulinic
+> rna
+[0, 2, 0, 0, 1]
+//
+> kda
+[1, 0, 0, 2, 0]
+//
+> transforming
+[2, 1, 0, 0, 0]
+//
+> regulated
+[0, 1, 0, 2, 0]
+//
+> long
+[0, 0, 0, 1, 1]
+//
+> differentiation
+[1, 1, 0, 0, 0]
+//
+> small
+[5, 4, 6, 0, 0]
+//
+> fk506
 [1, 0, 0, 1, 0]
 //
-> carboxy-terminal
-[0, 2, 0, 2, 0]
+> eukaryotic
+[2, 0, 1, 2, 0]
 //
-> inositol
-[4, 3, 0, 1, 0]
+> translation
+[2, 0, 1, 2, 0]
 //
-> deoxyhypusine
+> initiation
+[1, 0, 1, 2, 0]
+//
+> matrix
+[4, 2, 1, 0, 0]
+//
+> dependent
+[0, 1, 1, 0, 0]
+//
+> regulator
+[1, 0, 0, 1, 0]
+//
+> ribonucleoprotein
+[0, 1, 2, 0, 0]
+//
+> atp
+[0, 0, 0, 4, 3]
+//
+> synthase
+[0, 1, 0, 2, 1]
+//
+> mitochondrial
+[0, 0, 0, 9, 8]
+//
+> brain
+[0, 2, 0, 1, 1]
+//
+> cdna
+[1, 0, 0, 4, 0]
+//
+> containing
+[2, 0, 0, 2, 1]
+//
+> polypeptide
+[0, 1, 1, 0, 2]
+//
+> responsive
+[0, 0, 1, 0, 1]
+//
+> ii
+[0, 2, 1, 0, 0]
+//
+> s-adenosylmethionine
 [0, 0, 1, 1, 0]
 //
-> steroid
-[3, 1, 2, 0, 0]
+> synthetase
+[0, 0, 2, 0, 1]
+//
+> intergenic
+[1, 1, 0, 0, 1]
+//
+> elongation
+[1, 0, 0, 1, 1]
+//
+> very
+[0, 0, 0, 1, 1]
+//
+> fatty
+[0, 1, 0, 1, 1]
+//
+> heavy
+[1, 0, 4, 0, 3]
+//
+> solute
+[0, 0, 4, 0, 2]
+//
+> carrier
+[0, 0, 4, 1, 5]
+//
+> lim
+[1, 0, 3, 0, 1]
+//
+> atp-binding
+[0, 0, 3, 0, 1]
+//
+> sub-family
+[0, 0, 3, 0, 1]
+//
+> interferon
+[0, 4, 1, 0, 0]
+//
+> with
+[2, 0, 2, 0, 0]
+//
+> cytosolic
+[2, 0, 0, 0, 1]
+//
+> 2b
+[0, 1, 1, 0, 0]
+//
+> integral
+[1, 0, 0, 1, 0]
+//
+> membrane
+[5, 0, 0, 2, 1]
+//
+> macrophage
+[1, 0, 0, 1, 0]
+//
+> mu
+[0, 0, 1, 1, 2]
+//
+> phospholipase
+[1, 0, 0, 0, 1]
+//
+> ethanol
+[0, 0, 1, 0, 1]
+//
+> selenoprotein
+[1, 0, 1, 0, 0]
+//
+> cytoplasmic
+[1, 0, 1, 0, 1]
+//
+> acetyl-coenzyme
+[0, 0, 0, 1, 1]
+//
+> lymphocyte
+[1, 1, 1, 0, 0]
+//
+> locus
+[1, 1, 2, 0, 0]
+//
+> rich
+[2, 1, 0, 0, 1]
+//
+> collagen
+[1, 0, 1, 0, 0]
+//
+> down
+[0, 0, 1, 0, 1]
+//
+> syndrome
+[0, 0, 1, 0, 1]
+//
+> critical
+[0, 0, 1, 0, 1]
+//
+> integrin
+[1, 0, 1, 1, 0]
+//
+> transport
+[1, 1, 0, 1, 0]
+//
+> intracellular
+[0, 0, 1, 0, 1]
+//
+> h+
+[0, 2, 0, 3, 3]
+//
+> decarboxylase
+[0, 0, 1, 1, 0]
+//
+> myeloid
+[0, 1, 0, 1, 0]
+//
+> viral
+[0, 2, 0, 1, 0]
+//
+> derived
+[1, 0, 1, 0, 0]
+//
+> potassium
+[0, 0, 1, 1, 0]
+//
+> oncogene
+[0, 0, 1, 1, 0]
+//
+> amyloid
+[1, 1, 0, 0, 0]
+//
+> activity
+[0, 1, 0, 0, 1]
+//
+> modifying
+[0, 1, 0, 0, 1]
+//
+> sapiens;
+[0, 1, 0, 2, 0]
+//
+> regulatory
+[0, 3, 1, 1, 0]
+//
+> ankyrin
+[0, 1, 0, 1, 1]
+//
+> repeat-containing
+[0, 1, 0, 1, 0]
+//
+> enhancer
+[0, 1, 1, 0, 0]
+//
+> branched
+[0, 0, 0, 1, 2]
+//
+> e1
+[0, 0, 0, 1, 1]
+//
+> alcohol
+[0, 0, 1, 1, 0]
+//
+> voltage-dependent
+[0, 0, 0, 1, 1]
+//
+> anion
+[0, 0, 0, 1, 1]
+//
+> myosin
+[0, 1, 0, 0, 6]
+//
+> cardiac
+[0, 0, 1, 1, 3]
+//
+> galactose
+[2, 0, 0, 0, 1]
+//
+> soluble
+[2, 0, 0, 0, 1]
+//
+> group
+[0, 1, 1, 1, 0]
+//
+> isocitrate
+[0, 0, 1, 0, 2]
+//
+> hydrolase
+[0, 1, 0, 1, 1]
+//
+> chitinase
+[0, 1, 1, 0, 0]
+//
+> 3-like
+[0, 1, 1, 0, 0]
+//
+> partial
+[1, 0, 0, 0, 1]
+//
+> interleukin
+[2, 3, 0, 1, 0]
+//
+> disintegrin
+[1, 0, 0, 1, 0]
+//
+> secreted
+[2, 1, 0, 0, 0]
+//
+> sequence
+[1, 3, 0, 3, 0]
+//
+> ubiquitin-like
+[0, 0, 0, 1, 1]
+//
+> cysteine-rich
+[1, 0, 1, 0, 1]
+//
+> differentially
+[0, 0, 2, 0, 1]
+//
+> b16f10
+[0, 0, 2, 0, 1]
+//
+> light
+[0, 0, 0, 1, 3]
+//
+> peroxiredoxin
+[0, 0, 0, 1, 3]
+//
+> class
+[1, 2, 1, 0, 0]
+//
+> complement
+[0, 2, 7, 2, 0]
+//
+> stretch
+[0, 0, 1, 1, 0]
+//
+> muscle
+[0, 0, 1, 1, 2]
+//
+> prostaglandin
+[0, 1, 0, 0, 1]
+//
+> motif
+[1, 1, 0, 0, 0]
+//
+> histocompatibility
+[1, 2, 3, 0, 0]
+//
+> immunoglobulin
+[1, 1, 3, 0, 0]
+//
+> adenylate
+[1, 0, 0, 0, 1]
+//
+> iv
+[0, 1, 1, 0, 0]
 //
 > secretory
-[2, 3, 1, 0, 0]
-//
-> leukocyte
 [1, 2, 0, 0, 0]
 //
 > interferon-inducible
-[1, 0, 0, 1, 0]
-//
-> villin
-[1, 0, 0, 1, 0]
-//
-> primary
-[1, 2, 0, 0, 0]
-//
-> ccr4-not
-[0, 1, 0, 1, 0]
-//
-> glycogen
-[0, 0, 1, 2, 0]
-//
-> endocrine
-[1, 2, 0, 0, 0]
-//
-> strain
-[2, 1, 0, 1, 0]
-//
-> beta1
-[1, 0, 0, 1, 0]
-//
-> cd63_mouse
 [1, 0, 1, 0, 0]
 //
-> cd63
-[2, 0, 1, 0, 0]
+> response
+[1, 1, 1, 0, 0]
 //
-> 4-dioxygenase
-[1, 0, 0, 1, 0]
+> hormone
+[0, 1, 0, 0, 1]
 //
-> proline
-[1, 0, 0, 3, 0]
+> isoform
+[0, 1, 2, 0, 2]
 //
-> v-ral
-[1, 1, 0, 0, 0]
+> mobility
+[0, 1, 1, 1, 0]
 //
-> simian
-[1, 1, 0, 0, 0]
-//
-> sterol
-[0, 1, 0, 1, 1]
-//
-> profilin
-[1, 0, 0, 1, 0]
-//
-> wingless-related
-[2, 4, 0, 0, 0]
-//
-> mmtv
-[4, 4, 0, 1, 0]
-//
-> site
-[5, 7, 0, 2, 0]
-//
-> proprotein
-[1, 3, 0, 0, 0]
-//
-> convertase
-[1, 3, 0, 0, 0]
-//
-> cysteine
-[3, 2, 0, 1, 0]
-//
-> amino
-[3, 7, 0, 1, 0]
-//
-> microtubule
-[0, 1, 0, 2, 0]
-//
-> transfer
-[4, 1, 1, 0, 0]
-//
-> udp-gal:betaglcnac
-[2, 2, 0, 1, 0]
-//
-> possible
-[1, 0, 0, 3, 0]
+> box
+[0, 0, 1, 1, 0]
 //
 > platelet
-[2, 3, 1, 0, 0]
+[1, 1, 0, 0, 0]
 //
 > nadh-ubiquinone
-[1, 0, 0, 8, 0]
+[0, 0, 0, 2, 6]
 //
 > oxidoreductase
-[2, 0, 0, 9, 0]
-//
-> programmed
-[2, 0, 1, 4, 0]
-//
-> on
-[2, 0, 0, 1, 1]
-//
-> the
-[7, 6, 0, 4, 0]
-//
-> c1q-related
-[1, 0, 0, 0, 1]
-//
-> receptor-associated
-[5, 3, 0, 4, 0]
+[0, 0, 0, 2, 7]
 //
 > tubulin
-[3, 0, 1, 2, 0]
-//
-> sphingomyelinase-like
-[1, 0, 0, 1, 0]
-//
-> mini
-[3, 3, 0, 0, 0]
-//
-> maintenance
-[3, 3, 0, 1, 0]
-//
-> deficient
-[3, 3, 0, 0, 0]
-//
-> rab
-[0, 0, 1, 2, 0]
-//
-> jak3_mouse
-[0, 3, 0, 0, 1]
-//
-> tyrosine-protein
-[1, 3, 0, 0, 1]
-//
-> jak3
-[0, 3, 0, 0, 1]
+[0, 0, 2, 1, 1]
 //
 > malate
-[1, 0, 0, 2, 0]
+[0, 0, 0, 1, 1]
 //
-> pre-mrna
-[0, 1, 2, 1, 0]
+> calcium
+[0, 2, 1, 0, 2]
 //
-> sh2-containing
-[4, 1, 0, 1, 0]
-//
-> polyhomeotic
-[1, 1, 0, 0, 0]
-//
-> non-metastatic
-[0, 0, 1, 2, 0]
-//
-> cells
-[1, 0, 2, 4, 0]
-//
-> nucleoside
-[1, 0, 0, 1, 0]
-//
-> epidermal
-[7, 2, 0, 3, 0]
-//
-> pale
-[1, 1, 0, 1, 0]
-//
-> s12207
-[0, 0, 0, 1, 3]
-//
-> myeloblastosis
-[1, 0, 1, 0, 0]
-//
-> phosphoenolpyruvate
-[0, 1, 0, 2, 0]
-//
-> silica-induced
-[1, 0, 0, 1, 0]
-//
-> intestinal
-[2, 2, 1, 0, 0]
-//
-> melanoma
-[2, 1, 0, 0, 0]
-//
-> bound
-[0, 1, 1, 1, 0]
-//
-> ephrin
-[0, 1, 0, 2, 1]
-//
-> defective
-[1, 0, 1, 1, 0]
-//
-> murine
-[1, 2, 0, 0, 0]
-//
-> ubiquitously
-[0, 1, 0, 2, 0]
-//
-> mannosidase
-[0, 4, 2, 0, 0]
-//
-> nedd-4
-[0, 1, 0, 2, 2]
-//
-> sec61
-[0, 1, 0, 1, 0]
+> major
+[1, 0, 0, 1, 1]
 //
 > canis
-[1, 1, 0, 1, 0]
-//
-> actin-like
-[0, 0, 1, 1, 0]
-//
-> af129738_1
-[0, 0, 1, 1, 0]
-//
-> cullin
-[0, 0, 1, 4, 0]
-//
-> c-terminal
-[0, 0, 3, 3, 0]
-//
-> theta
-[0, 1, 2, 0, 0]
-//
-> ty
-[1, 0, 1, 1, 0]
-//
-> dus5_rat
 [0, 1, 0, 1, 0]
-//
-> specificity
-[0, 2, 0, 4, 0]
-//
-> gtp-binding
-[0, 0, 2, 2, 1]
-//
-> d6s56e
-[1, 0, 1, 0, 0]
-//
-> platelet-activating
-[2, 1, 0, 2, 0]
-//
-> acetylhydrolase
-[1, 0, 0, 1, 0]
-//
-> cleavage
-[0, 3, 0, 4, 0]
-//
-> polyadenylation
-[0, 1, 0, 3, 1]
-//
-> folate
-[1, 1, 0, 1, 0]
 //
 > adult
-[1, 0, 0, 2, 0]
-//
-> multidrug
-[1, 0, 1, 1, 0]
-//
-> resistance
-[0, 0, 1, 1, 1]
-//
-> sorting
-[1, 2, 5, 0, 0]
-//
-> nexin
-[0, 2, 3, 0, 0]
-//
-> palmitoylated
-[0, 1, 0, 1, 0]
-//
-> purine-nucleoside
-[1, 1, 0, 0, 0]
-//
-> phosphorylase
 [0, 0, 0, 1, 1]
-//
-> giant
-[0, 1, 0, 1, 0]
-//
-> immunex
-[0, 0, 1, 1, 0]
-//
-> aplysia
-[1, 3, 0, 1, 0]
-//
-> phosphatidylinositol-4-phosphate
-[0, 1, 0, 2, 0]
-//
-> staufen
-[1, 0, 0, 1, 0]
-//
-> plexin
-[2, 1, 1, 0, 0]
-//
-> pleckstrin
-[0, 3, 0, 2, 0]
-//
-> low-affinity
-[1, 3, 0, 1, 0]
-//
-> zinc-finger
-[0, 0, 0, 2, 1]
-//
-> trap
-[1, 0, 1, 2, 0]
-//
-> 1b
-[1, 0, 0, 1, 0]
 //
 > proline-rich
-[0, 5, 0, 2, 1]
-//
-> synaptotagmin
-[2, 2, 0, 0, 0]
-//
-> plasmin
-[1, 0, 0, 1, 0]
-//
-> laminin
-[1, 1, 0, 0, 0]
-//
-> ps0136
-[1, 0, 0, 0, 1]
-//
-> h-2
-[1, 0, 0, 0, 1]
-//
-> t15
-[1, 0, 0, 0, 1]
-//
-> identified
-[2, 3, 0, 0, 0]
-//
-> heparin
-[1, 0, 0, 1, 0]
-//
-> factor-like
-[3, 1, 0, 1, 0]
-//
-> 2'-5'
-[1, 1, 0, 0, 0]
-//
-> oligoadenylate
-[1, 1, 0, 0, 0]
-//
-> gamma-glutamyl
-[2, 0, 0, 0, 1]
-//
-> c2
-[0, 1, 0, 1, 0]
-//
-> insert
-[0, 0, 0, 1, 1]
-//
-> 3'
-[4, 2, 0, 1, 0]
+[1, 1, 0, 0, 1]
 //
 > editing
-[0, 2, 0, 1, 1]
-//
-> interferon-induced
-[0, 2, 0, 0, 2]
-//
-> nitric
-[0, 0, 0, 2, 1]
-//
-> oxide
-[0, 0, 0, 2, 1]
-//
-> alpha-1
-[1, 0, 0, 1, 0]
-//
-> serum
-[0, 3, 2, 0, 1]
-//
-> a48830
-[1, 1, 0, 0, 1]
-//
-> nt
-[1, 1, 0, 0, 1]
-//
-> fin12
-[1, 1, 0, 0, 1]
-//
-> thymus
-[1, 2, 0, 0, 0]
+[0, 1, 0, 0, 1]
 //
 > mucin
-[1, 2, 1, 0, 0]
-//
-> t-box
-[2, 1, 0, 1, 0]
-//
-> kallikrein
-[1, 4, 1, 0, 0]
+[1, 0, 1, 0, 0]
 //
 > annexin
-[1, 6, 3, 0, 0]
-//
-> non-catalytic
-[0, 1, 0, 2, 0]
-//
-> paired
-[0, 1, 0, 0, 1]
-//
-> rad51
-[1, 2, 0, 1, 0]
-//
-> kappa
-[4, 1, 0, 0, 2]
-//
-> granzyme
-[2, 0, 1, 0, 0]
-//
-> pctaire-motif
-[1, 0, 0, 1, 0]
-//
-> e3
-[0, 0, 1, 0, 1]
-//
-> avian
-[2, 0, 0, 1, 0]
-//
-> effector
-[1, 2, 0, 1, 0]
-//
-> superfamily
-[1, 1, 0, 0, 1]
-//
-> cytidine
-[2, 1, 0, 1, 0]
-//
-> monophospho-n-acetylneuraminic
-[1, 0, 0, 1, 0]
-//
-> retinoid
-[0, 0, 1, 1, 0]
-//
-> g10d_mouse
-[1, 0, 0, 0, 1]
-//
-> g10d
-[1, 0, 0, 0, 1]
-//
-> erg-associated
-[2, 0, 1, 0, 0]
-//
-> ganglioside-induced
-[0, 0, 1, 1, 0]
-//
-> differentiation-associated-protein
-[0, 0, 1, 1, 0]
-//
-> chromosome:
-[1, 1, 0, 0, 0]
-//
-> l1cam
-[1, 1, 0, 0, 0]
-//
-> sep2
-[1, 1, 0, 0, 0]
-//
-> vii
-[0, 1, 0, 0, 1]
-//
-> choline
-[0, 0, 1, 1, 0]
-//
-> receptor-like
-[0, 4, 1, 0, 1]
-//
-> gata-binding
-[1, 0, 2, 0, 0]
-//
-> synaptogyrin
-[1, 0, 0, 2, 0]
-//
-> h-related
-[0, 1, 0, 0, 1]
-//
-> yolk
-[0, 1, 1, 0, 0]
-//
-> sac
-[0, 1, 1, 0, 0]
-//
-> kinase-like
-[0, 0, 1, 1, 0]
-//
-> sulfotransferase-related
-[0, 1, 0, 0, 1]
-//
-> krab-zinc
-[0, 1, 0, 0, 1]
-//
-> kzf-1
-[0, 1, 0, 0, 1]
-//
-> runt
-[1, 1, 0, 0, 0]
-//
-> exchange
-[2, 4, 0, 3, 0]
-//
-> a-kinase
-[0, 0, 1, 0, 1]
-//
-> anchoring
-[0, 0, 1, 0, 1]
-//
-> b-cells
-[3, 1, 0, 0, 0]
-//
-> nasal
-[0, 1, 0, 1, 0]
-//
-> latent
-[0, 2, 0, 1, 0]
-//
-> lipoprotein-related
-[0, 1, 0, 0, 1]
-//
-> origin
-[1, 0, 2, 1, 0]
-//
-> voltage-gated
-[2, 2, 0, 3, 0]
-//
-> isk-related
-[0, 1, 0, 1, 0]
-//
-> e2f
-[2, 0, 0, 0, 1]
-//
-> transplantation
-[0, 0, 1, 1, 0]
-//
-> proteins
-[0, 1, 0, 1, 0]
-//
-> u2
-[3, 0, 1, 1, 0]
-//
-> auxiliary
-[2, 0, 0, 1, 0]
-//
-> udp-n-acetylglucosamine
-[0, 1, 1, 0, 0]
-//
-> pyrophosphorylase
-[0, 1, 1, 0, 0]
-//
-> caax
-[0, 0, 1, 1, 0]
-//
-> prefoldin
-[0, 0, 1, 1, 0]
-//
-> lubeck
-[1, 1, 0, 0, 1]
-//
-> c8
-[1, 1, 0, 0, 0]
-//
-> aminopeptidase
-[0, 0, 1, 1, 0]
-//
-> inner
-[1, 1, 0, 4, 0]
-//
-> centromere
-[0, 1, 0, 2, 0]
-//
-> nucleolar
-[3, 0, 1, 0, 0]
-//
-> phosphoprotein
 [3, 2, 1, 0, 0]
 //
-> cap
-[0, 1, 1, 0, 0]
-//
-> acyl
-[1, 0, 0, 2, 0]
-//
-> adp-ribosylation-like
-[1, 1, 0, 1, 0]
-//
-> hematopoietic
-[2, 0, 0, 3, 0]
-//
-> targeting
-[0, 1, 0, 1, 0]
-//
-> lymphoma
-[1, 2, 0, 2, 0]
-//
-> ig
-[0, 0, 1, 1, 2]
-//
-> vascular
-[1, 0, 1, 7, 0]
-//
-> smooth
-[0, 1, 0, 4, 0]
-//
-> outer
-[1, 0, 0, 2, 0]
-//
-> bcl2-like
-[1, 1, 0, 0, 0]
-//
-> c-type
-[2, 0, 0, 1, 0]
-//
-> similarity
-[5, 0, 0, 7, 0]
-//
-> kazal
-[1, 0, 2, 0, 0]
-//
-> distal
-[1, 1, 0, 0, 0]
-//
-> period
-[0, 1, 1, 0, 1]
-//
-> ras-like
-[0, 1, 0, 1, 0]
-//
-> reduced
-[2, 0, 0, 1, 0]
-//
-> matrilin
-[0, 2, 0, 0, 1]
-//
-> iiia
-[0, 0, 1, 1, 0]
-//
-> transducer
-[3, 3, 0, 1, 0]
-//
-> body
-[2, 1, 0, 0, 1]
-//
-> alternatively
-[3, 1, 0, 2, 0]
-//
-> spliced
-[0, 1, 0, 1, 0]
-//
-> homologous
-[2, 1, 0, 0, 0]
-//
-> carboxyl
-[1, 0, 0, 2, 1]
-//
-> envelope
-[0, 1, 0, 0, 3]
-//
-> polyprotein
-[0, 1, 0, 1, 4]
-//
-> exonuclease
-[0, 2, 0, 0, 1]
-//
-> homologue
-[1, 0, 0, 0, 1]
-//
-> rhogap
-[0, 0, 1, 1, 0]
-//
-> atp-dependent
-[0, 3, 1, 1, 0]
-//
-> cce1-cap1
-[0, 0, 1, 1, 0]
-//
-> coactivator
-[0, 2, 0, 3, 1]
-//
-> grb2-like
-[0, 0, 1, 1, 1]
-//
-> phosphoribosyl
-[0, 0, 1, 1, 0]
-//
-> kiaa0830
-[1, 1, 0, 0, 0]
-//
-> arachidonate
-[0, 2, 0, 1, 0]
-//
-> protein-tyrosine
-[2, 0, 1, 1, 0]
-//
-> cryptdin
-[2, 0, 1, 1, 0]
-//
-> synovial
+> tumor
 [1, 1, 1, 0, 0]
 //
-> rabphilin-3a
-[1, 0, 0, 1, 0]
-//
-> dickkopf
-[1, 1, 0, 0, 0]
-//
-> acetyltransferase
-[0, 1, 0, 2, 0]
-//
-> topoisomerase-related
-[1, 0, 0, 0, 1]
-//
-> function
-[1, 0, 0, 0, 1]
-//
-> vertebrate
-[1, 0, 1, 0, 0]
-//
-> lin-7
-[1, 0, 1, 0, 0]
-//
-> c-like
-[0, 1, 1, 0, 0]
-//
-> wd-40
-[1, 0, 0, 1, 0]
-//
-> hyaluronidase
-[1, 1, 0, 0, 0]
-//
-> a27353
-[1, 0, 1, 0, 0]
-//
-> organic
-[0, 2, 1, 0, 0]
-//
-> transporter-like
-[0, 1, 1, 0, 0]
-//
-> wnt1
-[0, 1, 0, 1, 0]
-//
-> pathway
-[2, 1, 0, 4, 0]
-//
-> papillary
-[1, 1, 0, 0, 0]
-//
-> renal
-[1, 1, 0, 1, 0]
-//
-> carcinoma-associated
-[1, 1, 0, 1, 0]
-//
-> inflammatory
-[1, 1, 0, 0, 0]
-//
-> neurons
-[1, 0, 0, 1, 0]
-//
-> vesicular
-[0, 1, 1, 0, 0]
-//
-> homeodomain
-[4, 1, 0, 1, 0]
-//
-> transducin-like
-[0, 1, 1, 0, 1]
-//
-> pancreatic
-[1, 0, 1, 0, 0]
-//
-> isoleucyl-trna
-[0, 0, 0, 1, 1]
-//
-> killer
-[3, 1, 0, 2, 0]
-//
-> lectin-like
+> peptide
 [2, 0, 0, 1, 0]
 //
-> rpb5-mediating
-[1, 0, 0, 1, 0]
+> insulin-like
+[0, 3, 1, 0, 0]
 //
-> "mus
-[4, 1, 0, 2, 0]
+> low
+[1, 1, 0, 1, 0]
 //
-> cds;
-[4, 0, 0, 2, 0]
-//
-> untranslated
-[1, 1, 0, 0, 0]
-//
-> gag
-[0, 0, 0, 1, 2]
-//
-> aminotransferase
-[0, 1, 2, 2, 0]
-//
-> reverse
-[0, 1, 0, 0, 1]
-//
-> transcriptase
-[0, 1, 0, 0, 1]
-//
-> glucose
-[3, 1, 0, 2, 0]
-//
-> recombination
-[0, 2, 0, 0, 1]
-//
-> albumin
-[0, 1, 0, 1, 1]
-//
-> promoter
-[1, 0, 0, 1, 0]
-//
-> rjs
-[0, 0, 1, 2, 0]
-//
-> glycosylation
-[1, 0, 1, 1, 0]
-//
-> downstream
-[3, 2, 0, 1, 0]
-//
-> leucine-rich
-[1, 0, 0, 0, 1]
-//
-> cr16
-[0, 2, 1, 0, 0]
-//
-> rhesus
-[0, 1, 1, 0, 1]
-//
-> group-associated
-[0, 1, 0, 0, 1]
-//
-> hedgehog
-[1, 0, 0, 1, 0]
-//
-> inter-alpha
-[1, 2, 0, 0, 0]
-//
-> trypsin
-[1, 3, 0, 0, 0]
-//
-> two
-[1, 1, 0, 0, 0]
-//
-> domains
-[3, 2, 0, 3, 0]
-//
-> three
-[1, 2, 0, 0, 0]
-//
-> repair
-[0, 3, 1, 2, 0]
-//
-> aquaporin
-[0, 2, 0, 2, 0]
-//
-> {provirus}
-[1, 0, 0, 0, 1]
-//
-> 4.1-like
-[1, 0, 1, 0, 0]
-//
-> factor-containing
+> density
 [0, 1, 0, 1, 0]
 //
-> fibulin-like
-[0, 1, 0, 1, 0]
+> double
+[0, 1, 0, 0, 1]
 //
-> extracellular
-[1, 2, 0, 1, 0]
-//
-> membrane-associated
-[2, 0, 0, 1, 0]
-//
-> trafficking
+> tissue
 [1, 1, 2, 0, 0]
 //
-> transducing
-[0, 1, 0, 0, 1]
-//
-> hepatocyte
-[1, 2, 1, 0, 0]
-//
-> deleted
-[0, 0, 1, 2, 1]
-//
-> 2204390a
-[1, 1, 0, 0, 0]
-//
-> synaptojanin
-[2, 1, 0, 1, 0]
-//
-> releasing
-[1, 3, 0, 0, 1]
-//
-> only
-[0, 0, 1, 4, 0]
-//
-> aryl
-[1, 0, 1, 0, 0]
-//
-> dimerization
-[1, 1, 0, 0, 1]
-//
-> s6
-[1, 1, 0, 2, 0]
-//
-> basic
-[5, 3, 3, 0, 0]
-//
-> expression
-[2, 0, 0, 1, 0]
-//
-> heparan
-[2, 2, 0, 0, 0]
-//
-> vesicle-associated
-[0, 1, 0, 5, 1]
-//
-> protocadherin
-[1, 0, 1, 0, 0]
-//
-> mad
-[1, 1, 0, 2, 0]
-//
-> superoxide
-[2, 1, 0, 1, 0]
-//
-> dismutase
-[1, 1, 0, 1, 0]
-//
-> co-repressor
-[1, 0, 0, 0, 1]
-//
-> hexokinase
-[0, 0, 1, 1, 0]
-//
-> h2-k
-[1, 0, 0, 2, 0]
-//
-> coupled
-[0, 2, 0, 1, 0]
-//
-> retinol
-[5, 1, 0, 1, 0]
-//
-> 2a
-[1, 0, 0, 1, 0]
-//
-> methyl-cpg
-[0, 1, 1, 1, 0]
-//
-> mannose
-[1, 2, 0, 0, 0]
-//
-> ornithine
-[4, 0, 0, 3, 0]
-//
-> phosphatidylethanolamine
-[0, 1, 0, 1, 0]
-//
-> caspase
-[4, 4, 0, 0, 0]
-//
-> karyopherin
-[0, 0, 1, 3, 0]
-//
-> importin
-[1, 0, 0, 1, 0]
-//
-> death-inducing
-[0, 1, 0, 1, 0]
-//
-> fragmentation
-[0, 2, 0, 1, 0]
-//
-> subunit-like
-[0, 1, 0, 1, 0]
-//
-> regulating
-[1, 0, 1, 0, 0]
-//
-> neutral
-[2, 1, 0, 1, 0]
-//
-> ae-binding
-[0, 1, 0, 1, 0]
-//
-> esterase
-[2, 0, 0, 2, 0]
-//
-> slit
-[1, 1, 0, 0, 0]
-//
-> cd3
-[2, 1, 0, 0, 0]
-//
-> huntingtin
-[1, 0, 0, 2, 0]
-//
-> jun
-[1, 1, 0, 0, 0]
-//
-> elastase
-[0, 1, 1, 1, 0]
-//
-> cystatin
-[0, 1, 0, 1, 1]
-//
-> autoantigen
-[0, 0, 2, 2, 0]
-//
-> prolyl
-[1, 1, 0, 0, 0]
-//
-> dead
-[2, 0, 0, 0, 1]
-//
-> lysosomal-associated
-[0, 1, 0, 1, 0]
-//
-> breakpoint
-[0, 1, 0, 1, 0]
-//
-> polypeptide-associated
-[0, 1, 0, 1, 0]
-//
-> prolactin
-[0, 0, 1, 1, 0]
-//
-> natural
-[1, 0, 0, 1, 0]
-//
-> enhanced
-[0, 1, 0, 0, 1]
-//
-> dual-specificity
-[1, 0, 2, 0, 0]
-//
-> flavin
-[1, 0, 1, 1, 0]
-//
-> inducing
-[1, 0, 1, 0, 0]
-//
-> poliovirus
-[0, 1, 0, 1, 0]
-//
-> aminophospholipid
-[0, 0, 1, 1, 0]
-//
-> tropomyosin
-[1, 0, 0, 1, 0]
-//
-> 3-o-sulfotransferase
-[1, 1, 0, 0, 0]
-//
-> spinocerebellar
-[1, 0, 1, 0, 0]
-//
-> ataxia
-[1, 0, 1, 0, 0]
-//
-> 4e
-[1, 0, 1, 0, 0]
-//
-> hmg-box
-[0, 1, 0, 1, 0]
-//
-> lyase
-[1, 1, 0, 2, 0]
-//
-> sigma
-[1, 4, 0, 1, 0]
-//
-> nucleoporin
-[2, 0, 0, 1, 0]
-//
-> peptidyl-prolyl
-[1, 1, 0, 1, 0]
-//
-> cis-trans
-[1, 1, 0, 1, 0]
-//
-> c21e11.05c
-[0, 1, 0, 1, 0]
-//
-> diacylglycerol
-[1, 0, 0, 2, 0]
-//
-> global
-[1, 0, 0, 1, 0]
-//
-> sbbi03
-[1, 1, 0, 0, 0]
-//
-> stimulated
-[1, 3, 0, 0, 1]
-//
-> susceptibility
-[0, 0, 1, 1, 0]
-//
-> af217484_1
-[0, 0, 1, 0, 1]
-//
-> dnaql
-[0, 0, 1, 0, 1]
-//
-> centrin
-[0, 1, 1, 1, 0]
-//
-> microsomal
-[1, 2, 0, 0, 1]
-//
-> e1b
-[0, 0, 2, 1, 0]
-//
-> chaperonin
-[2, 0, 4, 2, 0]
-//
-> synaptosomal-associated
-[0, 0, 1, 2, 0]
-//
-> deaminase
-[0, 1, 0, 1, 0]
-//
-> ppar
-[0, 1, 0, 0, 1]
-//
-> ubiquitin-activating
-[0, 0, 1, 1, 0]
-//
-> syndecan
-[0, 3, 0, 1, 1]
-//
-> kiaa0191
-[1, 1, 0, 0, 0]
-//
-> is
-[2, 3, 0, 3, 0]
-//
-> ubiquitously.
-[1, 1, 0, 0, 0]
-//
-> mammalian
-[1, 0, 0, 1, 0]
-//
-> relative
-[1, 0, 0, 1, 0]
-//
-> oryctolagus
-[1, 0, 0, 2, 0]
-//
-> phosphatidylserine
-[0, 1, 1, 0, 0]
-//
-> hepatoma-derived
-[3, 0, 1, 0, 0]
-//
-> acyl-coa
-[0, 1, 2, 3, 0]
-//
-> short-chain
-[0, 1, 0, 3, 0]
-//
-> t-complex-associated
-[1, 0, 0, 1, 0]
-//
-> orf2
-[1, 0, 0, 0, 1]
-//
-> endonuclease
-[0, 1, 0, 1, 0]
-//
-> surface
-[1, 1, 0, 3, 0]
-//
-> adducin
-[0, 0, 1, 2, 0]
-//
-> snrna
-[0, 0, 1, 2, 0]
-//
-> "solute
-[1, 0, 1, 3, 0]
-//
-> carrier;
-[1, 0, 1, 3, 0]
-//
-> adenine
-[2, 0, 0, 3, 0]
-//
-> respiratory
-[1, 1, 0, 2, 0]
-//
-> regions
-[2, 1, 0, 0, 0]
-//
-> muts
-[2, 0, 0, 2, 0]
-//
-> amine
+> b-cell
 [1, 1, 1, 0, 0]
 //
-> trefoil
-[2, 1, 0, 0, 0]
-//
-> cornichon
-[1, 1, 0, 0, 0]
-//
-> wingless
-[2, 0, 0, 1, 0]
-//
-> kiaa0946
-[1, 0, 1, 0, 0]
-//
-> sodium-dependent
-[1, 0, 1, 2, 0]
-//
-> udp-glucuronosyltransferase
-[1, 2, 0, 0, 0]
-//
-> pore
-[0, 1, 1, 1, 0]
-//
-> integrin-associated
-[0, 1, 0, 1, 0]
-//
-> cognate
-[1, 0, 1, 1, 0]
-//
-> semaphorin
-[0, 1, 0, 0, 1]
-//
-> domain-associated
-[0, 1, 0, 0, 1]
-//
-> divalent
+> inner
 [0, 0, 0, 2, 1]
 //
-> af231110_1
-[1, 1, 0, 0, 0]
-//
-> muscleblind
-[1, 1, 0, 0, 0]
-//
-> receptor-interacting
-[0, 2, 0, 1, 0]
-//
-> retinoblastoma
-[0, 0, 3, 2, 0]
-//
-> proto-oncogene
-[0, 2, 0, 1, 0]
-//
-> ph
-[2, 0, 1, 0, 0]
-//
-> methionyl-trna
-[1, 0, 1, 0, 0]
-//
-> ectoderm
-[0, 1, 1, 0, 0]
-//
-> palmitoyl-protein
-[1, 1, 0, 1, 0]
-//
-> 11-beta
-[0, 1, 0, 1, 0]
-//
-> wd
-[1, 0, 1, 1, 0]
-//
-> fusion
-[0, 1, 0, 0, 1]
-//
-> 1c
-[0, 1, 0, 1, 0]
-//
-> af113615_1
-[1, 0, 0, 1, 0]
-//
-> fhos
-[1, 0, 0, 1, 0]
-//
-> pre
-[0, 1, 1, 0, 0]
-//
-> urinary
-[1, 2, 0, 0, 1]
-//
-> catenin
-[1, 1, 0, 2, 0]
-//
-> squamous
-[1, 0, 1, 0, 0]
-//
-> recognized
-[1, 0, 1, 0, 0]
-//
-> t-cells
-[1, 0, 1, 0, 0]
-//
-> polyposis
-[0, 1, 0, 2, 0]
-//
-> interferon-g
-[0, 1, 0, 0, 1]
-//
-> hc1
-[0, 1, 0, 0, 1]
-//
-> multifunctional
-[0, 2, 0, 1, 0]
-//
-> lysophosphatidic
-[0, 0, 1, 1, 1]
-//
-> cytotoxic
-[2, 0, 0, 2, 1]
-//
-> n-glycanase
-[0, 0, 1, 2, 0]
-//
-> angiotensin
-[0, 2, 0, 1, 0]
-//
-> sphingosine
-[1, 1, 0, 0, 0]
-//
-> placental
+> lysyl
 [2, 1, 0, 0, 0]
 //
-> germline
-[1, 2, 0, 0, 0]
+> cathepsin
+[2, 1, 2, 0, 0]
 //
-> immuoglobulin
-[1, 1, 0, 0, 0]
+> d2
+[0, 0, 1, 0, 1]
 //
-> lambda-2
-[1, 1, 0, 0, 0]
-//
-> lambda-4
-[1, 1, 0, 0, 0]
-//
-> troponin
-[2, 0, 0, 7, 0]
-//
-> slow
-[1, 0, 0, 2, 0]
-//
-> neurogenic
-[0, 1, 0, 1, 0]
-//
-> carg-binding
-[1, 1, 0, 1, 0]
-//
-> factor-a
-[1, 1, 0, 1, 0]
-//
-> natriuretic
-[1, 2, 0, 0, 1]
-//
-> keratin-associated
-[1, 2, 0, 0, 0]
-//
-> tumor-associated
-[1, 2, 0, 0, 0]
-//
-> p53
-[0, 1, 1, 1, 0]
-//
-> translocon-associated
-[1, 1, 0, 0, 0]
-//
-> carboxypeptidase
-[2, 1, 0, 2, 0]
-//
-> thrombospondin
-[1, 5, 0, 2, 0]
-//
-> excision
-[0, 1, 0, 1, 0]
-//
-> cross-complementing
-[0, 1, 0, 1, 0]
-//
-> rodent
-[0, 1, 0, 1, 0]
-//
-> complementation
-[1, 1, 0, 0, 0]
-//
-> chemokine
-[2, 3, 0, 1, 0]
-//
-> bromodomain-containing
-[1, 0, 0, 1, 0]
-//
-> core
-[1, 1, 0, 0, 0]
-//
-> udp-galnac:polypeptide
-[2, 0, 1, 0, 0]
-//
-> t6
-[2, 0, 1, 0, 0]
-//
-> 6-pyruvoyl-tetrahydropterin
+> skeletal
 [0, 0, 0, 1, 1]
 //
-> p21
-[1, 1, 0, 0, 0]
-//
-> cartilage
-[1, 3, 0, 0, 2]
-//
-> replication
-[1, 0, 2, 1, 0]
-//
-> h2a
-[1, 1, 0, 0, 0]
-//
-> coding
-[0, 1, 0, 0, 1]
-//
-> determinant-binding
-[0, 1, 0, 0, 1]
-//
-> fibulin
-[0, 2, 0, 1, 0]
-//
-> m6a
-[0, 0, 0, 1, 1]
-//
-> alkaline
-[0, 1, 0, 1, 0]
-//
-> translocated
-[0, 1, 1, 0, 0]
-//
-> np95
-[0, 1, 1, 0, 0]
-//
-> af167320_1
-[0, 1, 0, 1, 0]
-//
-> zfp113
-[0, 1, 0, 1, 0]
-//
-> ned4_mouse
-[0, 1, 0, 0, 2]
-//
-> gastrulation
-[0, 0, 1, 1, 0]
-//
-> caba_mouse
-[1, 0, 0, 1, 0]
-//
-> translocase
-[1, 0, 0, 4, 0]
-//
-> telomerase
+> pathway
 [1, 0, 1, 0, 0]
 //
-> i49636
-[1, 0, 1, 0, 2]
+> glucose
+[0, 1, 0, 0, 1]
 //
-> proliferation
-[1, 2, 0, 1, 0]
+> domain-containing
+[1, 0, 0, 1, 1]
 //
-> open
-[2, 1, 0, 0, 1]
+> domains
+[1, 0, 1, 0, 1]
 //
-> reading
-[2, 1, 0, 0, 1]
+> histidine
+[0, 1, 0, 0, 1]
 //
-> frame
-[2, 1, 0, 0, 1]
+> stromal
+[1, 0, 1, 0, 0]
 //
-> n-methylpurine-dna
+> superoxide
 [1, 0, 0, 0, 1]
 //
-> recombining
-[3, 0, 0, 1, 0]
+> dismutase
+[1, 0, 0, 0, 1]
 //
-> hairless
-[3, 0, 0, 1, 0]
+> retinol
+[0, 2, 0, 0, 1]
 //
-> surfeit
-[3, 0, 0, 1, 1]
-//
-> adenylosuccinate
-[0, 1, 0, 1, 0]
-//
-> spindle
-[0, 1, 0, 0, 1]
-//
-> pole
-[0, 1, 0, 0, 1]
-//
-> yamaguchi
-[1, 1, 0, 0, 0]
-//
-> peroxidase
-[0, 2, 0, 2, 0]
-//
-> negative
-[0, 1, 1, 0, 0]
-//
-> lymphocyte-regulated
-[1, 1, 1, 0, 0]
-//
-> af220193_1
+> dihydrolipoamide
 [0, 0, 1, 1, 0]
 //
-> ht007
+> hydroxysteroid
+[0, 1, 2, 0, 0]
+//
+> esterase
+[0, 1, 0, 0, 1]
+//
+> cystatin
 [0, 0, 1, 1, 0]
 //
-> chromobox
-[0, 2, 0, 1, 1]
+> lysosomal-associated
+[1, 0, 0, 1, 0]
 //
-> hp1
-[0, 1, 0, 1, 0]
+> lipoprotein
+[0, 1, 0, 1, 1]
 //
-> capping
-[0, 1, 1, 2, 0]
+> lyase
+[0, 1, 0, 0, 1]
 //
-> tight
-[1, 1, 0, 1, 0]
+> acyl-coa
+[0, 0, 0, 1, 2]
 //
-> n-acetylglucosamine-6-sulfatase
-[0, 2, 0, 1, 0]
+> short-chain
+[0, 0, 0, 2, 1]
 //
-> udp-glucose
-[1, 1, 0, 0, 0]
-//
-> retrovirus-related
+> carrier;
 [0, 0, 0, 1, 1]
 //
-> multiple
+> adenine
+[0, 0, 0, 1, 1]
+//
+> regions
 [1, 1, 0, 0, 0]
 //
-> rosa
+> creatine
+[0, 0, 0, 1, 2]
+//
+> cognate
 [1, 0, 1, 0, 0]
 //
-> philippe
-[1, 0, 1, 0, 0]
+> coenzyme
+[0, 0, 0, 1, 1]
 //
-> glypican
-[0, 2, 0, 1, 0]
-//
-> cg7611
+> short
 [0, 0, 1, 1, 0]
 //
-> calmodulin
-[0, 2, 1, 1, 0]
-//
-> kiaa1194
+> germline
 [0, 1, 1, 0, 0]
 //
-> pregnancy
-[1, 0, 1, 1, 0]
+> carboxypeptidase
+[0, 0, 0, 1, 1]
 //
-> adrenergic
-[1, 1, 0, 0, 0]
+> thrombospondin
+[3, 1, 1, 0, 0]
 //
-> hepatic
-[1, 2, 0, 0, 0]
+> chemokine
+[1, 1, 0, 1, 0]
 //
-> e74-like
-[0, 2, 2, 0, 0]
+> cartilage
+[1, 0, 2, 0, 0]
 //
-> ac004410
-[0, 0, 1, 1, 0]
+> translocase
+[0, 0, 0, 1, 1]
 //
-> fos39554_1
-[0, 0, 1, 1, 0]
+> recombining
+[1, 1, 0, 0, 1]
 //
-> af151036_1
-[1, 0, 0, 1, 0]
-//
-> hspc202
-[1, 0, 0, 1, 0]
-//
-> egf
-[2, 0, 0, 1, 0]
+> hairless
+[1, 1, 0, 0, 1]
 //
 > membrane-spanning
 [1, 1, 0, 0, 0]
 //
-> testis-specific
-[2, 1, 0, 1, 0]
-//
-> ste-20
-[1, 0, 0, 1, 0]
-//
-> biogenesis
-[1, 1, 0, 4, 0]
-//
-> g-protein-coupled
-[2, 0, 0, 0, 1]
-//
 > glutamate
-[2, 0, 0, 4, 0]
-//
-> transglutaminase
-[1, 1, 0, 0, 0]
-//
-> epsin
-[0, 0, 1, 1, 0]
-//
-> plasminogen
-[1, 1, 0, 0, 1]
-//
-> gamma-aminobutyric
-[1, 0, 1, 0, 0]
-//
-> accessory
-[1, 1, 1, 0, 0]
-//
-> complementing
-[1, 0, 1, 1, 0]
-//
-> attachment
-[2, 0, 0, 1, 2]
-//
-> decreased
-[1, 0, 0, 0, 1]
-//
-> conductance
-[0, 2, 1, 0, 0]
-//
-> granule
-[1, 0, 0, 0, 1]
-//
-> marker
-[1, 0, 0, 1, 0]
-//
-> oligomeric
-[0, 1, 0, 0, 1]
-//
-> acute
-[1, 1, 0, 0, 0]
-//
-> four
-[1, 1, 0, 1, 0]
-//
-> crest
-[0, 1, 0, 1, 0]
-//
-> multitype
-[0, 0, 0, 1, 1]
-//
-> msx-interacting-zinc
-[0, 1, 0, 1, 0]
-//
-> abbott
-[0, 1, 0, 1, 1]
-//
-> hamster
-[0, 0, 1, 1, 0]
-//
-> intracisternal
-[1, 0, 0, 2, 0]
-//
-> gpi
-[1, 0, 1, 0, 0]
-//
-> hira-interacting
-[0, 1, 0, 1, 0]
-//
-> 3-kinase
-[1, 1, 0, 0, 0]
-//
-> golgin
-[0, 0, 1, 1, 1]
-//
-> p53-binding
-[0, 1, 0, 1, 0]
-//
-> protein-2
-[0, 1, 1, 0, 1]
-//
-> thymoma
-[0, 1, 0, 2, 0]
-//
-> hypoxia
-[0, 1, 0, 1, 0]
-//
-> phase
-[2, 1, 2, 0, 0]
-//
-> 2-cell-stage
-[0, 0, 0, 2, 1]
-//
-> tricarboxylate
-[0, 1, 0, 1, 0]
-//
-> carbonyl
-[0, 1, 1, 1, 0]
-//
-> pyruvate
-[4, 0, 0, 2, 1]
-//
-> sec23
-[1, 0, 1, 0, 0]
-//
-> orphan
-[1, 0, 0, 2, 0]
-//
-> seven-pass
-[1, 0, 0, 1, 0]
-//
-> g-type
-[1, 0, 0, 1, 0]
-//
-> fbx13
-[0, 1, 0, 0, 1]
-//
-> deoxyribonuclease
-[2, 0, 0, 0, 1]
-//
-> single
-[0, 1, 1, 1, 0]
-//
-> stranded
-[1, 2, 0, 1, 0]
-//
-> williams-beuren
-[1, 0, 0, 1, 0]
-//
-> export
-[1, 1, 0, 1, 0]
-//
-> paired-like
-[2, 1, 0, 0, 0]
-//
-> homolog-like
-[1, 0, 0, 1, 0]
-//
-> 1-delta
-[1, 0, 0, 1, 0]
-//
-> zuotin
-[0, 1, 1, 0, 0]
-//
-> phosphotriesterase
-[1, 0, 1, 0, 0]
-//
-> 5.
-[1, 0, 0, 1, 0]
-//
-> activin
-[0, 2, 1, 0, 0]
-//
-> tdt_mouse
-[0, 0, 1, 0, 1]
-//
-> nucleotidylexotransferase
-[0, 0, 1, 1, 1]
-//
-> af151066_1
-[1, 0, 1, 0, 0]
-//
-> hspc232
-[1, 0, 1, 0, 0]
-//
-> region:butyrophilin-like
-[1, 0, 0, 1, 0]
-//
-> lysophatidic
-[1, 0, 0, 1, 0]
-//
-> interaction
-[2, 2, 0, 1, 0]
-//
-> disintegrin-like
-[1, 2, 0, 0, 0]
-//
-> fas
-[0, 2, 0, 1, 0]
-//
-> s34198
-[1, 1, 0, 0, 0]
-//
-> ige
-[1, 1, 0, 0, 0]
-//
-> fc
-[3, 5, 0, 0, 0]
-//
-> estrogen
-[0, 1, 0, 1, 0]
-//
-> conserved
-[0, 1, 0, 1, 0]
-//
-> gli-kruppel
-[1, 1, 0, 0, 0]
-//
-> thymine
-[0, 2, 0, 0, 1]
-//
-> tachykinin
-[1, 0, 0, 1, 0]
-//
-> toll-like
-[1, 2, 0, 0, 0]
-//
-> udp-n-acetyl-alpha-d-galactosamine:polypeptide
-[1, 0, 0, 1, 0]
-//
-> cofilin
-[0, 2, 0, 2, 0]
-//
-> enhancer-binding
-[0, 1, 1, 0, 0]
-//
-> sec7
-[0, 1, 0, 2, 0]
-//
-> diac_rat
-[1, 1, 0, 0, 0]
-//
-> di-n-acetylchitobiase
-[1, 1, 0, 0, 0]
-//
-> adapter
-[0, 1, 0, 1, 0]
-//
-> scavenger
-[1, 1, 0, 0, 0]
-//
-> sine
-[0, 0, 1, 1, 0]
-//
-> oculis-related
-[0, 0, 1, 1, 0]
-//
-> keap1
-[1, 1, 0, 1, 0]
-//
-> osteoblast
-[0, 1, 0, 1, 0]
-//
-> x-ray
-[0, 0, 1, 1, 0]
-//
-> chinese
-[0, 0, 1, 1, 0]
-//
-> sec22
-[2, 0, 1, 0, 0]
-//
-> developmentally
-[1, 0, 2, 2, 0]
-//
-> fbj
-[1, 0, 0, 1, 0]
-//
-> osteosarcoma
-[1, 0, 0, 1, 0]
-//
-> localization
-[0, 1, 2, 0, 1]
-//
-> claudin
-[4, 1, 0, 0, 1]
-//
-> frizzled
-[0, 1, 1, 1, 0]
-//
-> leukotriene
-[2, 1, 0, 1, 0]
-//
-> dynactin
-[0, 0, 1, 1, 0]
-//
-> 3-hydroxy-3-methylglutaryl-coenzyme
-[1, 0, 0, 1, 0]
-//
-> phosphomannomutase
-[0, 1, 1, 0, 0]
-//
-> adp-ribosyltransferase
-[0, 1, 0, 2, 0]
-//
-> vitamin
-[1, 1, 0, 0, 1]
-//
-> ubiquitous
-[0, 0, 1, 1, 0]
-//
-> enolase
-[1, 0, 0, 1, 0]
-//
-> torsin
-[1, 3, 0, 0, 0]
-//
-> magnesium
-[0, 1, 0, 3, 0]
-//
-> control
-[0, 1, 0, 1, 0]
-//
-> edrk-rich
-[0, 1, 0, 1, 0]
-//
-> peptidyl
-[1, 1, 0, 0, 0]
-//
-> rad21
-[0, 1, 0, 1, 0]
-//
-> metastasis
-[0, 1, 0, 0, 1]
-//
-> purine
-[0, 1, 0, 1, 0]
-//
-> budding
-[1, 0, 1, 0, 0]
-//
-> uninhibited
-[1, 0, 1, 0, 0]
-//
-> benzimidazoles
-[1, 0, 1, 0, 0]
-//
-> feminization
-[1, 0, 0, 1, 0]
-//
-> metallothionein
-[2, 0, 1, 0, 0]
-//
-> upstream
-[0, 1, 0, 3, 0]
-//
-> beta-spectrin
-[0, 1, 0, 1, 0]
-//
-> s57447
-[0, 0, 1, 1, 0]
-//
-> hpbrii-7
-[0, 0, 1, 1, 0]
-//
-> stem-loop
-[1, 1, 0, 0, 0]
-//
-> disulfide
-[0, 1, 0, 1, 0]
-//
-> velo-cardio-facial
-[0, 0, 1, 0, 1]
-//
-> processing
-[0, 0, 1, 1, 0]
-//
-> scaffold
 [0, 0, 0, 1, 2]
 //
-> lamin
-[1, 1, 0, 0, 0]
-//
-> proliferation-associated
-[1, 0, 0, 1, 0]
-//
-> interactor
-[0, 2, 1, 0, 0]
-//
-> tag
-[0, 2, 1, 0, 0]
-//
-> neighbor
-[0, 0, 1, 1, 1]
-//
-> antizyme
-[2, 0, 0, 1, 0]
-//
-> affinity
-[2, 4, 0, 0, 0]
-//
-> cg5676
-[1, 0, 0, 1, 0]
-//
-> bcl2-interacting
-[0, 1, 0, 1, 0]
-//
-> hnrnp-associated
+> oligomeric
 [1, 0, 1, 0, 0]
 //
-> transaminase
-[0, 1, 0, 2, 0]
+> four
+[1, 0, 0, 0, 1]
 //
-> p120
-[1, 0, 0, 1, 0]
+> 17-beta
+[0, 1, 1, 0, 0]
 //
-> absentia
-[1, 1, 0, 1, 0]
+> intracisternal
+[0, 0, 1, 0, 1]
 //
-> nucleosomal
-[0, 1, 0, 1, 0]
+> chloride
+[0, 1, 1, 0, 0]
 //
-> bac
+> pyruvate
+[0, 0, 0, 1, 1]
+//
+> fc
+[3, 0, 1, 0, 0]
+//
+> s100
+[2, 0, 0, 0, 1]
+//
+> magnesium
+[0, 1, 0, 0, 1]
+//
+> metallothionein
 [1, 1, 0, 0, 0]
 //
-> 171m12
+> hexosaminidase
 [1, 1, 0, 0, 0]
-//
-> mesdc1
-[1, 1, 0, 0, 0]
-//
-> mesdc2
-[1, 1, 0, 0, 0]
-//
-> novel.
-[0, 1, 0, 2, 0]
-//
-> monoclonal
-[2, 3, 0, 0, 0]
-//
-> antibodies
-[1, 1, 0, 0, 0]
-//
-> u1
-[0, 1, 0, 2, 2]
-//
-> lipopolysaccharide
-[1, 1, 0, 0, 0]
-//
-> thymidylate
-[1, 0, 0, 1, 0]
-//
-> y+
-[1, 4, 0, 0, 0]
-//
-> proviral
-[1, 1, 0, 0, 0]
-//
-> n-acetylglucosamine
-[1, 0, 1, 0, 0]
-//
-> selenocysteine
-[1, 0, 0, 1, 1]
-//
-> antibody
-[1, 2, 0, 0, 0]
 //
 > epoxide
-[0, 0, 1, 1, 1]
-//
-> phosphatidic
-[0, 1, 0, 2, 0]
-//
-> blast
-[0, 1, 0, 0, 1]
-//
-> crisis-like
-[0, 1, 0, 0, 1]
-//
-> endothelin
-[1, 1, 0, 0, 0]
-//
-> prp3_mouse
-[0, 1, 0, 1, 0]
-//
-> glycosylphosphatidylinositol
-[0, 1, 0, 1, 0]
-//
-> purinergic
-[0, 1, 0, 1, 0]
-//
-> butyrate
-[1, 1, 0, 0, 0]
-//
-> polyglutamine
-[1, 0, 0, 1, 0]
-//
-> n-myc
-[1, 2, 0, 1, 0]
-//
-> aldehyde
-[0, 2, 0, 2, 1]
-//
-> mitotic
-[0, 0, 1, 1, 0]
-//
-> thymidine
-[0, 1, 1, 0, 0]
-//
-> er
-[0, 1, 0, 0, 1]
-//
-> meiotic
-[0, 1, 1, 0, 0]
-//
-> ras-gtpase-activating
-[0, 1, 0, 1, 0]
-//
-> down-regulated
-[1, 0, 0, 2, 0]
-//
-> matrin
-[0, 1, 1, 0, 0]
-//
-> neuroblastoma
-[1, 0, 1, 0, 0]
-//
-> erythroblast
-[1, 0, 0, 1, 0]
-//
-> eif4e-like
 [0, 0, 0, 1, 1]
 //
-> 4e-lp
+> myomesin
 [0, 0, 0, 1, 1]
 //
-> lysophospholipase
-[2, 0, 0, 1, 0]
-//
-> massachusetts
+> ion
 [1, 0, 0, 1, 0]
 //
-> institute
-[1, 0, 0, 1, 0]
+> f0
+[0, 0, 0, 2, 1]
 //
-> technology
-[1, 0, 0, 1, 0]
-//
-> dehydratase
-[1, 0, 0, 1, 0]
-//
-> nicotinamide
-[0, 1, 0, 1, 0]
-//
-> sushi-repeat-containing
-[2, 1, 0, 0, 0]
-//
-> fat
-[1, 1, 0, 0, 0]
-//
-> kit
-[1, 0, 0, 1, 0]
-//
-> pou
-[1, 2, 0, 0, 0]
-//
-> dsh
-[0, 1, 0, 1, 0]
-//
-> retinal
-[0, 1, 0, 3, 0]
-//
-> transition
-[1, 0, 2, 0, 0]
-//
-> mannan-binding
-[1, 1, 0, 0, 0]
-//
-> cea-related
-[1, 0, 1, 0, 0]
-//
-> 5-phosphatase
-[0, 2, 0, 1, 0]
-//
-> exostoses
-[0, 1, 1, 0, 0]
-//
-> formin
-[0, 1, 0, 0, 1]
-//
-> transient
-[1, 1, 0, 1, 0]
-//
-> beta-adaptin
-[1, 1, 0, 0, 0]
-//
-> ro52_mouse
-[1, 0, 0, 1, 0]
-//
-> ro
-[1, 0, 0, 1, 0]
-//
-> dj50o24.2.1
-[1, 1, 0, 0, 0]
-//
-> candidate
-[2, 1, 0, 0, 0]
-//
-> lcfb_mouse
-[0, 1, 0, 1, 0]
-//
-> long-chain-fatty-acid--coa
-[0, 1, 0, 1, 0]
-//
-> flotillin
-[1, 0, 0, 1, 0]
-//
-> purkinje
-[0, 1, 0, 1, 0]
-//
-> cdc-like
+> ca++
 [0, 0, 0, 1, 1]
 //
-> ga
-[1, 0, 1, 0, 0]
-//
-> imprinted
-[1, 0, 0, 1, 0]
-//
-> galactosaminide
+> twitch
 [0, 0, 0, 1, 1]
-//
-> precursor-like
-[1, 0, 0, 1, 0]
-//
-> e-cadherin
-[1, 0, 1, 0, 0]
-//
-> e7
-[1, 0, 1, 0, 0]
-//
-> myotubularin
-[0, 1, 1, 0, 0]
-//
-> digeorge
-[0, 0, 1, 1, 0]
-//
-> harvey
-[0, 1, 0, 1, 0]
-//
-> cyclic
-[1, 0, 0, 2, 0]
-//
-> meprin
-[1, 0, 1, 0, 0]
-//
-> pim-1
-[1, 0, 0, 1, 0]
-//
-> thioredoxin-like
-[0, 0, 1, 1, 0]
 //
 > actinin
-[1, 1, 0, 1, 0]
-//
-> plakophilin
 [0, 0, 1, 1, 0]
 //
 > fxyd
-[0, 1, 1, 1, 0]
-//
-> inhibin
-[1, 1, 0, 0, 0]
-//
-> thyrotropin
-[1, 1, 0, 0, 0]
-//
-> bcl2-associated
-[0, 0, 1, 2, 0]
-//
-> rejection
-[0, 1, 0, 1, 0]
-//
-> ruvb-like
-[1, 0, 0, 1, 0]
-//
-> acyl-coenzyme
-[1, 0, 0, 2, 0]
-//
-> glycerol
 [1, 0, 0, 1, 0]
 //
 > half
-[1, 0, 0, 1, 0]
-//
-> af161432_1
-[0, 1, 0, 1, 0]
-//
-> hspc314
-[0, 1, 0, 1, 0]
-//
-> heme
-[0, 1, 0, 1, 0]
-//
-> high-sulfur
-[1, 1, 0, 0, 0]
-//
-> through
-[0, 1, 0, 1, 0]
-//
-> t-snares
-[0, 1, 0, 1, 0]
-//
-> b39066
-[0, 1, 0, 1, 0]
-//
-> target
-[0, 0, 1, 1, 0]
-//
-> kunitz
-[0, 1, 0, 1, 0]
-//
-> adenomatosis
-[0, 1, 0, 1, 0]
-//
-> import
-[1, 1, 0, 0, 0]
-//
-> geranylgeranyl
-[1, 0, 1, 1, 0]
-//
-> asf
-[0, 1, 1, 0, 0]
-//
-> xy40
-[0, 0, 1, 1, 0]
-//
-> death-associated
-[1, 1, 1, 0, 0]
-//
-> independent
-[1, 1, 0, 0, 0]
-//
-> ac004858_3
-[0, 0, 0, 1, 1]
-//
-> 1snrp
-[0, 0, 0, 1, 1]
+[1, 0, 0, 0, 1]
 //

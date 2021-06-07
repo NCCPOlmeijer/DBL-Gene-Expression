@@ -181,18 +181,18 @@ def Indeling(df, ruis=2.5):
     return df_ind
 
 
-def Spotfilter(df, ogrens=0.40, bgrens=1.60):
+def Spotfilter(df, ogrens=0.5, bgrens=1.5):
     """Functie filtert een dataframe op basis van de kolom over spotgrootte.
 
     Parameters
     ----------
     df: Dataframe die bewerkt moet worden.
 
-    ogrens: De ondergrens waarmee vergeleken wordt, standaard = 0.40,
-    betekent dat de ondergrens 40% van de gemiddelde waarde is.
+    ogrens: De ondergrens waarmee vergeleken wordt, standaard = 0.50,
+    betekent dat de ondergrens 50% van de gemiddelde waarde is.
 
-    bgrens: De bovengrens waarmee vergeleken wordt, standaard = 1.60,
-    betekent dat de bovengrens 160% van de gemiddelde waarde is.
+    bgrens: De bovengrens waarmee vergeleken wordt, standaard = 1.50,
+    betekent dat de bovengrens 150% van de gemiddelde waarde is.
 
     Uitvoer
     ----------

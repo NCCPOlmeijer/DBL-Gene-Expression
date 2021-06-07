@@ -1,84 +1,57 @@
 single-value lijsten:
-> deoxyribose-phosphate
+> poly
 [1, 0, 0, 0, 0]
 //
-> coli
-[0, 1, 0, 0, 0]
+> transferase
+[0, 0, 0, 0, 1]
 //
-> caveolin
+> aldolase
 [0, 0, 0, 1, 0]
 //
-> acetyl
-[1, 0, 0, 0, 0]
-//
-> ldl
-[1, 0, 0, 0, 0]
+> notch
+[0, 1, 0, 0, 0]
 //
 > arginine-rich
 [0, 1, 0, 0, 0]
 //
-> kiaa0456
+> adaptor
 [0, 1, 0, 0, 0]
 //
-> fkbp-rapamycin
-[1, 0, 0, 0, 0]
-//
-> beta-site
+> enzyme
 [0, 0, 0, 1, 0]
 //
-> app
-[0, 0, 0, 1, 0]
+> intercellular
+[0, 1, 0, 0, 0]
 //
-> cleaving
-[0, 0, 0, 1, 0]
+> adhesion
+[0, 1, 0, 0, 0]
 //
-> segment
-[0, 0, 0, 1, 0]
+> molecule
+[0, 1, 0, 0, 0]
 //
 > melanoma-associated
-[0, 2, 0, 0, 0]
-//
-> xp
 [0, 1, 0, 0, 0]
 //
-> cg5181
-[0, 0, 1, 0, 0]
-//
-> d.melanogaster
+> est
 [0, 0, 0, 1, 0]
 //
-> constitutive
-[0, 0, 0, 1, 0]
-//
-> photomorphogenic
-[0, 0, 0, 1, 0]
-//
-> arabidopsis
-[0, 0, 0, 1, 0]
-//
-> af133124_1
+> chondroitin
 [1, 0, 0, 0, 0]
 //
-> iiic63
+> sulfate
 [1, 0, 0, 0, 0]
 //
-> p49
-[0, 0, 1, 0, 0]
-//
-> af182003_1
-[0, 1, 0, 0, 0]
-//
-> tyrosyl-dna
-[0, 1, 0, 0, 0]
-//
-> cg5047
+> proteoglycan
 [1, 0, 0, 0, 0]
 //
-> tropomodulin
-[0, 0, 1, 0, 0]
+> embryonic
+[0, 0, 0, 0, 2]
 //
-> orf1
-[0, 1, 0, 0, 0]
+> phosphodiesterase
+[0, 0, 0, 1, 0]
+//
+> zinc
+[0, 0, 1, 0, 0]
 //
 > af200348_1
 [0, 1, 0, 0, 0]
@@ -86,139 +59,124 @@ single-value lijsten:
 > mg50
 [0, 1, 0, 0, 0]
 //
-> t13057
-[1, 0, 0, 0, 0]
-//
-> kiaa0729
-[1, 0, 0, 0, 0]
-//
-> ub5b_human
-[0, 0, 1, 0, 0]
-//
-> a55817
-[0, 0, 0, 0, 1]
-//
-> p130-pitslre
-[0, 0, 0, 0, 1]
-//
-> zk686.4
-[1, 0, 0, 0, 0]
+> ubiquitin-conjugating
+[0, 0, 0, 1, 0]
 //
 > nucleobindin
 [0, 1, 0, 0, 0]
 //
-> peptidylprolyl
-[0, 2, 0, 0, 0]
+> california
+[1, 0, 0, 0, 0]
+//
+> at
+[1, 0, 0, 0, 0]
+//
+> los
+[1, 0, 0, 0, 0]
+//
+> angeles
+[1, 0, 0, 0, 0]
 //
 > procollagen
-[0, 2, 0, 0, 0]
-//
-> lysine
-[1, 0, 0, 0, 0]
-//
-> 3b
 [0, 1, 0, 0, 0]
 //
-> bn51
-[1, 0, 0, 0, 0]
-//
-> af220191_1
-[0, 0, 1, 0, 0]
-//
-> hsmnp1
-[0, 0, 1, 0, 0]
-//
-> mo25_mouse
-[0, 0, 1, 0, 0]
-//
-> 1-4
-[1, 0, 0, 0, 0]
-//
-> t00374
-[1, 0, 0, 0, 0]
-//
-> kiaa0648
-[1, 0, 0, 0, 0]
-//
-> cg6210
+> 5-dioxygenase
 [0, 1, 0, 0, 0]
 //
-> cg6482
+> rat
+[0, 0, 1, 0, 0]
+//
+> rattus
 [0, 0, 0, 2, 0]
 //
-> smb2_mouse
+> carbonic
 [0, 0, 1, 0, 0]
 //
-> smubp-2
+> anhydrase
 [0, 0, 1, 0, 0]
 //
-> tera_rat
+> glycoprotein
+[2, 0, 0, 0, 0]
+//
+> rho
+[1, 0, 0, 0, 0]
+//
+> gtpase
+[1, 0, 0, 0, 0]
+//
+> activating
+[2, 0, 0, 0, 0]
+//
+> uncharacterized
 [0, 0, 0, 1, 0]
 //
-> transitional
+> hypothalamus
 [0, 0, 0, 1, 0]
 //
-> base
-[0, 1, 0, 0, 0]
+> proteasome
+[0, 0, 0, 2, 0]
 //
-> 45kda
-[1, 0, 0, 0, 0]
-//
-> cg10686
-[1, 0, 0, 0, 0]
-//
-> mitosis
-[0, 2, 0, 0, 0]
-//
-> a-like
-[1, 0, 0, 0, 0]
-//
-> lpe10p
-[1, 0, 0, 0, 0]
-//
-> s.cerevisiae
+> atpase
 [0, 0, 0, 1, 0]
 //
-> d3
-[1, 0, 0, 0, 0]
+> dna-binding
+[0, 0, 1, 0, 0]
 //
-> rabaptin
-[1, 0, 0, 0, 0]
+> endoplasmic
+[0, 0, 0, 0, 1]
+//
+> reticulum
+[0, 0, 0, 0, 1]
+//
+> palmitoyltransferase
+[0, 0, 0, 0, 2]
+//
+> splicing
+[0, 0, 1, 0, 0]
+//
+> sm
+[0, 0, 1, 0, 0]
 //
 > succinate
-[0, 0, 0, 3, 0]
-//
-> dipeptidyl
-[2, 0, 0, 0, 0]
+[0, 0, 0, 0, 3]
 //
 > transgelin
 [0, 1, 0, 0, 0]
 //
-> atp
-[0, 0, 0, 11, 0]
-//
 > coupling
-[0, 0, 0, 2, 0]
-//
-> zipper-ef-hand
 [0, 0, 0, 1, 0]
 //
-> embl:m88812
-[1, 0, 0, 0, 0]
-//
-> cm21e6
+> transporter
 [0, 1, 0, 0, 0]
 //
-> pagt_rat
+> cds
+[0, 0, 1, 0, 0]
+//
+> comes
+[0, 0, 0, 1, 0]
+//
+> from
+[0, 0, 0, 1, 0]
+//
+> this
+[0, 0, 0, 1, 0]
+//
+> epsilon
 [1, 0, 0, 0, 0]
 //
-> y143_human
-[0, 0, 0, 2, 0]
+> camp
+[0, 0, 0, 1, 0]
+//
+> form
+[0, 0, 1, 0, 0]
 //
 > dihydropyrimidinase-like
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
-> bing1
+> golgi
+[0, 0, 0, 0, 1]
+//
+> dual
 [0, 1, 0, 0, 0]
 //
 > phosphotyrosine
@@ -227,311 +185,137 @@ single-value lijsten:
 > 3-phosphoinositides
 [0, 1, 0, 0, 0]
 //
-> cg11985
-[0, 1, 0, 0, 0]
+> glutamine
+[0, 0, 1, 0, 0]
 //
-> e04f6.2
-[0, 1, 0, 0, 0]
-//
-> male
-[0, 2, 0, 0, 0]
-//
-> tcte2
-[0, 1, 0, 0, 0]
-//
-> 84.5
-[1, 0, 0, 0, 0]
-//
-> cps1-fpp1
-[1, 0, 0, 0, 0]
-//
-> saccharomyces
-[1, 0, 0, 0, 0]
-//
-> using
-[0, 0, 0, 3, 0]
-//
-> genefinder
-[0, 0, 0, 3, 0]
-//
-> 22b
-[0, 1, 0, 0, 0]
-//
-> spermiogenesis
-[0, 0, 0, 0, 1]
-//
-> ash2
-[0, 0, 0, 1, 0]
-//
-> homeotic
-[2, 0, 0, 0, 0]
-//
-> protein-l-isoaspartate
-[0, 0, 0, 1, 0]
-//
-> o-methyltransferase
-[0, 0, 0, 1, 0]
+> repeat
+[0, 0, 2, 0, 0]
 //
 > periplakin
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
-> single-stranded
-[0, 0, 0, 1, 0]
-//
-> ril
-[0, 1, 0, 0, 0]
-//
-> nucleic
-[0, 0, 0, 1, 0]
-//
-> craniofacial
-[0, 1, 0, 0, 0]
-//
-> t14171
-[1, 0, 0, 0, 0]
-//
-> ataxin-2
-[1, 0, 0, 0, 0]
+> oxidase
+[0, 0, 1, 0, 0]
 //
 > pyrophosphatase
 [0, 0, 0, 1, 0]
 //
 > succinate-coenzyme
-[0, 0, 0, 2, 0]
+[0, 0, 0, 0, 1]
 //
 > elafin-like
-[0, 1, 0, 0, 0]
-//
-> c38637
-[0, 1, 0, 0, 0]
-//
-> af153613_1
 [1, 0, 0, 0, 0]
 //
-> heat-responsive
-[0, 0, 0, 0, 1]
-//
-> octanoyltransferase
-[0, 0, 0, 1, 0]
-//
-> 25.7
-[0, 0, 0, 1, 0]
-//
-> msh1-ept1
-[0, 0, 0, 1, 0]
-//
-> cassette
-[1, 0, 0, 0, 0]
-//
-> androgen-regulated
-[0, 0, 0, 0, 1]
-//
-> interferon-related
-[0, 0, 0, 0, 1]
-//
-> 44-like
-[0, 0, 0, 1, 0]
-//
-> corticosteroid
-[0, 1, 0, 0, 0]
-//
-> viia
-[0, 0, 0, 2, 0]
-//
-> evectin-2
-[0, 0, 0, 1, 0]
-//
-> casp2
-[0, 0, 0, 1, 0]
-//
-> ripk1
-[0, 0, 0, 1, 0]
-//
-> af114379_1
-[1, 0, 0, 0, 0]
-//
-> cypher2
-[1, 0, 0, 0, 0]
-//
-> r27216_1
-[1, 0, 0, 0, 0]
-//
-> signalling
-[0, 0, 0, 1, 0]
-//
-> gdp
-[0, 0, 0, 1, 0]
-//
-> presenilin
-[0, 2, 0, 0, 0]
-//
-> calcium-independent
-[0, 0, 0, 2, 0]
-//
-> l30a
-[0, 0, 0, 1, 0]
-//
-> abc1
-[1, 0, 0, 0, 0]
-//
-> af151859_1
+> ras
 [0, 0, 1, 0, 0]
 //
-> cgi-101
-[0, 0, 1, 0, 0]
-//
-> carbamoyl-phosphate
-[0, 0, 0, 0, 1]
-//
-> 55.1
-[0, 1, 0, 0, 0]
-//
-> fab1-pes4
-[0, 1, 0, 0, 0]
-//
-> u82695_2
-[0, 0, 0, 1, 0]
-//
-> expressed-xq28sts
-[0, 0, 0, 1, 0]
-//
-> glucocorticoid-induced
+> peroxisomal
 [0, 0, 0, 0, 2]
 //
-> nudel
-[1, 0, 0, 0, 0]
+> carnitine
+[0, 0, 0, 0, 4]
 //
-> lactoperoxidase
-[1, 0, 0, 0, 0]
+> phosphate
+[0, 1, 0, 0, 0]
 //
-> ribonucleotide
-[0, 2, 0, 0, 0]
+> 44-like
+[0, 0, 0, 0, 1]
+//
+> viia
+[0, 0, 0, 0, 2]
+//
+> hemoglobin
+[0, 0, 0, 0, 2]
+//
+> phospholipid
+[0, 0, 1, 0, 0]
+//
+> s-transferase
+[0, 0, 1, 0, 0]
+//
+> gap
+[0, 0, 0, 0, 1]
+//
+> junction
+[0, 0, 0, 0, 1]
+//
+> diphosphate
+[0, 0, 0, 0, 1]
+//
+> adipocyte
+[0, 0, 0, 1, 0]
+//
+> reductase
+[0, 0, 0, 1, 0]
 //
 > plasma
 [0, 0, 0, 1, 0]
 //
-> af161445_1
-[0, 0, 0, 1, 0]
-//
-> hspc327
-[0, 0, 0, 1, 0]
-//
-> t00362
-[0, 1, 0, 0, 0]
-//
-> kiaa0675
-[0, 1, 0, 0, 0]
-//
-> kiaa1223
+> fibroblast
 [0, 0, 1, 0, 0]
 //
-> encoded
-[1, 0, 0, 0, 0]
+> medium
+[0, 0, 0, 0, 1]
 //
-> hus1
-[0, 0, 0, 1, 0]
+> helicase
+[0, 0, 0, 0, 1]
 //
-> s.
+> apoptosis
 [0, 1, 0, 0, 0]
 //
-> pombe
+> inhibitory
 [0, 1, 0, 0, 0]
-//
-> ehm2
-[0, 0, 1, 0, 0]
 //
 > myristoylated
 [0, 1, 0, 0, 0]
 //
-> hydroxyacid
-[2, 0, 0, 0, 0]
-//
-> sec
+> alanine
 [0, 1, 0, 0, 0]
 //
-> cg1534
-[1, 0, 0, 0, 0]
-//
-> s38783
-[0, 0, 0, 1, 0]
-//
-> buty_mouse
-[1, 0, 0, 0, 0]
-//
-> butyrophilin
-[1, 0, 0, 0, 0]
-//
-> c-fos
-[1, 0, 0, 0, 0]
-//
-> mp86
-[0, 0, 0, 0, 1]
-//
-> cg12194
+> substrate
 [0, 1, 0, 0, 0]
 //
-> ferredoxin
-[2, 0, 0, 0, 0]
+> lysosomal
+[0, 2, 0, 0, 0]
 //
-> muskelin
+> repressor
 [0, 0, 0, 1, 0]
 //
-> kelch
-[0, 0, 0, 1, 0]
-//
-> pump
-[1, 0, 0, 0, 0]
-//
-> sdp8
-[0, 1, 0, 0, 0]
-//
-> dystrophia
-[0, 0, 0, 2, 0]
-//
-> myotonica
-[0, 0, 0, 2, 0]
-//
-> b15
-[0, 0, 0, 1, 0]
-//
-> uroporphyrinogen
-[0, 0, 0, 2, 0]
-//
-> af067728_1
-[0, 0, 0, 1, 0]
-//
-> transactivating
-[0, 0, 0, 1, 0]
-//
-> bridge
-[0, 0, 0, 1, 0]
-//
-> cd82_mouse
-[1, 0, 0, 0, 0]
-//
-> alpha-methylacyl-coenzyme
-[0, 0, 0, 1, 0]
-//
-> shaw-related
-[0, 0, 0, 0, 1]
-//
-> ix
-[1, 0, 0, 0, 0]
-//
-> deltex
-[1, 0, 0, 0, 0]
-//
-> luman
-[1, 0, 0, 0, 0]
-//
-> feline
-[0, 1, 0, 0, 0]
-//
-> c1
+> septin
 [0, 0, 1, 0, 0]
 //
-> kiaa0169
-[2, 0, 0, 0, 0]
+> muskelin
+[0, 0, 0, 0, 1]
+//
+> mediator
+[0, 0, 0, 0, 1]
+//
+> kelch
+[0, 0, 0, 0, 1]
+//
+> transporting
+[0, 0, 0, 0, 1]
+//
+> proton
+[0, 1, 0, 0, 0]
+//
+> b15
+[0, 0, 0, 0, 1]
+//
+> ecotropic
+[0, 1, 0, 0, 0]
+//
+> integration
+[0, 2, 0, 0, 0]
+//
+> transcript
+[0, 1, 0, 0, 0]
+//
+> arrest
+[1, 0, 0, 0, 0]
+//
+> sarcoma
+[1, 0, 0, 0, 0]
 //
 > efb3_mouse
 [0, 0, 0, 2, 0]
@@ -539,1864 +323,526 @@ single-value lijsten:
 > ephrin-b3
 [0, 0, 0, 2, 0]
 //
-> a4
-[2, 0, 0, 0, 0]
-//
 > inwardly
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > rectifying
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > kir5.1
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
-> peptidylglycine
-[1, 0, 0, 0, 0]
+> neuronal
+[0, 0, 0, 0, 1]
 //
-> alpha-amidating
-[1, 0, 0, 0, 0]
-//
-> rad52
-[1, 0, 0, 0, 0]
-//
-> phenylalkylamine
-[0, 1, 0, 0, 0]
-//
-> ca2+
-[0, 1, 0, 0, 0]
-//
-> shaker
-[0, 2, 0, 0, 0]
-//
-> dnmt1
-[0, 0, 0, 1, 0]
-//
-> ribose-phosphate
-[0, 0, 0, 1, 0]
-//
-> pyrophosphokinase
+> monooxygenase
 [0, 0, 0, 1, 0]
 //
 > dj75k24.1
 [0, 1, 0, 0, 0]
 //
-> histidyl
-[1, 0, 0, 0, 0]
-//
-> af234765_1
-[1, 0, 0, 0, 0]
-//
-> serine-arginine-rich
-[1, 0, 0, 0, 0]
-//
-> srrp86
-[1, 0, 0, 0, 0]
-//
-> coactivator-associated
-[1, 0, 0, 0, 0]
-//
-> af155352_1
-[1, 0, 0, 0, 0]
-//
-> asb-1
-[1, 0, 0, 0, 0]
-//
-> net-6
-[0, 0, 0, 1, 0]
-//
 > beta-2
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
-> r30923_1
-[0, 0, 0, 1, 0]
-//
-> galactose-1-phosphate
+> glutamyl
 [1, 0, 0, 0, 0]
-//
-> uridyl
-[1, 0, 0, 0, 0]
-//
-> tera
-[1, 0, 0, 0, 0]
-//
-> branched
-[0, 0, 0, 5, 0]
 //
 > ketoacid
-[0, 0, 0, 2, 0]
-//
-> voltage-dependent
-[0, 0, 0, 2, 0]
+[0, 0, 0, 0, 1]
 //
 > dhsd_human
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
-> braf
-[0, 0, 0, 1, 0]
+> mitogen
+[0, 1, 0, 0, 0]
+//
+> ras-related
+[0, 0, 0, 3, 0]
+//
+> aconitase
+[0, 0, 0, 0, 1]
 //
 > beta-like
-[0, 0, 0, 2, 0]
+[0, 0, 0, 0, 1]
 //
-> cg4749
+> islet
 [0, 0, 0, 1, 0]
 //
-> kiaa0294
-[0, 0, 2, 0, 0]
-//
-> t00335
+> gmp
 [0, 0, 0, 1, 0]
 //
-> kiaa0564
-[0, 0, 0, 1, 0]
+> lung
+[0, 0, 0, 0, 1]
 //
-> radical
-[0, 0, 0, 1, 0]
+> myc
+[0, 0, 1, 0, 0]
 //
-> a55071
-[0, 0, 0, 1, 0]
+> iib
+[0, 0, 0, 0, 1]
 //
-> hydrogen
-[0, 0, 0, 1, 0]
-//
-> peroxide-inducible
-[0, 0, 0, 1, 0]
-//
-> hic-5
-[0, 0, 0, 1, 0]
-//
-> neogenesis
-[0, 1, 0, 0, 0]
-//
-> af161418_1
-[0, 0, 0, 1, 0]
-//
-> hspc300
-[0, 0, 0, 1, 0]
-//
-> amide
-[0, 1, 0, 0, 0]
-//
-> kiaa0983
-[1, 0, 0, 0, 0]
-//
-> dac
-[0, 1, 0, 0, 0]
-//
-> cerberus
-[1, 0, 0, 0, 0]
-//
-> autocrine
-[0, 1, 0, 0, 0]
-//
-> af151830_1
-[2, 0, 0, 0, 0]
-//
-> cgi-72
-[2, 0, 0, 0, 0]
-//
-> tg
-[0, 1, 0, 0, 0]
+> interacting
+[0, 0, 1, 0, 0]
 //
 > e2f-like
 [0, 0, 0, 1, 0]
 //
-> ml64_mouse
-[1, 0, 0, 0, 0]
+> transcriptional
+[0, 0, 0, 1, 0]
 //
-> mln
-[1, 0, 0, 0, 0]
+> metalloprotease
+[2, 0, 0, 0, 0]
 //
-> ac004882_4
+> match
 [0, 1, 0, 0, 0]
 //
-> t17273
-[1, 0, 0, 0, 0]
-//
-> dkfzp434c0935.1
-[1, 0, 0, 0, 0]
-//
-> ppa1
-[0, 1, 0, 0, 0]
-//
-> fus-associated
-[0, 1, 0, 0, 0]
-//
-> serine-arginine
-[0, 1, 0, 0, 0]
+> repeats
+[0, 0, 1, 0, 0]
 //
 > argr_human
 [0, 1, 0, 0, 0]
 //
-> monoglyceride
-[0, 0, 1, 0, 0]
-//
-> af272844_1
-[0, 1, 0, 0, 0]
-//
-> je0086
-[0, 0, 0, 1, 0]
-//
-> sab
-[0, 0, 0, 1, 0]
-//
-> af082535_1
-[0, 0, 1, 0, 0]
-//
-> multi-pass
-[0, 0, 1, 0, 0]
-//
-> s23
-[0, 2, 0, 0, 0]
-//
-> kelch-like
-[0, 0, 0, 2, 0]
-//
-> ech-associated
-[0, 0, 0, 1, 0]
-//
-> delta-6
-[1, 0, 0, 0, 0]
-//
-> desaturase
-[1, 0, 0, 0, 0]
-//
-> af104033_1
-[0, 0, 0, 1, 0]
-//
-> muel
-[0, 0, 0, 1, 0]
-//
-> cytoskeletal
-[0, 2, 0, 0, 0]
-//
-> echm_rat
-[0, 0, 0, 1, 0]
-//
 > enoyl-coa
-[0, 0, 0, 2, 0]
+[0, 0, 0, 1, 0]
 //
 > hydratase
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > glioblastoma
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
-> talin
+> amplified
+[0, 0, 0, 0, 1]
+//
+> fibrillin
 [1, 0, 0, 0, 0]
 //
 > fibrinogen-like
-[0, 1, 0, 0, 0]
-//
-> b4
-[0, 2, 0, 0, 0]
-//
-> trypsinogen
-[0, 2, 0, 0, 0]
-//
-> polyamine
-[0, 1, 0, 0, 0]
-//
-> modulated
-[0, 1, 0, 0, 0]
-//
-> triphosphatase
-[0, 1, 0, 0, 0]
-//
-> submaxillary
 [1, 0, 0, 0, 0]
 //
-> gland
-[1, 0, 0, 0, 0]
-//
-> osmotic
-[0, 0, 0, 2, 0]
-//
-> stress
-[0, 0, 0, 3, 0]
-//
-> a41539
-[0, 0, 0, 0, 1]
-//
-> y254_human
+> eph
 [0, 0, 1, 0, 0]
 //
-> polyadenylated
-[0, 1, 0, 0, 0]
+> adenosine
+[0, 0, 0, 0, 1]
 //
-> pub1
-[0, 1, 0, 0, 0]
+> acidic
+[1, 0, 0, 0, 0]
+//
+> kinesin
+[0, 0, 0, 1, 0]
+//
+> rna-binding
+[0, 0, 0, 0, 1]
 //
 > vi
-[0, 0, 0, 2, 0]
-//
-> beta-glucuronidase
-[0, 1, 0, 0, 0]
-//
-> tyrosine-rich
-[1, 0, 0, 0, 0]
-//
-> hair
-[1, 0, 0, 0, 0]
-//
-> glioma-amplified
-[0, 1, 0, 0, 0]
-//
-> caveolae
-[0, 0, 0, 1, 0]
-//
-> bloom
-[0, 1, 0, 0, 0]
-//
-> pms1_human
 [0, 0, 0, 0, 1]
 //
-> pms1
-[0, 0, 0, 0, 1]
+> glycine
+[1, 0, 0, 0, 0]
 //
-> rad23a
-[0, 0, 0, 0, 1]
+> gamma-carboxyglutamate
+[1, 0, 0, 0, 0]
 //
-> ribophorin
+> signaling
+[1, 0, 0, 0, 0]
+//
+> cyclase
+[1, 0, 0, 0, 0]
+//
+> ubiquitin
 [0, 1, 0, 0, 0]
 //
-> rgse_mouse
-[1, 0, 0, 0, 0]
-//
-> s25
-[0, 0, 0, 1, 0]
-//
-> hfe_mouse
-[0, 0, 1, 0, 0]
-//
-> hereditary
-[0, 0, 1, 0, 0]
-//
-> haemochromatosis
-[0, 0, 1, 0, 0]
-//
-> prostate
+> carboxy-terminal
 [0, 1, 0, 0, 0]
-//
-> 5-monooxgenase
-[1, 0, 0, 0, 0]
-//
-> dhbk_mouse
-[1, 0, 0, 0, 0]
-//
-> cg14966
-[0, 0, 0, 0, 1]
-//
-> kiaa0385
-[1, 0, 0, 0, 0]
 //
 > 9-27
 [1, 0, 0, 0, 0]
 //
-> cr2
-[0, 1, 0, 0, 0]
-//
-> cytosine
-[0, 0, 1, 0, 0]
-//
-> hippocalcin-like
-[0, 1, 0, 0, 0]
-//
-> endosulfine
+> villin
 [0, 0, 0, 1, 0]
 //
-> a55
-[1, 0, 0, 0, 0]
-//
-> vaccinia
-[0, 0, 1, 0, 0]
-//
-> sensitive
-[1, 0, 0, 0, 0]
-//
-> adt2_mouse
-[1, 0, 0, 0, 0]
-//
-> kiaa1313
+> primary
 [0, 1, 0, 0, 0]
 //
-> myg1
+> ccr4-not
 [0, 1, 0, 0, 0]
 //
-> 4-hydroxylase
+> virus
 [1, 0, 0, 0, 0]
+//
+> leukemia
+[0, 0, 0, 1, 0]
 //
 > calsequestrin
-[0, 0, 0, 2, 0]
+[0, 0, 0, 0, 2]
 //
-> o-acyltransferase
-[0, 1, 0, 0, 0]
-//
-> fos-like
-[2, 0, 0, 0, 0]
-//
-> zk1058.5
+> sterol
 [0, 0, 0, 0, 1]
 //
-> kiaa1435
-[1, 0, 0, 0, 0]
-//
-> rs20_human
+> profilin
 [0, 1, 0, 0, 0]
 //
-> kiaa0966
-[1, 0, 0, 0, 0]
+> site
+[0, 2, 0, 0, 0]
 //
-> pexd_human
-[0, 0, 0, 1, 0]
+> kruppel-like
+[0, 0, 0, 2, 0]
 //
-> pex13
-[0, 0, 0, 1, 0]
-//
-> calb_mouse
-[0, 1, 0, 0, 0]
-//
-> calcineurin
-[0, 1, 0, 0, 0]
-//
-> faciogenital
-[0, 1, 0, 0, 0]
-//
-> dysplasia
-[0, 1, 0, 0, 0]
-//
-> huntington
-[1, 0, 0, 0, 0]
+> cysteine
+[2, 0, 0, 0, 0]
 //
 > pi
-[0, 0, 0, 2, 0]
+[0, 0, 2, 0, 0]
 //
-> dp
-[1, 0, 0, 0, 0]
+> ring
+[0, 0, 0, 1, 0]
 //
-> predominant
+> transfer
+[0, 0, 1, 0, 0]
+//
+> endothelial
+[0, 0, 0, 0, 2]
+//
+> the
 [0, 1, 0, 0, 0]
 //
-> af077034_1
+> receptor-associated
+[0, 0, 1, 0, 0]
+//
+> mini
+[0, 1, 0, 0, 0]
+//
+> maintenance
+[0, 1, 0, 0, 0]
+//
+> deficient
+[0, 1, 0, 0, 0]
+//
+> rab
 [0, 0, 0, 1, 0]
 //
-> hspc010
-[0, 0, 0, 1, 0]
+> sh2-containing
+[0, 0, 0, 0, 1]
 //
-> btf3
-[0, 0, 0, 1, 0]
-//
-> af159856_1
+> early
 [1, 0, 0, 0, 0]
 //
-> system
-[1, 0, 0, 0, 0]
-//
-> nat-1
-[1, 0, 0, 0, 0]
-//
-> phosphatidylcholine
+> epidermal
 [2, 0, 0, 0, 0]
 //
-> ewing
-[0, 0, 1, 0, 0]
-//
-> mm-mago
-[0, 0, 0, 1, 0]
-//
-> kiaa0186
-[0, 1, 0, 0, 0]
-//
-> numl_mouse
+> melanoma
 [1, 0, 0, 0, 0]
 //
-> mlrq
+> bound
 [1, 0, 0, 0, 0]
-//
-> sa-1
-[0, 2, 0, 0, 0]
-//
-> oxrtgu
-[1, 0, 0, 0, 0]
-//
-> l-gulonolactone
-[1, 0, 0, 0, 0]
-//
-> p71
-[1, 0, 0, 0, 0]
-//
-> ke03
-[1, 0, 0, 0, 0]
-//
-> kiaa0403
-[1, 0, 0, 0, 0]
-//
-> hematopoietically
-[1, 0, 0, 0, 0]
-//
-> i54388
-[0, 0, 0, 0, 1]
-//
-> lztr-1
-[0, 0, 0, 0, 1]
-//
-> beta-galactosidase
-[0, 1, 0, 0, 0]
-//
-> selected
-[1, 0, 0, 0, 0]
-//
-> yil083cp
-[0, 0, 0, 1, 0]
-//
-> 3a
-[0, 1, 0, 0, 0]
-//
-> af151800_1
-[2, 0, 0, 0, 0]
-//
-> cgi-41
-[2, 0, 0, 0, 0]
-//
-> s17
-[1, 0, 0, 0, 0]
-//
-> pyrroline-5-carboxylate
-[1, 0, 0, 0, 0]
-//
-> acceptor
-[0, 0, 0, 1, 0]
-//
-> prenylated
-[0, 1, 0, 0, 0]
-//
-> hspc003
-[0, 0, 0, 1, 0]
-//
-> neuraminidase
-[1, 0, 0, 0, 0]
-//
-> af161401_1
-[0, 0, 0, 1, 0]
-//
-> hspc283
-[0, 0, 0, 1, 0]
-//
-> hgf-regulated
-[0, 1, 0, 0, 0]
-//
-> kiaa0947
-[0, 0, 0, 1, 0]
-//
-> prp9
-[0, 0, 1, 0, 0]
-//
-> er29_rat
-[0, 1, 0, 0, 0]
-//
-> erp29
-[0, 1, 0, 0, 0]
-//
-> plasmodium
-[0, 0, 0, 0, 1]
-//
-> falciparum
-[0, 0, 0, 0, 1]
-//
-> glutamic
-[0, 0, 0, 0, 1]
-//
-> acid-rich
-[0, 0, 0, 0, 1]
-//
-> modulating
-[0, 0, 1, 0, 0]
-//
-> ligand
-[0, 0, 0, 1, 0]
-//
-> no
-[1, 0, 0, 0, 0]
-//
-> similarities
-[1, 0, 0, 0, 0]
-//
-> reported
-[1, 0, 0, 0, 0]
-//
-> products
-[1, 0, 0, 0, 0]
-//
-> regulator1
-[0, 1, 0, 0, 0]
-//
-> stri_rat
-[0, 0, 1, 0, 0]
-//
-> nop10p
-[0, 0, 0, 1, 0]
-//
-> oncogene-like
-[0, 0, 1, 0, 0]
-//
-> carboxykinase
-[0, 0, 0, 2, 0]
-//
-> ctp
-[0, 1, 0, 0, 0]
-//
-> af176072_1
-[0, 0, 1, 0, 0]
-//
-> smn-interacting
-[0, 0, 1, 0, 0]
-//
-> i49642
-[2, 0, 0, 0, 0]
-//
-> estrogen-responsive
-[2, 0, 0, 0, 0]
-//
-> dodecenoyl-coenzyme
-[0, 0, 0, 1, 0]
-//
-> trans-enoyl-coenyme
-[0, 0, 0, 1, 0]
-//
-> m4
-[0, 0, 0, 1, 0]
-//
-> distribution
-[0, 0, 1, 0, 0]
-//
-> aspergillus
-[0, 1, 0, 0, 0]
-//
-> cene_human
-[0, 1, 0, 0, 0]
-//
-> centromeric
-[0, 2, 0, 0, 0]
-//
-> af069992_1
-[0, 1, 0, 0, 0]
 //
 > alkali
-[0, 0, 0, 2, 0]
+[0, 0, 0, 0, 2]
 //
 > citrate
-[0, 0, 0, 2, 0]
+[0, 0, 0, 0, 2]
 //
-> 1d
-[1, 0, 0, 0, 0]
-//
-> i53908
-[0, 0, 1, 0, 0]
-//
-> vault
-[0, 0, 1, 0, 0]
-//
-> b2
-[0, 0, 0, 1, 0]
-//
-> l22
-[0, 0, 1, 0, 0]
-//
-> regulation
-[1, 0, 0, 0, 0]
+> cycle
+[0, 0, 0, 0, 1]
 //
 > finkel-biskis-reilly
-[0, 1, 0, 0, 0]
-//
-> dimethylarginine
-[0, 1, 0, 0, 0]
-//
-> dimethylaminohydrolase
-[0, 1, 0, 0, 0]
-//
-> pancortin-1
 [1, 0, 0, 0, 0]
 //
-> gak_rat
-[1, 0, 0, 0, 0]
-//
-> g-associated
-[1, 0, 0, 0, 0]
-//
-> rab6
-[0, 0, 0, 1, 0]
-//
-> kiaa0872
-[1, 0, 0, 0, 0]
-//
-> 101f6
-[0, 1, 0, 0, 0]
-//
-> adipose
-[0, 1, 0, 0, 0]
-//
-> 17.0
-[0, 0, 0, 1, 0]
-//
-> f56d1.3
-[0, 0, 0, 1, 0]
-//
-> nucleophosmin
-[1, 0, 0, 0, 0]
-//
-> kiaa0978
-[0, 0, 1, 0, 0]
-//
-> survival
-[0, 0, 2, 0, 0]
-//
-> motor
-[0, 0, 2, 0, 0]
-//
-> cg7725
-[0, 0, 0, 1, 0]
-//
-> ubiquintin
-[0, 0, 0, 1, 0]
-//
-> rudimentary
-[0, 0, 1, 0, 0]
-//
-> mannose-6-phosphate
-[0, 1, 0, 0, 0]
-//
-> af151865_1
-[0, 0, 0, 1, 0]
-//
-> cgi-107
-[0, 0, 0, 1, 0]
-//
-> 64.3
-[0, 0, 0, 1, 0]
-//
-> c02f5.3
-[0, 0, 0, 1, 0]
-//
-> truncated
-[0, 0, 0, 1, 0]
-//
-> 45kd
-[0, 0, 0, 1, 0]
-//
-> 100kd
-[0, 0, 0, 1, 0]
-//
-> mdr1_mouse
-[0, 0, 1, 0, 0]
-//
-> kozak
-[0, 1, 0, 0, 0]
-//
-> p55
-[0, 0, 0, 2, 0]
-//
-> ttk
-[0, 1, 0, 0, 0]
-//
-> af161371_1
-[0, 0, 0, 0, 1]
-//
-> hspc253
-[0, 0, 0, 0, 1]
-//
-> af156878_1
-[0, 1, 0, 0, 0]
-//
-> opioid
-[0, 2, 0, 0, 0]
-//
-> r26445_1
-[0, 0, 0, 1, 0]
-//
-> cdc5-like
-[0, 0, 0, 2, 0]
-//
-> larvae
-[0, 0, 0, 1, 0]
-//
-> wee
-[0, 1, 0, 0, 0]
-//
-> dopa
-[0, 0, 1, 0, 0]
-//
-> it12
+> murine
 [2, 0, 0, 0, 0]
 //
-> aj243320
-[0, 0, 0, 1, 0]
-//
-> rbm3
-[0, 0, 0, 1, 0]
-//
-> af164615_1
+> ubiquitously
 [1, 0, 0, 0, 0]
 //
-> gag-pro-pol
-[1, 0, 0, 0, 0]
-//
-> grave's
+> sh3
 [0, 0, 0, 1, 0]
 //
-> makorin
-[0, 0, 0, 1, 0]
+> kinesin-like
+[0, 1, 0, 0, 0]
 //
-> locus-13
-[0, 0, 0, 1, 0]
+> nedd-4
+[0, 1, 0, 0, 0]
 //
-> phosphoribosylglycinamide
-[0, 0, 0, 1, 0]
+> sec61
+[0, 1, 0, 0, 0]
 //
-> formyltransferase
+> cullin
+[0, 0, 0, 0, 2]
+//
+> cation
 [0, 0, 1, 0, 0]
 //
-> if2
-[0, 0, 0, 1, 0]
+> 1a
+[1, 0, 0, 0, 0]
 //
-> ell2_human
-[2, 0, 0, 0, 0]
-//
-> uterine-specific
+> division
 [0, 0, 0, 0, 1]
 //
-> sortilin
-[1, 0, 0, 0, 0]
-//
-> cation-transporting
-[0, 1, 0, 0, 0]
-//
-> pacl
-[0, 1, 0, 0, 0]
-//
-> mitogen-
-[1, 0, 0, 0, 0]
-//
-> stress-activated
-[1, 0, 0, 0, 0]
-//
-> npl4
+> catalytic
 [0, 0, 1, 0, 0]
 //
-> 3'utr
-[0, 1, 0, 0, 0]
+> pleckstrin
+[0, 0, 1, 0, 0]
 //
-> clc1
-[0, 1, 0, 0, 0]
+> low-affinity
+[0, 0, 1, 0, 0]
 //
-> pepsinogen
-[1, 0, 0, 0, 0]
-//
-> cold
-[0, 0, 0, 1, 0]
-//
-> ib
-[1, 0, 0, 0, 0]
-//
-> bp-3
-[1, 0, 0, 0, 0]
-//
-> unc-119
-[1, 0, 0, 0, 0]
-//
-> yil095w
-[0, 1, 0, 0, 0]
-//
-> it1
-[1, 0, 0, 0, 0]
-//
-> old
-[0, 1, 0, 0, 0]
-//
-> astrocyte
-[0, 1, 0, 0, 0]
-//
-> specifically
-[0, 1, 0, 0, 0]
+> zinc-finger
+[0, 0, 0, 0, 1]
 //
 > platelet-derived
-[1, 0, 0, 0, 0]
-//
-> cbfa2t3
 [0, 1, 0, 0, 0]
 //
 > kif4
+[0, 1, 0, 0, 0]
+//
+> heparin
+[1, 0, 0, 0, 0]
+//
+> factor-like
 [1, 0, 0, 0, 0]
 //
 > cardiovascular
 [0, 0, 0, 1, 0]
 //
-> i48722
-[0, 1, 0, 0, 0]
-//
-> af208849_1
-[0, 0, 1, 0, 0]
-//
-> bm-007
-[0, 0, 1, 0, 0]
-//
 > oncostatin
-[1, 0, 0, 0, 0]
-//
-> s1-1
-[0, 0, 0, 3, 0]
-//
-> af154337_1
-[1, 0, 0, 0, 0]
-//
-> pass
-[1, 0, 0, 0, 0]
-//
-> unc-51
-[0, 0, 0, 2, 0]
-//
-> mena+++
-[1, 0, 0, 0, 0]
-//
-> kiaa0808
 [0, 1, 0, 0, 0]
 //
-> transactivator
-[0, 1, 0, 0, 0]
+> neural
+[0, 0, 0, 1, 0]
+//
+> c2
+[1, 0, 0, 0, 0]
 //
 > full
-[0, 0, 0, 2, 0]
+[0, 0, 0, 1, 0]
 //
 > length
+[0, 0, 0, 1, 0]
+//
+> insert
 [0, 0, 0, 1, 0]
 //
 > euroimage
 [0, 0, 0, 1, 0]
 //
-> af121893_1
-[1, 0, 0, 0, 0]
-//
-> sequence-specific
-[1, 0, 0, 0, 0]
-//
-> single-stranded-dna-binding
-[1, 0, 0, 0, 0]
-//
-> cn3b_mouse
-[1, 0, 0, 0, 0]
-//
-> cgmp-inhibited
-[1, 0, 0, 0, 0]
-//
-> gnt5_rat
-[1, 0, 0, 0, 0]
-//
-> uvrag
+> interferon-induced
 [0, 0, 1, 0, 0]
+//
+> tetratricopeptide
+[0, 0, 1, 0, 0]
+//
+> nitric
+[0, 0, 0, 1, 0]
+//
+> oxide
+[0, 0, 0, 1, 0]
+//
+> alpha-1
+[0, 0, 0, 0, 1]
+//
+> serum
+[1, 0, 0, 0, 0]
 //
 > unc-93
-[0, 1, 0, 0, 0]
-//
-> d1
 [0, 0, 1, 0, 0]
 //
-> rex-2
+> kallikrein
 [1, 0, 0, 0, 0]
-//
-> vas
-[0, 0, 0, 1, 0]
-//
-> deferens
-[0, 0, 0, 1, 0]
 //
 > a11
-[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > properdin
 [0, 1, 0, 0, 0]
 //
-> exchanger
-[1, 0, 0, 0, 0]
-//
 > paired-ig-like
-[0, 1, 0, 0, 0]
-//
-> collagenous
-[0, 1, 0, 0, 0]
-//
-> structure
-[0, 1, 0, 0, 0]
-//
-> ubiquitin-protein
-[0, 0, 1, 0, 0]
-//
-> componen
-[0, 0, 1, 0, 0]
-//
-> circadian
 [1, 0, 0, 0, 0]
 //
-> locomoter
-[1, 0, 0, 0, 0]
-//
-> output
-[1, 0, 0, 0, 0]
-//
-> cycles
-[1, 0, 0, 0, 0]
-//
-> reticuloendotheliosis
-[2, 0, 0, 0, 0]
-//
-> cerebellum
-[0, 1, 0, 0, 0]
-//
-> xii
-[1, 0, 0, 0, 0]
-//
-> nescient
+> t-cell
 [0, 0, 0, 1, 0]
 //
-> helix
-[0, 0, 0, 1, 0]
+> necrosis
+[1, 0, 0, 0, 0]
 //
-> loop
-[0, 0, 0, 1, 0]
-//
-> 11b
+> superfamily
 [0, 1, 0, 0, 0]
 //
-> contactin
-[1, 0, 0, 0, 0]
+> coagulation
+[0, 0, 0, 1, 0]
 //
-> c-myc
-[0, 0, 1, 0, 0]
+> ganglioside-induced
+[0, 0, 0, 0, 1]
 //
-> regenerating
-[1, 0, 0, 0, 0]
+> differentiation-associated-protein
+[0, 0, 0, 0, 1]
 //
-> t17453
-[1, 0, 0, 0, 0]
-//
-> eset
-[1, 0, 0, 0, 0]
-//
-> slc4a10
-[1, 0, 0, 0, 0]
-//
-> radial
-[0, 0, 0, 2, 0]
-//
-> spoke
-[0, 0, 0, 2, 0]
-//
-> alpha1
-[0, 2, 0, 0, 0]
-//
-> formyl
+> vii
 [1, 0, 0, 0, 0]
 //
 > egf-like
-[0, 3, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > module
 [0, 1, 0, 0, 0]
 //
-> beta-subunit
-[0, 0, 0, 1, 0]
-//
-> c5
-[0, 0, 0, 1, 0]
-//
-> kiaa0738
+> receptor-like
 [0, 1, 0, 0, 0]
 //
-> pwp1_human
-[1, 0, 0, 0, 0]
-//
-> periodic
-[1, 0, 0, 0, 0]
-//
-> cordon-bleu
-[1, 0, 0, 0, 0]
-//
-> embl:d67419
-[1, 0, 0, 0, 0]
-//
-> a37990
-[0, 0, 0, 1, 0]
-//
-> aldose
-[0, 0, 0, 1, 0]
-//
-> lecithin
-[2, 0, 0, 0, 0]
+> h-related
+[0, 0, 2, 0, 0]
 //
 > cholesterol
-[2, 0, 0, 0, 0]
-//
-> acyltransferase
-[2, 0, 0, 0, 0]
-//
-> kynu_rat
-[1, 0, 0, 0, 0]
-//
-> kynureninase
-[1, 0, 0, 0, 0]
-//
-> af151805_1
-[1, 0, 0, 0, 0]
-//
-> cgi-47
-[1, 0, 0, 0, 0]
-//
-> transposon-derived
 [0, 1, 0, 0, 0]
 //
-> buster2
-[0, 1, 0, 0, 0]
-//
-> transposase-like
-[0, 1, 0, 0, 0]
-//
-> af127481_1
-[0, 1, 0, 0, 0]
-//
-> non-ocogenic
-[0, 1, 0, 0, 0]
-//
-> gtpase-specific
-[0, 1, 0, 0, 0]
-//
-> ppe1
+> sry-box
 [0, 0, 0, 1, 0]
-//
-> schizosaccharomyces
-[0, 1, 0, 0, 0]
-//
-> af152929_1
-[0, 0, 1, 0, 0]
-//
-> proetin
-[1, 0, 0, 0, 0]
-//
-> nm_005827
-[1, 0, 0, 0, 0]
-//
-> udp-galactose
-[1, 0, 0, 0, 0]
-//
-> y141_human
-[0, 0, 0, 1, 0]
-//
-> lhrh
-[0, 1, 0, 0, 0]
-//
-> af163315_1
-[0, 0, 0, 2, 0]
-//
-> n-acetyltransferase
-[0, 0, 0, 2, 0]
-//
-> camello
-[0, 0, 0, 2, 0]
-//
-> katanin
-[2, 0, 0, 0, 0]
-//
-> p80
-[2, 0, 0, 0, 0]
-//
-> il-tmp
-[0, 0, 1, 0, 0]
-//
-> 7b
-[1, 0, 0, 0, 0]
-//
-> koc
-[0, 0, 0, 0, 1]
-//
-> kiaa1008
-[1, 0, 0, 0, 0]
-//
-> s37032
-[0, 0, 0, 1, 0]
-//
-> ll5
-[0, 0, 0, 1, 0]
-//
-> kiaa0748
-[1, 0, 0, 0, 0]
 //
 > f1f0
 [0, 0, 0, 1, 0]
 //
-> trans-acting
-[0, 2, 0, 0, 0]
+> u2
+[0, 1, 0, 0, 0]
 //
-> grb10
-[0, 0, 0, 0, 1]
-//
-> dby
-[0, 0, 1, 0, 0]
-//
-> sin3-associated
-[0, 0, 0, 2, 0]
-//
-> kiaa1208
+> udp-n-acetylglucosamine
 [1, 0, 0, 0, 0]
 //
-> transformed
-[0, 0, 0, 1, 0]
-//
-> 3t3
-[0, 0, 0, 1, 0]
-//
-> minute
-[0, 0, 0, 1, 0]
-//
-> rre1_human
-[0, 0, 1, 0, 0]
-//
-> ras-responsive
-[0, 0, 1, 0, 0]
-//
-> trp
-[0, 0, 0, 1, 0]
-//
-> trp-like
-[0, 0, 0, 1, 0]
-//
-> m2gd_rat
-[0, 1, 0, 0, 0]
-//
-> dimethylglycine
-[0, 1, 0, 0, 0]
-//
-> testis-expressed
-[0, 0, 0, 1, 0]
-//
-> phosphotidylinositol
-[0, 0, 1, 0, 0]
-//
-> nck-associated
-[0, 0, 1, 0, 0]
-//
-> arginine-trna-protein
-[0, 0, 0, 0, 1]
-//
-> 1-2p
-[0, 0, 0, 0, 1]
-//
-> motif-containing
-[0, 1, 0, 0, 0]
-//
-> ca11_rat
+> pyrophosphorylase
 [1, 0, 0, 0, 0]
 //
-> ra9
-[0, 1, 0, 0, 0]
-//
-> cluster
-[0, 0, 0, 1, 0]
+> caax
+[0, 0, 0, 0, 1]
 //
 > farnesyl
-[0, 0, 0, 1, 0]
-//
-> b0507.2
-[0, 0, 0, 1, 0]
-//
-> cdc42
-[0, 1, 0, 0, 0]
-//
-> gtpase-inhibiting
-[0, 1, 0, 0, 0]
-//
-> "methionine
-[0, 0, 0, 1, 0]
-//
-> 2;
-[0, 0, 0, 1, 0]
-//
-> 2-associated
-[0, 0, 0, 1, 0]
-//
-> muscular
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > kiaa1155
 [0, 0, 0, 1, 0]
 //
-> og9
+> phosphoprotein
+[2, 0, 0, 0, 0]
+//
+> cap
 [0, 1, 0, 0, 0]
 //
-> diaphanous
-[0, 3, 0, 0, 0]
-//
-> cb80_human
-[0, 0, 1, 0, 0]
-//
-> tri3_human
-[0, 0, 0, 1, 0]
-//
-> camp-dependent
-[0, 0, 0, 1, 0]
-//
-> rap1
-[0, 0, 0, 2, 0]
-//
-> guanine-nucleotide
-[0, 0, 0, 1, 0]
-//
-> af132969_1
-[0, 0, 0, 1, 0]
-//
-> cgi-35
-[0, 0, 0, 1, 0]
-//
-> twelve
-[0, 1, 0, 0, 0]
-//
-> fbx6b
-[1, 0, 0, 0, 0]
-//
-> seizure
-[1, 0, 0, 0, 0]
-//
-> pex7_mouse
-[0, 0, 0, 1, 0]
-//
-> dj1043e3.1
-[1, 0, 0, 0, 0]
-//
-> pac-1
-[0, 0, 0, 1, 0]
-//
-> membrane-bound
+> acyl
 [0, 0, 0, 0, 1]
 //
-> cop1
+> thyroid
+[0, 0, 0, 0, 1]
+//
+> hematopoietic
 [0, 1, 0, 0, 0]
 //
-> cg1172
+> ig
 [0, 0, 1, 0, 0]
 //
 > a53770
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > factor-responsive
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
-> kiaa0615
-[0, 0, 1, 0, 0]
+> vascular
+[0, 0, 0, 0, 3]
 //
-> rod
-[0, 0, 0, 1, 0]
-//
-> domesticus
-[1, 0, 0, 0, 0]
-//
-> carbohydrate
-[1, 0, 0, 0, 0]
-//
-> weak
-[0, 0, 0, 3, 0]
-//
-> thaliana
-[0, 0, 0, 1, 0]
-//
-> reversion-inducing-cysteine-rich
-[1, 0, 0, 0, 0]
-//
-> dj323m22.2
-[0, 0, 0, 1, 0]
-//
-> progression
-[0, 0, 2, 0, 0]
-//
-> mltk
-[1, 0, 0, 0, 0]
-//
-> t00636
-[1, 0, 0, 0, 0]
-//
-> f21856_2
-[1, 0, 0, 0, 0]
-//
-> 60.3
-[1, 0, 0, 0, 0]
-//
-> r08d7.7
-[1, 0, 0, 0, 0]
-//
-> leucocyte
-[0, 1, 0, 0, 0]
-//
-> kiaa0982
-[0, 0, 0, 2, 0]
-//
-> g1
-[0, 0, 2, 0, 0]
+> smooth
+[0, 0, 0, 0, 1]
 //
 > switch
 [0, 0, 0, 1, 0]
 //
-> many
-[0, 0, 0, 1, 0]
-//
-> osteosclerosis
-[1, 0, 0, 0, 0]
-//
 > selp_mouse
-[0, 1, 0, 0, 0]
-//
-> fibronectin
-[2, 0, 0, 0, 0]
-//
-> lysyl
-[0, 3, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > oxidase-like
 [0, 1, 0, 0, 0]
 //
-> af151866_1
-[0, 1, 0, 0, 0]
-//
-> cgi-108
-[0, 1, 0, 0, 0]
-//
-> y174_human
-[0, 0, 0, 1, 0]
-//
-> c9
-[1, 0, 0, 0, 0]
-//
-> peripheral
-[0, 1, 0, 0, 0]
-//
-> huemap
-[0, 0, 0, 0, 1]
-//
-> xenopus
+> transducer
 [0, 0, 1, 0, 0]
-//
-> pius
-[1, 0, 0, 0, 0]
-//
-> kiaa0398
-[0, 0, 1, 0, 0]
-//
-> ra1
-[1, 0, 0, 0, 0]
 //
 > isovaleryl
-[0, 0, 0, 1, 0]
-//
-> hect
-[0, 0, 0, 1, 0]
-//
-> e6-ap
-[0, 0, 0, 2, 0]
-//
-> rcc1
-[0, 0, 0, 1, 0]
-//
-> mink-like
-[0, 1, 0, 0, 0]
-//
-> ob-rgrp
-[0, 0, 0, 1, 0]
-//
-> mcf
-[0, 1, 0, 0, 0]
-//
-> bat-4
-[0, 0, 0, 1, 0]
-//
-> wizl
-[0, 0, 0, 1, 0]
-//
-> cd2-associated
-[0, 0, 1, 0, 0]
-//
-> af133093_9
-[0, 0, 0, 1, 0]
-//
-> characteristics
-[0, 0, 0, 1, 0]
-//
-> strong
-[1, 0, 0, 0, 0]
-//
-> rad54
-[2, 0, 0, 0, 0]
-//
-> helicases
-[1, 0, 0, 0, 0]
-//
-> whsc1
 [0, 0, 0, 0, 1]
 //
-> thiamin
-[0, 0, 1, 0, 0]
-//
-> 27.1
-[0, 0, 1, 0, 0]
-//
-> next
-[0, 0, 0, 1, 0]
-//
-> scf
-[0, 0, 1, 0, 0]
-//
-> cul-1
-[0, 0, 1, 0, 0]
-//
-> t00380
-[0, 0, 1, 0, 0]
-//
-> kiaa0637
-[0, 0, 1, 0, 0]
-//
-> receptor-binding
+> alternatively
 [0, 0, 0, 0, 1]
 //
-> set-domain
+> spliced
 [0, 0, 0, 0, 1]
 //
-> methylenetetrahydrofolate
-[1, 0, 0, 0, 0]
-//
-> methenyltetrahydrofolate
-[1, 0, 0, 0, 0]
-//
-> cyclohydrolase
-[1, 0, 0, 0, 0]
-//
-> sec23b
-[0, 1, 0, 0, 0]
-//
-> skip_human
+> polyprotein
 [0, 0, 0, 0, 1]
 //
-> skip
-[0, 0, 0, 0, 1]
-//
-> unc13
-[0, 0, 0, 1, 0]
-//
-> trp-asp
-[1, 0, 0, 0, 0]
-//
-> pgi1-ktr4
-[1, 0, 0, 0, 0]
-//
-> d2
-[0, 0, 0, 2, 0]
-//
-> ubiquitination
-[0, 0, 0, 1, 0]
-//
-> e4b
-[0, 0, 0, 1, 0]
-//
-> pyrophosphate
-[0, 0, 0, 1, 0]
-//
-> brk
-[0, 0, 0, 1, 0]
-//
-> bcdna:ld21720
-[0, 0, 0, 0, 1]
-//
-> aakg_mouse
-[0, 1, 0, 0, 0]
-//
-> 5'-amp-activated
-[0, 1, 0, 0, 0]
-//
-> gamma-1
-[0, 1, 0, 0, 0]
-//
-> fetal
-[1, 0, 0, 0, 0]
-//
-> syntrophin
-[1, 0, 0, 0, 0]
-//
-> s43495
+> atp-dependent
 [0, 0, 1, 0, 0]
 //
-> uog1_mouse
-[0, 0, 0, 1, 0]
+> coactivator
+[1, 0, 0, 0, 0]
 //
-> uog-1
-[0, 0, 0, 1, 0]
-//
-> pancreatitis-associated
+> kiaa0830
 [0, 1, 0, 0, 0]
 //
-> dedicator
+> dickkopf
 [0, 1, 0, 0, 0]
-//
-> cyto-kinesis
-[0, 1, 0, 0, 0]
-//
-> plasma-cell
-[0, 0, 1, 0, 0]
-//
-> pc-1
-[0, 0, 1, 0, 0]
-//
-> hrs
-[2, 0, 0, 0, 0]
-//
-> norpeg-like
-[1, 0, 0, 0, 0]
-//
-> iia
-[1, 0, 0, 0, 0]
-//
-> expressing
-[1, 0, 0, 0, 0]
-//
-> hgcn5
-[0, 1, 0, 0, 0]
-//
-> stanniocalcin-2
-[0, 0, 1, 0, 0]
-//
-> diamine
-[0, 1, 0, 0, 0]
-//
-> n-terminal
-[1, 0, 0, 0, 0]
-//
-> asn
-[1, 0, 0, 0, 0]
-//
-> af089896_1
-[0, 0, 0, 0, 1]
-//
-> af1q
-[0, 1, 0, 0, 0]
-//
-> transcribed
-[0, 0, 0, 1, 0]
-//
-> da
-[0, 0, 0, 1, 0]
-//
-> underhill
-[0, 0, 0, 1, 0]
-//
-> pkl2_rat
-[0, 0, 1, 0, 0]
-//
-> morphogenic
-[1, 0, 0, 0, 0]
-//
-> af161554_1
-[0, 0, 1, 0, 0]
-//
-> hspc069
-[0, 0, 1, 0, 0]
-//
-> hs1
-[1, 0, 0, 0, 0]
 //
 > 0-44
-[0, 0, 0, 1, 0]
-//
-> engrailed
-[0, 1, 0, 0, 0]
-//
-> cug
-[1, 0, 0, 0, 0]
-//
-> triplet
-[1, 0, 0, 0, 0]
-//
-> cg13089
-[0, 0, 0, 1, 0]
-//
-> disabled
-[1, 0, 0, 0, 0]
-//
-> just
 [0, 0, 0, 0, 1]
 //
-> another
-[0, 0, 0, 0, 1]
-//
-> found
+> wnt1
 [1, 0, 0, 0, 0]
 //
-> zone
-[1, 0, 0, 0, 0]
-//
-> ivf3
+> inflammatory
 [0, 1, 0, 0, 0]
 //
-> g9a
-[0, 0, 0, 1, 0]
-//
-> neurotrophin
-[0, 2, 0, 0, 0]
-//
-> pacs-1a
+> testis
 [1, 0, 0, 0, 0]
 //
-> galactosamine
-[0, 0, 0, 0, 1]
-//
-> n-acetyl
-[0, 1, 0, 0, 0]
-//
-> cd22
-[0, 1, 0, 0, 0]
-//
-> embryonal
-[0, 1, 0, 0, 0]
-//
-> fyn-associated
-[0, 1, 0, 0, 0]
-//
-> i52257
-[1, 0, 0, 0, 0]
-//
-> episialin
-[1, 0, 0, 0, 0]
-//
-> f1
-[0, 0, 0, 3, 0]
-//
-> stat5a
-[1, 0, 0, 0, 0]
-//
-> stat3
-[1, 0, 0, 0, 0]
-//
-> put.
-[0, 0, 0, 0, 1]
-//
-> pol
-[0, 0, 0, 0, 2]
-//
-> phosphoserine
+> split
 [0, 0, 1, 0, 0]
 //
-> overexpressed
+> f1
+[0, 0, 0, 0, 2]
+//
+> cds;
 [1, 0, 0, 0, 0]
 //
-> i49130
+> gag
 [0, 0, 0, 0, 1]
 //
-> shp2
+> aminotransferase
 [0, 0, 0, 0, 1]
-//
-> vasoactive
-[1, 0, 0, 0, 0]
-//
-> kiaa0776
-[0, 0, 0, 1, 0]
 //
 > cd68
-[0, 1, 0, 0, 0]
-//
-> gcf_human
-[0, 0, 0, 1, 0]
-//
-> gc-rich
-[0, 0, 0, 2, 0]
-//
-> y24k_mouse
-[0, 0, 0, 1, 0]
-//
-> 24.1
-[0, 0, 0, 1, 0]
-//
-> gtf2i
-[0, 0, 0, 1, 0]
-//
-> hydrolyzing
-[0, 0, 0, 1, 0]
+[1, 0, 0, 0, 0]
 //
 > thromboxane
 [0, 1, 0, 0, 0]
 //
-> krueppel-like
+> downstream
 [0, 0, 0, 1, 0]
-//
-> ykr087c
-[0, 0, 0, 1, 0]
-//
-> muty
-[0, 0, 1, 0, 0]
-//
-> amp1_human
-[0, 0, 1, 0, 0]
-//
-> methionine
-[0, 0, 1, 0, 0]
-//
-> ozf_rat
-[0, 0, 1, 0, 0]
-//
-> ozf
-[0, 0, 1, 0, 0]
-//
-> glioma-inactivated
-[1, 0, 0, 0, 0]
 //
 > demethyl-q
-[0, 0, 0, 1, 0]
-//
-> kiaa1292
-[0, 1, 0, 0, 0]
-//
-> lost
-[0, 0, 0, 0, 1]
-//
-> kf1a_mouse
-[0, 0, 0, 1, 0]
+[0, 0, 1, 0, 0]
 //
 > jc4871
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
-> invo_rat
-[1, 0, 0, 0, 0]
+> inter-alpha
+[0, 0, 1, 0, 0]
 //
-> indian
-[0, 0, 0, 1, 0]
+> trypsin
+[0, 0, 1, 0, 0]
 //
-> af170284_1
-[1, 0, 0, 0, 0]
+> guanylate
+[0, 0, 0, 0, 1]
 //
-> connexin
-[1, 0, 0, 0, 0]
-//
-> stathmin-like-protein
-[1, 0, 0, 0, 0]
-//
-> kirsten
-[0, 0, 0, 1, 0]
-//
-> follistatin-like
-[0, 1, 0, 0, 0]
-//
-> actb_human
-[1, 0, 0, 0, 0]
-//
-> prime
-[0, 2, 0, 0, 0]
-//
-> myotubular
-[0, 0, 0, 1, 0]
-//
-> myopathy
-[0, 0, 0, 1, 0]
+> aquaporin
+[0, 0, 1, 0, 0]
 //
 > gag...env
+[1, 0, 0, 0, 0]
+//
+> {provirus}
 [1, 0, 0, 0, 0]
 //
 > aids
@@ -2408,164 +854,47 @@ single-value lijsten:
 > genomic
 [1, 0, 0, 0, 0]
 //
-> genes
+> factor-containing
 [1, 0, 0, 0, 0]
 //
-> h2.0-like
-[0, 1, 0, 0, 0]
-//
-> i68673
-[0, 0, 0, 1, 0]
-//
-> x123
-[0, 0, 0, 1, 0]
-//
-> during
-[2, 0, 0, 0, 0]
-//
-> hematopoiesis
-[2, 0, 0, 0, 0]
-//
-> lymphoid-restricted
+> fibulin-like
 [1, 0, 0, 0, 0]
 //
-> af153906_1
-[1, 0, 0, 0, 0]
-//
-> ermap
-[1, 0, 0, 0, 0]
-//
-> testatin
-[1, 0, 0, 0, 0]
-//
-> ice3_mouse
-[0, 1, 0, 0, 0]
-//
-> apopain
-[0, 1, 0, 0, 0]
-//
-> enamel
-[0, 0, 1, 0, 0]
-//
-> l-amino
-[1, 0, 0, 0, 0]
-//
-> tlbp_mouse
-[1, 0, 0, 0, 0]
-//
-> lipid
-[1, 0, 0, 0, 0]
-//
-> whey
-[0, 0, 0, 1, 0]
-//
-> itam
-[0, 0, 0, 0, 1]
+> extracellular
+[3, 0, 0, 0, 0]
 //
 > af144731_1
-[0, 0, 0, 1, 0]
+[0, 0, 1, 0, 0]
 //
 > yt521-b
-[0, 0, 0, 1, 0]
-//
-> nik
-[1, 0, 0, 0, 0]
-//
-> teratocarcinoma-derived
 [0, 0, 1, 0, 0]
 //
-> praja1
-[1, 0, 0, 0, 0]
-//
-> huntingtin-associated
-[0, 0, 0, 1, 0]
-//
-> synaptobrevin
-[0, 0, 1, 0, 0]
-//
-> spi-c
+> only
 [0, 0, 1, 0, 0]
 //
 > ventricular
+[0, 0, 0, 0, 2]
+//
+> norvegicus;
 [0, 0, 0, 2, 0]
 //
-> cortin
-[0, 0, 1, 0, 0]
-//
-> translational
-[0, 0, 1, 0, 0]
-//
-> hydrocarbon
-[0, 0, 1, 0, 0]
-//
 > that
-[0, 2, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > interacts
-[0, 2, 0, 0, 0]
-//
-> 70kd
-[0, 1, 0, 0, 0]
-//
-> pxf
-[0, 0, 0, 1, 0]
-//
-> nef-associated
-[0, 1, 0, 0, 0]
-//
-> monooxgenase
-[0, 1, 0, 0, 0]
-//
-> perlecan
-[0, 1, 0, 0, 0]
-//
-> glutamate-cysteine
-[2, 0, 0, 0, 0]
-//
-> modifier
-[1, 0, 0, 0, 0]
-//
-> maternally
-[0, 1, 0, 0, 0]
-//
-> xiv
-[0, 1, 0, 0, 0]
-//
-> nel-like
 [0, 0, 1, 0, 0]
-//
-> chicken
-[0, 1, 0, 0, 0]
 //
 > inter
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > alpha-trypsin
-[0, 1, 0, 0, 0]
-//
-> housekeeping
 [1, 0, 0, 0, 0]
-//
-> dxs253e
-[1, 0, 0, 0, 0]
-//
-> dxs254e
-[1, 0, 0, 0, 0]
-//
-> end
-[1, 0, 0, 0, 0]
-//
-> cocaine
-[0, 0, 1, 0, 0]
-//
-> amphetamine
-[0, 0, 1, 0, 0]
 //
 > nadh
-[0, 0, 0, 3, 0]
+[0, 0, 0, 0, 2]
 //
 > flavoprotein
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > nitrogen
 [0, 0, 0, 1, 0]
@@ -2573,251 +902,68 @@ single-value lijsten:
 > fixation
 [0, 0, 0, 1, 0]
 //
-> tap
-[0, 1, 0, 0, 0]
-//
-> focal
-[1, 0, 0, 0, 0]
-//
 > subcomponent
 [0, 0, 0, 1, 0]
 //
-> cell-derived
-[1, 0, 0, 0, 0]
-//
-> chemotaxin
-[1, 0, 0, 0, 0]
-//
-> guanidinoacetate
+> translocation
 [0, 1, 0, 0, 0]
 //
-> il2-inducible
-[1, 0, 0, 0, 0]
-//
-> wnt
-[0, 0, 0, 1, 0]
-//
-> mek
-[0, 0, 0, 1, 0]
-//
-> partner
-[0, 0, 0, 1, 0]
-//
-> dihydrolipoamide
-[0, 0, 0, 2, 0]
-//
-> pr
-[0, 0, 0, 1, 0]
-//
-> mixed
+> ornithine
 [0, 0, 1, 0, 0]
 //
-> lineage-leukemia
-[0, 0, 1, 0, 0]
+> phosphatidylethanolamine
+[0, 0, 0, 0, 1]
 //
-> etoposide
-[0, 0, 0, 1, 0]
-//
-> 2.4
-[0, 0, 0, 1, 0]
-//
-> endopeptidases
+> immediate
 [1, 0, 0, 0, 0]
 //
-> xvii
-[0, 0, 0, 1, 0]
-//
-> maternal
-[0, 0, 0, 2, 0]
-//
-> inhibition
-[0, 0, 0, 1, 0]
+> ae-binding
+[0, 1, 0, 0, 0]
 //
 > cd36
 [0, 0, 0, 1, 0]
 //
-> selenophosphate
-[0, 0, 0, 1, 0]
-//
-> cd48
-[0, 1, 0, 0, 0]
-//
-> glycogenin
-[0, 0, 0, 1, 0]
-//
 > sphingomyelin
-[0, 0, 0, 2, 0]
-//
-> homogentisate
-[0, 0, 1, 0, 0]
+[0, 0, 0, 1, 0]
 //
 > p-selectin
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
-> prostaglandin-endoperoxide
-[0, 0, 0, 0, 1]
-//
-> rad30
-[0, 1, 0, 0, 0]
-//
-> angiopoietin
-[0, 1, 0, 0, 0]
+> prolyl
+[1, 0, 0, 0, 0]
 //
 > ia-associated
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > invariant
-[0, 1, 0, 0, 0]
-//
-> cd79a
-[0, 1, 0, 0, 0]
-//
-> dolichol-phosphate
-[0, 1, 0, 0, 0]
-//
-> mannosyltransferase
-[0, 1, 0, 0, 0]
-//
-> jumping
-[0, 0, 1, 0, 0]
-//
-> nascent
-[0, 0, 0, 1, 0]
-//
-> dipeptidylpeptidase
-[0, 1, 0, 0, 0]
-//
-> b47328
-[0, 0, 0, 1, 0]
-//
-> tumor-recognition
-[0, 0, 0, 1, 0]
+[1, 0, 0, 0, 0]
 //
 > cd52
-[0, 2, 0, 0, 0]
+[2, 0, 0, 0, 0]
 //
-> tyro3
+> flavin
 [0, 0, 0, 1, 0]
-//
-> 1-2
-[1, 0, 0, 0, 0]
-//
-> cd14
-[0, 0, 0, 1, 0]
-//
-> fas-associating
-[0, 0, 0, 1, 0]
-//
-> globin
-[1, 0, 0, 0, 0]
 //
 > transacylase
 [0, 0, 0, 1, 0]
 //
-> sensitivity
-[1, 0, 0, 0, 0]
-//
-> arginase
-[1, 0, 0, 0, 0]
-//
-> burkitt
-[1, 0, 0, 0, 0]
-//
-> dystroglycan
-[0, 0, 0, 1, 0]
+> tropomyosin
+[0, 1, 0, 0, 0]
 //
 > connective
 [0, 1, 0, 0, 0]
 //
-> cd83
+> spinocerebellar
 [0, 1, 0, 0, 0]
 //
-> c3f
-[0, 0, 1, 0, 0]
-//
-> nitrilase
-[0, 0, 1, 0, 0]
-//
-> i58311
-[0, 0, 0, 1, 0]
+> ataxia
+[0, 1, 0, 0, 0]
 //
 > calponin
 [0, 2, 0, 0, 0]
 //
-> thiosulfate
-[0, 0, 0, 1, 0]
-//
-> sulfurtransferase
-[0, 0, 0, 1, 0]
-//
 > ammonia
 [0, 1, 0, 0, 0]
-//
-> vasodilator-stimulated
-[0, 1, 0, 0, 0]
-//
-> cg10283
-[0, 1, 0, 0, 0]
-//
-> cerebellin
-[0, 1, 0, 0, 0]
-//
-> liver-specific
-[0, 0, 0, 1, 0]
-//
-> bhlh-zip
-[0, 0, 0, 1, 0]
-//
-> myocyte
-[0, 0, 0, 1, 0]
-//
-> 2c
-[0, 0, 0, 1, 0]
-//
-> ch-tog
-[0, 0, 0, 1, 0]
-//
-> 12r
-[0, 1, 0, 0, 0]
-//
-> vegf
-[0, 0, 0, 1, 0]
-//
-> ra4
-[0, 1, 0, 0, 0]
-//
-> biosynthesis
-[0, 0, 2, 0, 0]
-//
-> pay4
-[0, 0, 1, 0, 0]
-//
-> ccctc-binding
-[1, 0, 0, 0, 0]
-//
-> chromodomain-helicase-dna-binding
-[0, 1, 0, 0, 0]
-//
-> chd-1
-[0, 1, 0, 0, 0]
-//
-> atp-citrate
-[0, 1, 0, 0, 0]
-//
-> parathymosin
-[0, 2, 0, 0, 0]
-//
-> ykl201c
-[1, 0, 0, 0, 0]
-//
-> env
-[0, 0, 0, 0, 2]
-//
-> teratocarcinoma
-[0, 0, 0, 1, 0]
-//
-> cg14041
-[0, 0, 0, 1, 0]
 //
 > af116721_71
 [0, 0, 0, 1, 0]
@@ -2825,143 +971,23 @@ single-value lijsten:
 > pro1853
 [0, 0, 0, 1, 0]
 //
-> l3
-[0, 0, 0, 0, 1]
-//
-> phosphoribosylaminoimidazolecarboxamide
-[0, 0, 1, 0, 0]
-//
-> snf2l1
-[1, 0, 0, 0, 0]
-//
-> 12-rapamycin
-[0, 0, 0, 1, 0]
-//
-> ergic-53
-[0, 1, 0, 0, 0]
-//
 > frizzled-related
-[0, 2, 0, 0, 0]
-//
-> af223576_1
-[1, 0, 0, 0, 0]
-//
-> nfx-1
-[1, 0, 0, 0, 0]
-//
-> tsc22-related
-[0, 0, 0, 1, 0]
-//
-> ap50_human
-[0, 0, 0, 1, 0]
-//
-> coat
-[0, 0, 0, 1, 0]
-//
-> ap50
-[0, 0, 0, 1, 0]
+[0, 1, 0, 0, 0]
 //
 > calcyclin
 [0, 0, 0, 1, 0]
 //
-> spc1_human
-[0, 1, 0, 0, 0]
-//
-> bcl2
-[0, 1, 0, 0, 0]
-//
-> adenovirus
+> synaptosomal-associated
 [0, 0, 1, 0, 0]
-//
-> kda-interacting
-[0, 0, 2, 0, 0]
-//
-> sp:yad5_cloab
-[0, 0, 0, 1, 0]
-//
-> cd164
-[2, 0, 0, 0, 0]
-//
-> trk-fused
-[1, 0, 0, 0, 0]
-//
-> glucosamine-6-phosphate
-[0, 1, 0, 0, 0]
-//
-> t08694
-[1, 0, 0, 0, 0]
-//
-> dkfzp564o092.1
-[1, 0, 0, 0, 0]
 //
 > reticulon
-[0, 0, 0, 2, 0]
-//
-> siii
-[1, 0, 0, 0, 0]
-//
-> p15
-[1, 0, 0, 0, 0]
-//
-> von
-[0, 0, 0, 1, 0]
-//
-> hippel-lindau
-[0, 0, 0, 1, 0]
-//
-> sec13
-[1, 0, 0, 0, 0]
-//
-> 6a
 [0, 0, 1, 0, 0]
 //
-> r32611_2
-[0, 0, 0, 1, 0]
+> pseudogene
+[0, 0, 1, 0, 0]
 //
-> thrr_mouse
-[0, 1, 0, 0, 0]
-//
-> thrombin
-[0, 1, 0, 0, 0]
-//
-> t00075
+> syndecan
 [1, 0, 0, 0, 0]
-//
-> kiaa0461
-[1, 0, 0, 0, 0]
-//
-> stress-induced
-[0, 0, 1, 0, 0]
-//
-> cgi-28
-[0, 0, 0, 1, 0]
-//
-> dnaj
-[0, 1, 0, 0, 0]
-//
-> dj202i21.1
-[0, 1, 0, 0, 0]
-//
-> af099186_1
-[0, 0, 1, 0, 0]
-//
-> eh
-[0, 0, 1, 0, 0]
-//
-> ehd1
-[0, 0, 1, 0, 0]
-//
-> twist
-[0, 1, 0, 0, 0]
-//
-> mesoderm
-[2, 0, 0, 0, 0]
-//
-> posterior
-[1, 0, 0, 0, 0]
-//
-> trip230
-[0, 0, 1, 0, 0]
 //
 > rab-11a
 [0, 0, 0, 1, 0]
@@ -2969,92 +995,32 @@ single-value lijsten:
 > familiaris;
 [0, 0, 0, 1, 0]
 //
-> cuniculus
+> oryctolagus
 [0, 0, 0, 1, 0]
-//
-> proenzyme
-[0, 1, 0, 0, 0]
-//
-> cricetulus
-[0, 0, 0, 1, 0]
-//
-> immunosuperfamily
-[0, 1, 0, 0, 0]
-//
-> dj206d15.3
-[0, 0, 1, 0, 0]
-//
-> protamine
-[0, 1, 0, 0, 0]
 //
 > dj-1
-[0, 0, 0, 1, 0]
-//
-> kkialre
-[0, 0, 0, 1, 0]
-//
-> pollen
-[0, 1, 0, 0, 0]
-//
-> sf3
-[0, 1, 0, 0, 0]
-//
-> cg7872
 [0, 0, 1, 0, 0]
 //
-> number
-[1, 0, 0, 0, 0]
-//
-> different
-[1, 0, 0, 0, 0]
-//
-> tandem
-[1, 0, 0, 0, 0]
-//
-> e-p
-[1, 0, 0, 0, 0]
-//
-> cript
-[0, 0, 0, 1, 0]
-//
-> af161363_1
-[0, 0, 0, 1, 0]
-//
-> hspc100
-[0, 0, 0, 1, 0]
-//
-> glo3
-[0, 1, 0, 0, 0]
+> kkialre
+[0, 0, 0, 0, 1]
 //
 > 47.9
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > b0303.3
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > map
-[0, 0, 0, 3, 0]
+[0, 0, 0, 1, 0]
 //
 > kinase-activated
-[0, 0, 0, 2, 0]
+[0, 0, 0, 1, 0]
 //
 > acdm_mouse
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > medium-chain
-[0, 0, 0, 1, 0]
-//
-> c211_human
-[0, 0, 0, 1, 0]
-//
-> c21orf1
-[0, 0, 0, 1, 0]
-//
-> rras_mouse
-[0, 0, 0, 1, 0]
-//
-> r-ras
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > gdis_mouse
 [1, 0, 0, 0, 0]
@@ -3062,671 +1028,149 @@ single-value lijsten:
 > gdp-dissociation
 [1, 0, 0, 0, 0]
 //
-> cholecystokinin
-[0, 0, 0, 1, 0]
-//
-> snc3_human
-[0, 0, 0, 1, 0]
-//
-> 20.3
-[0, 0, 1, 0, 0]
-//
-> gcd14-pos18
-[0, 0, 1, 0, 0]
-//
-> complexes
-[0, 0, 0, 1, 0]
-//
-> rca1
-[0, 0, 0, 1, 0]
-//
-> 54.9
-[0, 0, 1, 0, 0]
-//
-> c02f5.7
-[0, 0, 1, 0, 0]
-//
 > hsc70t
+[1, 0, 0, 0, 0]
+//
+> muts
 [1, 0, 0, 0, 0]
 //
 > ng26
 [1, 0, 0, 0, 0]
 //
-> thiopurine
-[0, 0, 0, 0, 1]
-//
-> cald_human
-[1, 0, 0, 0, 0]
-//
-> caldesmon
-[1, 0, 0, 0, 0]
-//
-> tig1_human
-[0, 1, 0, 0, 0]
-//
-> responder
-[0, 1, 0, 0, 0]
-//
-> fibrinogen
-[0, 0, 1, 0, 0]
-//
-> gamma-a
-[0, 0, 1, 0, 0]
-//
-> precursors
-[0, 0, 1, 0, 0]
-//
-> creatine
-[0, 0, 0, 4, 0]
-//
-> inhibits
-[0, 2, 0, 0, 0]
-//
-> e2-19
-[0, 0, 0, 1, 0]
-//
-> cpj6_mouse
-[0, 0, 0, 0, 1]
-//
-> 2j6
-[0, 0, 0, 0, 1]
-//
-> hi1455
-[0, 1, 0, 0, 0]
-//
-> npt1_mouse
-[0, 0, 0, 1, 0]
-//
-> af132965_1
-[0, 0, 0, 1, 0]
-//
-> cgi-31
-[0, 0, 0, 1, 0]
-//
 > sarcomeric
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > glucose-6-phosphate
 [0, 1, 0, 0, 0]
 //
-> mitsugumin
+> udp-glucuronosyltransferase
 [1, 0, 0, 0, 0]
-//
-> kiaa1004
-[0, 0, 0, 0, 1]
-//
-> ba108l7.4
-[0, 0, 1, 0, 0]
-//
-> malic
-[0, 0, 0, 1, 0]
-//
-> 2b12
-[0, 1, 0, 0, 0]
-//
-> n121_rat
-[0, 1, 0, 0, 0]
-//
-> pom
-[0, 1, 0, 0, 0]
-//
-> 272.0
-[0, 0, 0, 1, 0]
-//
-> c50c3.6
-[0, 0, 0, 1, 0]
-//
-> pot.
-[0, 0, 0, 1, 0]
-//
-> glutaminase
-[0, 0, 0, 1, 0]
-//
-> cntf_mouse
-[0, 1, 0, 0, 0]
-//
-> ciliary
-[0, 1, 0, 0, 0]
-//
-> hbs1-like
-[0, 0, 0, 1, 0]
-//
-> af119384_1
-[0, 0, 0, 0, 4]
-//
-> tetraspanin
-[0, 0, 0, 1, 0]
-//
-> tm4-a
-[0, 0, 0, 1, 0]
-//
-> a57369
-[0, 1, 0, 0, 0]
-//
-> anillin
-[0, 1, 0, 0, 0]
-//
-> fruit
-[0, 2, 0, 0, 0]
-//
-> fly
-[0, 2, 0, 0, 0]
-//
-> ubiquinol-cytochrome
-[0, 0, 0, 1, 0]
-//
-> 6.4
-[0, 0, 0, 1, 0]
 //
 > uridine
-[3, 0, 0, 0, 0]
-//
-> t17343
-[1, 0, 0, 0, 0]
-//
-> dkfzp586k0524.1
 [1, 0, 0, 0, 0]
 //
 > enoyl
-[0, 0, 0, 1, 0]
-//
-> coenzyme
-[0, 0, 0, 2, 0]
-//
-> cg7332
-[0, 0, 1, 0, 0]
-//
-> tpa
-[0, 1, 0, 0, 0]
-//
-> at-hook
-[2, 0, 0, 0, 0]
-//
-> periplasmic
-[0, 0, 0, 1, 0]
-//
-> tolerance
-[0, 0, 0, 1, 0]
-//
-> cuta
-[0, 0, 0, 1, 0]
-//
-> junction-mediating
-[0, 0, 0, 1, 0]
-//
-> l13
-[0, 0, 0, 1, 0]
-//
-> aryl-hydrocarbon
-[0, 1, 0, 0, 0]
-//
-> aristaless
-[0, 1, 0, 0, 0]
-//
-> cemsf67fb
-[0, 1, 0, 0, 0]
-//
-> ygr066c
-[0, 0, 0, 1, 0]
-//
-> neurogranin
-[0, 1, 0, 0, 0]
-//
-> hairy
-[0, 2, 0, 0, 0]
-//
-> yrpw
-[0, 0, 0, 1, 0]
-//
-> cathelin-like
-[1, 0, 0, 0, 0]
-//
-> kiaa0699
-[0, 0, 0, 1, 0]
-//
-> oocyte
-[0, 1, 0, 0, 0]
-//
-> xlcof7.1
-[0, 1, 0, 0, 0]
-//
-> h.influenza
-[1, 0, 0, 0, 0]
-//
-> thymii
-[1, 0, 0, 0, 0]
-//
-> lymph
-[1, 0, 0, 0, 0]
-//
-> nodes
-[1, 0, 0, 0, 0]
-//
-> bacillus
-[0, 0, 0, 1, 0]
-//
-> stearothermophilus
-[0, 0, 0, 1, 0]
-//
-> 9.8
-[0, 1, 0, 0, 0]
-//
-> zk652.3
-[0, 1, 0, 0, 0]
-//
-> s59856
-[0, 1, 0, 0, 0]
-//
-> mfg1
-[1, 0, 0, 0, 0]
-//
-> nk6
-[0, 1, 0, 0, 0]
-//
-> lar
-[0, 1, 0, 0, 0]
-//
-> mdc-3.13
-[0, 1, 0, 0, 0]
-//
-> t-bop
-[0, 1, 0, 0, 0]
-//
-> ectoplacental
-[0, 1, 0, 0, 0]
-//
-> invasive
-[0, 1, 0, 0, 0]
-//
-> extraembryonic
-[0, 1, 0, 0, 0]
-//
-> chorion
-[0, 1, 0, 0, 0]
-//
-> pacsin3
-[0, 0, 0, 1, 0]
-//
-> ficolin
-[0, 1, 0, 0, 0]
-//
-> cd53
-[0, 1, 0, 0, 0]
-//
-> ctm
-[1, 0, 0, 0, 0]
-//
-> 94.2
-[1, 0, 0, 0, 0]
-//
-> c38d4.5
-[1, 0, 0, 0, 0]
-//
-> proteasome-associated
-[0, 0, 0, 1, 0]
-//
-> pad1
-[0, 0, 0, 1, 0]
-//
-> idn3-b
-[1, 0, 0, 0, 0]
-//
-> nidogen
-[0, 2, 0, 0, 0]
-//
-> af156605_1
-[0, 0, 1, 0, 0]
-//
-> dxhxs6673e
-[0, 0, 1, 0, 0]
-//
-> beta-d-galactosidase
 [0, 0, 0, 0, 1]
 //
-> stat
+> at-hook
 [0, 1, 0, 0, 0]
+//
+> af231110_1
+[1, 0, 0, 0, 0]
+//
+> muscleblind
+[1, 0, 0, 0, 0]
+//
+> proto-oncogene
+[0, 0, 0, 1, 0]
+//
+> hairy
+[0, 0, 1, 0, 0]
+//
+> mdc-3.13
+[0, 0, 1, 0, 0]
+//
+> pacsin3
+[0, 0, 1, 0, 0]
+//
+> cd53
+[1, 0, 0, 0, 0]
+//
+> palmitoyl-protein
+[1, 0, 0, 0, 0]
+//
+> 11-beta
+[0, 0, 1, 0, 0]
+//
+> nidogen
+[0, 0, 1, 0, 0]
+//
+> af113615_1
+[0, 0, 0, 0, 1]
+//
+> fhos
+[0, 0, 0, 0, 1]
 //
 > triadin
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
-> tm
+> sema
 [0, 0, 1, 0, 0]
-//
-> aspartyl
-[0, 0, 0, 1, 0]
-//
-> i38909
-[0, 2, 0, 0, 0]
-//
-> damage-specific
-[0, 2, 0, 0, 0]
 //
 > hspc035
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > pigment
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > epithelium-derived
-[0, 1, 0, 0, 0]
-//
-> treacher
 [1, 0, 0, 0, 0]
 //
-> collins
-[1, 0, 0, 0, 0]
-//
-> franceschetti
-[1, 0, 0, 0, 0]
-//
-> cac-1
+> cytotoxic
 [0, 1, 0, 0, 0]
-//
-> d-lactate
-[0, 0, 0, 1, 0]
-//
-> proteosome
-[0, 2, 0, 0, 0]
-//
-> apa4_mouse
-[0, 1, 0, 0, 0]
-//
-> a-iv
-[0, 1, 0, 0, 0]
-//
-> n-copine
-[1, 0, 0, 0, 0]
-//
-> actin-crosslinking
-[0, 0, 0, 1, 0]
 //
 > lymphocyte-associated
-[2, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
-> kiaa0301
+> n-glycanase
+[0, 0, 0, 1, 0]
+//
+> angiotensin
 [0, 0, 1, 0, 0]
 //
-> male-specific
-[0, 0, 0, 1, 0]
-//
-> lethal-3
-[0, 0, 0, 1, 0]
-//
-> rab-14
-[0, 0, 0, 1, 0]
-//
-> signal-1
+> sphingosine
 [0, 1, 0, 0, 0]
-//
-> set
-[1, 0, 0, 0, 0]
-//
-> depp
-[0, 0, 1, 0, 0]
-//
-> t31099
-[0, 1, 0, 0, 0]
-//
-> myosin-rhogap
-[0, 1, 0, 0, 0]
-//
-> myr
-[0, 2, 0, 0, 0]
-//
-> ny-co-3
-[0, 0, 0, 1, 0]
-//
-> s11-6
-[0, 1, 0, 0, 0]
-//
-> nup84
-[0, 0, 0, 1, 0]
-//
-> puff
-[0, 0, 0, 1, 0]
-//
-> bx42
-[0, 0, 0, 1, 0]
 //
 > metaxin
 [0, 0, 0, 1, 0]
 //
-> t42092
-[1, 0, 0, 0, 0]
+> immuoglobulin
+[0, 1, 0, 0, 0]
 //
-> s-afadin
-[1, 0, 0, 0, 0]
+> lambda-2
+[0, 1, 0, 0, 0]
 //
-> alpha2
-[1, 0, 0, 0, 0]
+> lambda-4
+[0, 1, 0, 0, 0]
 //
-> 4b
-[0, 0, 1, 0, 0]
+> troponin
+[0, 0, 0, 0, 3]
 //
-> hemopoietic
-[0, 2, 0, 0, 0]
-//
-> myxovirus
+> slow
 [0, 0, 0, 0, 1]
 //
 > concensus
 [0, 1, 0, 0, 0]
 //
-> 9.2
-[0, 1, 0, 0, 0]
-//
 > ntc1_mouse
 [0, 1, 0, 0, 0]
 //
-> ca11_mouse
-[0, 0, 0, 1, 0]
-//
-> s15660
+> neurogenic
 [0, 1, 0, 0, 0]
 //
-> prprotein
-[0, 0, 1, 0, 0]
-//
-> 1g
-[0, 0, 2, 0, 0]
-//
-> uncoupling
-[0, 2, 0, 0, 0]
-//
-> protein-4
-[1, 0, 0, 0, 0]
-//
-> suppressor-binding
-[0, 0, 1, 0, 0]
-//
-> af198489_1
-[1, 0, 0, 0, 0]
-//
-> lbp-32
-[1, 0, 0, 0, 0]
-//
-> adipocytes
-[0, 0, 0, 0, 1]
-//
-> hp1-bp74
-[0, 0, 1, 0, 0]
-//
-> gastrula
-[0, 1, 0, 0, 0]
-//
-> xlcgf52.1
-[0, 1, 0, 0, 0]
-//
-> af209778_1
-[0, 0, 0, 1, 0]
-//
-> monocarboxylate
-[1, 0, 0, 0, 0]
-//
-> dna-directed
-[0, 0, 0, 3, 0]
-//
-> largest
-[0, 0, 0, 1, 0]
-//
-> cytidylyltransferase
-[0, 1, 0, 0, 0]
-//
-> association
-[1, 0, 0, 0, 0]
-//
-> mph1
-[1, 0, 0, 0, 0]
-//
-> muscarinic
-[0, 1, 0, 0, 0]
-//
-> protein-regulated
-[0, 1, 0, 0, 0]
-//
-> inducer
-[0, 1, 0, 0, 0]
-//
-> neurite
-[0, 1, 0, 0, 0]
-//
-> outgrowth
-[0, 1, 0, 0, 0]
-//
-> kiaa1140
-[0, 0, 0, 1, 0]
-//
-> nonvoltage-gated
-[0, 1, 0, 0, 0]
-//
-> a10
-[1, 0, 0, 0, 0]
-//
-> y161_human
-[0, 1, 0, 0, 0]
-//
-> rts1
-[0, 0, 1, 0, 0]
-//
-> advanced
+> natriuretic
 [2, 0, 0, 0, 0]
 //
-> product-specific
-[1, 0, 0, 0, 0]
-//
-> dj977b1.1
+> monocarboxylate
 [0, 1, 0, 0, 0]
-//
-> kiaa1017
-[0, 0, 0, 1, 0]
-//
-> tsga_rat
-[0, 0, 1, 0, 0]
-//
-> cytohesin-1
-[0, 0, 1, 0, 0]
 //
 > hspc007
 [0, 0, 0, 1, 0]
 //
-> tc10
-[0, 1, 0, 0, 0]
-//
 > fate
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > specification
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > mab21l1
-[0, 0, 0, 1, 0]
-//
-> cox19p
-[0, 0, 0, 1, 0]
-//
-> cg9591
-[0, 1, 0, 0, 0]
-//
-> s65785
-[0, 0, 1, 0, 0]
-//
-> mel-13a
-[0, 0, 1, 0, 0]
-//
-> af161525_1
-[0, 0, 0, 1, 0]
-//
-> hspc177
-[0, 0, 0, 1, 0]
-//
-> v-crk-associated
-[0, 1, 0, 0, 0]
-//
-> dolichyl-di-phosphooligosaccharide-protein
-[0, 1, 0, 0, 0]
-//
-> fructose
-[0, 0, 1, 0, 0]
-//
-> bisphosphatase
-[0, 0, 1, 0, 0]
-//
-> kiaa0092
-[0, 1, 0, 0, 0]
-//
-> distantly
-[0, 1, 0, 0, 0]
-//
-> myosin.
-[0, 1, 0, 0, 0]
+[0, 0, 0, 0, 1]
 //
 > sh2
+[0, 0, 1, 0, 0]
+//
+> fibulin
 [2, 0, 0, 0, 0]
-//
-> prediabetic
-[0, 0, 0, 1, 0]
-//
-> nod
-[0, 0, 0, 1, 0]
-//
-> sera-reactive
-[0, 0, 0, 1, 0]
-//
-> swap
-[0, 1, 0, 0, 0]
-//
-> pcaf
-[0, 1, 0, 0, 0]
-//
-> y+l
-[0, 1, 0, 0, 0]
-//
-> kiaa0594
-[0, 2, 0, 0, 0]
-//
-> s68418
-[0, 0, 0, 2, 0]
-//
-> 1m
-[0, 0, 0, 2, 0]
-//
-> m110
-[0, 0, 0, 2, 0]
-//
-> kiaa0155
-[0, 1, 0, 0, 0]
-//
-> jc4899
-[0, 0, 0, 1, 0]
-//
-> af161530_1
-[0, 0, 1, 0, 0]
-//
-> hspc182
-[0, 0, 1, 0, 0]
-//
-> lon
-[0, 0, 0, 2, 0]
 //
 > non-muscle
 [0, 0, 0, 1, 0]
@@ -3734,272 +1178,71 @@ single-value lijsten:
 > alpha-actinin
 [0, 0, 0, 1, 0]
 //
-> dj37e16.6
-[1, 0, 0, 0, 0]
-//
-> wave-1
-[1, 0, 0, 0, 0]
-//
-> selective
-[0, 0, 0, 1, 0]
-//
-> hybridizing
-[0, 0, 0, 1, 0]
-//
-> defender
-[1, 0, 0, 0, 0]
-//
-> against
-[1, 0, 0, 0, 0]
-//
-> t14792
-[0, 0, 0, 1, 0]
-//
-> dkfzp586g0322.1
-[0, 0, 0, 1, 0]
-//
-> gata-6
-[0, 0, 0, 1, 0]
-//
-> lrp2
-[1, 0, 0, 0, 0]
-//
-> embl:c08125
-[0, 0, 0, 0, 1]
-//
-> rfxank
-[0, 0, 0, 1, 0]
-//
-> schlafen
-[3, 0, 0, 0, 0]
-//
-> dj622l5.2
-[1, 0, 0, 0, 0]
-//
-> bfcol1
+> ned4_mouse
 [0, 1, 0, 0, 0]
 //
+> schlafen
+[0, 2, 0, 0, 0]
+//
+> gastrulation
+[0, 0, 1, 0, 0]
+//
 > g12
-[0, 0, 0, 1, 0]
-//
-> ralbp1
-[1, 0, 0, 0, 0]
-//
-> eps
-[1, 0, 0, 0, 0]
-//
-> beta-transducin
-[0, 0, 0, 0, 1]
-//
-> lyar_mouse
-[0, 0, 1, 0, 0]
-//
-> n107_rat
-[0, 0, 1, 0, 0]
-//
-> nup107
 [0, 0, 1, 0, 0]
 //
 > d-beta-hydroxybutyrate
 [0, 0, 0, 1, 0]
 //
-> ptd017
-[0, 0, 1, 0, 0]
-//
 > 2p1
 [0, 0, 0, 1, 0]
-//
-> r32184_3
-[0, 1, 0, 0, 0]
-//
-> abc3_human
-[0, 0, 0, 1, 0]
-//
-> glia
-[0, 1, 0, 0, 0]
-//
-> maturation
-[0, 1, 0, 0, 0]
-//
-> nah1_mouse
-[1, 0, 0, 0, 0]
-//
-> 30.7
-[0, 0, 0, 1, 0]
-//
-> tsm1-are1
-[0, 0, 0, 1, 0]
-//
-> myelocytomatosis
-[1, 0, 0, 0, 0]
 //
 > restricted
 [0, 1, 0, 0, 0]
 //
-> kiaa0841
-[1, 0, 0, 0, 0]
-//
-> dus6_rat
+> proliferation
 [0, 1, 0, 0, 0]
-//
-> microspikes
-[0, 1, 0, 0, 0]
-//
-> bucan
-[0, 0, 1, 0, 0]
 //
 > b9
 [0, 0, 0, 1, 0]
 //
-> jun-b
-[0, 0, 0, 1, 0]
-//
-> i49625
-[0, 0, 0, 0, 1]
-//
-> testosterone
-[0, 0, 0, 0, 1]
-//
-> 16a-hydroxylase
-[0, 0, 0, 0, 1]
-//
 > protective
 [0, 1, 0, 0, 0]
-//
-> 13.6
-[0, 0, 0, 1, 0]
-//
-> nup170-ils1
-[0, 0, 0, 1, 0]
 //
 > tbx1
 [1, 0, 0, 0, 0]
 //
-> 92.1
+> surfeit
 [0, 0, 0, 1, 0]
 //
-> c24h6.03
-[0, 0, 0, 1, 0]
-//
-> eta
+> non-receptor
 [0, 1, 0, 0, 0]
 //
-> similarto
-[0, 1, 0, 0, 0]
-//
-> cut1+
-[0, 1, 0, 0, 0]
-//
-> which
-[0, 1, 0, 0, 0]
-//
-> regulates
-[0, 1, 0, 0, 0]
-//
-> duplication.
-[0, 1, 0, 0, 0]
-//
-> 2208369a
-[0, 0, 0, 1, 0]
-//
-> srpr_human
-[0, 0, 1, 0, 0]
+> adenylosuccinate
+[0, 0, 0, 0, 1]
 //
 > 66.5
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > f02a9.5
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
-> eomesodermin
+> peroxidase
 [0, 1, 0, 0, 0]
-//
-> 39.2
-[1, 0, 0, 0, 0]
-//
-> egt2-kre1
-[1, 0, 0, 0, 0]
-//
-> acetylglucosaminyltransferase-like
-[0, 1, 0, 0, 0]
-//
-> t25g3.1
-[0, 0, 0, 1, 0]
-//
-> thimet
-[1, 0, 0, 0, 0]
-//
-> oligopeptidase
-[1, 0, 0, 0, 0]
-//
-> af077037_1
-[0, 0, 0, 1, 0]
-//
-> hspc013
-[0, 0, 0, 1, 0]
-//
-> asparagine
-[1, 0, 0, 0, 0]
 //
 > d-dopachrome
 [0, 0, 0, 1, 0]
 //
-> glyceronephosphate
+> af220193_1
 [0, 0, 0, 1, 0]
 //
-> core1
-[1, 0, 0, 0, 0]
-//
-> udp-galactose:n-acetylgalactosamine-alpha-r
-[1, 0, 0, 0, 0]
-//
-> yce7_human
-[0, 0, 1, 0, 0]
-//
-> activity-dependent
-[0, 0, 1, 0, 0]
-//
-> neuroprotective
-[0, 0, 1, 0, 0]
-//
-> c-acetyltransferase
-[0, 0, 1, 0, 0]
-//
-> gephyrin
-[0, 0, 1, 0, 0]
+> ht007
+[0, 0, 0, 1, 0]
 //
 > yk325c7.5
 [0, 0, 0, 1, 0]
 //
-> filament
-[0, 0, 0, 1, 0]
-//
-> af125100_1
-[0, 0, 1, 0, 0]
-//
-> hspc039
-[0, 0, 1, 0, 0]
-//
-> d-interacting
-[0, 0, 1, 0, 0]
-//
-> myb-like
-[0, 0, 1, 0, 0]
-//
-> message
-[0, 0, 0, 1, 0]
-//
-> eh-domain
-[1, 0, 0, 0, 0]
-//
 > delta2-enoyl-coenzyme
-[0, 0, 0, 2, 0]
-//
-> histidine-rich
-[0, 0, 0, 1, 0]
-//
-> 4-epimerase
-[1, 0, 0, 0, 0]
+[0, 0, 0, 0, 2]
 //
 > utp--glucose-1-phosphate
 [0, 0, 0, 1, 0]
@@ -4007,463 +1250,67 @@ single-value lijsten:
 > uridylyltransferase
 [0, 0, 0, 1, 0]
 //
-> a25483
+> retrovirus-related
 [0, 0, 0, 0, 1]
-//
-> hsgt1p
-[0, 1, 0, 0, 0]
-//
-> p4h1_mouse
-[1, 0, 0, 0, 0]
-//
-> exotoses
-[0, 0, 0, 1, 0]
-//
-> fucosyltransferase
-[2, 0, 0, 0, 0]
-//
-> aa2a_mouse
-[0, 2, 0, 0, 0]
-//
-> a2a
-[0, 2, 0, 0, 0]
-//
-> 49.7
-[0, 0, 0, 1, 0]
-//
-> gin2-ste3
-[0, 0, 0, 1, 0]
 //
 > s24169
-[0, 1, 0, 0, 0]
-//
-> af152841_1
-[0, 0, 0, 1, 0]
-//
-> polymyositis
-[0, 0, 0, 1, 0]
-//
-> scleroderma
-[0, 0, 0, 1, 0]
-//
-> overlap
-[0, 0, 0, 1, 0]
-//
-> etn
-[0, 0, 0, 0, 1]
-//
-> ypl207w
-[1, 0, 0, 0, 0]
-//
-> phosphates
-[0, 0, 0, 1, 0]
-//
-> 36.7
-[0, 1, 0, 0, 0]
-//
-> ah6.2
-[0, 1, 0, 0, 0]
-//
-> elf2b1
-[0, 0, 0, 1, 0]
-//
-> tthy_mouse
-[0, 1, 0, 0, 0]
-//
-> transthyretin
-[0, 1, 0, 0, 0]
-//
-> a8
 [0, 0, 1, 0, 0]
 //
-> msr4
-[0, 0, 0, 1, 0]
-//
 > neuronal-specific
-[1, 0, 0, 0, 0]
-//
-> mannose-1-phosphate
-[0, 0, 0, 1, 0]
-//
-> guanyltransferase
-[0, 0, 0, 1, 0]
-//
-> bm88
-[1, 0, 0, 0, 0]
-//
-> kiaa0853
-[0, 0, 0, 1, 0]
-//
-> m-sema
-[1, 0, 0, 0, 0]
-//
-> precusor
-[1, 0, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > microfibrillar
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > neutrophil
-[0, 2, 0, 0, 0]
+[2, 0, 0, 0, 0]
 //
 > lipocalin
 [1, 0, 0, 0, 0]
 //
 > iga
-[0, 2, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > v-d-j-heavy
-[0, 2, 0, 0, 0]
-//
-> krab
-[1, 0, 0, 0, 0]
-//
-> contigb;
-[0, 1, 0, 0, 0]
-//
-> tia1_mouse
-[0, 1, 0, 0, 0]
-//
-> nucleolysin
-[0, 1, 0, 0, 0]
-//
-> tia-1
-[0, 1, 0, 0, 0]
-//
-> af188634_1
-[0, 1, 0, 0, 0]
-//
-> janus
 [0, 0, 1, 0, 0]
 //
 > s22934
 [0, 0, 0, 1, 0]
 //
-> y036_human
-[0, 1, 0, 0, 0]
-//
-> 5'-triphosphate
-[1, 0, 0, 0, 0]
-//
-> kiaa1373
-[0, 1, 0, 0, 0]
-//
-> swap-70
-[1, 0, 0, 0, 0]
-//
-> rst
-[1, 0, 0, 0, 0]
-//
-> 6-phosphofructo-2-kinase
-[1, 0, 0, 0, 0]
-//
-> rho1
-[0, 1, 0, 0, 0]
-//
-> epstein-barr
-[0, 1, 0, 0, 0]
-//
-> sphingolipid
-[1, 0, 0, 0, 0]
-//
-> nmda1
-[1, 0, 0, 0, 0]
-//
-> apc-binding
-[2, 0, 0, 0, 0]
-//
-> eb1
-[1, 0, 0, 0, 0]
-//
-> myelin-associated
-[2, 0, 0, 0, 0]
-//
-> cd59a
-[0, 0, 0, 0, 1]
-//
-> aortic
-[1, 0, 0, 0, 0]
-//
-> preferentially
-[2, 0, 0, 0, 0]
-//
-> linker
-[1, 0, 0, 0, 0]
-//
-> dihydrofolate
-[0, 1, 0, 0, 0]
-//
-> urokinase
-[0, 0, 0, 0, 1]
-//
-> corticotropin
-[0, 1, 0, 0, 0]
-//
-> prolactin-related
+> testis-specific
 [0, 0, 0, 1, 0]
 //
-> cd19
+> transglutaminase
+[1, 0, 0, 0, 0]
+//
+> plasminogen
 [0, 1, 0, 0, 0]
-//
-> hgfl_mouse
-[1, 0, 0, 0, 0]
-//
-> anterior
-[0, 0, 0, 1, 0]
-//
-> gradient
-[0, 0, 0, 1, 0]
-//
-> preferring
-[1, 0, 0, 0, 0]
-//
-> tcf4b
-[0, 1, 0, 0, 0]
-//
-> anhydrase-like
-[0, 0, 1, 0, 0]
-//
-> mature
-[0, 0, 0, 1, 0]
-//
-> 7-dehydrocholesterol
-[1, 0, 0, 0, 0]
-//
-> friend
-[1, 0, 0, 0, 0]
-//
-> gaba-a
-[0, 0, 0, 0, 1]
-//
-> s06318
-[1, 0, 0, 0, 0]
-//
-> erp72
-[1, 0, 0, 0, 0]
-//
-> af064806_1
-[0, 1, 0, 0, 0]
-//
-> vinexin
-[0, 1, 0, 0, 0]
-//
-> t08762
-[0, 0, 0, 2, 0]
-//
-> dkfzp586p2219.1
-[0, 0, 0, 2, 0]
-//
-> immune
-[1, 0, 0, 0, 0]
-//
-> dna-repair
-[1, 0, 0, 0, 0]
-//
-> xp-b
-[1, 0, 0, 0, 0]
 //
 > anx7_mouse
-[0, 1, 0, 0, 0]
-//
-> snag_human
 [1, 0, 0, 0, 0]
 //
-> gamma-soluble
-[1, 0, 0, 0, 0]
-//
-> nsf
-[1, 0, 0, 0, 0]
-//
-> ringer
-[1, 0, 0, 0, 0]
-//
-> calcium-activated
-[0, 1, 0, 0, 0]
-//
-> 2022314a
-[1, 0, 0, 0, 0]
-//
-> lymphocytic
-[1, 0, 0, 0, 0]
-//
-> jointed
-[0, 1, 0, 0, 0]
-//
-> oda-10
-[0, 1, 0, 0, 0]
-//
-> f53b1.2
+> granule
 [0, 0, 1, 0, 0]
-//
-> af112151_1
-[0, 1, 0, 0, 0]
-//
-> arteries
-[0, 1, 0, 0, 0]
 //
 > immunity-associated
-[0, 0, 0, 0, 1]
-//
-> cbpc_mouse
-[1, 0, 0, 0, 0]
-//
-> asialoglycoprotein
-[0, 1, 0, 0, 0]
-//
-> pcp_human
-[1, 0, 0, 0, 0]
-//
-> pro-x
-[1, 0, 0, 0, 0]
-//
-> ftsj-like
 [0, 0, 1, 0, 0]
-//
-> calbindin
-[1, 0, 0, 0, 0]
-//
-> dd10_human
-[0, 1, 0, 0, 0]
-//
-> ddx10
-[0, 1, 0, 0, 0]
-//
-> kupffer
-[1, 0, 0, 0, 0]
-//
-> bcl6_mouse
-[0, 0, 0, 1, 0]
-//
-> kiaa0240
-[0, 0, 0, 0, 1]
 //
 > lupus
-[0, 0, 0, 2, 0]
-//
-> nephritis-associated
 [0, 0, 0, 1, 0]
 //
-> immunoglobulin-associated
-[1, 0, 0, 0, 0]
+> abbott
+[0, 0, 1, 0, 0]
 //
 > a-particle
-[0, 0, 0, 1, 0]
-//
-> alpha-1-inhibitor
 [0, 0, 0, 0, 1]
-//
-> u63408_1
-[1, 0, 0, 0, 0]
-//
-> mrvi1a
-[1, 0, 0, 0, 0]
-//
-> idn4-ggtr8
-[1, 0, 0, 0, 0]
-//
-> ria-i
-[0, 0, 0, 0, 1]
-//
-> stature
-[1, 0, 0, 0, 0]
-//
-> iroquois
-[0, 0, 0, 1, 0]
 //
 > z-band
-[0, 0, 0, 1, 0]
-//
-> 7a
-[0, 0, 0, 1, 0]
-//
-> a21b
 [0, 0, 0, 0, 1]
 //
-> lymphotoxin
-[0, 1, 0, 0, 0]
-//
-> mazr
-[0, 0, 0, 1, 0]
-//
-> traf
+> a21b
 [0, 0, 1, 0, 0]
 //
-> member-associated
-[0, 0, 1, 0, 0]
-//
-> nf-kappa
-[0, 0, 1, 0, 0]
-//
-> i60486
-[0, 0, 0, 1, 0]
-//
-> cd6
-[0, 1, 0, 0, 0]
-//
-> cirp
-[0, 1, 0, 0, 0]
-//
-> triglyceride
-[1, 0, 0, 0, 0]
-//
-> nima
-[0, 2, 0, 0, 0]
-//
-> af218940_1
-[0, 0, 1, 0, 0]
-//
-> formin-2
-[0, 0, 1, 0, 0]
-//
-> ks63_mouse
-[1, 0, 0, 0, 0]
-//
-> hippocampus
-[0, 0, 0, 1, 0]
-//
-> abundant
-[0, 0, 0, 2, 0]
-//
-> hydroxymethylglutaryl-coa
-[0, 0, 0, 1, 0]
-//
-> 2013347a
-[0, 0, 1, 0, 0]
-//
-> huckebein
-[0, 0, 1, 0, 0]
-//
-> bmi-1
-[0, 0, 0, 1, 0]
-//
-> s56145
-[0, 0, 0, 1, 0]
-//
-> bs69
-[0, 0, 0, 1, 0]
-//
-> ubiquitinating
-[0, 0, 0, 1, 0]
-//
-> e2-230
-[0, 0, 0, 1, 0]
-//
-> cg13585
-[0, 0, 0, 1, 0]
-//
-> abl-interactor
-[0, 1, 0, 0, 0]
-//
-> casitas
-[0, 1, 0, 0, 0]
-//
-> b-lineage
-[0, 1, 0, 0, 0]
-//
-> mdm2-like
-[0, 0, 0, 1, 0]
-//
-> cicl_rat
+> golgin
 [0, 0, 0, 0, 1]
 //
 > af164799_1
@@ -4472,466 +1319,70 @@ single-value lijsten:
 > putatative
 [0, 0, 0, 1, 0]
 //
-> goliath
-[0, 0, 0, 2, 0]
-//
-> dj108k11.3
-[0, 0, 0, 0, 1]
-//
-> kiaa0661
+> thymoma
 [0, 0, 0, 1, 0]
-//
-> diphthamide
-[0, 0, 1, 0, 0]
-//
-> calsyntenin-1
-[0, 0, 0, 1, 0]
-//
-> endogenous
-[0, 0, 0, 0, 2]
-//
-> retroviral
-[0, 0, 0, 0, 2]
-//
-> t-rna
-[0, 0, 0, 0, 2]
 //
 > kiaa0309
 [0, 0, 0, 1, 0]
 //
-> cerebellar
-[0, 1, 0, 0, 0]
-//
-> degeneration-related
-[0, 1, 0, 0, 0]
-//
-> kiaa1165
-[1, 0, 0, 0, 0]
-//
-> folylpolyglutamyl
-[1, 0, 0, 0, 0]
-//
-> znt-1
-[1, 0, 0, 0, 0]
-//
-> kiaa0542
-[0, 0, 0, 0, 1]
-//
-> son
-[0, 0, 1, 0, 0]
-//
-> sevenless
-[0, 0, 1, 0, 0]
-//
-> cationic
-[0, 1, 0, 0, 0]
-//
-> p52ripk
-[1, 0, 0, 0, 0]
-//
-> degenerative
-[0, 0, 1, 0, 0]
-//
-> spermatocyte
-[0, 0, 1, 0, 0]
-//
-> domin
-[0, 0, 1, 0, 0]
-//
-> txtp_rat
+> hypoxia
 [0, 0, 0, 1, 0]
 //
-> zfmsa12a
-[1, 0, 0, 0, 0]
-//
-> macro-h2a.1
+> orphan
 [0, 0, 0, 1, 0]
 //
-> germ
-[0, 2, 0, 0, 0]
-//
-> cell-specific
+> stranded
 [0, 1, 0, 0, 0]
-//
-> ikappab
-[0, 1, 0, 0, 0]
-//
-> af151868_1
-[0, 1, 0, 0, 0]
-//
-> cgi-110
-[0, 1, 0, 0, 0]
-//
-> kiaa0903
-[0, 0, 1, 0, 0]
-//
-> retinoblastoma-binding
-[0, 1, 0, 0, 0]
-//
-> actin-filament
-[0, 0, 0, 1, 0]
-//
-> frabin
-[0, 0, 0, 1, 0]
-//
-> c321d2.1
-[0, 1, 0, 0, 0]
-//
-> af113539_1
-[1, 0, 0, 0, 0]
-//
-> ht001
-[1, 0, 0, 0, 0]
-//
-> polycomb-group
-[0, 0, 0, 1, 0]
-//
-> metallo
-[1, 0, 0, 0, 0]
-//
-> cd94
-[1, 0, 0, 0, 0]
-//
-> delta-like
-[2, 0, 0, 0, 0]
-//
-> interferon-gamma
-[0, 0, 0, 1, 0]
-//
-> intersectin
-[0, 1, 0, 0, 0]
-//
-> k+
-[0, 0, 0, 1, 0]
-//
-> cg3714
-[0, 1, 0, 0, 0]
-//
-> man1_rat
-[1, 0, 0, 0, 0]
-//
-> alpha-mannosidase
-[1, 0, 0, 0, 0]
-//
-> af151825_1
-[1, 0, 0, 0, 0]
-//
-> cgi-67
-[1, 0, 0, 0, 0]
-//
-> hsp40-like
-[0, 0, 0, 1, 0]
-//
-> cd20
-[1, 0, 0, 0, 0]
-//
-> dentatorubral
-[1, 0, 0, 0, 0]
-//
-> pallidoluysian
-[1, 0, 0, 0, 0]
-//
-> retina
-[0, 0, 1, 0, 0]
-//
-> ntf2-related
-[1, 0, 0, 0, 0]
-//
-> ykl030w
-[1, 0, 0, 0, 0]
-//
-> 18.5
-[0, 0, 0, 1, 0]
-//
-> c12g12.05c
-[0, 0, 0, 1, 0]
-//
-> rad17
-[0, 0, 0, 1, 0]
-//
-> ca19_mouse
-[1, 0, 0, 0, 0]
-//
-> zygini
-[1, 0, 0, 0, 0]
 //
 > dcc_mouse
-[0, 0, 0, 0, 1]
+[0, 0, 1, 0, 0]
 //
 > dcc
-[0, 0, 0, 0, 1]
-//
-> undifferentiated
-[0, 1, 0, 0, 0]
-//
-> achaete-scute
-[1, 0, 0, 0, 0]
-//
-> 61kda
-[0, 0, 0, 1, 0]
-//
-> pp2a
-[0, 0, 0, 1, 0]
-//
-> dj500l14.1
-[0, 1, 0, 0, 0]
-//
-> contains
-[0, 0, 0, 2, 0]
+[0, 0, 1, 0, 0]
 //
 > dj568c11.2
-[0, 0, 0, 1, 0]
-//
-> mllt2
-[0, 0, 1, 0, 0]
-//
-> unidentified
-[0, 0, 1, 0, 0]
-//
-> kiaa0242
-[1, 0, 0, 0, 0]
-//
-> f2
-[1, 0, 0, 0, 0]
-//
-> prostoglandin
-[1, 0, 0, 0, 0]
-//
-> t20d3.3
-[1, 0, 0, 0, 0]
-//
-> pter_mouse
-[1, 0, 0, 0, 0]
-//
-> stromelysin
-[0, 0, 1, 0, 0]
-//
-> pdgf
-[0, 0, 1, 0, 0]
-//
-> ac008015_2
-[0, 0, 0, 1, 0]
-//
-> coiled
-[0, 0, 1, 0, 0]
-//
-> coil
-[0, 0, 1, 0, 0]
+[0, 0, 0, 0, 1]
 //
 > af145613_1
-[0, 0, 0, 1, 0]
+[0, 0, 1, 0, 0]
 //
 > bcdna.gh03108
-[0, 0, 0, 1, 0]
-//
-> ribose
-[0, 0, 0, 1, 0]
-//
-> 5-phosphate
-[0, 0, 0, 1, 0]
+[0, 0, 1, 0, 0]
 //
 > diazepam
-[0, 0, 0, 1, 0]
+[0, 0, 1, 0, 0]
 //
-> zfp265
-[0, 0, 0, 1, 0]
+> tdt_mouse
+[0, 0, 1, 0, 0]
 //
-> k02b2.3
+> nucleotidylexotransferase
+[0, 0, 1, 0, 0]
+//
+> tenascin
 [1, 0, 0, 0, 0]
-//
-> conjugating
-[0, 0, 0, 2, 0]
 //
 > unr
 [0, 0, 0, 1, 0]
 //
-> glur-delta2
-[0, 0, 1, 0, 0]
-//
 > interferon-stimulated
-[0, 0, 0, 0, 1]
+[0, 1, 0, 0, 0]
 //
 > tetranectin
 [0, 0, 0, 1, 0]
 //
-> tyosine
-[1, 0, 0, 0, 0]
-//
-> vessel
-[0, 0, 0, 1, 0]
-//
-> epicardial
-[0, 0, 0, 1, 0]
-//
-> anti-hiv-1
-[0, 1, 0, 0, 0]
-//
-> single-chain
-[0, 1, 0, 0, 0]
-//
-> fragment
-[0, 2, 0, 0, 0]
-//
-> r29515_1
-[1, 0, 0, 0, 0]
-//
-> indole
-[1, 0, 0, 0, 0]
-//
-> signal-regulating
-[1, 0, 0, 0, 0]
-//
-> inositol-requiring
-[1, 0, 0, 0, 0]
-//
-> carboxyl-terminal
-[0, 0, 0, 0, 1]
-//
-> retinal-cadherin
-[1, 0, 0, 0, 0]
-//
-> apoptotic
-[0, 1, 0, 0, 0]
-//
-> speckle-type
-[0, 0, 0, 1, 0]
-//
-> poz
-[0, 0, 0, 1, 0]
-//
-> five
-[0, 1, 0, 0, 0]
-//
-> fibrous
-[0, 1, 0, 0, 0]
-//
-> sheath
-[0, 1, 0, 0, 0]
-//
-> pro-makap82
-[0, 1, 0, 0, 0]
-//
-> 34.5
-[0, 0, 0, 1, 0]
-//
-> ste50-his4
-[0, 0, 0, 1, 0]
-//
-> r27328_1
-[0, 0, 1, 0, 0]
-//
-> kiaa0167
-[0, 0, 1, 0, 0]
-//
-> polyadenylate-binding
-[0, 0, 0, 2, 0]
-//
-> ancient
-[0, 1, 0, 0, 0]
-//
-> actin-binding
-[0, 0, 0, 1, 0]
-//
-> 1915177a
-[0, 1, 0, 0, 0]
-//
-> a56539
-[0, 0, 0, 0, 1]
-//
-> giantin
-[0, 0, 0, 0, 1]
-//
-> lymphocyte-activation
-[1, 0, 0, 0, 0]
-//
-> l-specific
-[0, 0, 0, 1, 0]
-//
-> beta-oxdiation
-[0, 0, 0, 1, 0]
-//
-> other
-[1, 0, 0, 0, 0]
-//
-> phosphatases
-[1, 0, 0, 0, 0]
-//
-> lambda-crystallin
-[0, 1, 0, 0, 0]
-//
-> yol102c
-[0, 0, 0, 1, 0]
-//
-> 3-phosphoinositide
-[0, 1, 0, 0, 0]
-//
-> proteinase
+> disintegrin-like
 [2, 0, 0, 0, 0]
 //
-> transin-1
-[1, 0, 0, 0, 0]
-//
-> g7c
-[0, 0, 0, 1, 0]
-//
-> g7c-d
-[0, 0, 0, 1, 0]
-//
-> kiaa0377
-[0, 0, 0, 1, 0]
-//
-> kiaa0769
-[1, 0, 0, 0, 0]
-//
-> anpc_mouse
-[0, 1, 0, 0, 0]
-//
-> atrial
-[0, 1, 0, 0, 0]
-//
-> clearance
-[0, 1, 0, 0, 0]
-//
-> rer1
+> s34198
 [0, 0, 1, 0, 0]
 //
-> cd1d1
-[0, 0, 0, 1, 0]
-//
-> af173003_1
-[0, 0, 0, 0, 1]
-//
-> glycol
-[0, 0, 0, 0, 1]
-//
-> kiaa0328
-[0, 0, 0, 1, 0]
-//
-> ba395l14.2
+> ige
 [0, 0, 1, 0, 0]
 //
-> t31081
+> conserved
 [0, 0, 0, 1, 0]
 //
-> cca3
-[0, 0, 0, 1, 0]
-//
-> kiaa1495
-[0, 0, 0, 1, 0]
-//
-> rearranged
-[3, 0, 0, 0, 0]
-//
-> n155_rat
-[0, 0, 0, 1, 0]
-//
-> nup155
-[0, 0, 0, 1, 0]
-//
-> delta-chain
-[1, 0, 0, 0, 0]
-//
-> v-d-j-c
+> proteinase
 [1, 0, 0, 0, 0]
 //
 > af090915_1
@@ -4940,365 +1391,107 @@ single-value lijsten:
 > pro0310p1
 [0, 1, 0, 0, 0]
 //
-> ep2
-[1, 0, 0, 0, 0]
-//
-> kiaa0737
-[0, 0, 0, 0, 1]
-//
-> t17285
-[0, 0, 1, 0, 0]
-//
-> dkfzp434n0535.1
-[0, 0, 1, 0, 0]
-//
-> blu
-[0, 0, 1, 0, 0]
-//
-> ysc-like
-[0, 0, 0, 1, 0]
-//
-> af161427_1
+> toll-like
 [0, 2, 0, 0, 0]
 //
-> hspc309
-[0, 2, 0, 0, 0]
-//
-> decay
-[0, 1, 0, 0, 0]
-//
-> accelerating
-[0, 1, 0, 0, 0]
-//
-> p190-b
-[0, 0, 0, 1, 0]
-//
-> osmosis
-[0, 0, 1, 0, 0]
-//
-> cd1d2
-[0, 1, 0, 0, 0]
-//
-> 13.4
-[0, 0, 0, 1, 0]
-//
-> acs1-gcv3
-[0, 0, 0, 1, 0]
-//
-> ubiquinone
-[0, 0, 0, 1, 0]
-//
-> ybs4_yeast
-[0, 0, 0, 1, 0]
-//
-> flap
-[0, 1, 0, 0, 0]
-//
-> immunodeficiency
-[0, 0, 1, 0, 0]
-//
-> p1.11659
-[0, 0, 0, 0, 1]
-//
-> rcgr19
-[1, 0, 0, 0, 0]
-//
-> af135493_1
-[0, 1, 0, 0, 0]
-//
-> muc1_mouse
-[0, 1, 0, 0, 0]
-//
-> 50kd
-[0, 0, 1, 0, 0]
-//
-> i48668
+> calcium-binding
 [2, 0, 0, 0, 0]
 //
-> white
-[0, 1, 0, 0, 0]
+> 13.4
+[0, 0, 0, 0, 1]
 //
-> apricot
-[0, 1, 0, 0, 0]
+> acs1-gcv3
+[0, 0, 0, 0, 1]
 //
-> trf-proximal
-[0, 0, 0, 1, 0]
+> ubiquinone
+[0, 0, 0, 0, 1]
 //
-> drr1
+> cofilin
 [1, 0, 0, 0, 0]
 //
-> a55929
+> muc1_mouse
+[1, 0, 0, 0, 0]
+//
+> adapter
 [0, 1, 0, 0, 0]
 //
-> noca
-[0, 1, 0, 0, 0]
-//
-> cystic
-[0, 1, 0, 0, 0]
-//
-> fibrosis
+> scavenger
 [0, 1, 0, 0, 0]
 //
 > igsr
 [0, 1, 0, 0, 0]
 //
 > prostaglandin-e2
-[0, 1, 0, 0, 0]
-//
-> 9-reductase
-[0, 1, 0, 0, 0]
-//
-> cadherin-related
-[1, 0, 0, 0, 0]
-//
-> postmeiotic
-[1, 0, 0, 0, 0]
-//
-> segregation
-[1, 0, 0, 0, 0]
-//
-> increased
-[1, 0, 0, 0, 0]
-//
-> fibrousheathin
-[0, 2, 0, 0, 0]
-//
-> ovo
-[0, 0, 0, 1, 0]
-//
-> elav-type
 [0, 0, 1, 0, 0]
 //
-> prolactin-like
-[3, 0, 0, 0, 0]
+> 9-reductase
+[0, 0, 1, 0, 0]
 //
-> link
+> sine
 [0, 0, 0, 1, 0]
 //
-> nsg2_mouse
-[1, 0, 0, 0, 0]
-//
-> e1-e2
-[1, 0, 0, 0, 0]
-//
-> kiaa1469
-[1, 0, 0, 0, 0]
-//
-> wd40
-[0, 0, 0, 0, 1]
+> oculis-related
+[0, 0, 0, 1, 0]
 //
 > fk506-binding
 [0, 0, 0, 1, 0]
 //
-> neuraxin
-[0, 0, 0, 1, 0]
+> keap1
+[0, 1, 0, 0, 0]
 //
 > map-1
-[0, 0, 0, 0, 1]
-//
-> cystein-rich
-[0, 1, 0, 0, 0]
-//
-> hydrophobic
-[0, 1, 0, 0, 0]
-//
-> collapsin
-[1, 0, 0, 0, 0]
-//
-> alpha-spectrin
-[0, 0, 0, 1, 0]
-//
-> l8167.6
-[1, 0, 0, 0, 0]
-//
-> cerevisiae.
-[1, 0, 0, 0, 0]
-//
-> tuberous
 [0, 0, 1, 0, 0]
 //
-> sclerosis
-[0, 0, 1, 0, 0]
-//
-> phosphoribosyltransferase
+> osteoblast
 [1, 0, 0, 0, 0]
 //
-> cd97
-[1, 0, 0, 0, 0]
-//
-> smoothened
+> developmentally
 [0, 0, 0, 1, 0]
 //
-> alpha-induced
-[0, 1, 0, 0, 0]
-//
-> odz
-[0, 1, 0, 0, 0]
-//
-> odd
+> fbj
 [0, 0, 0, 1, 0]
 //
-> copper
-[2, 0, 0, 0, 0]
-//
-> chaperone
-[1, 0, 0, 0, 0]
-//
-> lactogen
-[1, 0, 0, 0, 0]
-//
-> stimulation
-[0, 1, 0, 0, 0]
+> osteosarcoma
+[0, 0, 0, 1, 0]
 //
 > eig
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > prothymosin
-[0, 2, 0, 0, 0]
-//
-> dolichyl-phosphate
-[2, 0, 0, 0, 0]
-//
-> alpha-n-acetylglucosaminephosphotransferase
 [1, 0, 0, 0, 0]
 //
-> orosomucoid
-[0, 2, 0, 0, 0]
-//
-> polyphosphate
-[1, 0, 0, 0, 0]
-//
-> l5
-[0, 0, 0, 1, 0]
-//
-> uniform
-[0, 0, 0, 1, 0]
-//
-> surfactant
-[2, 0, 0, 0, 0]
+> 3-hydroxy-3-methylglutaryl-coenzyme
+[0, 1, 0, 0, 0]
 //
 > trex2
 [0, 0, 0, 1, 0]
 //
-> dendritic
-[0, 0, 0, 1, 0]
-//
-> labile
-[0, 1, 0, 0, 0]
-//
-> duffy
-[0, 1, 0, 0, 0]
-//
-> 5'-3'
-[0, 0, 1, 0, 0]
-//
-> exoribonuclease
-[0, 0, 1, 0, 0]
-//
-> special
-[0, 0, 0, 1, 0]
-//
-> at-rich
-[0, 0, 0, 1, 0]
-//
-> defect
-[0, 0, 0, 1, 0]
-//
-> alpha-albumin
-[0, 0, 1, 0, 0]
-//
-> ca2+-independent
-[0, 1, 0, 0, 0]
-//
-> betaine-homocysteine
-[1, 0, 0, 0, 0]
-//
-> mpv17
-[0, 0, 0, 0, 2]
+> adp-ribosyltransferase
+[0, 0, 0, 0, 1]
 //
 > helix-loop-helix
 [0, 0, 0, 1, 0]
 //
-> e26
+> ubiquitous
 [0, 0, 0, 1, 0]
-//
-> triosephosphate
-[0, 0, 0, 1, 0]
-//
-> pcm-1
-[0, 0, 1, 0, 0]
-//
-> pericentriolar
-[0, 0, 1, 0, 0]
 //
 > ankyrin-like
-[1, 0, 0, 0, 0]
-//
-> stearoyl-coenzyme
-[1, 0, 0, 0, 0]
-//
-> synthesis-like
-[0, 0, 0, 1, 0]
+[0, 0, 1, 0, 0]
 //
 > benzodiazepine
-[0, 1, 0, 0, 0]
-//
-> 4c
 [1, 0, 0, 0, 0]
-//
-> valosin
-[0, 0, 1, 0, 0]
 //
 > converting
-[0, 1, 0, 0, 0]
-//
-> l35
-[0, 1, 0, 0, 0]
-//
-> eleven-nineteen
-[1, 0, 0, 0, 0]
-//
-> lysine-rich
-[1, 0, 0, 0, 0]
-//
-> pendred
 [0, 0, 1, 0, 0]
 //
-> sporulation
-[0, 1, 0, 0, 0]
-//
-> meiosis-specific
-[1, 0, 0, 0, 0]
-//
-> spo11
-[0, 1, 0, 0, 0]
-//
-> dynamin
-[0, 0, 1, 0, 0]
+> feminization
+[0, 0, 0, 1, 0]
 //
 > e2b
 [0, 0, 0, 1, 0]
 //
-> arylsulfatase
-[0, 1, 0, 0, 0]
-//
-> variegation
-[1, 0, 0, 0, 0]
-//
-> 3-9
-[1, 0, 0, 0, 0]
-//
-> ret
-[0, 0, 0, 1, 0]
-//
 > c-associated
 [0, 1, 0, 0, 0]
-//
-> germinal
-[1, 0, 0, 0, 0]
-//
-> center
-[1, 0, 0, 0, 0]
 //
 > dystrophin-associated
 [0, 0, 0, 2, 0]
@@ -5306,323 +1499,47 @@ single-value lijsten:
 > dopachrome
 [0, 0, 0, 1, 0]
 //
-> demilune
-[1, 0, 0, 0, 0]
-//
 > parotid
-[2, 0, 0, 0, 0]
-//
-> tial1
-[0, 0, 0, 1, 0]
-//
-> granule-associated
-[0, 0, 0, 2, 0]
-//
-> valyl-trna
-[1, 0, 0, 0, 0]
-//
-> sepiapterin
-[0, 0, 0, 1, 0]
-//
-> moloney
-[0, 2, 0, 0, 0]
-//
-> c2f
-[0, 0, 0, 1, 0]
-//
-> stat6
 [0, 1, 0, 0, 0]
 //
-> nab2
-[0, 1, 0, 0, 0]
-//
-> gene-related
-[0, 0, 0, 0, 1]
-//
-> peptide-receptor
-[0, 0, 0, 0, 1]
-//
-> kiaa0453
-[0, 0, 0, 1, 0]
-//
-> frequenin
-[0, 1, 0, 0, 0]
-//
-> patent
-[1, 0, 0, 0, 0]
-//
-> isl1
-[0, 1, 0, 0, 0]
-//
-> bithoraxoid-like
-[1, 0, 0, 0, 0]
-//
-> 1-beta
-[1, 0, 0, 0, 0]
-//
-> hi1715
-[0, 1, 0, 0, 0]
-//
-> af220052_1
-[0, 0, 0, 1, 0]
-//
-> mds032
-[0, 0, 0, 1, 0]
-//
-> f59e12.5
-[0, 0, 0, 1, 0]
-//
-> sui1
-[2, 0, 0, 0, 0]
-//
-> ceba_mouse
+> upstream
 [0, 0, 1, 0, 0]
 //
-> tar
+> beta-spectrin
 [0, 0, 0, 1, 0]
-//
-> kiaa0657
-[0, 0, 1, 0, 0]
-//
-> af151860_1
-[0, 0, 0, 1, 0]
-//
-> cgi-102
-[0, 0, 0, 1, 0]
-//
-> bdeight
-[1, 0, 0, 0, 0]
-//
-> phosphatase-like
-[0, 1, 0, 0, 0]
-//
-> ptplb
-[0, 1, 0, 0, 0]
-//
-> ny-co-1
-[0, 0, 0, 1, 0]
-//
-> deoxyguanosine
-[0, 0, 0, 1, 0]
-//
-> aac-rich
-[1, 0, 0, 0, 0]
-//
-> aac3
-[1, 0, 0, 0, 0]
-//
-> pituitary
-[1, 0, 0, 0, 0]
-//
-> tumor-transforming
-[1, 0, 0, 0, 0]
-//
-> t17302
-[1, 0, 0, 0, 0]
-//
-> dkfzp564d177.1
-[1, 0, 0, 0, 0]
-//
-> rnase
-[1, 0, 0, 0, 0]
-//
-> dj69e11.3
-[1, 0, 0, 0, 0]
-//
-> p300_human
-[1, 0, 0, 0, 0]
-//
-> e1a-associated
-[1, 0, 0, 0, 0]
 //
 > y247_human
-[0, 1, 0, 0, 0]
-//
-> hspc004
-[0, 0, 1, 0, 0]
-//
-> 63.5
-[0, 0, 0, 1, 0]
-//
-> zk353.1
-[0, 0, 0, 1, 0]
-//
-> inosine
 [1, 0, 0, 0, 0]
-//
-> 5'-phosphate
-[1, 0, 0, 0, 0]
-//
-> cdc
-[0, 0, 0, 1, 0]
-//
-> kiaa0280
-[0, 1, 0, 0, 0]
-//
-> af151028_1
-[0, 0, 0, 1, 0]
-//
-> hspc194
-[0, 0, 0, 1, 0]
-//
-> 29.4
-[0, 0, 0, 1, 0]
-//
-> ste6-los1
-[0, 0, 0, 1, 0]
-//
-> lek1
-[0, 0, 1, 0, 0]
-//
-> frequently
-[1, 0, 0, 0, 0]
-//
-> mdm2
-[0, 1, 0, 0, 0]
-//
-> hs44_mouse
-[0, 1, 0, 0, 0]
-//
-> spliceosome
-[0, 0, 0, 1, 0]
 //
 > kd-b
-[0, 0, 0, 1, 0]
-//
-> acetylcholine
-[1, 0, 0, 0, 0]
-//
-> kiaa0714
-[1, 0, 0, 0, 0]
-//
-> proacrosin
-[0, 1, 0, 0, 0]
-//
-> t00377
-[0, 1, 0, 0, 0]
-//
-> kiaa0642
-[0, 1, 0, 0, 0]
-//
-> hpi31
-[0, 1, 0, 0, 0]
-//
-> deformed
-[0, 1, 0, 0, 0]
-//
-> autoregulatory
-[0, 1, 0, 0, 0]
-//
-> af151018_1
-[0, 0, 0, 1, 0]
-//
-> hspc184
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > ptd015
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
+//
+> affinity
+[4, 0, 0, 0, 0]
 //
 > gatm_rat
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > amidinotransferase
-[0, 1, 0, 0, 0]
-//
-> mago-nashi
-[0, 0, 0, 1, 0]
-//
-> frk
 [1, 0, 0, 0, 0]
-//
-> t00351
-[1, 0, 0, 0, 0]
-//
-> kiaa0707
-[1, 0, 0, 0, 0]
-//
-> beclin
-[0, 0, 0, 1, 0]
-//
-> myosin-like
-[0, 0, 0, 1, 0]
-//
-> narf
-[0, 0, 1, 0, 0]
-//
-> activity-related
-[0, 0, 1, 0, 0]
-//
-> phenylalanine
-[0, 0, 0, 1, 0]
-//
-> hexosaminidase
-[0, 2, 0, 0, 0]
-//
-> gamma-5
-[0, 0, 0, 1, 0]
-//
-> taurus;
-[0, 0, 0, 1, 0]
-//
-> yhr148w
-[0, 0, 0, 1, 0]
 //
 > tada1
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > d-amino
 [0, 0, 0, 1, 0]
 //
 > nadph
-[0, 1, 0, 0, 0]
-//
-> fructose-6-phosphate
-[0, 1, 0, 0, 0]
-//
-> salivary
-[0, 1, 0, 0, 0]
-//
-> p0
 [0, 0, 1, 0, 0]
 //
-> snf2l
-[0, 0, 0, 1, 0]
+> transaminase
+[0, 0, 0, 0, 2]
 //
-> hp33
-[0, 1, 0, 0, 0]
-//
-> neurolysin
-[0, 1, 0, 0, 0]
-//
-> cg8009
-[0, 0, 0, 1, 0]
-//
-> fgd1_mouse
-[0, 1, 0, 0, 0]
-//
-> rac
-[0, 0, 0, 0, 1]
-//
-> af151841_1
-[0, 0, 0, 0, 1]
-//
-> cgi-83
-[0, 0, 0, 0, 1]
-//
-> epithelium
-[0, 0, 0, 1, 0]
-//
-> er72_mouse
-[0, 0, 0, 1, 0]
-//
-> isomerase-related
-[0, 0, 0, 1, 0]
-//
-> erp-72
-[0, 0, 0, 1, 0]
-//
-> kiaa0157
-[0, 1, 0, 0, 0]
+> nucleosomal
+[0, 0, 1, 0, 0]
 //
 > axl
 [0, 1, 0, 0, 0]
@@ -5630,397 +1547,73 @@ single-value lijsten:
 > 2aca_human
 [0, 0, 0, 1, 0]
 //
-> ph-sensitive
-[0, 0, 1, 0, 0]
-//
-> kynurenine
-[0, 1, 0, 0, 0]
-//
-> cg3337
-[0, 0, 0, 1, 0]
-//
-> cg14130
-[0, 0, 0, 1, 0]
-//
-> bruton
-[0, 1, 0, 0, 0]
-//
-> agammaglobulinemia
-[0, 1, 0, 0, 0]
-//
-> enriched
-[0, 1, 0, 0, 0]
-//
-> astrocytes
-[0, 1, 0, 0, 0]
-//
-> iq
-[0, 1, 0, 0, 0]
-//
-> kfyi
-[0, 0, 0, 1, 0]
-//
-> kiaa0960
+> lipopolysaccharide
 [1, 0, 0, 0, 0]
 //
-> grpe-like
-[0, 0, 0, 1, 0]
+> thymidylate
+[1, 0, 0, 0, 0]
+//
+> enriched
+[1, 0, 0, 0, 0]
+//
+> astrocytes
+[1, 0, 0, 0, 0]
+//
+> iq
+[1, 0, 0, 0, 0]
+//
+> kfyi
+[0, 0, 0, 0, 1]
 //
 > man1
 [0, 0, 0, 1, 0]
 //
-> nephronophthisis
-[0, 1, 0, 0, 0]
-//
-> senr
-[1, 0, 0, 0, 0]
-//
-> 4-hydroxyphenylpyruvic
-[0, 1, 0, 0, 0]
-//
 > fast
-[0, 0, 0, 4, 0]
-//
-> dia1_mouse
-[0, 1, 0, 0, 0]
+[0, 0, 0, 1, 0]
 //
 > caseinolytic
-[0, 0, 0, 1, 0]
-//
-> af101779_1
-[0, 0, 1, 0, 0]
-//
-> ring1
-[0, 0, 1, 0, 0]
-//
-> rybp
-[0, 0, 1, 0, 0]
-//
-> dj487j7.1.1
-[1, 0, 0, 0, 0]
-//
-> af175407_1
-[1, 0, 0, 0, 0]
-//
-> scly
-[1, 0, 0, 0, 0]
-//
-> p27
-[1, 0, 0, 0, 0]
-//
-> kiaa0007
-[1, 0, 0, 0, 0]
-//
-> dj102h19.3
 [0, 0, 0, 0, 1]
 //
-> kiaa1181
-[1, 0, 0, 0, 0]
-//
-> ki
-[1, 0, 0, 0, 0]
-//
-> neoplastic
-[0, 0, 1, 0, 0]
-//
-> trap150
-[1, 0, 0, 0, 0]
-//
-> pa26-t2
-[0, 0, 0, 1, 0]
-//
-> tgfb
-[1, 0, 0, 0, 0]
-//
 > yhr116wp
-[0, 0, 0, 1, 0]
-//
-> msh-like
-[0, 1, 0, 0, 0]
-//
-> msi
-[0, 1, 0, 0, 0]
-//
-> c-src
-[0, 1, 0, 0, 0]
-//
-> glutaryl-coenzyme
-[1, 0, 0, 0, 0]
-//
-> tuftelin
-[0, 1, 0, 0, 0]
-//
-> skd1
-[0, 0, 1, 0, 0]
-//
-> niemann
-[0, 0, 0, 1, 0]
-//
-> pick
-[0, 0, 0, 1, 0]
-//
-> sel1
-[0, 1, 0, 0, 0]
-//
-> synembryn
-[0, 1, 0, 0, 0]
-//
-> af161518_1
-[0, 1, 0, 0, 0]
-//
-> hspc169
-[0, 1, 0, 0, 0]
-//
-> b0303.15
-[1, 0, 0, 0, 0]
-//
-> sin3b
-[0, 0, 1, 0, 0]
+[0, 0, 0, 0, 1]
 //
 > kiaa1398
-[0, 1, 0, 0, 0]
-//
-> ihibitor
-[0, 0, 0, 1, 0]
-//
-> deoxycytidylate
-[0, 0, 0, 1, 0]
-//
-> cg10978
-[0, 0, 0, 1, 0]
+[1, 0, 0, 0, 0]
 //
 > skap55
 [0, 1, 0, 0, 0]
 //
-> i55595
-[1, 0, 0, 0, 0]
-//
-> ke4
-[0, 0, 1, 0, 0]
-//
-> spc97
-[0, 0, 0, 0, 1]
-//
-> gcp2
-[0, 0, 0, 0, 1]
-//
-> af250859_1
-[0, 0, 0, 1, 0]
-//
-> udp-glcnac:a-3-d-mannoside
-[0, 0, 0, 1, 0]
-//
-> i.2
-[0, 0, 0, 1, 0]
-//
 > monophosphate
-[2, 0, 0, 0, 0]
-//
-> myc-associated
-[0, 1, 0, 0, 0]
-//
-> mannoside
 [1, 0, 0, 0, 0]
 //
-> acetylglucosaminyltransferase
+> endothelin
 [1, 0, 0, 0, 0]
 //
-> cg11900
-[0, 0, 0, 1, 0]
-//
-> sarcolemmal
-[0, 0, 0, 1, 0]
-//
-> protein-3
-[0, 0, 0, 1, 0]
-//
-> myomesin
-[0, 0, 0, 2, 0]
+> prp3_mouse
+[0, 0, 0, 0, 1]
 //
 > t17237
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > dkfzp434p106.1
-[0, 1, 0, 0, 0]
-//
-> cdnc_human
-[0, 1, 0, 0, 0]
-//
-> af148447_1
-[0, 0, 0, 1, 0]
-//
-> uch37
-[0, 0, 0, 1, 0]
+[1, 0, 0, 0, 0]
 //
 > epithelial
-[0, 3, 0, 0, 0]
-//
-> a45841
-[0, 0, 1, 0, 0]
-//
-> t-complex-associated-testes-expressed-1
-[0, 0, 1, 0, 0]
+[2, 0, 0, 0, 0]
 //
 > homology-like
-[0, 1, 0, 0, 0]
-//
-> snf1-like
-[1, 0, 0, 0, 0]
-//
-> sil1
-[0, 0, 0, 0, 1]
-//
-> optic
-[1, 0, 0, 0, 0]
-//
-> lobes
-[1, 0, 0, 0, 0]
-//
-> ptpl1-associated
 [0, 0, 1, 0, 0]
 //
-> melastatin
-[0, 1, 0, 0, 0]
-//
-> kiaa0763
+> n-myc
 [0, 0, 0, 1, 0]
-//
-> pleiotropic
-[0, 0, 0, 1, 0]
-//
-> prl1
-[0, 0, 0, 1, 0]
-//
-> 2-hydroxyphytanoyl-coa
-[0, 0, 0, 1, 0]
-//
-> ligand-gated
-[0, 1, 0, 0, 0]
-//
-> lama
-[0, 1, 0, 0, 0]
-//
-> af224508_1
-[1, 0, 0, 0, 0]
-//
-> bicarbonate
-[1, 0, 0, 0, 0]
-//
-> cotransporter
-[1, 0, 0, 0, 0]
-//
-> knbc-3
-[1, 0, 0, 0, 0]
-//
-> emr1_mouse
-[0, 0, 0, 1, 0]
-//
-> emr1
-[0, 0, 0, 1, 0]
-//
-> rad
-[0, 0, 0, 0, 1]
-//
-> gem
-[0, 0, 0, 0, 1]
-//
-> af148145_1
-[0, 0, 0, 1, 0]
-//
-> thymic
-[0, 0, 0, 1, 0]
-//
-> co-transporter
-[0, 0, 0, 1, 0]
-//
-> tscot
-[0, 0, 0, 1, 0]
-//
-> cg11237
-[1, 0, 0, 0, 0]
-//
-> hsbp1
-[1, 0, 0, 0, 0]
-//
-> protein-glutamine
-[0, 0, 0, 0, 1]
-//
-> glutamyltransferase
-[0, 0, 0, 0, 1]
-//
-> molybdenum
-[0, 0, 0, 0, 1]
-//
-> synthesis
-[0, 0, 0, 0, 1]
 //
 > ceramidase
-[0, 0, 0, 0, 1]
-//
-> hyaluronan
-[0, 0, 0, 1, 0]
-//
-> mediated
-[0, 0, 0, 1, 0]
-//
-> y182_human
-[1, 0, 0, 0, 0]
-//
-> yk194a10.3
-[1, 0, 0, 0, 0]
-//
-> amidophosphoribosyltransferase
-[1, 0, 0, 0, 0]
-//
-> 13.5
-[0, 1, 0, 0, 0]
-//
-> c45g9.7
-[0, 1, 0, 0, 0]
-//
-> block
-[1, 0, 0, 0, 0]
-//
-> mo15
 [0, 0, 1, 0, 0]
 //
-> cdk-activating
+> aldehyde
 [0, 0, 1, 0, 0]
-//
-> af083217_1
-[1, 0, 0, 0, 0]
-//
-> wdr3
-[1, 0, 0, 0, 0]
-//
-> b0432.8
-[0, 0, 0, 0, 1]
-//
-> dhar_rat
-[0, 1, 0, 0, 0]
-//
-> kiaa1310
-[1, 0, 0, 0, 0]
-//
-> cg4447
-[0, 0, 0, 1, 0]
 //
 > inorganic
-[0, 0, 0, 1, 0]
-//
-> tcra
-[0, 1, 0, 0, 0]
-//
-> 1-1
-[0, 0, 0, 1, 0]
-//
-> smc
-[0, 0, 0, 1, 0]
-//
-> chromosomes
-[0, 0, 0, 1, 0]
-//
-> phd
 [0, 0, 0, 1, 0]
 //
 > adenylyl
@@ -6029,415 +1622,34 @@ single-value lijsten:
 > cyclase-associated
 [0, 1, 0, 0, 0]
 //
-> h<beta>58
-[0, 0, 0, 1, 0]
-//
-> rl32_human
-[1, 0, 0, 0, 0]
-//
-> myogenic
+> er
 [0, 1, 0, 0, 0]
 //
-> mad2
-[0, 1, 0, 0, 0]
-//
-> af132970_1
-[0, 0, 0, 1, 0]
-//
-> cgi-36
-[0, 0, 0, 1, 0]
-//
-> xeroderma
-[1, 0, 0, 0, 0]
-//
-> af151067_1
-[0, 0, 0, 0, 1]
-//
-> hspc233
-[0, 0, 0, 0, 1]
-//
-> c1tc_rat
-[1, 0, 0, 0, 0]
-//
-> c-1-tetrahydrofolate
-[2, 0, 0, 0, 0]
-//
-> dihydroorotate
-[1, 0, 0, 0, 0]
-//
-> cg7053
-[1, 0, 0, 0, 0]
-//
-> 50s
-[0, 0, 0, 1, 0]
-//
-> anti-silencing
-[1, 0, 0, 0, 0]
-//
-> af145632_1
-[0, 1, 0, 0, 0]
-//
-> bcdna.gh06032
-[0, 1, 0, 0, 0]
-//
-> t08675
-[0, 0, 0, 1, 0]
-//
-> dkfzp564f0522.1
-[0, 0, 0, 1, 0]
-//
-> 14.4
-[0, 0, 0, 1, 0]
-//
-> sh3-domain-binding
-[0, 1, 0, 0, 0]
-//
-> morf-related
-[0, 1, 0, 0, 0]
-//
-> pgt
-[0, 0, 1, 0, 0]
-//
-> 2012303a
-[0, 0, 1, 0, 0]
-//
-> sp-h
-[0, 0, 1, 0, 0]
-//
-> fascin
-[0, 1, 0, 0, 0]
-//
-> bundling
-[0, 1, 0, 0, 0]
-//
-> strongylocentrotus
-[0, 1, 0, 0, 0]
-//
-> multi-vitamin
-[0, 0, 1, 0, 0]
-//
-> f0
-[0, 0, 0, 4, 0]
-//
-> jc6523
-[0, 0, 0, 1, 0]
-//
-> proteasom
-[0, 0, 0, 1, 0]
-//
-> dyrk3
-[1, 0, 0, 0, 0]
-//
-> l39
-[1, 0, 0, 0, 0]
-//
-> npc
-[1, 0, 0, 0, 0]
-//
-> snurportin1
-[0, 0, 0, 1, 0]
-//
-> i38863
-[0, 0, 0, 1, 0]
-//
-> nip1
-[0, 0, 0, 1, 0]
-//
-> b3at_mouse
-[0, 1, 0, 0, 0]
-//
-> encoding
-[0, 0, 0, 1, 0]
-//
-> t12523
-[0, 0, 1, 0, 0]
-//
-> dkfzp434k063.1
-[0, 0, 1, 0, 0]
-//
-> myeloid-associated
-[0, 1, 0, 0, 0]
-//
-> aac82480
-[0, 1, 0, 0, 0]
-//
-> bat2
-[0, 1, 0, 0, 0]
-//
-> p33
-[0, 1, 0, 0, 0]
-//
-> af161429_1
-[0, 1, 0, 0, 0]
-//
-> hspc311
-[0, 1, 0, 0, 0]
-//
-> dithiolethione-inducible
-[0, 1, 0, 0, 0]
-//
-> gene-1
-[0, 1, 0, 0, 0]
-//
-> elkl
-[0, 0, 0, 1, 0]
-//
-> hd54+ins2
-[0, 0, 0, 1, 0]
-//
-> bac126c8
-[0, 0, 0, 1, 0]
-//
-> rsp29-like
-[0, 0, 0, 1, 0]
-//
-> als
-[0, 0, 0, 1, 0]
-//
-> splice
-[0, 0, 0, 1, 0]
-//
-> tce2
-[0, 0, 0, 1, 0]
-//
-> ndk3-like
-[0, 0, 0, 1, 0]
-//
-> tce4
-[0, 0, 0, 1, 0]
-//
-> tce5
-[0, 0, 0, 1, 0]
-//
-> plasmacytoma
-[0, 0, 0, 1, 0]
-//
-> tram
-[0, 1, 0, 0, 0]
-//
-> myb
-[1, 0, 0, 0, 0]
-//
-> eif3
-[0, 0, 1, 0, 0]
-//
-> heart
-[0, 0, 0, 1, 0]
-//
-> c43h8.1
-[0, 1, 0, 0, 0]
-//
-> kiaa0121
-[0, 1, 0, 0, 0]
-//
-> veli
-[1, 0, 0, 0, 0]
-//
-> kiaa0402
-[1, 0, 0, 0, 0]
-//
-> myc-related
-[0, 0, 1, 0, 0]
-//
-> s14234
-[0, 0, 0, 0, 1]
-//
-> kiaa0017
-[1, 0, 0, 0, 0]
-//
-> proliferating
-[0, 0, 1, 0, 0]
-//
-> caudal
-[0, 2, 0, 0, 0]
-//
-> 16.5
-[0, 0, 0, 1, 0]
-//
-> pas8-egt2
+> down-regulated
 [0, 0, 0, 1, 0]
 //
 > dutpase
 [0, 1, 0, 0, 0]
 //
-> bk223h9.2
+> massachusetts
 [0, 0, 1, 0, 0]
 //
-> adp-ribosylarginine
+> institute
+[0, 0, 1, 0, 0]
+//
+> technology
+[0, 0, 1, 0, 0]
+//
+> dehydratase
 [0, 0, 0, 1, 0]
 //
-> female
-[1, 0, 0, 0, 0]
-//
-> sterile
-[1, 0, 0, 0, 0]
-//
-> ddx9_mouse
-[0, 0, 1, 0, 0]
-//
-> kiaa0074
-[1, 0, 0, 0, 0]
-//
-> t14150
-[0, 0, 1, 0, 0]
-//
-> cafb_human
-[1, 0, 0, 0, 0]
-//
-> p60
-[2, 0, 0, 0, 0]
-//
-> qpct_human
-[0, 1, 0, 0, 0]
-//
-> glutaminyl-peptide
-[0, 1, 0, 0, 0]
-//
-> cyclotransferase
-[0, 1, 0, 0, 0]
-//
-> glucosyltransferase
+> nicotinamide
 [0, 0, 0, 0, 1]
-//
-> alg8
-[0, 0, 0, 0, 1]
-//
-> p532_mouse
-[0, 1, 0, 0, 0]
-//
-> abelson
-[0, 1, 0, 0, 0]
-//
-> y039_human
-[1, 0, 0, 0, 0]
-//
-> kiaa1491
-[0, 0, 1, 0, 0]
-//
-> af214737_1
-[0, 0, 1, 0, 0]
-//
-> c9orf10a
-[0, 0, 1, 0, 0]
-//
-> est2
-[0, 1, 0, 0, 0]
-//
-> smn_mouse
-[0, 0, 1, 0, 0]
-//
-> leman
-[1, 0, 0, 0, 0]
-//
-> triad
-[0, 0, 0, 2, 0]
-//
-> zk856.11
-[0, 0, 0, 1, 0]
-//
-> hspc015
-[0, 0, 1, 0, 0]
-//
-> t31671
-[1, 0, 0, 0, 0]
-//
-> rab3
-[1, 0, 0, 0, 0]
-//
-> neurochondrin-1
-[1, 0, 0, 0, 0]
-//
-> af106934_1
-[0, 1, 0, 0, 0]
-//
-> l-serine
-[1, 0, 0, 0, 0]
-//
-> gustatory
-[0, 0, 0, 1, 0]
-//
-> rab-3b
-[0, 1, 0, 0, 0]
-//
-> v-src
-[1, 0, 0, 0, 0]
-//
-> suppressed
-[1, 0, 0, 0, 0]
-//
-> b.subtilis
-[0, 0, 0, 1, 0]
-//
-> yqjc
-[0, 0, 0, 1, 0]
-//
-> af121859_1
-[0, 1, 0, 0, 0]
-//
-> snm1
-[0, 0, 1, 0, 0]
-//
-> immunoglobulin-like
-[0, 1, 0, 0, 0]
-//
-> 67.0
-[0, 0, 0, 0, 1]
-//
-> pre3-sag1
-[0, 0, 0, 0, 1]
-//
-> kinase-interacting
-[0, 0, 0, 1, 0]
-//
-> dicarboxylate
-[1, 0, 0, 0, 0]
-//
-> sdct2
-[1, 0, 0, 0, 0]
-//
-> 103.6
-[0, 1, 0, 0, 0]
-//
-> cox5b-pfk26
-[0, 1, 0, 0, 0]
-//
-> af143180_1
-[1, 0, 0, 0, 0]
-//
-> y136_human
-[0, 1, 0, 0, 0]
-//
-> t33754
-[0, 0, 0, 1, 0]
-//
-> roaz
-[0, 0, 0, 1, 0]
 //
 > af201951_1
-[0, 1, 0, 0, 0]
-//
-> ca
 [1, 0, 0, 0, 0]
 //
-> bacr7c10.a
-[1, 0, 0, 0, 0]
-//
-> ima3_mouse
-[0, 0, 0, 1, 0]
-//
-> alpha-3
-[0, 0, 0, 1, 0]
-//
-> channel-interacting
-[0, 0, 0, 1, 0]
-//
-> pdz
-[0, 0, 0, 1, 0]
-//
-> exocyst
-[1, 0, 0, 0, 0]
-//
-> 7-like
+> sushi-repeat-containing
 [0, 1, 0, 0, 0]
 //
 > evi2b
@@ -6447,223 +1659,28 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > a21a
-[0, 0, 0, 0, 1]
-//
-> b7
-[0, 1, 0, 0, 0]
-//
-> guanyl
-[0, 0, 0, 0, 1]
-//
-> 8-associated
-[1, 0, 0, 0, 0]
-//
-> lim-domain
-[1, 0, 0, 0, 0]
-//
-> 0-6-methylguanine-dna
-[1, 0, 0, 0, 0]
-//
-> sffv
-[0, 1, 0, 0, 0]
-//
-> ryanodine
-[0, 0, 0, 2, 0]
-//
-> ceramide
-[0, 1, 0, 0, 0]
-//
-> carboxylesterase
-[0, 0, 0, 0, 1]
-//
-> erythropoietin
 [0, 0, 1, 0, 0]
 //
-> bile
-[0, 1, 0, 0, 0]
+> kit
+[0, 0, 0, 1, 0]
 //
-> acid-coenzyme
-[0, 1, 0, 0, 0]
-//
-> dehydrogenase:
-[0, 1, 0, 0, 0]
-//
-> associating
-[0, 1, 0, 0, 0]
-//
-> desert
-[1, 0, 0, 0, 0]
-//
-> spleen
-[0, 1, 0, 0, 0]
+> ryanodine
+[0, 0, 0, 0, 1]
 //
 > cd44
 [0, 1, 0, 0, 0]
 //
-> dishevelled
-[0, 1, 0, 0, 0]
-//
-> sjogren
-[0, 0, 1, 0, 0]
-//
-> rev1
+> retinal
 [0, 0, 0, 1, 0]
 //
-> neuromedin
-[0, 1, 0, 0, 0]
-//
-> af171102_1
+> 5-phosphatase
 [0, 0, 0, 1, 0]
-//
-> degeneration
-[0, 0, 0, 2, 0]
-//
-> otoraplin
-[1, 0, 0, 0, 0]
-//
-> u83194_1
-[0, 1, 0, 0, 0]
-//
-> traf4-associated
-[0, 1, 0, 0, 0]
-//
-> trap240
-[1, 0, 0, 0, 0]
-//
-> red
-[1, 0, 0, 0, 0]
-//
-> 3-mercaptopyruvate
-[0, 0, 0, 1, 0]
-//
-> 39a1
-[0, 1, 0, 0, 0]
-//
-> lyn
-[1, 0, 0, 0, 0]
-//
-> phosphoinositide
-[0, 2, 0, 0, 0]
 //
 > rab8-interacting
 [0, 0, 0, 1, 0]
 //
-> estradiol
-[1, 0, 0, 0, 0]
-//
-> 17beta-dehydrogenase
-[1, 0, 0, 0, 0]
-//
-> kainate
-[1, 0, 0, 0, 0]
-//
-> af033339
-[1, 0, 0, 0, 0]
-//
-> nice-5
+> exostoses
 [0, 1, 0, 0, 0]
-//
-> f26l_mouse
-[0, 0, 0, 1, 0]
-//
-> isozyme
-[0, 0, 0, 1, 0]
-//
-> gfg_rat
-[0, 0, 0, 1, 0]
-//
-> kiaa0986
-[1, 0, 0, 0, 0]
-//
-> 1010301a
-[1, 0, 0, 0, 0]
-//
-> contrapsin
-[1, 0, 0, 0, 0]
-//
-> schlafen2
-[1, 0, 0, 0, 0]
-//
-> y176_human
-[0, 0, 1, 0, 0]
-//
-> glandular
-[1, 0, 0, 0, 0]
-//
-> f29b9.1
-[0, 1, 0, 0, 0]
-//
-> mrp5_mouse
-[1, 0, 0, 0, 0]
-//
-> resistance-associated
-[1, 0, 0, 0, 0]
-//
-> trlc_drome
-[0, 0, 0, 1, 0]
-//
-> potential
-[0, 0, 0, 1, 0]
-//
-> t02672
-[0, 0, 1, 0, 0]
-//
-> r31449_3
-[0, 0, 1, 0, 0]
-//
-> y050_human
-[0, 1, 0, 0, 0]
-//
-> bit
-[0, 0, 1, 0, 0]
-//
-> spermidine
-[1, 0, 0, 0, 0]
-//
-> spermine
-[0, 0, 0, 1, 0]
-//
-> n1-acetyl
-[0, 1, 0, 0, 0]
-//
-> kiaa1468
-[1, 0, 0, 0, 0]
-//
-> by55
-[1, 0, 0, 0, 0]
-//
-> 97.1
-[0, 0, 0, 1, 0]
-//
-> r05d3.4
-[0, 0, 0, 1, 0]
-//
-> epitope
-[0, 1, 0, 0, 0]
-//
-> bromodomain
-[0, 0, 0, 0, 1]
-//
-> adjacent
-[0, 0, 0, 0, 1]
-//
-> cu++
-[0, 1, 0, 0, 0]
-//
-> c22f3.08c
-[0, 1, 0, 0, 0]
-//
-> hexim1
-[0, 0, 0, 0, 1]
-//
-> p54
-[1, 0, 0, 0, 0]
-//
-> nof1
-[0, 0, 0, 1, 0]
-//
-> i3
-[0, 0, 0, 1, 0]
 //
 > 104.7
 [1, 0, 0, 0, 0]
@@ -6672,103 +1689,16 @@ single-value lijsten:
 [1, 0, 0, 0, 0]
 //
 > p68
-[0, 0, 0, 1, 0]
-//
-> squalene
-[0, 1, 0, 0, 0]
-//
-> dtdp-glucose
-[1, 0, 0, 0, 0]
-//
-> af118890_1
-[0, 1, 0, 0, 0]
-//
-> s-tomosyn
-[0, 1, 0, 0, 0]
-//
-> wolf-hirschhorn
-[0, 1, 0, 0, 0]
-//
-> t34531
-[0, 0, 0, 1, 0]
-//
-> dkfzp434p1215.1
-[0, 0, 0, 1, 0]
-//
-> phenylalanine-trna
-[0, 0, 0, 1, 0]
-//
-> tao1
-[1, 0, 0, 0, 0]
-//
-> af191309_1
-[1, 0, 0, 0, 0]
+[0, 0, 0, 0, 1]
 //
 > desmoglein
 [0, 0, 0, 1, 0]
 //
-> dj979n1.1
-[0, 0, 0, 1, 0]
-//
-> pes1
-[0, 0, 0, 0, 1]
-//
-> zygotic
-[0, 1, 0, 0, 0]
-//
-> inactivated
-[0, 1, 0, 0, 0]
-//
-> almondex
-[0, 0, 0, 1, 0]
-//
 > au
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > tb1
-[0, 0, 0, 1, 0]
-//
-> f31d4.2
-[0, 1, 0, 0, 0]
-//
-> lnk
-[1, 0, 0, 0, 0]
-//
-> requ_mouse
 [0, 0, 0, 0, 1]
-//
-> ubi-d4
-[0, 0, 0, 0, 1]
-//
-> z151_mouse
-[1, 0, 0, 0, 0]
-//
-> i49278
-[0, 1, 0, 0, 0]
-//
-> cg13189
-[0, 1, 0, 0, 0]
-//
-> potential-related
-[1, 0, 0, 0, 0]
-//
-> muscle-specific
-[0, 0, 0, 2, 0]
-//
-> alias
-[1, 0, 0, 0, 0]
-//
-> dlc1
-[1, 0, 0, 0, 0]
-//
-> z177_human
-[0, 0, 0, 1, 0]
-//
-> kiaa0697
-[0, 1, 0, 0, 0]
-//
-> baf53a
-[0, 0, 0, 1, 0]
 //
 > cortactin-binding
 [0, 1, 0, 0, 0]
@@ -6776,878 +1706,65 @@ single-value lijsten:
 > cbp90
 [0, 1, 0, 0, 0]
 //
-> steroidogenic
-[0, 1, 0, 0, 0]
-//
-> kiaa0160
-[0, 0, 0, 1, 0]
-//
-> af132966_1
-[0, 0, 0, 1, 0]
-//
-> cgi-32
-[0, 0, 0, 1, 0]
-//
-> s42924
-[0, 0, 0, 1, 0]
-//
-> zg-16p
-[0, 0, 0, 1, 0]
-//
-> kiaa0368
-[0, 0, 0, 1, 0]
-//
-> trinucleotide
-[0, 1, 0, 0, 0]
-//
-> ly-3
-[0, 0, 0, 0, 1]
-//
-> chromogranin
-[1, 0, 0, 0, 0]
-//
 > crm1
-[0, 0, 0, 0, 1]
-//
-> polypyrimidine
 [1, 0, 0, 0, 0]
 //
-> tract
-[1, 0, 0, 0, 0]
-//
-> ubcm2
-[0, 0, 1, 0, 0]
-//
-> c-c
-[1, 0, 0, 0, 0]
-//
-> positive
-[1, 0, 0, 0, 0]
-//
-> acting
-[1, 0, 0, 0, 0]
-//
-> cd27
-[0, 0, 0, 1, 0]
-//
-> god
-[0, 0, 0, 1, 0]
-//
-> kiaa0423
-[0, 0, 1, 0, 0]
-//
-> gpda_mouse
+> cdc-like
 [0, 0, 0, 1, 0]
 //
 > glycerol-3-phosphate
-[0, 0, 0, 2, 0]
-//
-> mo-mlv
 [0, 0, 0, 1, 0]
 //
-> insertion
-[0, 0, 0, 1, 0]
-//
-> c214_human
-[0, 0, 0, 1, 0]
-//
-> 17.9
-[0, 0, 0, 1, 0]
-//
-> traf-interacting
-[0, 1, 0, 0, 0]
-//
-> a56465
-[0, 0, 0, 1, 0]
-//
-> tfiiic2
-[0, 0, 0, 1, 0]
-//
-> spermatogenesis
+> ga
 [0, 0, 1, 0, 0]
-//
-> af181856_1
-[0, 0, 0, 1, 0]
-//
-> invasion
-[0, 1, 0, 0, 0]
-//
-> cnp-inducible
-[0, 0, 0, 1, 0]
-//
-> el2_mouse
-[0, 0, 1, 0, 0]
-//
-> dnaj-homolog
-[1, 0, 0, 0, 0]
-//
-> cannabinoid
-[0, 0, 0, 0, 1]
-//
-> protocadherin-3
-[1, 0, 0, 0, 0]
-//
-> galnac
-[0, 0, 0, 1, 0]
-//
-> transferase-t1
-[0, 0, 0, 1, 0]
 //
 > aa908753
-[1, 0, 0, 0, 0]
-//
-> at2
-[0, 0, 0, 1, 0]
-//
-> mest-linked
-[1, 0, 0, 0, 0]
-//
-> proliferin
-[1, 0, 0, 0, 0]
-//
-> p11d_mouse
 [0, 1, 0, 0, 0]
-//
-> mrc
-[0, 1, 0, 0, 0]
-//
-> rous
-[0, 1, 0, 0, 0]
-//
-> copp_rat
-[0, 0, 0, 1, 0]
-//
-> beta'
-[0, 0, 0, 1, 0]
-//
-> mpc2
-[1, 0, 0, 0, 0]
 //
 > enabled
 [1, 0, 0, 0, 0]
 //
-> yes-associated
-[0, 0, 0, 1, 0]
-//
-> seb4
-[0, 0, 0, 1, 0]
-//
-> ariadne
-[0, 0, 0, 1, 0]
-//
-> inv
-[1, 0, 0, 0, 0]
-//
-> myosin-binding
-[1, 0, 0, 0, 0]
-//
-> vomeronasal
-[1, 0, 0, 0, 0]
-//
-> organ
-[1, 0, 0, 0, 0]
-//
-> zinc-iron
-[0, 1, 0, 0, 0]
-//
-> tax
-[0, 1, 0, 0, 0]
-//
-> ca2+-calmodulin
-[1, 0, 0, 0, 0]
-//
-> af143096_1
-[1, 0, 0, 0, 0]
-//
-> epvh
-[1, 0, 0, 0, 0]
-//
-> mppa_rat
-[0, 0, 0, 1, 0]
-//
-> 1a13
-[0, 1, 0, 0, 0]
-//
-> beta-tubulin
-[1, 0, 0, 0, 0]
-//
-> txk
-[1, 0, 0, 0, 0]
-//
-> sialytransferase
-[0, 0, 0, 1, 0]
-//
-> mastocytoma
-[0, 1, 0, 0, 0]
-//
-> glo2_rat
-[0, 1, 0, 0, 0]
-//
-> hydroxyacylglutathione
-[0, 1, 0, 0, 0]
-//
-> levels
-[0, 0, 0, 1, 0]
-//
-> lurcher
-[0, 0, 0, 0, 1]
-//
-> sprt_rat
-[1, 0, 0, 0, 0]
-//
-> ammecr1
-[0, 1, 0, 0, 0]
-//
-> jc4863
-[1, 0, 0, 0, 0]
-//
-> zhx-1
-[1, 0, 0, 0, 0]
-//
-> mlz4_mouse
-[0, 0, 0, 1, 0]
-//
-> mlz-4
-[0, 0, 0, 1, 0]
-//
-> cd80
-[0, 0, 0, 0, 1]
-//
-> bcl2_mouse
-[1, 0, 0, 0, 0]
-//
-> a53933
-[0, 1, 0, 0, 0]
-//
-> secretogranin
-[0, 1, 0, 0, 0]
-//
-> snare
-[0, 1, 0, 0, 0]
-//
-> werner
-[0, 1, 0, 0, 0]
-//
-> cg10347
-[1, 0, 0, 0, 0]
-//
-> proline-serine-threonine
-[0, 1, 0, 0, 0]
-//
-> phosphatase-interacting
-[0, 1, 0, 0, 0]
-//
-> p97
-[0, 1, 0, 0, 0]
-//
-> 133.2
-[0, 1, 0, 0, 0]
-//
-> a-factor-converting
-[1, 0, 0, 0, 0]
-//
-> igfbp-like
-[0, 1, 0, 0, 0]
-//
-> polyomavirus
-[0, 1, 0, 0, 0]
-//
 > allograft
 [0, 1, 0, 0, 0]
-//
-> paneth
-[0, 0, 0, 0, 1]
-//
-> nk
-[0, 0, 0, 1, 0]
-//
-> 2b4
-[0, 0, 0, 1, 0]
-//
-> plasmolipin
-[0, 0, 0, 0, 1]
-//
-> sast_rat
-[0, 0, 0, 1, 0]
-//
-> s-acyl
-[0, 0, 0, 1, 0]
-//
-> af089897_1
-[1, 0, 0, 0, 0]
-//
-> kiaa0874
-[0, 0, 1, 0, 0]
-//
-> myosin-va
-[0, 0, 0, 0, 1]
-//
-> kiaa1139
-[0, 0, 0, 1, 0]
-//
-> apyrase
-[0, 1, 0, 0, 0]
-//
-> cyclophilin
-[0, 1, 0, 0, 0]
-//
-> zf37_mouse
-[0, 0, 0, 0, 1]
-//
-> af158182_1
-[0, 1, 0, 0, 0]
-//
-> preprocathepsin
-[0, 1, 0, 0, 0]
-//
-> raf-related
-[0, 0, 0, 1, 0]
-//
-> c4
-[0, 0, 0, 1, 0]
-//
-> xlr_mouse
-[1, 0, 0, 0, 0]
-//
-> f55a12.9
-[0, 0, 1, 0, 0]
-//
-> c01c10.
-[0, 0, 0, 1, 0]
-//
-> kiaa0475
-[1, 0, 0, 0, 0]
-//
-> derivatives
-[0, 0, 0, 1, 0]
-//
-> deoxycytidine
-[0, 0, 1, 0, 0]
-//
-> modulatory
-[0, 0, 0, 1, 0]
-//
-> ny-ren-18
-[0, 0, 0, 1, 0]
-//
-> b-100
-[1, 0, 0, 0, 0]
-//
-> sin3a
-[0, 0, 0, 1, 0]
-//
-> mak16
-[1, 0, 0, 0, 0]
-//
-> y-chromosomal
-[0, 0, 0, 1, 0]
-//
-> serum-inducible
-[0, 1, 0, 0, 0]
-//
-> kiaa0616
-[0, 1, 0, 0, 0]
-//
-> uridylate
-[0, 1, 0, 0, 0]
-//
-> shc
-[1, 0, 0, 0, 0]
-//
-> sh2-domain
-[1, 0, 0, 0, 0]
-//
-> sik
-[0, 0, 0, 0, 1]
-//
-> p2ur_mouse
-[0, 0, 0, 1, 0]
-//
-> p2u
-[0, 0, 0, 1, 0]
-//
-> purinoceptor
-[0, 0, 0, 1, 0]
-//
-> cd37
-[0, 1, 0, 0, 0]
-//
-> uracil-dna
-[0, 0, 0, 1, 0]
-//
-> sec15
-[0, 0, 1, 0, 0]
-//
-> tumor-suppressing
-[0, 1, 0, 0, 0]
-//
-> subchromosomal
-[0, 1, 0, 0, 0]
-//
-> transferable
-[0, 1, 0, 0, 0]
-//
-> inverted
-[0, 0, 0, 1, 0]
-//
-> subcomplex
-[0, 0, 0, 1, 0]
-//
-> ca++
-[0, 0, 0, 2, 0]
-//
-> twitch
-[0, 0, 0, 2, 0]
-//
-> regulartory
-[0, 0, 0, 0, 1]
-//
-> antigen-like
-[1, 0, 0, 0, 0]
-//
-> zap3
-[0, 0, 0, 1, 0]
-//
-> eb2
-[1, 0, 0, 0, 0]
-//
-> snail
-[0, 1, 0, 0, 0]
-//
-> ef
-[0, 0, 0, 0, 1]
-//
-> hand
-[0, 0, 0, 0, 1]
-//
-> promyelocytic
-[0, 0, 0, 0, 1]
-//
-> yy1
-[1, 0, 0, 0, 0]
-//
-> protein-specific
-[1, 0, 0, 0, 0]
-//
-> nucleotide-releasing
-[1, 0, 0, 0, 0]
-//
-> aromatic
-[0, 1, 0, 0, 0]
-//
-> compound
-[0, 1, 0, 0, 0]
-//
-> hemolytic
-[1, 0, 0, 0, 0]
-//
-> microfibrillar-associated
-[0, 1, 0, 0, 0]
-//
-> groucho
-[0, 0, 0, 1, 0]
-//
-> vanilloid
-[0, 1, 0, 0, 0]
-//
-> galactosaminde
-[1, 0, 0, 0, 0]
-//
-> tousled-like
-[0, 0, 1, 0, 0]
-//
-> sh2-b
-[1, 0, 0, 0, 0]
-//
-> plakophilin-related
-[0, 1, 0, 0, 0]
-//
-> arm-repeat
-[0, 1, 0, 0, 0]
-//
-> pyridoxal
-[0, 0, 0, 0, 1]
 //
 > c-proteinase
 [0, 1, 0, 0, 0]
 //
-> house-keeping
-[0, 0, 0, 1, 0]
-//
 > spot14
-[0, 0, 0, 1, 0]
-//
-> oxidative
-[0, 0, 0, 1, 0]
-//
-> methyltransferase-like
-[1, 0, 0, 0, 0]
-//
-> sa
-[1, 0, 0, 0, 0]
-//
-> hypertension-associated
-[1, 0, 0, 0, 0]
-//
-> ester
 [0, 0, 0, 0, 1]
-//
-> rar-related
-[0, 0, 0, 1, 0]
-//
-> cell-less
-[0, 1, 0, 0, 0]
-//
-> parathyroid
-[0, 1, 0, 0, 0]
-//
-> af170316_1
-[0, 1, 0, 0, 0]
-//
-> rho-associated
-[0, 0, 2, 0, 0]
-//
-> forming
-[0, 0, 2, 0, 0]
 //
 > comp_rat
-[0, 1, 0, 0, 0]
-//
-> fumarylacetoacetate
-[0, 0, 0, 1, 0]
+[1, 0, 0, 0, 0]
 //
 > kinesin-associated
-[0, 0, 0, 1, 0]
-//
-> kip
-[1, 0, 0, 0, 0]
-//
-> thioether
 [0, 0, 1, 0, 0]
-//
-> ania-6a
-[0, 0, 0, 1, 0]
-//
-> d52-like
-[0, 0, 0, 1, 0]
-//
-> ena-vasodilator
-[0, 1, 0, 0, 0]
-//
-> af207749_1
-[0, 0, 0, 1, 0]
-//
-> rgd
-[0, 0, 0, 1, 0]
-//
-> tryptophanyl-trna
-[1, 0, 0, 0, 0]
-//
-> bcl-2-related
-[0, 1, 0, 0, 0]
-//
-> ovarian
-[0, 1, 0, 0, 0]
 //
 > marcks-like
-[0, 1, 0, 0, 0]
-//
-> pas
-[0, 0, 0, 1, 0]
-//
-> lmg2_mouse
 [1, 0, 0, 0, 0]
-//
-> gamma-2
-[1, 0, 0, 0, 0]
-//
-> friedreich
-[0, 0, 1, 0, 0]
-//
-> hydroxymethyl
-[1, 0, 0, 0, 0]
-//
-> teb4
-[0, 0, 1, 0, 0]
-//
-> secis
-[0, 1, 0, 0, 0]
-//
-> tyrosyl-trna
-[0, 1, 0, 0, 0]
-//
-> synthetase.
-[0, 1, 0, 0, 0]
-//
-> hyaluronic
-[1, 0, 0, 0, 0]
-//
-> acid-binding
-[1, 0, 0, 0, 0]
-//
-> e4f
-[0, 0, 0, 0, 1]
-//
-> c33g8.2
-[0, 0, 1, 0, 0]
-//
-> nit
-[0, 0, 0, 1, 0]
-//
-> cbfa_mouse
-[0, 0, 1, 0, 0]
-//
-> ccaat-binding
-[0, 0, 1, 0, 0]
-//
-> 90.0
-[1, 0, 0, 0, 0]
-//
-> t20b12.1
-[1, 0, 0, 0, 0]
-//
-> progesterone
-[0, 1, 0, 0, 0]
-//
-> reticulocalbin
-[0, 1, 0, 0, 0]
-//
-> cdc28
-[1, 0, 0, 0, 0]
-//
-> 30s
-[0, 0, 0, 1, 0]
-//
-> s21
-[0, 0, 0, 1, 0]
 //
 > pre-b-cell
-[0, 0, 0, 1, 0]
-//
-> colony-enhancing
-[0, 0, 0, 1, 0]
-//
-> l6
-[1, 0, 0, 0, 0]
-//
-> a2b
-[1, 0, 0, 0, 0]
-//
-> oxaloacetate
-[0, 0, 0, 2, 0]
-//
-> polo-like
-[1, 0, 0, 0, 0]
-//
-> augmenter
-[1, 0, 0, 0, 0]
-//
-> regeneration
-[1, 0, 0, 0, 0]
-//
-> intermediary
-[0, 0, 1, 0, 0]
-//
-> widely-interspaced
-[0, 0, 0, 1, 0]
-//
-> rad23b
-[0, 0, 1, 0, 0]
-//
-> psd5_human
-[0, 0, 1, 0, 0]
-//
-> s5b
-[0, 0, 1, 0, 0]
-//
-> kiaa0645
-[1, 0, 0, 0, 0]
-//
-> hspc021
-[1, 0, 0, 0, 0]
-//
-> cg12404
-[0, 1, 0, 0, 0]
-//
-> gpi-anchored
-[0, 1, 0, 0, 0]
-//
-> drpla
-[1, 0, 0, 0, 0]
-//
-> kiaa0875
-[0, 0, 0, 1, 0]
-//
-> brca1-associated
-[0, 0, 0, 1, 0]
-//
-> tnx
-[1, 0, 0, 0, 0]
-//
-> cyp21
-[1, 0, 0, 0, 0]
-//
-> tenascin-x
-[1, 0, 0, 0, 0]
-//
-> af112204_1
-[1, 0, 0, 0, 0]
-//
-> sfd
-[1, 0, 0, 0, 0]
-//
-> tcr
-[0, 2, 0, 0, 0]
-//
-> bases
-[0, 2, 0, 0, 0]
-//
-> pro-pol-dutpase
-[0, 1, 0, 0, 0]
-//
-> testicular
-[0, 1, 0, 0, 0]
-//
-> kiaa1211
-[1, 0, 0, 0, 0]
-//
-> 22a
-[0, 1, 0, 0, 0]
-//
-> monocyte
-[0, 0, 0, 2, 0]
-//
-> toll
-[0, 0, 0, 1, 0]
-//
-> pathway-evolutionarily
-[0, 0, 0, 1, 0]
-//
-> af167405_1
-[0, 1, 0, 0, 0]
-//
-> adam
-[0, 1, 0, 0, 0]
-//
-> nolp
-[0, 1, 0, 0, 0]
-//
-> mdgl-1
-[0, 1, 0, 0, 0]
-//
-> rgc-32
-[1, 0, 0, 0, 0]
-//
-> 30kd
-[0, 1, 0, 0, 0]
-//
-> b''
-[0, 0, 0, 1, 0]
-//
-> nardilysin
-[0, 0, 0, 1, 0]
-//
-> sar1a
-[0, 0, 0, 1, 0]
-//
-> if36_human
-[0, 0, 0, 1, 0]
-//
-> il-1
-[0, 0, 1, 0, 0]
-//
-> b-myc
-[0, 1, 0, 0, 0]
-//
-> c10
-[0, 0, 0, 1, 0]
-//
-> transcobalamin
 [0, 0, 0, 0, 1]
 //
-> a57514
-[1, 0, 0, 0, 0]
+> colony-enhancing
+[0, 0, 0, 0, 1]
 //
-> hel117
-[1, 0, 0, 0, 0]
+> oxaloacetate
+[0, 0, 0, 0, 2]
 //
-> kiaa0145
+> acyl-coenzyme
+[0, 0, 0, 0, 2]
+//
+> monocyte
 [0, 0, 0, 1, 0]
-//
-> kinase.
-[0, 0, 0, 1, 0]
-//
-> maturation-associated
-[0, 1, 0, 0, 0]
-//
-> dd3f
-[0, 1, 0, 0, 0]
 //
 > methylmalonyl-coenzyme
-[0, 0, 0, 1, 0]
-//
-> af182426_1
-[0, 0, 0, 1, 0]
-//
-> arylacetamide
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > b14.5b
-[0, 0, 0, 1, 0]
-//
-> alu
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > acds_mouse
-[0, 0, 0, 1, 0]
-//
-> serb_human
-[0, 1, 0, 0, 0]
-//
-> l-3-phosphoserine
-[0, 1, 0, 0, 0]
-//
-> proliferative
-[0, 0, 0, 1, 0]
-//
-> af161509_1
-[1, 0, 0, 0, 0]
-//
-> hspc160
-[1, 0, 0, 0, 0]
-//
-> alpha-n-acetylglucosaminidase
-[0, 1, 0, 0, 0]
-//
-> peptidyl-trna
-[0, 1, 0, 0, 0]
-//
-> spk1
-[0, 1, 0, 0, 0]
-//
-> heterogenous
-[0, 1, 0, 0, 0]
-//
-> kinectin
-[0, 0, 1, 0, 0]
-//
-> cg11802
-[1, 0, 0, 0, 0]
-//
-> hepatocellular
-[0, 0, 0, 1, 0]
-//
-> kiaa0560
-[1, 0, 0, 0, 0]
-//
-> galactosyltransferase
-[1, 0, 0, 0, 0]
-//
-> t08d2.6
-[0, 0, 0, 1, 0]
-//
-> hypoxanthine
-[0, 0, 1, 0, 0]
+[0, 0, 0, 0, 1]
 //
 > er23_human
 [0, 1, 0, 0, 0]
@@ -7658,155 +1775,44 @@ single-value lijsten:
 > retaining
 [0, 1, 0, 0, 0]
 //
-> g01522
-[1, 0, 0, 0, 0]
-//
-> jnk-binding
-[0, 0, 0, 1, 0]
-//
-> jnkbp1
-[0, 0, 0, 1, 0]
-//
-> lithium-sensitive
-[1, 0, 0, 0, 0]
-//
-> myo-inositol
-[1, 0, 0, 0, 0]
-//
-> monophosphatase
-[1, 0, 0, 0, 0]
-//
-> dj622l5.8.1
-[0, 0, 0, 0, 1]
-//
-> t2db_human
+> af161432_1
 [0, 0, 1, 0, 0]
 //
-> tfiid
-[0, 0, 1, 0, 0]
-//
-> y101_human
-[0, 1, 0, 0, 0]
-//
-> rw1
-[0, 1, 0, 0, 0]
-//
-> dpp4_mouse
-[1, 0, 0, 0, 0]
-//
-> cig30
+> hspc314
 [0, 0, 1, 0, 0]
 //
 > dj187j11.1
 [0, 0, 0, 1, 0]
 //
-> beta-adrenergic
-[0, 1, 0, 0, 0]
-//
-> ect2
-[0, 0, 1, 0, 0]
-//
 > mcg4
-[0, 0, 0, 1, 0]
-//
-> sec8
 [0, 0, 0, 0, 1]
-//
-> 31.1
-[0, 0, 0, 1, 0]
-//
-> b0228.7
-[0, 0, 0, 1, 0]
 //
 > sparc-like
 [0, 0, 0, 1, 0]
 //
-> sas_human
-[0, 1, 0, 0, 0]
-//
-> af165114_1
-[1, 0, 0, 0, 0]
-//
-> borg4
-[1, 0, 0, 0, 0]
-//
-> rad9
-[0, 0, 0, 1, 0]
-//
-> nucleoplasmin
-[1, 0, 0, 0, 0]
-//
 > af163095_1
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > hras
-[0, 0, 0, 1, 0]
-//
-> oxygenase
-[0, 1, 0, 0, 0]
-//
-> 5-formyltetrahydrofolate
 [0, 0, 0, 0, 1]
 //
-> cyclo-ligase
-[0, 0, 0, 0, 1]
-//
-> beta-arrestin
-[0, 1, 0, 0, 0]
-//
-> hypermethylated
-[0, 0, 1, 0, 0]
-//
-> af155115_1
+> heme
 [1, 0, 0, 0, 0]
 //
-> ny-ren-58
+> oxygenase
+[1, 0, 0, 0, 0]
+//
+> beta-arrestin
 [1, 0, 0, 0, 0]
 //
 > pterin-4-alpha-carbinolamine
 [0, 0, 0, 1, 0]
 //
-> s28183
-[1, 0, 0, 0, 0]
-//
 > neutrophilic
-[0, 0, 0, 0, 1]
+[0, 0, 1, 0, 0]
 //
 > kiaa0622
 [0, 0, 0, 1, 0]
-//
-> kruc_human
-[0, 1, 0, 0, 0]
-//
-> ultra
-[0, 1, 0, 0, 0]
-//
-> eosinophil-associated
-[1, 0, 0, 0, 0]
-//
-> omega
-[0, 1, 0, 0, 0]
-//
-> lymphoblastomic
-[0, 1, 0, 0, 0]
-//
-> rsp5
-[0, 1, 0, 0, 0]
-//
-> muscleblind-like
-[0, 1, 0, 0, 0]
-//
-> protoporphyrinogen
-[0, 1, 0, 0, 0]
-//
-> ep4
-[0, 1, 0, 0, 0]
-//
-> spliceosomal
-[0, 0, 1, 0, 0]
-//
-> sap
-[0, 0, 1, 0, 0]
 //
 > af155353_1
 [0, 0, 0, 1, 0]
@@ -7814,106 +1820,13 @@ single-value lijsten:
 > asb-2
 [0, 0, 0, 1, 0]
 //
-> af182443_1
-[1, 0, 0, 0, 0]
-//
-> fbl2
-[1, 0, 0, 0, 0]
-//
-> numb
-[0, 1, 0, 0, 0]
-//
-> akr
-[1, 0, 0, 0, 0]
-//
-> 1-j
-[1, 0, 0, 0, 0]
-//
-> 4-c
-[1, 0, 0, 0, 0]
-//
-> spectrin
-[0, 0, 0, 1, 0]
-//
-> non-erythroid
-[0, 0, 0, 1, 0]
-//
-> modular
-[0, 0, 0, 1, 0]
-//
-> af132947_1
-[0, 0, 1, 0, 0]
-//
-> cgi-13
-[0, 0, 1, 0, 0]
-//
-> 1-3
-[0, 1, 0, 0, 0]
-//
-> tubby-like
-[0, 1, 0, 0, 0]
-//
 > hydroxyacyl-coenzyme
-[0, 0, 0, 1, 0]
-//
-> vav2
-[0, 1, 0, 0, 0]
-//
-> ral-interacting
-[0, 1, 0, 0, 0]
-//
-> subgroup
-[0, 1, 0, 0, 0]
-//
-> mesenchyme
-[0, 1, 0, 0, 0]
-//
-> af225902_1
-[1, 0, 0, 0, 0]
-//
-> separation
-[1, 0, 0, 0, 0]
-//
-> anxiety
-[1, 0, 0, 0, 0]
-//
-> calcium-dependent
-[0, 1, 0, 0, 0]
-//
-> amylase
-[0, 0, 0, 1, 0]
-//
-> cg15403
 [0, 0, 0, 0, 1]
 //
-> entamoeba
-[1, 0, 0, 0, 0]
-//
-> 1-alpha
+> mesenchyme
 [1, 0, 0, 0, 0]
 //
 > a9
-[1, 0, 0, 0, 0]
-//
-> af121862_1
-[0, 0, 1, 0, 0]
-//
-> af183144_1
-[1, 0, 0, 0, 0]
-//
-> left-right
-[1, 0, 0, 0, 0]
-//
-> bcr
-[0, 1, 0, 0, 0]
-//
-> prion
-[1, 0, 0, 0, 0]
-//
-> 86.9
-[1, 0, 0, 0, 0]
-//
-> zk945.3
 [1, 0, 0, 0, 0]
 //
 > 91.2
@@ -7922,218 +1835,26 @@ single-value lijsten:
 > rps7a-sch9
 [0, 1, 0, 0, 0]
 //
-> interferon-activatable
-[0, 1, 0, 0, 0]
-//
 > art3
 [0, 0, 0, 1, 0]
 //
-> t17338
-[0, 0, 0, 1, 0]
-//
-> dkfzp434o125.1
-[0, 0, 0, 1, 0]
-//
 > skin-specific
-[0, 0, 0, 0, 1]
-//
-> noncatalytic
 [0, 0, 1, 0, 0]
-//
-> tubby
-[0, 1, 0, 0, 0]
-//
-> super-family
-[0, 1, 0, 0, 0]
 //
 > bicaudal-d
 [0, 0, 0, 1, 0]
 //
-> 3'-phosphoadenosine
-[0, 1, 0, 0, 0]
-//
-> 5'-phosphosulfate
-[0, 1, 0, 0, 0]
-//
-> myb1
-[0, 0, 0, 1, 0]
-//
-> acph_rat
-[0, 0, 0, 1, 0]
-//
-> acylamino-acid-releasing
-[0, 0, 0, 1, 0]
-//
-> granuphilin-a
-[1, 0, 0, 0, 0]
-//
-> af024631_1
-[0, 1, 0, 0, 0]
-//
-> ang2
-[0, 1, 0, 0, 0]
-//
-> terminal
-[1, 0, 0, 0, 0]
-//
 > i5p1_human
 [0, 0, 0, 1, 0]
 //
-> hooked
-[0, 1, 0, 0, 0]
-//
 > tyro
-[0, 1, 0, 0, 0]
-//
-> x-associated
 [1, 0, 0, 0, 0]
-//
-> ankyrin-containing
-[1, 0, 0, 0, 0]
-//
-> kiaa0544
-[0, 0, 0, 1, 0]
-//
-> hematological
-[0, 1, 0, 0, 0]
-//
-> neurological
-[0, 1, 0, 0, 0]
-//
-> af182076_1
-[1, 0, 0, 0, 0]
-//
-> glioma
-[1, 0, 0, 0, 0]
-//
-> af073344_1
-[0, 1, 0, 0, 0]
-//
-> ubiquitin-specific
-[0, 1, 0, 0, 0]
 //
 > intergral
-[0, 1, 0, 0, 0]
-//
-> 3-phosphoglycerate
-[0, 1, 0, 0, 0]
-//
-> nucleotide-gated
-[0, 0, 0, 1, 0]
+[1, 0, 0, 0, 0]
 //
 > malonyl-coa
-[0, 0, 0, 1, 0]
-//
-> nidulans
-[0, 1, 0, 0, 0]
-//
-> sudd
-[0, 1, 0, 0, 0]
-//
-> methyl
-[1, 0, 0, 0, 0]
-//
-> cpg
-[1, 0, 0, 0, 0]
-//
-> fyn
-[0, 0, 1, 0, 0]
-//
-> myod
-[0, 1, 0, 0, 0]
-//
-> odorant-binding
-[1, 0, 0, 0, 0]
-//
-> cut
-[0, 0, 1, 0, 0]
-//
-> apg12
-[0, 0, 0, 1, 0]
-//
-> progastricsin
-[1, 0, 0, 0, 0]
-//
-> fractured
-[0, 1, 0, 0, 0]
-//
-> callus
-[0, 1, 0, 0, 0]
-//
-> differential
-[1, 0, 0, 0, 0]
-//
-> display
-[1, 0, 0, 0, 0]
-//
-> hydroxyprostaglandin
-[0, 1, 0, 0, 0]
-//
-> jagged
-[1, 0, 0, 0, 0]
-//
-> polymerases
-[0, 0, 0, 1, 0]
-//
-> 7.3
-[0, 0, 0, 1, 0]
-//
-> 29.8
-[1, 0, 0, 0, 0]
-//
-> thic-heme
-[1, 0, 0, 0, 0]
-//
-> form_mouse
-[0, 1, 0, 0, 0]
-//
-> transcytosis
-[1, 0, 0, 0, 0]
-//
-> tbc1
-[0, 0, 0, 1, 0]
-//
-> sm4d_mouse
-[0, 1, 0, 0, 0]
-//
-> 4d
-[0, 1, 0, 0, 0]
-//
-> n-acylsphingosine
-[0, 0, 1, 0, 0]
-//
-> amidohydrolase
-[0, 0, 1, 0, 0]
-//
-> monkey
 [0, 0, 0, 0, 1]
-//
-> evi-5
-[0, 1, 0, 0, 0]
-//
-> lps-normoresponsive
-[1, 0, 0, 0, 0]
-//
-> af182293_1
-[0, 0, 0, 1, 0]
-//
-> u6
-[0, 0, 0, 1, 0]
-//
-> snrna-associated
-[0, 0, 0, 1, 0]
-//
-> sm-like
-[0, 0, 0, 1, 0]
-//
-> lsm7
-[0, 0, 0, 1, 0]
-//
-> af154120_1
-[0, 0, 1, 0, 0]
-//
-> apoptosis-associated
-[0, 2, 0, 0, 0]
 //
 > suppression
 [0, 1, 0, 0, 0]
@@ -8141,140 +1862,11 @@ single-value lijsten:
 > tumorigenicity
 [0, 1, 0, 0, 0]
 //
-> kiaa0783
-[0, 0, 0, 1, 0]
-//
-> rad1
-[0, 1, 0, 0, 0]
-//
-> sec63
-[1, 0, 0, 0, 0]
-//
-> banp
-[0, 0, 0, 1, 0]
-//
-> wild-type
-[0, 0, 0, 0, 1]
-//
-> p53-induced
-[0, 0, 0, 0, 1]
-//
-> tripeptidyl
-[1, 0, 0, 0, 0]
-//
-> polycomb
-[0, 0, 0, 1, 0]
-//
-> tat-interacting
-[1, 0, 0, 0, 0]
-//
-> otoconin
-[1, 0, 0, 0, 0]
-//
-> af132972_1
-[0, 0, 0, 0, 1]
-//
-> cgi-38
-[0, 0, 0, 0, 1]
-//
-> numb-protein
-[0, 0, 0, 1, 0]
-//
-> kiaa0061
-[0, 1, 0, 0, 0]
-//
-> unc119
-[1, 0, 0, 0, 0]
-//
-> release
-[0, 0, 0, 1, 0]
-//
-> om20_rat
-[0, 1, 0, 0, 0]
-//
-> tom20
-[0, 1, 0, 0, 0]
-//
-> afp2_human
-[1, 0, 0, 0, 0]
-//
-> arfaptin
-[1, 0, 0, 0, 0]
-//
-> e1a-stimulated
-[0, 0, 0, 1, 0]
-//
-> lrf
-[1, 0, 0, 0, 0]
-//
-> alanyl-trna
-[1, 0, 0, 0, 0]
-//
-> af220184_1
-[1, 0, 0, 0, 0]
-//
-> ht010
-[1, 0, 0, 0, 0]
-//
-> mevalonate
-[0, 0, 1, 0, 0]
-//
 > 52.8
 [0, 1, 0, 0, 0]
 //
 > t05e11.5
 [0, 1, 0, 0, 0]
-//
-> exportin
-[0, 0, 0, 1, 0]
-//
-> u2r1_mouse
-[0, 0, 0, 1, 0]
-//
-> related-protein
-[0, 0, 0, 1, 0]
-//
-> rrp5_human
-[0, 0, 0, 1, 0]
-//
-> rrp5
-[0, 0, 0, 1, 0]
-//
-> ogt1_rat
-[0, 0, 0, 1, 0]
-//
-> udp-n-acetylglucosamine--peptide
-[0, 0, 0, 1, 0]
-//
-> n-acetylglucosaminyltransferase
-[0, 0, 0, 1, 0]
-//
-> coxsackievirus
-[0, 0, 1, 0, 0]
-//
-> tal1
-[0, 0, 0, 0, 1]
-//
-> interrupting
-[0, 0, 0, 0, 1]
-//
-> spastic
-[0, 0, 0, 1, 0]
-//
-> paraplegia
-[0, 0, 0, 1, 0]
-//
-> cg2109
-[0, 0, 1, 0, 0]
-//
-> rab-8
-[1, 0, 0, 0, 0]
-//
-> f25h5.6
-[0, 0, 0, 1, 0]
-//
-> kiaa1438
-[0, 0, 1, 0, 0]
 //
 > epididymal
 [0, 1, 0, 0, 0]
@@ -8282,343 +1874,22 @@ single-value lijsten:
 > ubc6p
 [0, 1, 0, 0, 0]
 //
-> kiaa0869
-[0, 1, 0, 0, 0]
-//
 > enigma
 [1, 0, 0, 0, 0]
 //
-> es64
-[0, 0, 1, 0, 0]
-//
-> density-regulated
-[0, 0, 0, 1, 0]
-//
-> thermosensitive
-[0, 0, 1, 0, 0]
-//
-> gluconokinase
-[0, 0, 1, 0, 0]
-//
-> kiaa0370
-[0, 0, 1, 0, 0]
-//
-> r12e2.12
-[0, 0, 0, 1, 0]
-//
-> sphingosine-1-phosphate
-[0, 0, 0, 1, 0]
-//
-> phosphohydrolase
-[0, 0, 0, 1, 0]
-//
-> ppal_mouse
-[0, 1, 0, 0, 0]
-//
-> synapsin
-[0, 1, 0, 0, 0]
-//
-> ae003406_211
-[0, 0, 1, 0, 0]
-//
-> kinesin-ii
-[1, 0, 0, 0, 0]
-//
-> cg14549
-[0, 1, 0, 0, 0]
-//
-> prenyl
-[0, 0, 1, 0, 0]
-//
-> check
-[0, 0, 1, 0, 0]
-//
-> point
-[0, 0, 1, 0, 0]
-//
-> pftaire
-[0, 1, 0, 0, 0]
-//
-> kinensin-like
-[0, 0, 1, 0, 0]
-//
-> hiv-1
-[0, 0, 1, 0, 0]
-//
-> rev
-[0, 0, 1, 0, 0]
-//
-> 9.3
-[0, 0, 1, 0, 0]
-//
-> zk652.1
-[0, 0, 1, 0, 0]
-//
 > b18
-[0, 0, 0, 1, 0]
-//
-> cg11591
-[0, 0, 0, 1, 0]
-//
-> c-1
-[0, 0, 1, 0, 0]
-//
-> "adp-ribosyltransferase
-[0, 0, 0, 1, 0]
-//
-> af189262_1
 [0, 0, 0, 0, 1]
 //
-> epsilon-like
-[0, 0, 0, 0, 1]
-//
-> transducin
-[1, 0, 0, 0, 0]
-//
-> cg8195
+> geranylgeranyl
 [0, 0, 0, 1, 0]
-//
-> cg2059
-[0, 0, 0, 1, 0]
-//
-> parallel
-[0, 0, 0, 1, 0]
-//
-> sister
-[0, 0, 0, 1, 0]
-//
-> chromatids
-[0, 0, 0, 1, 0]
-//
-> cdk2
-[0, 0, 0, 1, 0]
-//
-> af181992_1
-[0, 0, 0, 1, 0]
-//
-> s-adenosylhomocysteine
-[0, 0, 0, 1, 0]
-//
-> srp75
-[0, 0, 1, 0, 0]
-//
-> af151893_1
-[0, 0, 0, 1, 0]
-//
-> cgi-135
-[0, 0, 0, 1, 0]
-//
-> tvrtnu
-[0, 0, 0, 1, 0]
-//
-> damage
-[0, 1, 0, 0, 0]
-//
-> rap-1a
-[0, 0, 0, 1, 0]
-//
-> kiaa0731
-[0, 0, 0, 1, 0]
-//
-> sfr8_human
-[1, 0, 0, 0, 0]
-//
-> u5
-[0, 0, 1, 0, 0]
-//
-> y117_human
-[0, 0, 0, 1, 0]
-//
-> kiaa0117
-[0, 0, 0, 1, 0]
-//
-> sir2
-[1, 0, 0, 0, 0]
-//
-> hmed7
-[0, 0, 0, 1, 0]
-//
-> neoplasia
-[0, 1, 0, 0, 0]
-//
-> bh3
-[0, 1, 0, 0, 0]
-//
-> 12.3
-[1, 0, 0, 0, 0]
-//
-> zk945.8
-[1, 0, 0, 0, 0]
-//
-> mixed-lineage
-[0, 0, 0, 1, 0]
-//
-> ben
-[0, 0, 1, 0, 0]
-//
-> fshd
-[0, 0, 0, 1, 0]
-//
-> t04a11.2
-[0, 0, 0, 1, 0]
-//
-> cxxc
-[0, 0, 1, 0, 0]
-//
-> pannexin
-[0, 1, 0, 0, 0]
-//
-> tasp
-[1, 0, 0, 0, 0]
-//
-> adriamycin
-[1, 0, 0, 0, 0]
-//
-> yjl004c
-[0, 0, 1, 0, 0]
-//
-> leu5_human
-[1, 0, 0, 0, 0]
-//
-> kiaa0979
-[0, 0, 0, 1, 0]
-//
-> tensin
-[0, 0, 0, 1, 0]
-//
-> 44.2
-[0, 0, 0, 1, 0]
-//
-> sco2-mrf1
-[0, 0, 0, 1, 0]
-//
-> noxa
-[1, 0, 0, 0, 0]
-//
-> t12464
-[1, 0, 0, 0, 0]
-//
-> dkfzp564j102.1
-[1, 0, 0, 0, 0]
-//
-> beta-glucosyltransferase
-[1, 0, 0, 0, 0]
-//
-> diaphorase
-[0, 0, 0, 1, 0]
-//
-> a56716
-[0, 1, 0, 0, 0]
-//
-> biphenyl
-[0, 1, 0, 0, 0]
-//
-> hydrolase-related
-[0, 1, 0, 0, 0]
-//
-> l-asparaginase
-[0, 0, 0, 2, 0]
-//
-> renin
-[1, 0, 0, 0, 0]
-//
-> af107204_1
-[1, 0, 0, 0, 0]
-//
-> ataxin
-[1, 0, 0, 0, 0]
-//
-> 2-binding
-[1, 0, 0, 0, 0]
-//
-> discoidin
-[0, 1, 0, 0, 0]
-//
-> y076_human
-[0, 1, 0, 0, 0]
-//
-> kiaa0076
-[0, 1, 0, 0, 0]
-//
-> amiloride-sensitive
-[0, 0, 1, 0, 0]
-//
-> rac1
-[0, 1, 0, 0, 0]
-//
-> amsh
-[0, 0, 0, 0, 1]
-//
-> ral-a
-[1, 0, 0, 0, 0]
-//
-> ralgps2
-[1, 0, 0, 0, 0]
-//
-> kiaa0386
-[0, 0, 0, 1, 0]
-//
-> af083110_1
-[0, 0, 0, 1, 0]
-//
-> sirtuin
-[0, 0, 0, 1, 0]
-//
-> sti1
-[0, 1, 0, 0, 0]
-//
-> zfp-37
-[1, 0, 0, 0, 0]
-//
-> kiaa0512
-[1, 0, 0, 0, 0]
-//
-> mac-1
-[1, 0, 0, 0, 0]
 //
 > af155354_1
-[1, 0, 0, 0, 0]
-//
-> asb-3
-[1, 0, 0, 0, 0]
-//
-> kiaa0977
-[0, 0, 0, 1, 0]
-//
-> p140mdia
-[1, 0, 0, 0, 0]
-//
-> 251.0
-[0, 0, 0, 1, 0]
-//
-> cry1-gns1
-[0, 0, 0, 1, 0]
-//
-> mdes
-[1, 0, 0, 0, 0]
-//
-> dj167a19.3
-[1, 0, 0, 0, 0]
-//
-> c15h9.5
 [0, 1, 0, 0, 0]
 //
-> 103.5
-[0, 0, 0, 0, 1]
+> asb-3
+[0, 1, 0, 0, 0]
 //
-> rad26-gef1
-[0, 0, 0, 0, 1]
-//
-> cg11990
-[1, 0, 0, 0, 0]
-//
-> b33785
-[1, 0, 0, 0, 0]
-//
-> i49684
-[0, 0, 0, 1, 0]
-//
-> punc
+> kiaa0977
 [0, 0, 0, 1, 0]
 //
 > pigr_mouse
@@ -8628,190 +1899,19 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > imuunoglobulin
-[0, 1, 0, 0, 0]
-//
-> constant
-[0, 1, 0, 0, 0]
-//
-> insulin-induced
-[0, 0, 0, 1, 0]
-//
-> cl-6
-[0, 0, 0, 1, 0]
-//
-> rl21_mouse
 [0, 0, 1, 0, 0]
 //
-> hpaii
-[0, 1, 0, 0, 0]
-//
-> tiny
-[0, 1, 0, 0, 0]
-//
-> fragments
-[0, 1, 0, 0, 0]
+> constant
+[0, 0, 1, 0, 0]
 //
 > i2
 [0, 1, 0, 0, 0]
 //
-> tenascin
-[1, 0, 0, 0, 0]
-//
-> internexin
-[0, 0, 0, 1, 0]
-//
-> cwcv
-[1, 0, 0, 0, 0]
-//
-> kazal-like
-[1, 0, 0, 0, 0]
-//
-> cd4
-[1, 0, 0, 0, 0]
-//
-> manic
-[1, 0, 0, 0, 0]
-//
-> bmx
-[0, 0, 0, 0, 1]
-//
-> dscr28c
-[0, 1, 0, 0, 0]
-//
-> mox2_mouse
-[0, 0, 0, 1, 0]
-//
-> nk2
-[0, 1, 0, 0, 0]
-//
-> cd38
-[0, 1, 0, 0, 0]
-//
-> glucagon
-[1, 0, 0, 0, 0]
-//
-> glycophorin
-[1, 0, 0, 0, 0]
-//
-> glucokinase
-[0, 0, 0, 1, 0]
-//
-> s57968
-[0, 0, 0, 1, 0]
-//
-> ran-binding
-[0, 0, 0, 1, 0]
-//
-> k20d4
-[0, 0, 0, 1, 0]
-//
-> lunatic
-[0, 1, 0, 0, 0]
-//
-> chimaerin
-[0, 0, 1, 0, 0]
-//
-> af151838_1
-[0, 0, 1, 0, 0]
-//
-> cgi-80
-[0, 0, 1, 0, 0]
-//
-> ars
-[1, 0, 0, 0, 0]
-//
-> wnt-5b
-[0, 1, 0, 0, 0]
-//
-> ier5
-[0, 1, 0, 0, 0]
-//
-> i37275
-[1, 0, 0, 0, 0]
-//
-> a48998
-[1, 0, 0, 0, 0]
-//
-> mab-21-like
-[0, 0, 0, 1, 0]
-//
-> af177041_1
-[1, 0, 0, 0, 0]
-//
-> retinoblastoma-interacting
-[0, 1, 0, 0, 0]
-//
-> athanogene
-[0, 0, 0, 2, 0]
-//
-> intestine
-[1, 0, 0, 0, 0]
-//
-> sex-determination
-[1, 0, 0, 0, 0]
-//
-> fem1a
-[1, 0, 0, 0, 0]
-//
-> v-like
-[0, 1, 0, 0, 0]
-//
-> af161493_1
-[1, 0, 0, 0, 0]
-//
-> hspc144
-[1, 0, 0, 0, 0]
-//
-> ht41
-[0, 0, 0, 1, 0]
-//
-> debranching
-[0, 0, 0, 1, 0]
-//
-> t00068
-[0, 0, 0, 1, 0]
-//
-> kiaa0443
-[0, 0, 0, 1, 0]
-//
-> eps8_mouse
-[1, 0, 0, 0, 0]
-//
-> anti-fas-induced
-[1, 0, 0, 0, 0]
-//
-> cyp2c40
-[0, 0, 1, 0, 0]
-//
-> podocalyxin-like
-[1, 0, 0, 0, 0]
-//
-> drng_mouse
-[1, 0, 0, 0, 0]
-//
 > transferrin
-[0, 0, 0, 1, 0]
+[0, 0, 1, 0, 0]
 //
 > kinases
 [0, 1, 0, 0, 0]
-//
-> fli-lrr
-[0, 0, 0, 1, 0]
-//
-> leptin
-[0, 1, 0, 0, 0]
-//
-> immunophilin-like
-[0, 1, 0, 0, 0]
-//
-> eif-3
-[0, 0, 1, 0, 0]
-//
-> p39
-[0, 0, 1, 0, 0]
-//
-> cchl_human
-[0, 0, 0, 1, 0]
 //
 > la_rat
 [0, 0, 0, 1, 0]
@@ -8819,746 +1919,59 @@ single-value lijsten:
 > la
 [0, 0, 0, 1, 0]
 //
-> s37583
-[0, 0, 0, 0, 1]
-//
-> rfp
-[0, 0, 0, 0, 1]
-//
-> 167.8
-[0, 0, 0, 1, 0]
-//
-> af151078_1
-[0, 0, 0, 1, 0]
-//
-> hspc244
-[0, 0, 0, 1, 0]
-//
-> crtc_mouse
-[0, 1, 0, 0, 0]
-//
-> calreticulin
-[0, 1, 0, 0, 0]
-//
-> tip120
-[0, 1, 0, 0, 0]
-//
 > af151064_1
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > hspc230
-[0, 0, 0, 1, 0]
-//
-> dj126a5.2.1
-[1, 0, 0, 0, 0]
-//
-> sc35
-[1, 0, 0, 0, 0]
-//
-> wsb-2
-[0, 0, 1, 0, 0]
-//
-> bacr37p7.g
-[0, 0, 1, 0, 0]
-//
-> cbp_mouse
-[0, 0, 0, 1, 0]
-//
-> creb-binding
-[0, 0, 0, 1, 0]
-//
-> antigenic
-[0, 0, 0, 1, 0]
-//
-> determinant
-[0, 0, 0, 1, 0]
-//
-> rec-a
-[0, 0, 0, 1, 0]
-//
-> lactase-phlorizin
-[0, 1, 0, 0, 0]
-//
-> smad6
-[0, 1, 0, 0, 0]
-//
-> kiaa0879
-[0, 0, 0, 1, 0]
-//
-> synaptonemal
-[0, 0, 0, 1, 0]
-//
-> mup4_mouse
-[1, 0, 0, 0, 0]
-//
-> bet3
-[0, 0, 0, 1, 0]
-//
-> dehydrogenases
-[0, 0, 1, 0, 0]
-//
-> hydrolases
-[0, 0, 1, 0, 0]
-//
-> perhaps
-[1, 0, 0, 0, 0]
-//
-> identical
-[1, 0, 0, 0, 0]
-//
-> hs-cul-4b.
-[1, 0, 0, 0, 0]
-//
-> 19kda
-[0, 0, 0, 1, 0]
-//
-> kiaa1108
-[0, 1, 0, 0, 0]
+[0, 0, 0, 0, 1]
 //
 > cg11095
-[0, 0, 0, 1, 0]
-//
-> 2-like
-[1, 0, 0, 0, 0]
-//
-> af039942_1
-[1, 0, 0, 0, 0]
-//
-> hcf-binding
-[1, 0, 0, 0, 0]
-//
-> zhangfei
-[1, 0, 0, 0, 0]
-//
-> nectin-3
-[0, 1, 0, 0, 0]
-//
-> fish
-[0, 1, 0, 0, 0]
-//
-> 573k1.5
-[0, 0, 1, 0, 0]
-//
-> dhap_mouse
-[0, 1, 0, 0, 0]
-//
-> dimeric
-[0, 1, 0, 0, 0]
-//
-> nadp-preferring
-[0, 1, 0, 0, 0]
-//
-> c-beta-1b
-[0, 1, 0, 0, 0]
-//
-> y391_human
-[0, 0, 1, 0, 0]
+[0, 0, 0, 0, 1]
 //
 > lem3_mouse
-[0, 1, 0, 0, 0]
-//
-> af220187_1
-[0, 0, 0, 1, 0]
-//
-> ht013
-[0, 0, 0, 1, 0]
-//
-> crp-ductin-alpha
 [1, 0, 0, 0, 0]
-//
-> t2_mouse
-[0, 0, 0, 1, 0]
-//
-> octapeptide-repeat
-[0, 0, 0, 1, 0]
-//
-> kiaa0336
-[1, 0, 0, 0, 0]
-//
-> delta7-sterol
-[0, 0, 0, 1, 0]
-//
-> sre2_human
-[0, 0, 0, 0, 1]
-//
-> pentaxin
-[0, 0, 1, 0, 0]
-//
-> scgn10
-[1, 0, 0, 0, 0]
-//
-> even
-[1, 0, 0, 0, 0]
-//
-> skipped
-[1, 0, 0, 0, 0]
-//
-> hox-b2
-[1, 0, 0, 0, 0]
-//
-> kiaa0310
-[0, 1, 0, 0, 0]
-//
-> nbr1
-[0, 0, 0, 1, 0]
-//
-> cd2
-[0, 0, 0, 1, 0]
-//
-> af223467_1
-[0, 1, 0, 0, 0]
-//
-> npd008
-[0, 1, 0, 0, 0]
-//
-> fused
-[0, 0, 0, 1, 0]
 //
 > awp1
-[0, 0, 0, 1, 0]
-//
-> dtd_mouse
-[0, 0, 1, 0, 0]
-//
-> 38.5
-[1, 0, 0, 0, 0]
-//
-> sui2-tdh2
-[1, 0, 0, 0, 0]
-//
-> a57284
-[0, 0, 1, 0, 0]
-//
-> spermatid
-[0, 0, 1, 0, 0]
-//
-> perinuclear
-[0, 0, 1, 0, 0]
-//
-> spnr
-[0, 0, 1, 0, 0]
-//
-> sortilin-related
-[0, 0, 0, 0, 1]
-//
-> ldlr
-[0, 0, 0, 0, 1]
-//
-> beta-catenin-interacting
 [0, 0, 0, 1, 0]
 //
 > rb3a_mouse
 [0, 0, 0, 1, 0]
 //
-> cg14414
-[1, 0, 0, 0, 0]
-//
-> af091457_1
-[0, 1, 0, 0, 0]
-//
-> rin
-[0, 1, 0, 0, 0]
-//
-> zf
-[0, 1, 0, 0, 0]
-//
-> amp
-[0, 0, 0, 1, 0]
-//
-> h3
-[0, 1, 0, 0, 0]
-//
-> 2d
-[0, 1, 0, 0, 0]
-//
-> dj967n21.4
-[0, 0, 0, 1, 0]
-//
-> synaptogamin
-[1, 0, 0, 0, 0]
-//
-> yspl-1
-[1, 0, 0, 0, 0]
-//
-> lis1_mouse
-[1, 0, 0, 0, 0]
-//
-> neuropeptide
-[1, 0, 0, 0, 0]
-//
-> nociceptin
-[1, 0, 0, 0, 0]
-//
-> cg17883
-[1, 0, 0, 0, 0]
-//
-> af137367_1
-[0, 1, 0, 0, 0]
-//
-> vps10
-[0, 1, 0, 0, 0]
-//
-> sorcs
-[0, 1, 0, 0, 0]
-//
-> rasgap-related
-[1, 0, 0, 0, 0]
-//
-> dj347h13.5
-[0, 0, 0, 1, 0]
-//
-> hat1_human
-[0, 0, 0, 1, 0]
-//
-> oligodendrocyte
-[1, 0, 0, 0, 0]
-//
-> af158186_1
-[1, 0, 0, 0, 0]
-//
-> peachy
-[1, 0, 0, 0, 0]
-//
-> ntc3_mouse
-[0, 0, 0, 1, 0]
-//
-> p14
-[0, 0, 0, 1, 0]
-//
-> embl:d70762
-[0, 1, 0, 0, 0]
-//
-> tfsl_mouse
-[0, 0, 1, 0, 0]
-//
-> s-ii-related
-[0, 0, 1, 0, 0]
-//
-> 2-o-sulfotransferase
-[1, 0, 0, 0, 0]
-//
-> p40gprt
-[0, 0, 1, 0, 0]
-//
-> t00093
-[1, 0, 0, 0, 0]
-//
-> kiaa0467
-[1, 0, 0, 0, 0]
-//
-> sterol-c5-desaturase
-[1, 0, 0, 0, 0]
-//
-> granin-like
-[0, 1, 0, 0, 0]
-//
-> neuroendocrine
-[0, 1, 0, 0, 0]
-//
-> rpb17
-[0, 0, 1, 0, 0]
-//
-> v-maf
-[1, 0, 0, 0, 0]
-//
-> musculoaponeurotic
-[1, 0, 0, 0, 0]
-//
-> fibrosarcoma
-[1, 0, 0, 0, 0]
-//
-> pb39
-[0, 1, 0, 0, 0]
-//
-> af155196_1
-[1, 0, 0, 0, 0]
-//
-> mindin
-[1, 0, 0, 0, 0]
-//
-> rrb_mouse
-[0, 0, 0, 0, 1]
-//
-> molybdopterin
-[1, 0, 0, 0, 0]
-//
-> sulfurylase
-[1, 0, 0, 0, 0]
-//
-> zw10
-[0, 0, 1, 0, 0]
-//
-> brdt
-[0, 0, 1, 0, 0]
-//
-> cemsa26f
-[1, 0, 0, 0, 0]
-//
-> cardiotrophin
-[0, 0, 0, 0, 1]
-//
-> myle
-[0, 0, 0, 1, 0]
-//
-> metallocarboxypeptidase
-[0, 1, 0, 0, 0]
-//
-> image:349147
-[0, 0, 0, 1, 0]
-//
-> pre-b
-[0, 1, 0, 0, 0]
-//
-> 384d8_7
-[0, 1, 0, 0, 0]
-//
-> cd7
-[0, 1, 0, 0, 0]
-//
-> cd8
-[0, 1, 0, 0, 0]
-//
 > src-like
 [0, 1, 0, 0, 0]
 //
-> h5ar
-[0, 0, 0, 1, 0]
-//
 > 5-lipoxygenase
-[0, 1, 0, 0, 0]
-//
-> cg14648
-[0, 1, 0, 0, 0]
-//
-> af133123_1
-[1, 0, 0, 0, 0]
-//
-> iiic102
-[1, 0, 0, 0, 0]
-//
-> dexamethasone-induced
-[1, 0, 0, 0, 0]
-//
-> af159159_1
-[0, 0, 0, 1, 0]
-//
-> kiaa1374
 [1, 0, 0, 0, 0]
 //
 > notch4-like
-[0, 0, 0, 1, 0]
-//
-> af252290_1
-[0, 0, 0, 1, 0]
-//
-> par6a
-[0, 0, 0, 1, 0]
-//
-> mut
-[1, 0, 0, 0, 0]
-//
-> fingers
-[0, 1, 0, 0, 0]
-//
-> homeoboxes
-[0, 1, 0, 0, 0]
-//
-> af233582_1
-[0, 1, 0, 0, 0]
-//
-> rab37
-[0, 1, 0, 0, 0]
-//
-> rbb1_human
-[0, 0, 0, 1, 0]
-//
-> dermis
-[0, 0, 0, 1, 0]
-//
-> smd1_human
 [0, 0, 1, 0, 0]
-//
-> n-acetyl-galactosamine
-[0, 0, 0, 0, 1]
-//
-> y281_human
-[1, 0, 0, 0, 0]
-//
-> kiaa0281
-[1, 0, 0, 0, 0]
-//
-> gamma-glutamyltransferase-like
-[0, 0, 1, 0, 0]
-//
-> ldlbp
-[1, 0, 0, 0, 0]
-//
-> cd5
-[1, 0, 0, 0, 0]
-//
-> af116865_1
-[1, 0, 0, 0, 0]
-//
-> hedgehog-interacting
-[1, 0, 0, 0, 0]
-//
-> histocompatibility-2
-[0, 0, 0, 1, 0]
-//
-> melanocortin
-[0, 1, 0, 0, 0]
-//
-> kiaa0290
-[1, 0, 0, 0, 0]
-//
-> signal-induced
-[0, 1, 0, 0, 0]
-//
-> mosaic
-[1, 0, 0, 0, 0]
-//
-> epitheliasin
-[1, 0, 0, 0, 0]
-//
-> plca_mouse
-[1, 0, 0, 0, 0]
-//
-> 1-acyl-sn-glycerol-3-phosphate
-[1, 0, 0, 0, 0]
 //
 > deficiency-associated
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > ventricle
-[0, 0, 0, 1, 0]
-//
-> placenta
-[0, 1, 0, 0, 0]
-//
-> daf2_mouse
-[1, 0, 0, 0, 0]
-//
-> decay-accelerating
-[1, 0, 0, 0, 0]
-//
-> kiaa0135
-[1, 0, 0, 0, 0]
-//
-> oncogene.
-[1, 0, 0, 0, 0]
-//
-> tshr_mouse
-[1, 0, 0, 0, 0]
-//
-> af164349_1
 [0, 0, 0, 0, 1]
-//
-> alpha-4
-[0, 0, 0, 0, 1]
-//
-> emp70
-[0, 0, 0, 1, 0]
-//
-> nmda2c
-[0, 0, 0, 1, 0]
-//
-> single-minded
-[0, 0, 1, 0, 0]
-//
-> af140691_1
-[0, 0, 0, 1, 0]
-//
-> melusin
-[0, 0, 0, 1, 0]
-//
-> je0239
-[1, 0, 0, 0, 0]
-//
-> lin-10
-[1, 0, 0, 0, 0]
-//
-> af099018_1
-[0, 0, 1, 0, 0]
-//
-> af257319_1
-[0, 0, 0, 1, 0]
-//
-> sh3-containing
-[0, 0, 0, 1, 0]
-//
-> sh3glb2
-[0, 0, 0, 1, 0]
 //
 > selenium
 [0, 0, 0, 1, 0]
 //
-> syk
-[0, 1, 0, 0, 0]
-//
-> armadillo
-[0, 0, 0, 0, 1]
-//
-> cd151
-[0, 0, 0, 1, 0]
-//
-> bisphosphate
-[0, 0, 0, 1, 0]
-//
-> 3'-nucleotidase
-[0, 0, 0, 1, 0]
-//
-> delta-aminolevulinate
-[0, 0, 0, 1, 0]
-//
-> heme-binding
-[0, 1, 0, 0, 0]
-//
-> upregulated
-[0, 0, 0, 1, 0]
-//
-> non-ubiquitously
-[0, 0, 0, 1, 0]
-//
-> cam
-[0, 0, 0, 1, 0]
-//
-> sphingomyelinase
-[0, 0, 0, 1, 0]
-//
-> plectin
-[1, 0, 0, 0, 0]
-//
-> atx1
-[0, 1, 0, 0, 0]
-//
-> tuftelin-interacting
-[0, 0, 1, 0, 0]
-//
-> sex-lethal
-[0, 1, 0, 0, 0]
-//
-> coproporphyrinogen
-[0, 0, 0, 0, 1]
-//
 > dipeptidase
-[0, 0, 0, 1, 0]
-//
-> tubulointerstitial
-[1, 0, 0, 0, 0]
-//
-> nephritis
-[1, 0, 0, 0, 0]
-//
-> kidney-derived
-[0, 1, 0, 0, 0]
-//
-> aspartic
-[0, 1, 0, 0, 0]
-//
-> protease-like
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > nuffield
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > department
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > surgery
-[0, 1, 0, 0, 0]
-//
-> arsenite-translocating
-[0, 0, 0, 1, 0]
-//
-> sarcosine
-[1, 0, 0, 0, 0]
-//
-> lec15
-[0, 1, 0, 0, 0]
-//
-> c-reactive
-[0, 0, 0, 0, 1]
-//
-> petaxin
-[0, 0, 0, 0, 1]
-//
-> p100
-[0, 0, 0, 1, 0]
-//
-> leukemia-associated
-[0, 0, 1, 0, 0]
-//
-> oxoglutarate
-[1, 0, 0, 0, 0]
-//
-> saccharopine
-[1, 0, 0, 0, 0]
-//
-> urate
 [1, 0, 0, 0, 0]
 //
 > pdz-motif
-[0, 0, 0, 1, 0]
-//
-> migration
-[1, 0, 0, 0, 0]
-//
-> xanthine
 [0, 0, 0, 0, 1]
 //
-> pias3
-[0, 1, 0, 0, 0]
-//
-> proteaseome
-[0, 0, 0, 1, 0]
-//
-> cd
-[0, 0, 0, 1, 0]
-//
-> je0378
-[0, 1, 0, 0, 0]
-//
-> bce-1
-[1, 0, 0, 0, 0]
-//
-> lanc
-[0, 0, 0, 1, 0]
-//
-> lantibiotic
-[0, 0, 0, 1, 0]
-//
-> casl_mouse
-[0, 1, 0, 0, 0]
-//
-> filmentation
-[0, 1, 0, 0, 0]
-//
-> znf
-[0, 0, 0, 1, 0]
-//
-> inhibitor-like
-[1, 0, 0, 0, 0]
-//
-> transaldolase
-[0, 1, 0, 0, 0]
-//
-> s3-12
-[0, 0, 0, 1, 0]
-//
-> nucleoprotein
-[1, 0, 0, 0, 0]
-//
 > 19.5
-[0, 1, 0, 0, 0]
-//
-> ninjurin
 [1, 0, 0, 0, 0]
-//
-> inactive
-[1, 0, 0, 0, 0]
-//
-> glutamyl-trna
-[0, 0, 1, 0, 0]
 //
 > initiator
 [0, 0, 0, 1, 0]
@@ -9567,65 +1980,11 @@ single-value lijsten:
 [0, 0, 0, 1, 0]
 //
 > sh3bgr
-[0, 0, 0, 1, 0]
-//
-> cd24a
-[0, 1, 0, 0, 0]
-//
-> menage
-[1, 0, 0, 0, 0]
-//
-> trois
-[1, 0, 0, 0, 0]
-//
-> ilvb
-[0, 0, 0, 1, 0]
-//
-> acetolactate
-[0, 0, 0, 1, 0]
-//
-> inhibiting
-[0, 1, 0, 0, 0]
-//
-> alpha-2-glycoprotein
-[0, 1, 0, 0, 0]
-//
-> close
-[0, 1, 0, 0, 0]
-//
-> carboxyglutamate
-[0, 1, 0, 0, 0]
-//
-> pak3
-[0, 0, 1, 0, 0]
-//
-> ror-alpha-1
-[0, 0, 0, 1, 0]
-//
-> alpha-like
-[0, 0, 0, 1, 0]
-//
-> hba
-[0, 0, 0, 1, 0]
-//
-> milk
-[0, 1, 0, 0, 0]
-//
-> globule-egf
-[0, 1, 0, 0, 0]
-//
-> timeless
-[0, 0, 1, 0, 0]
-//
-> r3
-[0, 1, 0, 0, 0]
-//
-> hydroxylacyl-coenzyme
-[0, 0, 0, 1, 0]
-//
-> dinb
 [0, 0, 0, 0, 1]
 //
-> bcl-associated
+> cd24a
 [1, 0, 0, 0, 0]
+//
+> hydroxylacyl-coenzyme
+[0, 0, 0, 0, 1]
 //

@@ -293,7 +293,7 @@ class Genexpressie:
                        padx=(30, 10), pady=(113, 0), sticky='W')
 
     def Expressie_cluster_plot(self):
-
+        """Functie roept interpretatie programma's aan."""
         cluster_invoer = "Data_out/Relatieve expressiewaarden.txt"
         cluster_uitvoer = "Data_out/cluster_uitvoer.txt"
         familie_cloneID = "Data/CloneIdFamily.txt"
