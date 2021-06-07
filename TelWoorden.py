@@ -33,9 +33,9 @@ def TelWoorden(gen_beschrijving):
 
     # lijst aanmaken genaamd 'items' van alle losse woorden en integers
     # uit 'gen_beschrijving' zonder leestekens: '\x01', ',', '(', ')', '/'.
-    items = ' '.join(gen_beschrijving).replace('\x01', '')
+    items = ' '.join(gen_beschrijving).replace('\x01', ' ')
 
-    for character in [',', '(', ')', '/', '[', ']']:
+    for character in [',', '(', ')', '/', '[', ']', '"']:
         if character in items:
             items = items.replace(character, ' ')
     items = items.split()
@@ -48,14 +48,35 @@ def TelWoorden(gen_beschrijving):
             int(woord)
             pass
         except ValueError:
-            if woord != '-':
+            if (woord != '-') and (len(woord) > 1):
                 geen_integers.append(woord)
+
+    woord_lijst = []
+
+    lengte = len(geen_integers)
+    volgende = False
+
+    # voegt afkorting woorden samen zoals E. Coli / S. cerevisiae zodat het
+    # niet resulteert in 'E.', 'Coli' of 'S.', 'cerevisiae'.
+    for woord in range(lengte):
+        if (geen_integers[woord].endswith('.')) and \
+                (len(geen_integers[woord]) == 2):
+            joined = geen_integers[woord] + ' ' + geen_integers[woord+1]
+            woord_lijst.append(joined)
+            volgende = True
+        else:
+            if not volgende:
+                woord_lijst.append(geen_integers[woord])
+                volgende = False
+            else:
+                volgende = False
+                pass
 
     woord_freq = {}
 
     # per woord uit 'geen_integers' de frequentie bepalen
     # en toevoegen aan 'woord_freq'.
-    for woord in geen_integers:
+    for woord in woord_lijst:
         if woord not in woord_freq:
             woord_freq[woord] = 1
         else:
@@ -65,8 +86,9 @@ def TelWoorden(gen_beschrijving):
     woord_freq = {keys: values for keys, values in sorted(
         woord_freq.items(), key=lambda item: item[1], reverse=True)}
 
-    return woord_freq
+    item_lijst = list(woord_freq.items())
 
-
-if __name__ == "__main__":
-    print(TelWoorden(GenDescription))
+    with open('Data_out/Woord_frequentie.txt', 'w') as txt:
+        for item in item_lijst:
+            print('> ' + str(item[0]) + ': ' + str(item[1]))
+            txt.write('> ' + str(item[0]) + ': ' + str(item[1]) + '\n')

@@ -41,7 +41,7 @@ def cluster_frequentie(gen_beschrijving, cluster_uitvoer):
     items = ' '.join([line.strip().lower() for line
                       in gen_beschrijving[1::3]]).replace('\x01', '')
 
-    for character in [',', '(', ')', '/', '[', ']']:
+    for character in [',', '(', ')', '/', '[', ']', '"']:
         if character in items:
             items = items.replace(character, ' ')
     items = items.split()
@@ -64,11 +64,32 @@ def cluster_frequentie(gen_beschrijving, cluster_uitvoer):
             if (woord != '-') and (len(woord) > 1):
                 geen_integers.append(woord)
 
+    woord_lijst = []
+
+    lengte = len(geen_integers)
+    volgende = False
+
+    # voegt afkorting woorden samen zoals E. Coli / S. cerevisiae zodat het
+    # niet resulteert in 'E.', 'Coli' of 'S.', 'cerevisiae'.
+    for woord in range(lengte):
+        if (geen_integers[woord].endswith('.')) and \
+                (len(geen_integers[woord]) == 2):
+            joined = geen_integers[woord] + ' ' + geen_integers[woord+1]
+            woord_lijst.append(joined)
+            volgende = True
+        else:
+            if not volgende:
+                woord_lijst.append(geen_integers[woord])
+                volgende = False
+            else:
+                volgende = False
+                pass
+
     woord_freq = {}
 
     # per woord uit 'geen_integers' de frequentie bepalen
     # en toevoegen aan 'woord_freq'.
-    for woord in geen_integers:
+    for woord in woord_lijst:
         if woord not in woord_freq:
             woord_freq[woord] = 1
         else:

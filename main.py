@@ -16,6 +16,7 @@ import expressie_clusters
 import expressie_families
 import Familie_Barchart
 import cluster_frequentie
+import TelWoorden
 
 
 class Genexpressie:
@@ -305,6 +306,7 @@ class Genexpressie:
         inc = 100/(k*self.chk_var_ip1.get()
                    + 26 * self.chk_var_ip2.get()
                    + self.chk_var_ip3.get()
+                   + self.chk_var_ip4.get()
                    + 2 * self.chk_var_ip5.get())
 
         if self.chk_var_ip1.get() == 1:
@@ -331,6 +333,11 @@ class Genexpressie:
 
         if self.chk_var_ip3.get() == 1:
             Familie_Barchart.Histogram(cluster_uitvoer, familie_cloneID, k)
+            self.progressbar_ip['value'] += inc
+            root.update_idletasks()
+
+        if self.chk_var_ip4.get() == 1:
+            TelWoorden.TelWoorden(gen_beschrijving)
             self.progressbar_ip['value'] += inc
             root.update_idletasks()
 
