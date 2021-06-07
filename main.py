@@ -17,6 +17,7 @@ import expressie_families
 import Familie_Barchart
 import cluster_frequentie
 import TelWoorden
+import eigen_clustering
 
 
 class Genexpressie:
@@ -31,6 +32,7 @@ class Genexpressie:
         self.Create_tabs()
         self.Tab_labels()
         self.Preprocessing_widgets()
+        self.Clustering_widgets()
         self.Interpretatie_widgets()
 
     def Create_tabs(self):
@@ -52,17 +54,14 @@ class Genexpressie:
         self.paddings = {'padx': (120, 0), 'pady': (10, 10)}
 
         ttk.Label(self.Preprocessing,
-                  text='Schakel de filters aan/uit en stel de R-Grens in:') \
+                  text='Schakel de filters aan of uit en stel de R-Grens in:')\
             .grid(column=0, row=0, **self.paddings, sticky='W')
-        ttk.Label(self.Clustering, text='Clusterfase interface').grid(
-            column=0, row=0, **self.paddings, sticky='W')
+        ttk.Label(self.Clustering,
+                  text='Selecteer de clustermethode en k-aantal clusters:')\
+            .grid(column=0, row=0, **self.paddings, sticky='W')
         ttk.Label(self.Interpretatie,
-                  text="Selecteer de relevante interpretatie programma's:") \
+                  text="Selecteer de relevante interpretatie programma's:")\
             .grid(column=0, row=0, **self.paddings, sticky='W')
-
-        ttk.Button(self.Preprocessing, text='Verwerk data', width=20,
-                   command=self.Preprocessing_fase).grid(
-                       column=0, row=6, padx=(30, 10), pady=(0, 5), sticky='W')
 
     def Preprocessing_widgets(self):
         """Functie maakt widgets en labels aan."""
@@ -98,6 +97,10 @@ class Genexpressie:
         self.entry_pp1.grid(column=0, row=4, padx=230, sticky='W')
         self.answer = ttk.Label(self.Preprocessing, text='')
         self.answer.grid(column=0, row=5, padx=(180, 0), pady=10, sticky='W')
+
+        ttk.Button(self.Preprocessing, text='Verwerk data', width=20,
+                   command=self.Preprocessing_fase).grid(
+                       column=0, row=6, padx=(30, 10), pady=(0, 5), sticky='W')
 
         self.progressbar_pp = ttk.Progressbar(self.Preprocessing, length=300)
         self.progressbar_pp.grid(column=0, row=6, padx=180,
@@ -232,6 +235,68 @@ class Genexpressie:
 
         self.answer.config(text='')
 
+    def Clustering_widgets(self):
+        """Functie maakt widgets en labels aan."""
+        self.Frame_clust_label1 = ttk.Label(
+            self.Clustering, text="Cluster methode:")
+        self.Frame_clust_label1.grid(sticky='W', padx=(120, 0))
+
+        self.combobox_cl1 = ttk.Combobox(
+            self.Clustering, values=('Eigen-Algoritme', 'K-Means'))
+        self.combobox_cl1.current(0)
+        self.combobox_cl1.grid(column=0, row=1, padx=230, sticky='W')
+
+        self.Frame_clust_label2 = ttk.Label(
+            self.Clustering, text="K-aantal Clusters:")
+        self.Frame_clust_label2.grid(sticky='W', padx=(120, 0), pady=(0, 120))
+
+        self.spin_var = tk.IntVar()
+        self.spin_var.set(5)
+
+        self.spinbox_cl1 = ttk.Spinbox(
+            self.Clustering, from_=2, to=10, width=10,
+            textvariable=self.spin_var)
+        self.spinbox_cl1.grid(column=0, row=2, padx=230,
+                              sticky='W', pady=(0, 120))
+
+        ttk.Button(self.Clustering, text='Cluster data', width=20,
+                   command=self.Clustering_methode).grid(
+                       column=0, row=2,
+                       padx=(30, 10), pady=(174, 0), sticky='W')
+
+        self.progressbar_cl = ttk.Progressbar(self.Clustering,
+                                              length=300)
+        self.progressbar_cl.grid(column=0, row=2, padx=(
+            180, 0), pady=(173, 0), sticky='W')
+
+        self.status_cl = ttk.Label(self.Clustering, text='')
+        self.status_cl.grid(sticky='W', padx=(180, 0), pady=(120, 0), row=2)
+
+    def Clustering_methode(self):
+        """Functie roept clustering methode aan."""
+        cluster_invoer = "Data_out/Relatieve expressiewaarden.txt"
+        k = int(self.spinbox_cl1.get())
+        dimensie = 8
+
+        self.status_cl.config(text='Clustering...')
+        root.update_idletasks()
+
+        if self.combobox_cl1.get() == 'Eigen-Algoritme':
+            eigen_clustering.formaat_omzetten(
+                eigen_clustering.clusterproces(dimensie, cluster_invoer, k))
+
+            self.progressbar_cl['value'] += 100
+            root.update_idletasks()
+
+            messagebox.showinfo('Melding', 'Data is geclusterd!')
+            self.progressbar_cl['value'] = 0
+
+            self.status_cl.config(text='')
+            root.update_idletasks()
+
+        elif self.combobox_cl1.get() == 'K-Means':
+            pass
+
     def Interpretatie_widgets(self):
         """Functie maakt widgets en labels aan."""
         self.Frame_plots = ttk.Frame(self.Interpretatie)
@@ -303,6 +368,7 @@ class Genexpressie:
         root.update_idletasks()
 
         k = 5
+
         inc = 100/(k*self.chk_var_ip1.get()
                    + 26 * self.chk_var_ip2.get()
                    + self.chk_var_ip3.get()

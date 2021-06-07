@@ -285,9 +285,8 @@ def optimaliseren(bestandsnaam, k, dimensie):
                           een lijst met alle CloneID's die tot dit cluster
                           behoren.
     """
-    x = 0
+
     vergelijk_kwad_fout = []
-    lege_cluster = "Geen lege cluster."
 
     dictionary = lees_bestand_en_maak_dictionary(
         dimensie, bestandsnaam=bestand)
@@ -301,38 +300,35 @@ def optimaliseren(bestandsnaam, k, dimensie):
 
     # Itereer over onderstaande code,
     # wanneer de onderstaande voorwaarden voldaan zijn
-    while (len(vergelijk_kwad_fout) < 2 or vergelijk_kwad_fout[-1] != vergelijk_kwad_fout[-2]) and lege_cluster == "Geen lege cluster.":
-        if [] in nieuwe_groupering.values():
-            lege_cluster = "Er ontstaat een lege cluster, run het programma opnieuw of probeer een andere waarde voor k."
-        else:
-            cluster_centra = berekenen_van_centra(
-                dimensie, indeling=nieuwe_groupering,
-                waarde=genormaliseerde_waardes)
+    while (len(vergelijk_kwad_fout) < 2 or vergelijk_kwad_fout[-1] != vergelijk_kwad_fout[-2]):
 
-            # Creëer een lege dictionary
-            nieuwe_groupering = {}
-            # Creëer voor elke cluster een key met een bijbehorend clusternummer
-            # en een lege lijst als value
-            for i in range(1, k+1):
-                nieuwe_groupering[i] = []
+        cluster_centra = berekenen_van_centra(
+            dimensie, indeling=nieuwe_groupering,
+            waarde=genormaliseerde_waardes)
 
-            # Loop over de dictionary die de genormaliseerde waarden bevat
-            for key, lijst_waarden in genormaliseerde_waardes.items():
-                # Roep de functie aan
-                cluster_groep, minimum = minimale_afstand_tot_cluster(
-                    cluster_centrum=cluster_centra, data_punten=lijst_waarden)
-                # Voeg de key en de bijbehorende values aan de lege dictionary toe
+        # Creëer een lege dictionary
+        nieuwe_groupering = {}
+        # Creëer voor elke cluster een key met een bijbehorend clusternummer
+        # en een lege lijst als value
+        for i in range(1, k+1):
+            nieuwe_groupering[i] = []
 
-                nieuwe_groupering[cluster_groep].append(key)
+        # Loop over de dictionary die de genormaliseerde waarden bevat
+        for key, lijst_waarden in genormaliseerde_waardes.items():
+            # Roep de functie aan
+            cluster_groep, minimum = minimale_afstand_tot_cluster(
+                cluster_centrum=cluster_centra, data_punten=lijst_waarden)
+            # Voeg de key en de bijbehorende values aan de lege dictionary toe
 
-            kwadratische_fout = bereken_kwadratische_fout(
-                dimensie, data_clusters=cluster_centra,
-                norm_val=genormaliseerde_waardes, indeling=nieuwe_groupering)
+            nieuwe_groupering[cluster_groep].append(key)
 
-            vergelijk_kwad_fout.append(kwadratische_fout)
+        kwadratische_fout = bereken_kwadratische_fout(
+            dimensie, data_clusters=cluster_centra,
+            norm_val=genormaliseerde_waardes, indeling=nieuwe_groupering)
 
-            x += 1
-    return nieuwe_groupering, lege_cluster
+        vergelijk_kwad_fout.append(kwadratische_fout)
+
+    return nieuwe_groupering
 
 
 bestand = 'Data_out/Relatieve expressiewaarden.txt'
