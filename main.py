@@ -5,12 +5,14 @@ Created on Fri Jun 4 2021.
 @author: NoahOlmeijer/20203063
 """
 
+# importeren van libraries
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
 import pandas as pd
 import os
 
+# importeren programma's
 import preprocessing
 import expressie_clusters
 import expressie_families
@@ -27,13 +29,15 @@ class Genexpressie:
 
         parent.title("OGO - Genexpressie - Groep 7 - 2020/2021")
         parent.geometry("510x310")
-        parent.configure(background="white")
 
         self.Create_tabs()
         self.Tab_labels()
         self.Preprocessing_widgets()
         self.Clustering_widgets()
         self.Interpretatie_widgets()
+        self.Groep_widgets()
+
+        self.step = 0
 
     def Create_tabs(self):
         """Functie maakt tabbladen aan."""
@@ -42,10 +46,12 @@ class Genexpressie:
         self.Preprocessing = ttk.Frame(self.tabControl)
         self.Clustering = ttk.Frame(self.tabControl)
         self.Interpretatie = ttk.Frame(self.tabControl)
+        self.Groep = ttk.Frame(self.tabControl)
 
         self.tabControl.add(self.Preprocessing, text='Preprocessing')
         self.tabControl.add(self.Clustering, text='Clustering')
         self.tabControl.add(self.Interpretatie, text='Interpretatie')
+        self.tabControl.add(self.Groep, text='Groep 7')
 
         self.tabControl.pack(expand=True, fill="both", side="top")
 
@@ -96,7 +102,8 @@ class Genexpressie:
             self.Preprocessing, textvar=self.v, width=23)
         self.entry_pp1.grid(column=0, row=4, padx=230, sticky='W')
         self.answer = ttk.Label(self.Preprocessing, text='')
-        self.answer.grid(column=0, row=5, padx=(180, 0), pady=10, sticky='W')
+        self.answer.grid(column=0, row=5, padx=(
+            180, 0), pady=(20, 0), sticky='W')
 
         ttk.Button(self.Preprocessing, text='Verwerk data', width=20,
                    command=self.Preprocessing_fase).grid(
@@ -108,9 +115,6 @@ class Genexpressie:
 
     def Preprocessing_fase(self):
         """Functie voert preprocessing programma uit."""
-        self.answer.config(text='Processing...' + ' '*45)
-        root.update_idletasks()
-
         # Pad naar de tekstbestanden, moet aangepast worden
         # als tekstbestanden verplaatst zijn.
         path_bestanden = "Data\\"
@@ -151,6 +155,13 @@ class Genexpressie:
         except ValueError:
             self.answer.config(text='Ingevoerde R-Grens is geen nummer!')
             return
+
+        if rgrens <= 0:
+            self.answer.config(text='Ingevoerde R-Grens is ≤ 0')
+            return
+
+        self.answer.config(text='Processing...' + ' '*45)
+        root.update_idletasks()
 
         # Maak een dataframe voor de uiteindenlijke waarde om naar
         # een tekstbestand geschreven te worden.
@@ -235,6 +246,8 @@ class Genexpressie:
 
         self.answer.config(text='')
 
+        self.step = 1
+
     def Clustering_widgets(self):
         """Functie maakt widgets en labels aan."""
         self.Frame_clust_label1 = ttk.Label(
@@ -254,7 +267,7 @@ class Genexpressie:
         self.spin_var.set(5)
 
         self.spinbox_cl1 = ttk.Spinbox(
-            self.Clustering, from_=2, to=10, width=10,
+            self.Clustering, from_=2, to=100, width=10,
             textvariable=self.spin_var)
         self.spinbox_cl1.grid(column=0, row=2, padx=230,
                               sticky='W', pady=(0, 120))
@@ -278,10 +291,15 @@ class Genexpressie:
         k = int(self.spinbox_cl1.get())
         dimensie = 8
 
-        self.status_cl.config(text='Clustering...')
-        root.update_idletasks()
+        if self.step == 0:
+            messagebox.showinfo('Warning', 'Verwerk eerst de data!')
+            return
 
         if self.combobox_cl1.get() == 'Eigen-Algoritme':
+
+            self.status_cl.config(text='Clustering...')
+            root.update_idletasks()
+
             eigen_clustering.formaat_omzetten(
                 eigen_clustering.clusterproces(dimensie, cluster_invoer, k))
 
@@ -293,6 +311,8 @@ class Genexpressie:
 
             self.status_cl.config(text='')
             root.update_idletasks()
+
+            self.step = 2
 
         elif self.combobox_cl1.get() == 'K-Means':
             pass
@@ -364,16 +384,27 @@ class Genexpressie:
         familie_cloneID = "Data/CloneIdFamily.txt"
         gen_beschrijving = "Data/GenDescription.txt"
 
+        if self.step != 2:
+            messagebox.showinfo('Warning', 'Cluster eerst de data!')
+            return
+
+        k = int(self.spinbox_cl1.get())
+
+        div = (k*self.chk_var_ip1.get()
+               + 26 * self.chk_var_ip2.get()
+               + self.chk_var_ip3.get()
+               + self.chk_var_ip4.get()
+               + 2 * self.chk_var_ip5.get())
+
+        if div > 0:
+            inc = 100/div
+        else:
+            messagebox.showinfo('Melding',
+                                "U heeft geen programma's geselecteerd!")
+            return
+
         self.status_ip.config(text='Processing...')
         root.update_idletasks()
-
-        k = 5
-
-        inc = 100/(k*self.chk_var_ip1.get()
-                   + 26 * self.chk_var_ip2.get()
-                   + self.chk_var_ip3.get()
-                   + self.chk_var_ip4.get()
-                   + 2 * self.chk_var_ip5.get())
 
         if self.chk_var_ip1.get() == 1:
             # aanroepen van functie expressie() voor alle 6 clusters.
@@ -422,6 +453,23 @@ class Genexpressie:
         self.progressbar_ip['value'] = 0
         self.status_ip.config(text='')
         root.update_idletasks()
+
+    def Groep_widgets(self):
+        """Functie voor het aanmaken van tekstwidget in groep."""
+        self.groeptext = tk.Text(self.Groep)
+        self.groeptext.grid(row=0, column=0)
+
+        self.groeptext.insert(
+            tk.END,
+            '\n\n' + ' '*25 + "Over Groep 7:\n\n"
+            + ' '*25 + "Preprocessing:\n"
+            + ' '*17 + "Robert van Mourik, Noach Schilt\n\n"
+            + ' '*27 + "Clustering:\n"
+            + ' '*15 + "Pascalle Lucassen, Joëlle Muijtens, \n"
+            + ' '*26 + "Anand Rambali\n\n"
+            + ' '*25 + "Interpretatie:\n"
+            + ' '*17 + "Pleun Vermeegen, Noah Olmeijer, \n"
+            + ' '*24 + "Lars de Haas")
 
 
 root = tk.Tk()

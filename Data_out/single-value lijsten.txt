@@ -1,6 +1,6 @@
 single-value lijsten:
 > poly
-[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > transferase
 [0, 0, 0, 0, 1]
@@ -11,11 +11,14 @@ single-value lijsten:
 > notch
 [0, 1, 0, 0, 0]
 //
+> serine
+[5, 0, 0, 0, 0]
+//
 > arginine-rich
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > adaptor
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > enzyme
 [0, 0, 0, 1, 0]
@@ -30,10 +33,10 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > melanoma-associated
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > est
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > chondroitin
 [1, 0, 0, 0, 0]
@@ -44,26 +47,26 @@ single-value lijsten:
 > proteoglycan
 [1, 0, 0, 0, 0]
 //
-> embryonic
-[0, 0, 0, 0, 2]
-//
 > phosphodiesterase
 [0, 0, 0, 1, 0]
 //
 > zinc
-[0, 0, 1, 0, 0]
+[0, 0, 0, 1, 0]
+//
+> finger
+[0, 0, 0, 2, 0]
 //
 > af200348_1
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > mg50
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > ubiquitin-conjugating
 [0, 0, 0, 1, 0]
 //
 > nucleobindin
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > california
 [1, 0, 0, 0, 0]
@@ -90,10 +93,10 @@ single-value lijsten:
 [0, 0, 0, 2, 0]
 //
 > carbonic
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > anhydrase
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > glycoprotein
 [2, 0, 0, 0, 0]
@@ -104,17 +107,11 @@ single-value lijsten:
 > gtpase
 [1, 0, 0, 0, 0]
 //
-> activating
-[2, 0, 0, 0, 0]
-//
 > uncharacterized
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > hypothalamus
-[0, 0, 0, 1, 0]
-//
-> proteasome
-[0, 0, 0, 2, 0]
+[0, 0, 0, 0, 1]
 //
 > atpase
 [0, 0, 0, 1, 0]
@@ -150,16 +147,16 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > cds
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > comes
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > from
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > this
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > epsilon
 [1, 0, 0, 0, 0]
@@ -167,23 +164,29 @@ single-value lijsten:
 > camp
 [0, 0, 0, 1, 0]
 //
+> ii
+[3, 0, 0, 0, 0]
+//
+> s-adenosylmethionine
+[0, 0, 0, 2, 0]
+//
 > form
-[0, 0, 1, 0, 0]
+[0, 0, 0, 1, 0]
 //
 > dihydropyrimidinase-like
-[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > golgi
 [0, 0, 0, 0, 1]
 //
 > dual
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > phosphotyrosine
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > 3-phosphoinositides
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > glutamine
 [0, 0, 1, 0, 0]
@@ -192,10 +195,10 @@ single-value lijsten:
 [0, 0, 2, 0, 0]
 //
 > periplakin
-[0, 0, 0, 0, 1]
+[0, 0, 0, 1, 0]
 //
 > oxidase
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > pyrophosphatase
 [0, 0, 0, 1, 0]
@@ -204,10 +207,10 @@ single-value lijsten:
 [0, 0, 0, 0, 1]
 //
 > elafin-like
-[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > ras
-[0, 0, 1, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > peroxisomal
 [0, 0, 0, 0, 2]
@@ -216,7 +219,7 @@ single-value lijsten:
 [0, 0, 0, 0, 4]
 //
 > phosphate
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > 44-like
 [0, 0, 0, 0, 1]
@@ -224,14 +227,11 @@ single-value lijsten:
 > viia
 [0, 0, 0, 0, 2]
 //
-> hemoglobin
-[0, 0, 0, 0, 2]
-//
 > phospholipid
 [0, 0, 1, 0, 0]
 //
 > s-transferase
-[0, 0, 1, 0, 0]
+[0, 0, 0, 1, 0]
 //
 > gap
 [0, 0, 0, 0, 1]
@@ -276,7 +276,7 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > lysosomal
-[0, 2, 0, 0, 0]
+[0, 0, 2, 0, 0]
 //
 > repressor
 [0, 0, 0, 1, 0]
@@ -297,10 +297,13 @@ single-value lijsten:
 [0, 0, 0, 0, 1]
 //
 > proton
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > b15
 [0, 0, 0, 0, 1]
+//
+> decarboxylase
+[0, 0, 0, 2, 0]
 //
 > ecotropic
 [0, 1, 0, 0, 0]
@@ -324,13 +327,13 @@ single-value lijsten:
 [0, 0, 0, 2, 0]
 //
 > inwardly
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > rectifying
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > kir5.1
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > neuronal
 [0, 0, 0, 0, 1]
@@ -342,13 +345,16 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > beta-2
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > glutamyl
 [1, 0, 0, 0, 0]
 //
 > ketoacid
 [0, 0, 0, 0, 1]
+//
+> alcohol
+[0, 0, 0, 2, 0]
 //
 > dhsd_human
 [0, 0, 0, 0, 1]
@@ -363,7 +369,7 @@ single-value lijsten:
 [0, 0, 0, 0, 1]
 //
 > beta-like
-[0, 0, 0, 0, 1]
+[0, 0, 0, 1, 0]
 //
 > islet
 [0, 0, 0, 1, 0]
@@ -389,9 +395,6 @@ single-value lijsten:
 > transcriptional
 [0, 0, 0, 1, 0]
 //
-> metalloprotease
-[2, 0, 0, 0, 0]
-//
 > match
 [0, 1, 0, 0, 0]
 //
@@ -399,7 +402,10 @@ single-value lijsten:
 [0, 0, 1, 0, 0]
 //
 > argr_human
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
+//
+> secreted
+[3, 0, 0, 0, 0]
 //
 > enoyl-coa
 [0, 0, 0, 1, 0]
@@ -420,7 +426,7 @@ single-value lijsten:
 [1, 0, 0, 0, 0]
 //
 > eph
-[0, 0, 1, 0, 0]
+[0, 0, 0, 1, 0]
 //
 > adenosine
 [0, 0, 0, 0, 1]
@@ -434,8 +440,11 @@ single-value lijsten:
 > rna-binding
 [0, 0, 0, 0, 1]
 //
+> class
+[4, 0, 0, 0, 0]
+//
 > vi
-[0, 0, 0, 0, 1]
+[0, 0, 0, 1, 0]
 //
 > glycine
 [1, 0, 0, 0, 0]
@@ -450,22 +459,22 @@ single-value lijsten:
 [1, 0, 0, 0, 0]
 //
 > ubiquitin
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > carboxy-terminal
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > 9-27
 [1, 0, 0, 0, 0]
 //
 > villin
-[0, 0, 0, 1, 0]
+[0, 0, 1, 0, 0]
 //
 > primary
 [0, 1, 0, 0, 0]
 //
 > ccr4-not
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > virus
 [1, 0, 0, 0, 0]
@@ -485,20 +494,17 @@ single-value lijsten:
 > site
 [0, 2, 0, 0, 0]
 //
-> kruppel-like
-[0, 0, 0, 2, 0]
-//
 > cysteine
 [2, 0, 0, 0, 0]
-//
-> pi
-[0, 0, 2, 0, 0]
 //
 > ring
 [0, 0, 0, 1, 0]
 //
 > transfer
 [0, 0, 1, 0, 0]
+//
+> platelet
+[0, 2, 0, 0, 0]
 //
 > endothelial
 [0, 0, 0, 0, 2]
@@ -510,13 +516,13 @@ single-value lijsten:
 [0, 0, 1, 0, 0]
 //
 > mini
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > maintenance
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > deficient
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > rab
 [0, 0, 0, 1, 0]
@@ -525,16 +531,13 @@ single-value lijsten:
 [0, 0, 0, 0, 1]
 //
 > early
-[1, 0, 0, 0, 0]
-//
-> epidermal
-[2, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > melanoma
 [1, 0, 0, 0, 0]
 //
 > bound
-[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > alkali
 [0, 0, 0, 0, 2]
@@ -564,7 +567,7 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > sec61
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > cullin
 [0, 0, 0, 0, 2]
@@ -582,7 +585,7 @@ single-value lijsten:
 [0, 0, 1, 0, 0]
 //
 > pleckstrin
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > low-affinity
 [0, 0, 1, 0, 0]
@@ -597,10 +600,10 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > heparin
-[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > factor-like
-[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > cardiovascular
 [0, 0, 0, 1, 0]
@@ -609,10 +612,10 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > neural
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > c2
-[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > full
 [0, 0, 0, 1, 0]
@@ -666,7 +669,7 @@ single-value lijsten:
 [1, 0, 0, 0, 0]
 //
 > superfamily
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > coagulation
 [0, 0, 0, 1, 0]
@@ -689,11 +692,8 @@ single-value lijsten:
 > receptor-like
 [0, 1, 0, 0, 0]
 //
-> h-related
-[0, 0, 2, 0, 0]
-//
 > cholesterol
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > sry-box
 [0, 0, 0, 1, 0]
@@ -705,10 +705,10 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > udp-n-acetylglucosamine
-[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > pyrophosphorylase
-[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > caax
 [0, 0, 0, 0, 1]
@@ -735,7 +735,7 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > ig
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > a53770
 [0, 0, 0, 0, 1]
@@ -783,7 +783,7 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > dickkopf
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > 0-44
 [0, 0, 0, 0, 1]
@@ -816,7 +816,7 @@ single-value lijsten:
 [1, 0, 0, 0, 0]
 //
 > thromboxane
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > downstream
 [0, 0, 0, 1, 0]
@@ -879,10 +879,10 @@ single-value lijsten:
 [0, 0, 0, 2, 0]
 //
 > that
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > interacts
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > inter
 [1, 0, 0, 0, 0]
@@ -903,19 +903,19 @@ single-value lijsten:
 [0, 0, 0, 1, 0]
 //
 > subcomponent
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > translocation
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > ornithine
-[0, 0, 1, 0, 0]
+[0, 0, 0, 1, 0]
 //
 > phosphatidylethanolamine
 [0, 0, 0, 0, 1]
 //
 > immediate
-[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > ae-binding
 [0, 1, 0, 0, 0]
@@ -930,7 +930,7 @@ single-value lijsten:
 [1, 0, 0, 0, 0]
 //
 > prolyl
-[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > ia-associated
 [1, 0, 0, 0, 0]
@@ -951,16 +951,13 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > connective
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > spinocerebellar
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > ataxia
-[0, 1, 0, 0, 0]
-//
-> calponin
-[0, 2, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > ammonia
 [0, 1, 0, 0, 0]
@@ -972,7 +969,7 @@ single-value lijsten:
 [0, 0, 0, 1, 0]
 //
 > frizzled-related
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > calcyclin
 [0, 0, 0, 1, 0]
@@ -1053,7 +1050,7 @@ single-value lijsten:
 [0, 0, 0, 0, 1]
 //
 > at-hook
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > af231110_1
 [1, 0, 0, 0, 0]
@@ -1095,7 +1092,7 @@ single-value lijsten:
 [0, 0, 0, 0, 1]
 //
 > sema
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > hspc035
 [0, 0, 0, 0, 1]
@@ -1107,22 +1104,22 @@ single-value lijsten:
 [1, 0, 0, 0, 0]
 //
 > cytotoxic
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > lymphocyte-associated
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > n-glycanase
 [0, 0, 0, 1, 0]
 //
 > angiotensin
-[0, 0, 1, 0, 0]
-//
-> sphingosine
 [0, 1, 0, 0, 0]
 //
+> sphingosine
+[0, 0, 1, 0, 0]
+//
 > metaxin
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > immuoglobulin
 [0, 1, 0, 0, 0]
@@ -1158,13 +1155,13 @@ single-value lijsten:
 [0, 0, 0, 1, 0]
 //
 > fate
-[0, 0, 0, 0, 1]
+[0, 0, 0, 1, 0]
 //
 > specification
-[0, 0, 0, 0, 1]
+[0, 0, 0, 1, 0]
 //
 > mab21l1
-[0, 0, 0, 0, 1]
+[0, 0, 0, 1, 0]
 //
 > sh2
 [0, 0, 1, 0, 0]
@@ -1182,13 +1179,13 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > schlafen
-[0, 2, 0, 0, 0]
+[0, 0, 2, 0, 0]
 //
 > gastrulation
-[0, 0, 1, 0, 0]
+[0, 0, 0, 1, 0]
 //
 > g12
-[0, 0, 1, 0, 0]
+[0, 0, 0, 1, 0]
 //
 > d-beta-hydroxybutyrate
 [0, 0, 0, 1, 0]
@@ -1206,7 +1203,7 @@ single-value lijsten:
 [0, 0, 0, 1, 0]
 //
 > protective
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > tbx1
 [1, 0, 0, 0, 0]
@@ -1218,7 +1215,7 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > adenylosuccinate
-[0, 0, 0, 0, 1]
+[0, 0, 0, 1, 0]
 //
 > 66.5
 [0, 0, 0, 0, 1]
@@ -1233,13 +1230,13 @@ single-value lijsten:
 [0, 0, 0, 1, 0]
 //
 > af220193_1
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > ht007
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > yk325c7.5
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > delta2-enoyl-coenzyme
 [0, 0, 0, 0, 2]
@@ -1263,16 +1260,16 @@ single-value lijsten:
 [1, 0, 0, 0, 0]
 //
 > neutrophil
-[2, 0, 0, 0, 0]
+[0, 2, 0, 0, 0]
 //
 > lipocalin
 [1, 0, 0, 0, 0]
 //
 > iga
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > v-d-j-heavy
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > s22934
 [0, 0, 0, 1, 0]
@@ -1284,13 +1281,16 @@ single-value lijsten:
 [1, 0, 0, 0, 0]
 //
 > plasminogen
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > anx7_mouse
 [1, 0, 0, 0, 0]
 //
 > granule
 [0, 0, 1, 0, 0]
+//
+> oligomeric
+[2, 0, 0, 0, 0]
 //
 > immunity-associated
 [0, 0, 1, 0, 0]
@@ -1335,10 +1335,10 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > dcc_mouse
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > dcc
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > dj568c11.2
 [0, 0, 0, 0, 1]
@@ -1365,13 +1365,10 @@ single-value lijsten:
 [0, 0, 0, 1, 0]
 //
 > interferon-stimulated
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > tetranectin
-[0, 0, 0, 1, 0]
-//
-> disintegrin-like
-[2, 0, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > s34198
 [0, 0, 1, 0, 0]
@@ -1386,10 +1383,10 @@ single-value lijsten:
 [1, 0, 0, 0, 0]
 //
 > af090915_1
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > pro0310p1
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > toll-like
 [0, 2, 0, 0, 0]
@@ -1407,10 +1404,10 @@ single-value lijsten:
 [0, 0, 0, 0, 1]
 //
 > cofilin
-[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > muc1_mouse
-[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > adapter
 [0, 1, 0, 0, 0]
@@ -1428,16 +1425,16 @@ single-value lijsten:
 [0, 0, 1, 0, 0]
 //
 > sine
-[0, 0, 0, 1, 0]
+[0, 0, 1, 0, 0]
 //
 > oculis-related
-[0, 0, 0, 1, 0]
+[0, 0, 1, 0, 0]
 //
 > fk506-binding
 [0, 0, 0, 1, 0]
 //
 > keap1
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > map-1
 [0, 0, 1, 0, 0]
@@ -1446,7 +1443,7 @@ single-value lijsten:
 [1, 0, 0, 0, 0]
 //
 > developmentally
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > fbj
 [0, 0, 0, 1, 0]
@@ -1458,7 +1455,7 @@ single-value lijsten:
 [0, 0, 1, 0, 0]
 //
 > prothymosin
-[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > 3-hydroxy-3-methylglutaryl-coenzyme
 [0, 1, 0, 0, 0]
@@ -1482,7 +1479,7 @@ single-value lijsten:
 [1, 0, 0, 0, 0]
 //
 > converting
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > feminization
 [0, 0, 0, 1, 0]
@@ -1500,7 +1497,7 @@ single-value lijsten:
 [0, 0, 0, 1, 0]
 //
 > parotid
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > upstream
 [0, 0, 1, 0, 0]
@@ -1533,7 +1530,7 @@ single-value lijsten:
 [0, 0, 0, 1, 0]
 //
 > nadph
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > transaminase
 [0, 0, 0, 0, 2]
@@ -1578,10 +1575,10 @@ single-value lijsten:
 [0, 0, 0, 0, 1]
 //
 > kiaa1398
-[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > skap55
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > monophosphate
 [1, 0, 0, 0, 0]
@@ -1602,13 +1599,13 @@ single-value lijsten:
 [2, 0, 0, 0, 0]
 //
 > homology-like
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > n-myc
 [0, 0, 0, 1, 0]
 //
 > ceramidase
-[0, 0, 1, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > aldehyde
 [0, 0, 1, 0, 0]
@@ -1626,10 +1623,10 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > down-regulated
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > dutpase
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > massachusetts
 [0, 0, 1, 0, 0]
@@ -1671,7 +1668,7 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > retinal
-[0, 0, 0, 1, 0]
+[0, 0, 1, 0, 0]
 //
 > 5-phosphatase
 [0, 0, 0, 1, 0]
@@ -1788,7 +1785,7 @@ single-value lijsten:
 [0, 0, 0, 0, 1]
 //
 > sparc-like
-[0, 0, 0, 1, 0]
+[0, 0, 1, 0, 0]
 //
 > af163095_1
 [0, 0, 0, 0, 1]
@@ -1836,7 +1833,7 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > art3
-[0, 0, 0, 1, 0]
+[0, 0, 0, 0, 1]
 //
 > skin-specific
 [0, 0, 1, 0, 0]
@@ -1857,10 +1854,10 @@ single-value lijsten:
 [0, 0, 0, 0, 1]
 //
 > suppression
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > tumorigenicity
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > 52.8
 [0, 1, 0, 0, 0]
@@ -1875,7 +1872,7 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > enigma
-[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > b18
 [0, 0, 0, 0, 1]
@@ -1884,10 +1881,10 @@ single-value lijsten:
 [0, 0, 0, 1, 0]
 //
 > af155354_1
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > asb-3
-[0, 1, 0, 0, 0]
+[0, 0, 1, 0, 0]
 //
 > kiaa0977
 [0, 0, 0, 1, 0]
@@ -1905,7 +1902,7 @@ single-value lijsten:
 [0, 0, 1, 0, 0]
 //
 > i2
-[0, 1, 0, 0, 0]
+[1, 0, 0, 0, 0]
 //
 > transferrin
 [0, 0, 1, 0, 0]
@@ -1941,7 +1938,7 @@ single-value lijsten:
 [0, 1, 0, 0, 0]
 //
 > 5-lipoxygenase
-[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > notch4-like
 [0, 0, 1, 0, 0]
@@ -1980,10 +1977,10 @@ single-value lijsten:
 [0, 0, 0, 1, 0]
 //
 > sh3bgr
-[0, 0, 0, 0, 1]
+[0, 0, 0, 1, 0]
 //
 > cd24a
-[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
 //
 > hydroxylacyl-coenzyme
 [0, 0, 0, 0, 1]
