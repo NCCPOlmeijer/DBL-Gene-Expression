@@ -20,6 +20,8 @@ import Familie_Barchart
 import cluster_frequentie
 import TelWoorden
 import eigen_clustering
+import vrije_analyse
+import k_means
 
 
 class Genexpressie:
@@ -107,11 +109,12 @@ class Genexpressie:
 
         ttk.Button(self.Preprocessing, text='Verwerk data', width=20,
                    command=self.Preprocessing_fase).grid(
-                       column=0, row=6, padx=(30, 10), pady=(0, 5), sticky='W')
+                       column=0, row=6,
+                       padx=(30, 10), pady=(12, 0), sticky='W')
 
         self.progressbar_pp = ttk.Progressbar(self.Preprocessing, length=300)
         self.progressbar_pp.grid(column=0, row=6, padx=180,
-                                 pady=(0, 5), sticky='W')
+                                 pady=(12, 0), sticky='W')
 
     def Preprocessing_fase(self):
         """Functie voert preprocessing programma uit."""
@@ -275,12 +278,12 @@ class Genexpressie:
         ttk.Button(self.Clustering, text='Cluster data', width=20,
                    command=self.Clustering_methode).grid(
                        column=0, row=2,
-                       padx=(30, 10), pady=(174, 0), sticky='W')
+                       padx=(30, 10), pady=(186, 0), sticky='W')
 
         self.progressbar_cl = ttk.Progressbar(self.Clustering,
                                               length=300)
         self.progressbar_cl.grid(column=0, row=2, padx=(
-            180, 0), pady=(173, 0), sticky='W')
+            180, 0), pady=(186, 0), sticky='W')
 
         self.status_cl = ttk.Label(self.Clustering, text='')
         self.status_cl.grid(sticky='W', padx=(180, 0), pady=(120, 0), row=2)
@@ -315,12 +318,34 @@ class Genexpressie:
             self.step = 2
 
         elif self.combobox_cl1.get() == 'K-Means':
-            pass
+
+            self.progressbar_cl['value'] += 100
+            root.update_idletasks()
+
+            optimaliseren_k_means = k_means.optimaliseren(
+                cluster_invoer, k, dimensie)
+            cluster_uitvoer = k_means.formaat_omzetten(optimaliseren_k_means)
+
+            # Wegschrijven naar een tekstbestand met de CloneID's
+            # en de clusternummers
+            with open("Data_out/cluster_uitvoer.txt", "w") as txt:
+                txt.write(cluster_uitvoer)
+
+            self.progressbar_cl['value'] += 100
+            root.update_idletasks()
+
+            messagebox.showinfo('Melding', 'Data is geclusterd!')
+            self.progressbar_cl['value'] = 0
+
+            self.status_cl.config(text='')
+            root.update_idletasks()
+
+            self.step = 2
 
     def Interpretatie_widgets(self):
         """Functie maakt widgets en labels aan."""
         self.Frame_plots = ttk.Frame(self.Interpretatie)
-        self.Frame_plots.grid(sticky='N', padx=(0, 190), row=1, column=0)
+        self.Frame_plots.grid(sticky='N', padx=(0, 210), row=1, column=0)
         self.Frame_plot_label = ttk.Label(
             self.Frame_plots, text="Plot programma's:")
         self.Frame_plot_label.grid(sticky='W')
@@ -356,33 +381,64 @@ class Genexpressie:
             self.Frame_txt, var=self.chk_var_ip5, text='ClusterFrequentie')
         self.chk_ip5.grid(sticky='W')
 
+        self.Frame_va = ttk.Frame(self.Interpretatie)
+        self.Frame_va.grid(sticky='N', padx=(0, 230),
+                           pady=(100, 0), row=1, column=0)
+
+        self.label_ip6 = ttk.Label(self.Frame_va, text='Vrije analyse:')
+        self.label_ip6.grid(sticky='W')
+
         self.chk_var_ip6 = tk.IntVar(value=0)
         self.chk_ip6 = ttk.Checkbutton(
-            self.Frame_txt, var=self.chk_var_ip6, text='Vrije analyse')
+            self.Frame_va, var=self.chk_var_ip6, text='Entrez SE')
         self.chk_ip6.grid(sticky='W')
 
-        self.label_ip1 = ttk.Label(self.Frame_txt, text='Gen Beschrijving:')
+        self.label_ip7 = ttk.Label(self.Frame_va, text='Cluster:')
+        self.label_ip7.grid(sticky='W')
+
+        self.spin_var2 = tk.IntVar()
+        self.spin_var2.set(1)
+
+        self.spinbox_ip1 = ttk.Spinbox(
+            self.Frame_va, from_=1, to=int(self.spinbox_cl1.get()), width=10,
+            textvariable=self.spin_var2)
+        self.spinbox_ip1.grid(pady=(0, 10), sticky='W')
+
+        self.label_ip1 = ttk.Label(
+            self.Frame_txt, text='Selecteer beschrijving:')
         self.label_ip1.grid(pady=(10, 0), sticky='W')
         self.combobox_ip1 = ttk.Combobox(
             self.Frame_txt, values=('GenDescription1', 'GenDescription2'))
         self.combobox_ip1.current(0)
         self.combobox_ip1.grid(sticky='W')
 
+        self.Frame_se = ttk.Frame(self.Interpretatie)
+        self.Frame_se.grid(sticky='N', padx=(25, 0),
+                           pady=(140, 0), row=1, column=0)
+
+        self.label_ip8 = ttk.Label(self.Frame_se, text='Zoekterm:')
+        self.label_ip8.grid(padx=(0, 0), sticky='W')
+
+        self.se = tk.StringVar()
+        self.entry_ip1 = ttk.Entry(
+            self.Frame_se, textvar=self.se, width=23)
+        self.entry_ip1.grid(padx=(0, 0), sticky='N')
+
         self.Frame_btn = ttk.Frame(self.Interpretatie)
         self.Frame_btn.grid(sticky='W', padx=(110, 0))
 
         self.status_ip = ttk.Label(self.Frame_btn, text='')
-        self.status_ip.grid(sticky='W', padx=(70, 0), pady=(43, 0))
+        self.status_ip.grid(sticky='W', padx=(70, 0))
 
         self.progressbar_ip = ttk.Progressbar(self.Frame_btn,
                                               length=300)
         self.progressbar_ip.grid(column=0, row=2, padx=(
-            70, 0), pady=(0, 0), sticky='W')
+            70, 0), pady=(0, 20), sticky='W')
 
         ttk.Button(self.Interpretatie, text='Genereer bestanden', width=20,
                    command=self.Expressie_cluster_plot).grid(
                        column=0, row=2,
-                       padx=(30, 10), pady=(63, 0), sticky='W')
+                       padx=(30, 10), sticky='W')
 
     def Expressie_cluster_plot(self):
         """Functie roept interpretatie programma's aan."""
@@ -401,12 +457,15 @@ class Genexpressie:
             return
 
         k = int(self.spinbox_cl1.get())
+        cluster_nummer = int(self.spinbox_ip1.get())
+        zoekterm = str(self.entry_ip1.get())
 
         div = (k*self.chk_var_ip1.get()
                + 26 * self.chk_var_ip2.get()
                + self.chk_var_ip3.get()
                + self.chk_var_ip4.get()
-               + 2 * self.chk_var_ip5.get())
+               + 2 * self.chk_var_ip5.get()
+               + 2 * self.chk_var_ip6.get())
 
         if div > 0:
             inc = 100/div
@@ -458,6 +517,14 @@ class Genexpressie:
             root.update_idletasks()
             cluster_frequentie.frequency_filter(cluster_freq, k)
 
+            self.progressbar_ip['value'] += inc
+            root.update_idletasks()
+
+        if self.chk_var_ip6.get() == 1:
+            self.progressbar_ip['value'] += inc
+            root.update_idletasks()
+
+            vrije_analyse.Entrez(cluster_nummer, zoekterm)
             self.progressbar_ip['value'] += inc
             root.update_idletasks()
 
