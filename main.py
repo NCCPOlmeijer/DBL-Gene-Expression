@@ -320,7 +320,7 @@ class Genexpressie:
     def Interpretatie_widgets(self):
         """Functie maakt widgets en labels aan."""
         self.Frame_plots = ttk.Frame(self.Interpretatie)
-        self.Frame_plots.grid(sticky='W', padx=(90, 0))
+        self.Frame_plots.grid(sticky='N', padx=(0, 190), row=1, column=0)
         self.Frame_plot_label = ttk.Label(
             self.Frame_plots, text="Plot programma's:")
         self.Frame_plot_label.grid(sticky='W')
@@ -361,11 +361,18 @@ class Genexpressie:
             self.Frame_txt, var=self.chk_var_ip6, text='Vrije analyse')
         self.chk_ip6.grid(sticky='W')
 
+        self.label_ip1 = ttk.Label(self.Frame_txt, text='Gen Beschrijving:')
+        self.label_ip1.grid(pady=(10, 0), sticky='W')
+        self.combobox_ip1 = ttk.Combobox(
+            self.Frame_txt, values=('GenDescription1', 'GenDescription2'))
+        self.combobox_ip1.current(0)
+        self.combobox_ip1.grid(sticky='W')
+
         self.Frame_btn = ttk.Frame(self.Interpretatie)
         self.Frame_btn.grid(sticky='W', padx=(110, 0))
 
         self.status_ip = ttk.Label(self.Frame_btn, text='')
-        self.status_ip.grid(sticky='W', padx=(70, 0), pady=(93, 0))
+        self.status_ip.grid(sticky='W', padx=(70, 0), pady=(43, 0))
 
         self.progressbar_ip = ttk.Progressbar(self.Frame_btn,
                                               length=300)
@@ -375,14 +382,19 @@ class Genexpressie:
         ttk.Button(self.Interpretatie, text='Genereer bestanden', width=20,
                    command=self.Expressie_cluster_plot).grid(
                        column=0, row=2,
-                       padx=(30, 10), pady=(113, 0), sticky='W')
+                       padx=(30, 10), pady=(63, 0), sticky='W')
 
     def Expressie_cluster_plot(self):
         """Functie roept interpretatie programma's aan."""
         cluster_invoer = "Data_out/Relatieve expressiewaarden.txt"
         cluster_uitvoer = "Data_out/cluster_uitvoer.txt"
         familie_cloneID = "Data/CloneIdFamily.txt"
-        gen_beschrijving = "Data/GenDescription.txt"
+
+        if self.combobox_ip1.get() == 'GenDescription1':
+            gen_beschrijving = "Data/GenDescription.txt"
+
+        elif self.combobox_ip1.get() == 'GenDescription2':
+            gen_beschrijving = "Data/GenDescription2.txt"
 
         if self.step != 2:
             messagebox.showinfo('Warning', 'Cluster eerst de data!')
@@ -460,16 +472,16 @@ class Genexpressie:
         self.groeptext.grid(row=0, column=0)
 
         self.groeptext.insert(
-            tk.END,
-            '\n\n' + ' '*25 + "Over Groep 7:\n\n"
+            tk.END, '\n\n'
+            + ' '*25 + "Over Groep 7:\n\n"
             + ' '*25 + "Preprocessing:\n"
             + ' '*17 + "Robert van Mourik, Noach Schilt\n\n"
-            + ' '*27 + "Clustering:\n"
-            + ' '*15 + "Pascalle Lucassen, Joëlle Muijtens, \n"
+            + ' '*26 + "Clustering:\n"
+            + ' '*15 + "Pascalle Lucassen, Joëlle Muijtens,\n"
             + ' '*26 + "Anand Rambali\n\n"
             + ' '*25 + "Interpretatie:\n"
             + ' '*17 + "Pleun Vermeegen, Noah Olmeijer, \n"
-            + ' '*24 + "Lars de Haas")
+            + ' '*26 + "Lars de Haas")
 
 
 root = tk.Tk()
