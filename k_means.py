@@ -119,8 +119,8 @@ def verdeling_in_random_clusters(k, dictionary):
     random_opties = range(1, k+1)
     random_cluster = []
 
-    # while loop die ervoor zorgt dat clusters 1 t/m k allemaal gevuld worden
-    # met tenminste één cloneid en er geen initiëel lege clusters ontstaan
+    # While loop die ervoor zorgt dat clusters 1 t/m k allemaal gevuld worden
+    # met tenminste één cloneID en er geen lege clusters ontstaan
     while len(set(random_cluster)) != len(random_opties):
 
         # Bepaal voor alle datapunten een random clusternummer
@@ -221,7 +221,7 @@ def berekenen_van_centra(dimensie, indeling, waarde):
         if value_indeling == []:
 
             # Loop over alle items in de dictionary voor de indeling,
-            # onafhankelijk van de hoofdloop en vult het lege cluster op met
+            # onafhankelijk van de hoofdloop, en vul het lege cluster op met
             # random waarden uit andere clusters
             for key1, value1 in indeling.items():
                 if len(value1) == 0:
@@ -341,7 +341,6 @@ def optimaliseren(cluster_invoer, k, dimensie):
     een lijst met alle CloneID's die tot dit cluster behoren.
     """
     vergelijk_kwad_fout = []
-    lege_cluster = "Geen lege cluster."
 
     dictionary = lees_bestand_en_maak_dictionary(
         dimensie, cluster_invoer)
@@ -354,15 +353,7 @@ def optimaliseren(cluster_invoer, k, dimensie):
     # Itereer over onderstaande code,
     # wanneer de onderstaande voorwaarden voldaan zijn.
     while (len(vergelijk_kwad_fout) < 2 or
-           vergelijk_kwad_fout[-1] != vergelijk_kwad_fout[-2]) and \
-            lege_cluster == "Geen lege cluster.":
-
-        # Wanneer er een lege cluster ontstaat, print onderstaand statement,
-        # breek de loop af en begin de loop opnieuw.
-
-        # Wanneer alle clusters elementen bevatten, ga verder
-        # met onderstaande code.
-
+           vergelijk_kwad_fout[-1] != vergelijk_kwad_fout[-2]):
         cluster_centra = berekenen_van_centra(
             dimensie, indeling=nieuwe_groupering,
             waarde=genormaliseerde_waardes)
