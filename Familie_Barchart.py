@@ -137,6 +137,6 @@ def Histogram(cluster_uitvoer, familie_cloneID, cluster_aantal):
     ax.set_xlabel('Clusters', size=15)
 
     # sla de gegenereerde plot op in map Cluster_Plots.
-    plt.savefig("Cluster_Plots/Familie_Stacked_Barplot.png", dpi=200)
+    plt.savefig("Plots/Familie_plots/Familie_Stacked_Barplot.png", dpi=200)
 
     plt.show()

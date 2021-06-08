@@ -60,6 +60,7 @@ def Uitplotten(df, data_bestand, wanneer='voor een correctie.',
         for klasse, groep in df.copy().groupby('Klasse'):
             groep.plot(kind='scatter', x=x, y=y,
                        c=kleuren[klasse], ax=ax, s=0.5)
+        plt.legend(['a', 'b', 'c', 'd'])
         ax.set_title('Scatterplot van ' + data_bestand + ' van ' +
                      x + ' en ' + y + ' na de indeling van de punten')
 
@@ -68,11 +69,11 @@ def Uitplotten(df, data_bestand, wanneer='voor een correctie.',
         ax.set_title('Scatterplot van ' + data_bestand +
                      ' van ' + x + ' en ' + y + ' ' + wanneer)
 
-    # ax.set_ylabel(y)
-    # ax.set_xlabel(x)
-
     # Voegt een lijn toe aan de plot
     identiteit, = ax.plot([], [], color=kleurd, ls=lijnstijl)
+
+    # sla de gegenereerde plot op in map Plots/Scatter_plots.
+    plt.savefig("Plots/Scatter_plots/Scatter" + data_bestand + ".png", dpi=200)
 
     def callback(ax):
         """Functie die de waardes van de diagonale lijn berekent.
@@ -102,6 +103,7 @@ def Uitplotten(df, data_bestand, wanneer='voor een correctie.',
     # de callback functie gebruikt
     ax.callbacks.connect('xlim_veranderd', callback)
     ax.callbacks.connect('ylim_veranderd', callback)
+
     plt.show(block=False)
 
 
@@ -138,6 +140,11 @@ def hist_uitplotten(df, wanneer, kolom='Rel exp',
     ax.set_title(titel + ' ' + wanneer)
     ax.set_xlabel(xlabel)
     ax.set_ylabel(ylabel)
+
+    # sla de gegenereerde plot op in map Plots/Histogram_preprocessing.
+    plt.savefig("Plots/Histogram_preprocessing/"
+                + wanneer + ".png", dpi=200)
+
     plt.show(block=False)
 
 
@@ -167,10 +174,10 @@ def Indeling(df, ruis=2.5):
     df_ind = df.copy()
 
     # Condities vaststellen
-    condities = [(df_ind['P1Sig'] >= ruis) & (df_ind['P2Sig'] >= ruis),
-                 (df_ind['P1Sig'] >= ruis) & (df_ind['P2Sig'] <= ruis),
-                 (df_ind['P1Sig'] <= ruis) & (df_ind['P2Sig'] >= ruis),
-                 (df_ind['P1Sig'] <= ruis) & (df_ind['P2Sig'] <= ruis)]
+    condities = [(df_ind['P1STB'] >= ruis) & (df_ind['P2STB'] >= ruis),
+                 (df_ind['P1STB'] >= ruis) & (df_ind['P2STB'] <= ruis),
+                 (df_ind['P1STB'] <= ruis) & (df_ind['P2STB'] >= ruis),
+                 (df_ind['P1STB'] <= ruis) & (df_ind['P2STB'] <= ruis)]
 
     # Letters respectievelijk aan condities voor kolom Klasse
     keuzes = ['a', 'b', 'c', 'd']
@@ -390,8 +397,8 @@ def Punten_samenvoegen(df):
     # Kolommen verwijderen van aantallen punten per dag
     df = df.drop(som_kolom, axis=1)
 
-    # Gen ids verwijderen met een hogere 'totaal score' van 10 per dag
-    df.drop(df[df['Totaalpunten'] > 0].index, inplace=True)
+    # Gen ids verwijderen met een hogere 'totaal score' van 1 per dag
+    df.drop(df[df['Totaalpunten'] > 1].index, inplace=True)
 
     # Kolom met de totaal score verwijderen.
     df.drop(['Totaalpunten'], axis=1, inplace=True)

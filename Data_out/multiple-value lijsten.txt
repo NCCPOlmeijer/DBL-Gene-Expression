@@ -1,0 +1,664 @@
+multiple-value lijsten:
+> activated
+[0, 2, 0, 1, 0]
+//
+> putative
+[0, 0, 1, 0, 1]
+//
+> protease
+[5, 0, 0, 0, 1]
+//
+> homeobox
+[1, 0, 1, 0, 0]
+//
+> associated
+[1, 0, 3, 1, 0]
+//
+> complex
+[0, 1, 0, 1, 1]
+//
+> induced
+[0, 0, 1, 1, 1]
+//
+> antigen
+[3, 1, 1, 0, 0]
+//
+> lactate
+[0, 0, 1, 0, 1]
+//
+> erato
+[0, 1, 2, 8, 0]
+//
+> doi
+[0, 1, 2, 8, 0]
+//
+> expressed
+[3, 1, 0, 0, 2]
+//
+> embryonic
+[0, 0, 0, 1, 1]
+//
+> transcription
+[0, 0, 2, 1, 0]
+//
+> guanine
+[1, 1, 2, 0, 0]
+//
+> finger
+[0, 0, 1, 1, 0]
+//
+> mus
+[0, 8, 7, 10, 0]
+//
+> clone
+[0, 2, 0, 2, 0]
+//
+> unknown
+[2, 1, 0, 1, 0]
+//
+> human
+[1, 0, 1, 0, 2]
+//
+> kd
+[0, 2, 0, 1, 4]
+//
+> cyclin-dependent
+[1, 1, 0, 0, 0]
+//
+> mouse
+[1, 2, 0, 0, 0]
+//
+> m.musculus
+[0, 1, 1, 0, 3]
+//
+> in
+[2, 3, 0, 0, 5]
+//
+> chromosome
+[0, 1, 1, 0, 2]
+//
+> iii
+[1, 0, 0, 0, 2]
+//
+> anchor
+[1, 0, 0, 1, 0]
+//
+> university
+[3, 0, 2, 0, 1]
+//
+> peptidylprolyl
+[1, 1, 0, 0, 0]
+//
+> isomerase
+[1, 1, 0, 0, 0]
+//
+> 2-oxoglutarate
+[0, 1, 0, 1, 1]
+//
+> rattus
+[0, 0, 1, 1, 0]
+//
+> activating
+[1, 1, 0, 0, 0]
+//
+> cyclin
+[0, 0, 1, 1, 1]
+//
+> rna
+[0, 2, 0, 0, 1]
+//
+> kda
+[0, 1, 0, 2, 0]
+//
+> proteasome
+[0, 0, 0, 1, 1]
+//
+> transforming
+[2, 1, 0, 0, 0]
+//
+> regulated
+[0, 1, 0, 2, 0]
+//
+> long
+[0, 0, 0, 1, 1]
+//
+> differentiation
+[1, 1, 0, 0, 0]
+//
+> fk506
+[0, 1, 0, 1, 0]
+//
+> initiation
+[0, 1, 1, 2, 0]
+//
+> matrix
+[5, 1, 0, 0, 0]
+//
+> dependent
+[0, 1, 1, 0, 0]
+//
+> regulator
+[1, 0, 1, 0, 0]
+//
+> nuclear
+[0, 1, 3, 3, 0]
+//
+> ribonucleoprotein
+[0, 1, 1, 1, 0]
+//
+> atp
+[0, 0, 0, 4, 3]
+//
+> synthase
+[0, 0, 1, 3, 0]
+//
+> mitochondrial
+[0, 0, 0, 9, 8]
+//
+> brain
+[0, 2, 0, 1, 1]
+//
+> cdna
+[1, 0, 0, 3, 1]
+//
+> responsive
+[0, 0, 1, 0, 1]
+//
+> synthetase
+[0, 0, 1, 2, 0]
+//
+> intergenic
+[0, 1, 0, 0, 1]
+//
+> region
+[0, 1, 3, 0, 1]
+//
+> elongation
+[1, 0, 0, 1, 1]
+//
+> very
+[0, 0, 0, 1, 1]
+//
+> fatty
+[0, 1, 0, 1, 1]
+//
+> heat
+[0, 3, 1, 2, 0]
+//
+> shock
+[0, 3, 1, 2, 0]
+//
+> solute
+[0, 0, 3, 1, 2]
+//
+> carrier
+[0, 0, 3, 2, 5]
+//
+> lim
+[0, 1, 3, 0, 1]
+//
+> acid
+[0, 3, 0, 3, 2]
+//
+> wayne
+[2, 0, 2, 0, 1]
+//
+> state
+[2, 0, 2, 0, 1]
+//
+> inhibitor
+[7, 1, 0, 1, 0]
+//
+> atp-binding
+[0, 0, 2, 1, 1]
+//
+> sub-family
+[0, 0, 2, 1, 1]
+//
+> interferon
+[1, 3, 1, 0, 0]
+//
+> hemoglobin
+[0, 0, 0, 1, 1]
+//
+> with
+[1, 2, 1, 0, 0]
+//
+> cytosolic
+[0, 2, 0, 0, 1]
+//
+> 2b
+[0, 1, 1, 0, 0]
+//
+> integral
+[1, 0, 0, 1, 0]
+//
+> macrophage
+[1, 0, 0, 1, 0]
+//
+> mu
+[0, 1, 0, 3, 0]
+//
+> phospholipase
+[1, 0, 0, 0, 1]
+//
+> ethanol
+[0, 0, 1, 0, 1]
+//
+> selenoprotein
+[1, 0, 1, 0, 0]
+//
+> cytoplasmic
+[0, 2, 0, 1, 0]
+//
+> acetyl-coenzyme
+[0, 0, 0, 1, 1]
+//
+> lymphocyte
+[0, 2, 1, 0, 0]
+//
+> locus
+[1, 1, 2, 0, 0]
+//
+> rich
+[2, 1, 0, 0, 1]
+//
+> collagen
+[1, 0, 1, 0, 0]
+//
+> integrin
+[1, 1, 0, 1, 0]
+//
+> transport
+[1, 0, 2, 0, 0]
+//
+> intracellular
+[0, 0, 1, 0, 1]
+//
+> h+
+[0, 0, 2, 3, 3]
+//
+> myeloid
+[0, 1, 0, 1, 0]
+//
+> viral
+[0, 2, 0, 1, 0]
+//
+> derived
+[1, 0, 0, 1, 0]
+//
+> potassium
+[0, 1, 0, 1, 0]
+//
+> oncogene
+[1, 0, 0, 1, 0]
+//
+> amyloid
+[1, 1, 0, 0, 0]
+//
+> activity
+[1, 0, 0, 0, 1]
+//
+> modifying
+[1, 0, 0, 0, 1]
+//
+> sapiens;
+[0, 0, 2, 1, 0]
+//
+> ankyrin
+[0, 1, 0, 1, 1]
+//
+> repeat-containing
+[0, 1, 0, 1, 0]
+//
+> e1
+[0, 0, 0, 1, 1]
+//
+> voltage-dependent
+[0, 0, 0, 1, 1]
+//
+> anion
+[0, 0, 0, 1, 1]
+//
+> myosin
+[0, 0, 1, 1, 5]
+//
+> cardiac
+[0, 0, 1, 1, 3]
+//
+> galactose
+[2, 0, 0, 0, 1]
+//
+> soluble
+[2, 0, 0, 0, 1]
+//
+> ras-related
+[0, 0, 1, 2, 0]
+//
+> group
+[0, 0, 2, 1, 0]
+//
+> isocitrate
+[0, 0, 1, 0, 2]
+//
+> hydrolase
+[1, 0, 1, 0, 1]
+//
+> chitinase
+[0, 1, 1, 0, 0]
+//
+> 3-like
+[0, 1, 1, 0, 0]
+//
+> partial
+[1, 0, 0, 1, 0]
+//
+> interleukin
+[2, 2, 2, 0, 0]
+//
+> disintegrin
+[0, 1, 0, 1, 0]
+//
+> metalloprotease
+[1, 1, 0, 0, 0]
+//
+> metalloproteinase
+[0, 3, 0, 1, 0]
+//
+> sequence
+[2, 1, 0, 3, 0]
+//
+> ubiquitin-like
+[0, 0, 0, 1, 1]
+//
+> cysteine-rich
+[0, 1, 1, 0, 1]
+//
+> differentially
+[1, 1, 0, 0, 1]
+//
+> b16f10
+[1, 1, 0, 0, 1]
+//
+> light
+[0, 0, 0, 1, 3]
+//
+> peroxiredoxin
+[0, 0, 0, 1, 3]
+//
+> stretch
+[0, 0, 1, 1, 0]
+//
+> muscle
+[0, 0, 1, 1, 2]
+//
+> prostaglandin
+[1, 0, 0, 1, 0]
+//
+> motif
+[1, 1, 0, 0, 0]
+//
+> histocompatibility
+[4, 0, 2, 0, 0]
+//
+> immunoglobulin
+[1, 4, 0, 0, 0]
+//
+> adenylate
+[1, 0, 0, 0, 1]
+//
+> iv
+[0, 1, 1, 0, 0]
+//
+> interferon-inducible
+[1, 0, 1, 0, 0]
+//
+> response
+[0, 2, 1, 0, 0]
+//
+> isoform
+[0, 0, 3, 0, 2]
+//
+> kruppel-like
+[0, 0, 1, 1, 0]
+//
+> pi
+[0, 0, 1, 1, 0]
+//
+> high
+[3, 0, 2, 1, 0]
+//
+> mobility
+[0, 0, 2, 1, 0]
+//
+> box
+[0, 0, 1, 1, 0]
+//
+> nadh-ubiquinone
+[0, 0, 0, 2, 6]
+//
+> oxidoreductase
+[0, 0, 0, 2, 7]
+//
+> tubulin
+[0, 0, 2, 0, 2]
+//
+> malate
+[0, 0, 0, 1, 1]
+//
+> epidermal
+[1, 1, 0, 0, 0]
+//
+> major
+[1, 0, 1, 0, 1]
+//
+> adult
+[0, 0, 1, 0, 1]
+//
+> proline-rich
+[1, 0, 1, 0, 1]
+//
+> editing
+[0, 1, 0, 0, 1]
+//
+> mucin
+[0, 1, 1, 0, 0]
+//
+> annexin
+[3, 2, 1, 0, 0]
+//
+> tumor
+[1, 2, 0, 0, 0]
+//
+> peptide
+[2, 0, 0, 1, 0]
+//
+> insulin-like
+[0, 2, 1, 0, 0]
+//
+> h-related
+[0, 1, 1, 0, 0]
+//
+> low
+[2, 0, 0, 1, 0]
+//
+> density
+[1, 0, 0, 1, 0]
+//
+> double
+[0, 1, 0, 0, 1]
+//
+> tissue
+[1, 1, 2, 0, 0]
+//
+> b-cell
+[1, 0, 2, 0, 0]
+//
+> inner
+[0, 0, 0, 2, 1]
+//
+> lysyl
+[1, 1, 0, 0, 0]
+//
+> cathepsin
+[2, 1, 2, 0, 0]
+//
+> d2
+[0, 0, 1, 1, 0]
+//
+> skeletal
+[0, 0, 0, 1, 1]
+//
+> pathway
+[1, 0, 1, 0, 0]
+//
+> glucose
+[0, 1, 0, 0, 1]
+//
+> domain-containing
+[1, 0, 1, 0, 1]
+//
+> domains
+[0, 1, 1, 0, 1]
+//
+> norvegicus;
+[0, 0, 1, 1, 0]
+//
+> stromal
+[1, 0, 0, 1, 0]
+//
+> superoxide
+[1, 0, 0, 0, 1]
+//
+> dismutase
+[1, 0, 0, 0, 1]
+//
+> retinol
+[0, 2, 0, 0, 1]
+//
+> esterase
+[0, 0, 1, 0, 1]
+//
+> cystatin
+[0, 0, 1, 1, 0]
+//
+> lysosomal-associated
+[1, 0, 0, 1, 0]
+//
+> lipoprotein
+[1, 0, 0, 1, 1]
+//
+> calponin
+[0, 1, 1, 0, 0]
+//
+> lyase
+[0, 1, 0, 0, 1]
+//
+> acyl-coa
+[0, 0, 0, 1, 2]
+//
+> short-chain
+[0, 0, 1, 1, 1]
+//
+> carrier;
+[0, 0, 0, 1, 1]
+//
+> adenine
+[0, 0, 0, 1, 1]
+//
+> creatine
+[0, 0, 0, 1, 2]
+//
+> cognate
+[0, 1, 1, 0, 0]
+//
+> coenzyme
+[0, 0, 0, 1, 1]
+//
+> short
+[0, 1, 0, 1, 0]
+//
+> carboxypeptidase
+[0, 0, 0, 1, 1]
+//
+> thrombospondin
+[2, 3, 0, 0, 0]
+//
+> chemokine
+[1, 1, 0, 1, 0]
+//
+> cartilage
+[2, 0, 1, 0, 0]
+//
+> translocase
+[0, 0, 0, 1, 1]
+//
+> recombining
+[1, 0, 0, 0, 1]
+//
+> hairless
+[1, 0, 0, 0, 1]
+//
+> membrane-spanning
+[1, 1, 0, 0, 0]
+//
+> glutamate
+[0, 0, 0, 1, 2]
+//
+> four
+[0, 1, 0, 0, 1]
+//
+> intracisternal
+[0, 0, 1, 0, 1]
+//
+> chloride
+[0, 1, 1, 0, 0]
+//
+> pyruvate
+[0, 0, 1, 0, 1]
+//
+> disintegrin-like
+[1, 1, 0, 0, 0]
+//
+> fc
+[3, 0, 1, 0, 0]
+//
+> s100
+[2, 0, 0, 1, 0]
+//
+> magnesium
+[0, 1, 0, 0, 1]
+//
+> metallothionein
+[1, 1, 0, 0, 0]
+//
+> hexosaminidase
+[1, 1, 0, 0, 0]
+//
+> epoxide
+[0, 0, 1, 0, 1]
+//
+> myomesin
+[0, 0, 0, 1, 1]
+//
+> ion
+[1, 0, 1, 0, 0]
+//
+> f0
+[0, 0, 0, 2, 1]
+//
+> ca++
+[0, 0, 0, 1, 1]
+//
+> twitch
+[0, 0, 0, 1, 1]
+//
+> actinin
+[0, 0, 1, 1, 0]
+//
+> fxyd
+[1, 0, 1, 0, 0]
+//
+> half
+[0, 1, 0, 0, 1]
+//

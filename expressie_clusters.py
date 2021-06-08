@@ -63,6 +63,7 @@ def expressie(cluster_invoer, cluster_uitvoer, cluster_nummer=0):
 
 
 def Plot_clusters(cloneID_dict, cluster_invoer_data, cluster_nummer):
+    """Functie plot de clusters."""
     # genereer een lijst met integers 1 t/m 8 voor de plot.
     x_axis = list(range(1, 9))
 
@@ -90,7 +91,7 @@ def Plot_clusters(cloneID_dict, cluster_invoer_data, cluster_nummer):
     plt.ylim(-13, 10)
 
     # sla de gegenereerde plot op in map Cluster_Plots.
-    plt.savefig("Cluster_Plots/Cluster_"
+    plt.savefig("Plots/Cluster_plots/Cluster_"
                 + str(cluster_nummer)
                 + ".png", dpi=200)
 

@@ -63,6 +63,7 @@ def expressie(cluster_invoer, familie_cloneID):
 
 
 def Plot_families(cloneID_dict, cluster_invoer_data, cluster_nummer):
+    """Functie plot familie plots."""
     # genereer een lijst met integers 1 t/m 8 voor de plot.
     x_axis = list(range(1, 9))
 
@@ -81,7 +82,7 @@ def Plot_families(cloneID_dict, cluster_invoer_data, cluster_nummer):
     plt.ylim(-7, 4)
 
     # sla de gegenereerde plot op in map Cluster_Plots.
-    plt.savefig("Cluster_Plots/Familie_"
+    plt.savefig("Plots/Familie_plots/Familie_"
                 + str(cluster_nummer)
                 + ".png", dpi=200)
 
