@@ -460,6 +460,11 @@ class Genexpressie:
         cluster_nummer = int(self.spinbox_ip1.get())
         zoekterm = str(self.entry_ip1.get())
 
+        if self.chk_var_ip6.get() == 1:
+            if zoekterm == '':
+                messagebox.showinfo('Warning', 'Vul een zoekterm in!')
+                return
+
         div = (k*self.chk_var_ip1.get()
                + 26 * self.chk_var_ip2.get()
                + self.chk_var_ip3.get()
@@ -521,6 +526,7 @@ class Genexpressie:
             root.update_idletasks()
 
         if self.chk_var_ip6.get() == 1:
+
             self.progressbar_ip['value'] += inc
             root.update_idletasks()
 

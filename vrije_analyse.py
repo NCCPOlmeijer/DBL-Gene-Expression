@@ -80,7 +80,7 @@ def Entrez(cluster_nummer, zoekterm):
     sequenties = mRNA_sequenties.replace('\n', ' ').split('>')
     mens = ['>' + i for i in sequenties if zoekterm in i]
 
-    with open("Data_out/Human Nucleotides.fasta", 'w') as filt_file:
+    with open("Data_out/Nucleotides.fasta", 'w') as filt_file:
         for gensum in mens:
 
             gene = gensum.split("sequence")
