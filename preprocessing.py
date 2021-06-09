@@ -61,7 +61,7 @@ def Uitplotten(df, data_bestand, wanneer='voor een correctie.',
             groep.plot(kind='scatter', x=x, y=y,
                        c=kleuren[klasse], ax=ax, s=0.5)
         plt.legend(['a', 'b', 'c', 'd'])
-        ax.set_title(data_bestand + ' en ' +
+        ax.set_title(data_bestand + ', ' +
                      x + ' & ' + y + ' na de indeling van de punten')
 
     else:
@@ -216,9 +216,9 @@ def Spotfilter(df, ogrens=0.5, bgrens=1.5):
     spotgem = df_filt['P1Cov'].mean()
 
     # Print hoeveel van de punten boven en onder de grens liggen
-    print('Er liggen zoveel punten onder de ondergrens: ' +
+    print('De hoeveelheid punten onder de ondergrens: ' +
           str(len(df_filt[df_filt['P1Cov'] < ogrens * spotgem].index)))
-    print('Er liggen zoveel punten boven de bovengrens: ' +
+    print('De hoeveelheid punten boven de bovengrens: ' +
           str(len(df_filt[df_filt['P1Cov'] > bgrens * spotgem].index)))
 
     # Als waarde P1Cov niet voldoet aan conditie wordt spot verwijderd
@@ -265,8 +265,8 @@ def Rel_expressie_punten(df, wanneer, punten,
 
     Regel: Geprinte tekstregel.
 
-    Formaat: 'Het aantal genen boven of gelijk aan de absolute waarde van '
-    + parameter waarde + ' op ' + parameter wanneer + ' is ' + aantal spots
+    Formaat: 'De hoeveelheid genen ≥ '|
+    + parameter waarde + '| op ' + parameter wanneer + ' is ' + aantal spots
     met een relatieve expressiewaarde boven vastgestelde waarde'.
     """
     # Maak een kopie zodat je de ingevoerde dataframe niet veranderd.
@@ -300,8 +300,8 @@ def Rel_expressie_punten(df, wanneer, punten,
 
     # print out hoeveel absolute relatieve expressiewaarden
     # groter of gelijk zijn aan de gekozen waarde.
-    print('Het aantal genen boven of gelijk aan de absolute waarde van ' +
-          str(waarde) + ' op ' + wanneer + ' is ' + str(hoeveel), '\n')
+    print('De hoeveelheid genen ≥ |' +
+          str(waarde) + '| op ' + wanneer + ' is ' + str(hoeveel), '\n')
 
     return df_re
 
