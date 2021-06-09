@@ -61,12 +61,12 @@ def Uitplotten(df, data_bestand, wanneer='voor een correctie.',
             groep.plot(kind='scatter', x=x, y=y,
                        c=kleuren[klasse], ax=ax, s=0.5)
         plt.legend(['a', 'b', 'c', 'd'])
-        ax.set_title('Scatterplot van ' + data_bestand + ' van ' +
-                     x + ' en ' + y + ' na de indeling van de punten')
+        ax.set_title(data_bestand + ' en ' +
+                     x + ' & ' + y + ' na de indeling van de punten')
 
     else:
         ax = df.plot(kind='scatter', x=x, y=y, c=kleurp, s=0.5)
-        ax.set_title('Scatterplot van ' + data_bestand +
+        ax.set_title(data_bestand +
                      ' van ' + x + ' en ' + y + ' ' + wanneer)
 
     # Voegt een lijn toe aan de plot
