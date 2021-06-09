@@ -2,6 +2,11 @@
 Groep 007
 Bevat alle programma's, databestanden en versies van de interpretatiefase (fase 3)
 
+Note: de fases van preprocessing en clustering worden bijgehouden met de file 'step.txt' 
+zodat het overbodig runnen van stappen na het afsluiten van het programma niet nodig zijn.
+
+WARNING: pas het bestand step.txt niet handmatig aan!
+
 # Werking:
 - Hoofdprogramma: main.py - Selecteer dit programma om de data analyse uit te voeren.
 
@@ -53,7 +58,6 @@ Het preprocessing tablad bezit over 9 verschillende opties.
 - Zoekterm:
 
 Na het aanpassen van deze opties kan 'Genereer bestanden' geselecteerd worden.
-
 
 # Contents:
    Main directory:

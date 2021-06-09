@@ -25,13 +25,17 @@ import k_means
 
 
 class Genexpressie:
-    """Applicatie die de OGO Genexpressie fases/programma's uitvoert."""
+    """Applicatie die de OGO Genexpressie fases/programma's kan uitvoeren."""
 
     def __init__(self, parent):
 
+        # initialiseer GUI.
         parent.title("OGO - Genexpressie - Groep 7 - 2020/2021")
         parent.geometry("510x310")
+        parent.minsize(510, 310)
+        parent.maxsize(510, 310)
 
+        # uitvoeren van tabblad -en widget functies.
         self.Create_tabs()
         self.Tab_labels()
         self.Preprocessing_widgets()
@@ -39,17 +43,22 @@ class Genexpressie:
         self.Interpretatie_widgets()
         self.Groep_widgets()
 
-        self.step = 0
+        # lees step variable uit 'step.txt'.
+        # step waarde houd de uitvoering van de fases bij in var: self.step
+        with open('step.txt', 'r') as self.fase:
+            self.step = int(self.fase.read())
 
     def Create_tabs(self):
         """Functie maakt tabbladen aan."""
         self.tabControl = ttk.Notebook(root)
 
+        # aanmaken van frames.
         self.Preprocessing = ttk.Frame(self.tabControl)
         self.Clustering = ttk.Frame(self.tabControl)
         self.Interpretatie = ttk.Frame(self.tabControl)
         self.Groep = ttk.Frame(self.tabControl)
 
+        # tabbladen aanmaken van frames.
         self.tabControl.add(self.Preprocessing, text='Preprocessing')
         self.tabControl.add(self.Clustering, text='Clustering')
         self.tabControl.add(self.Interpretatie, text='Interpretatie')
@@ -59,8 +68,10 @@ class Genexpressie:
 
     def Tab_labels(self):
         """Functie maakt tabblad labels aan."""
+        # **self.paddings variable aanmaken.
         self.paddings = {'padx': (120, 0), 'pady': (10, 10)}
 
+        # toevoegen van labels in elk tabblad.
         ttk.Label(self.Preprocessing,
                   text='Schakel de filters aan of uit en stel de R-Grens in:')\
             .grid(column=0, row=0, **self.paddings, sticky='W')
@@ -73,8 +84,10 @@ class Genexpressie:
 
     def Preprocessing_widgets(self):
         """Functie maakt widgets en labels aan."""
+        # **self.padx variable aanmaken.
         self.padx = {'padx': (120, 0)}
 
+        # aanmaken van parameter veld widgets en labels.
         self.label_pp1 = ttk.Label(self.Preprocessing, text='CloneID-Filter:')
         self.label_pp1.grid(row=1, **self.padx, pady=10, sticky='W')
         self.combobox_pp1 = ttk.Combobox(
@@ -107,19 +120,20 @@ class Genexpressie:
         self.answer.grid(column=0, row=5, padx=(
             180, 0), pady=(20, 0), sticky='W')
 
+        # aanmaken van de preprocessing verwerk knop.
         ttk.Button(self.Preprocessing, text='Verwerk data', width=20,
                    command=self.Preprocessing_fase).grid(
                        column=0, row=6,
                        padx=(30, 10), pady=(12, 0), sticky='W')
 
+        # aanmaken van de preprocessing progress bar.
         self.progressbar_pp = ttk.Progressbar(self.Preprocessing, length=300)
         self.progressbar_pp.grid(column=0, row=6, padx=180,
                                  pady=(12, 0), sticky='W')
 
     def Preprocessing_fase(self):
         """Functie voert preprocessing programma uit."""
-        # Pad naar de tekstbestanden, moet aangepast worden
-        # als tekstbestanden verplaatst zijn.
+        # instellen van paths voor data invoer en uitvoer bestanden.
         path_bestanden = "Data\\"
         path_bestanden_gedaan = "Data_out\\"
 
@@ -133,6 +147,7 @@ class Genexpressie:
         # sorteren van namen en opslaan in 'bestanden'
         bestanden = ['dag' + str(naam) for naam in sorted(bestanden)]
 
+        # functie parameters aanpassen a.h.v. de invoer parameters.
         if self.combobox_pp1.get() == 'Aan':
             ongefilterd = False
         elif self.combobox_pp1.get() == 'Uit':
@@ -148,21 +163,26 @@ class Genexpressie:
         elif self.combobox_pp3.get() == 'Uit':
             relfilt = False
 
-        # Hoeveelheid punten voor respectievelijk a,b,c,d
+        # Hoeveelheid punten voor respectievelijk a, b, c en d.
         punten = [0, 1, 1, 5]
 
+        # proberen omzetten van rgrens-string in float.
         try:
             float(self.entry_pp1.get())
             rgrens = float(self.entry_pp1.get())
 
+        # retourneer een errorbericht wanneer dit een ValueError oplevert.
         except ValueError:
             self.answer.config(text='Ingevoerde R-Grens is geen nummer!')
             return
 
+        # checken of het ingevoerde getal kleiner of gelijk is aan 0.
         if rgrens <= 0:
+            # retourneer errorbericht als dit het geval is.
             self.answer.config(text='Ingevoerde R-Grens is ≤ 0')
             return
 
+        # aanpassen van label naar 'Processing...'
         self.answer.config(text='Processing...' + ' '*45)
         root.update_idletasks()
 
@@ -214,6 +234,7 @@ class Genexpressie:
 
             """Hier eindigt het overbodige onderdeel."""
 
+            # update progressbar per iteratie.
             self.progressbar_pp['value'] += 100/(len(bestanden)+1)
             root.update_idletasks()
 
@@ -241,18 +262,25 @@ class Genexpressie:
         df_rel_eind.to_csv(path_or_buf=eind_resultaat,
                            sep='\t', index=True, header=False)
 
+        # laatste update progressbar.
         self.progressbar_pp['value'] += 100/(len(bestanden)+1)
         root.update_idletasks()
 
+        # melding weergeven dat de data is verwerkt.
         messagebox.showinfo('Melding', 'Data is verwerkt!')
         self.progressbar_pp['value'] = 0
 
+        # reset status label preprocessing.
         self.answer.config(text='')
 
+        # step updaten en schrijven naar 'step.txt'.
         self.step = 1
+        with open('step.txt', 'w') as self.fase:
+            self.fase.write(str(self.step))
 
     def Clustering_widgets(self):
         """Functie maakt widgets en labels aan."""
+        # aanmaken van parameter veld widgets en labels.
         self.Frame_clust_label1 = ttk.Label(
             self.Clustering, text="Cluster methode:")
         self.Frame_clust_label1.grid(sticky='W', padx=(120, 0))
@@ -275,11 +303,13 @@ class Genexpressie:
         self.spinbox_cl1.grid(column=0, row=2, padx=230,
                               sticky='W', pady=(0, 120))
 
+        # aanmaken van de clustering knop.
         ttk.Button(self.Clustering, text='Cluster data', width=20,
                    command=self.Clustering_methode).grid(
                        column=0, row=2,
                        padx=(30, 10), pady=(186, 0), sticky='W')
 
+        # aanmaken van de clustering progress bar.
         self.progressbar_cl = ttk.Progressbar(self.Clustering,
                                               length=300)
         self.progressbar_cl.grid(column=0, row=2, padx=(
@@ -291,13 +321,17 @@ class Genexpressie:
     def Clustering_methode(self):
         """Functie roept clustering methode aan."""
         cluster_invoer = "Data_out/Relatieve expressiewaarden.txt"
+        # uitlezen van parameter velden.
         k = int(self.spinbox_cl1.get())
         dimensie = 8
 
+        # check of step == 0
         if self.step == 0:
+            # weergeef error message als dit True is.
             messagebox.showinfo('Warning', 'Verwerk eerst de data!')
             return
 
+        # voer het clusterprogramma uit op basis van de combobox invoer.
         if self.combobox_cl1.get() == 'Eigen-Algoritme':
 
             self.status_cl.config(text='Clustering...')
@@ -315,7 +349,10 @@ class Genexpressie:
             self.status_cl.config(text='')
             root.update_idletasks()
 
+            # step updaten en schrijven naar 'step.txt'.
             self.step = 2
+            with open('step.txt', 'w') as self.fase:
+                self.fase.write(str(self.step))
 
         elif self.combobox_cl1.get() == 'K-Means':
 
@@ -340,10 +377,14 @@ class Genexpressie:
             self.status_cl.config(text='')
             root.update_idletasks()
 
+            # step updaten en schrijven naar 'step.txt'.
             self.step = 2
+            with open('step.txt', 'w') as self.fase:
+                self.fase.write(str(self.step))
 
     def Interpretatie_widgets(self):
         """Functie maakt widgets en labels aan."""
+        # aanmaken van parameter veld widgets en labels.
         self.Frame_plots = ttk.Frame(self.Interpretatie)
         self.Frame_plots.grid(sticky='N', padx=(0, 210), row=1, column=0)
         self.Frame_plot_label = ttk.Label(
@@ -430,41 +471,52 @@ class Genexpressie:
         self.status_ip = ttk.Label(self.Frame_btn, text='')
         self.status_ip.grid(sticky='W', padx=(70, 0))
 
-        self.progressbar_ip = ttk.Progressbar(self.Frame_btn,
-                                              length=300)
-        self.progressbar_ip.grid(column=0, row=2, padx=(
-            70, 0), pady=(0, 20), sticky='W')
-
+        # aanmaken van de interpretatie knop.
         ttk.Button(self.Interpretatie, text='Genereer bestanden', width=20,
                    command=self.Expressie_cluster_plot).grid(
                        column=0, row=2,
                        padx=(30, 10), sticky='W')
 
+        # aanmaken van de interpretatie progress bar.
+        self.progressbar_ip = ttk.Progressbar(self.Frame_btn,
+                                              length=300)
+        self.progressbar_ip.grid(column=0, row=2, padx=(
+            70, 0), pady=(0, 20), sticky='W')
+
     def Expressie_cluster_plot(self):
         """Functie roept interpretatie programma's aan."""
+        # definiëren van data invoer paths.
         cluster_invoer = "Data_out/Relatieve expressiewaarden.txt"
         cluster_uitvoer = "Data_out/cluster_uitvoer.txt"
         familie_cloneID = "Data/CloneIdFamily.txt"
 
+        # functie parameter aanpassen a.h.v. de combobox invoer.
         if self.combobox_ip1.get() == 'GenDescription1':
             gen_beschrijving = "Data/GenDescription.txt"
 
         elif self.combobox_ip1.get() == 'GenDescription2':
             gen_beschrijving = "Data/GenDescription2.txt"
 
+        # check of step != 2:
         if self.step != 2:
+            # weergeef error message als dit True is.
             messagebox.showinfo('Warning', 'Cluster eerst de data!')
             return
 
+        # uitlezen van parameter velden.
         k = int(self.spinbox_cl1.get())
         cluster_nummer = int(self.spinbox_ip1.get())
         zoekterm = str(self.entry_ip1.get())
 
+        # check of Entrez SE is geselecteerd.
         if self.chk_var_ip6.get() == 1:
+            # check of zoekterm == ''  als het vorige statement True is.
             if zoekterm == '':
+                # weergeef een error message wanneer zoekterm == '', True is.
                 messagebox.showinfo('Warning', 'Vul een zoekterm in!')
                 return
 
+        # bereken increments voor de progressbar.
         div = (k*self.chk_var_ip1.get()
                + 26 * self.chk_var_ip2.get()
                + self.chk_var_ip3.get()
@@ -475,13 +527,16 @@ class Genexpressie:
         if div > 0:
             inc = 100/div
         else:
+            # weergeef een error message als div == 0.
             messagebox.showinfo('Melding',
                                 "U heeft geen programma's geselecteerd!")
             return
 
+        # update interpretatie status label.
         self.status_ip.config(text='Processing...')
         root.update_idletasks()
 
+        # run programma's op basis van de parameterveld invoer.
         if self.chk_var_ip1.get() == 1:
             # aanroepen van functie expressie() voor alle 6 clusters.
             cloneID_dict, cluster_invoer_data = expressie_clusters.expressie(
@@ -505,16 +560,20 @@ class Genexpressie:
                 root.update_idletasks()
 
         if self.chk_var_ip3.get() == 1:
+            # aanroepen van functie Histogram().
             Familie_Barchart.Histogram(cluster_uitvoer, familie_cloneID, k)
             self.progressbar_ip['value'] += inc
             root.update_idletasks()
 
         if self.chk_var_ip4.get() == 1:
+            # aanroepen van functie TelWoorden().
             TelWoorden.TelWoorden(gen_beschrijving)
+
             self.progressbar_ip['value'] += inc
             root.update_idletasks()
 
         if self.chk_var_ip5.get() == 1:
+            # aanroepen van functie cluster_frequentie()
             cluster_freq = cluster_frequentie.cluster_frequentie(
                 gen_beschrijving, cluster_uitvoer)
 
@@ -530,31 +589,39 @@ class Genexpressie:
             self.progressbar_ip['value'] += inc
             root.update_idletasks()
 
+            # aanroepen van functie Entrez().
             vrije_analyse.Entrez(cluster_nummer, zoekterm)
             self.progressbar_ip['value'] += inc
             root.update_idletasks()
 
+        # weergeef succesvolle melding.
         messagebox.showinfo('Melding', 'Bestanden zijn gegenereerd!')
+
+        # update progressbar en statuslabel.
         self.progressbar_ip['value'] = 0
         self.status_ip.config(text='')
         root.update_idletasks()
 
     def Groep_widgets(self):
         """Functie voor het aanmaken van tekstwidget in groep."""
+        # aanmaken van tekstveld.
         self.groeptext = tk.Text(self.Groep)
         self.groeptext.grid(row=0, column=0)
 
+        # toevoegen van string aan tekstveld.
         self.groeptext.insert(
-            tk.END, '\n\n'
-            + ' '*25 + "Over Groep 7:\n\n"
-            + ' '*25 + "Preprocessing:\n"
-            + ' '*17 + "Robert van Mourik, Noach Schilt\n\n"
-            + ' '*26 + "Clustering:\n"
-            + ' '*15 + "Pascalle Lucassen, Joëlle Muijtens,\n"
-            + ' '*26 + "Anand Rambali\n\n"
-            + ' '*25 + "Interpretatie:\n"
-            + ' '*17 + "Pleun Vermeegen, Noah Olmeijer, \n"
-            + ' '*26 + "Lars de Haas")
+            tk.END, '\n'
+            + ' '*24 + "Over Groep 7:\n\n"
+            + ' '*24 + "Preprocessing:\n"
+            + ' '*16 + "Robert van Mourik, Noach Schilt\n\n"
+            + ' '*25 + "Clustering:\n"
+            + ' '*14 + "Pascalle Lucassen, Joëlle Muijtens,\n"
+            + ' '*25 + "Anand Rambali\n\n"
+            + ' '*24 + "Interpretatie:\n"
+            + ' '*16 + "Pleun Vermeegen, Noah Olmeijer,\n"
+            + ' '*25 + "Lars de Haas,\n\n"
+            + ' '*16 + "Teacher: Dr. ir. A.J. Markvoort\n"
+            + ' '*21 + "TA: A. van der Beek")
 
 
 root = tk.Tk()

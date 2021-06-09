@@ -85,7 +85,7 @@ def Plot_clusters(cloneID_dict, cluster_invoer_data, cluster_nummer):
 
     plt.plot(x_axis, gemiddelde, 'r-x')
 
-    plt.ylabel("Meetwaarden")
+    plt.ylabel("Relatieve expressiewaarde")
     plt.title("Cluster" + " " + str(cluster_nummer))
 
     plt.ylim(-13, 10)

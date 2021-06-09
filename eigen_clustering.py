@@ -274,7 +274,7 @@ def maken_clusters(k, lijst_inproducten, clone_ID_gesorteerd):
         # Converteer de index naar een lijst
         dict_clusternr_inproduct[i+1] = clusters[i].tolist()
 
-        # Bereken per lijst met inproducten de standaar deviate en het
+        # Bereken per lijst met inproducten de standaard deviatie en het
         # gemiddelde
         dict_clusternr_stats[i+1] = [np.std(clusters[i]), np.mean(clusters[i])]
 
@@ -287,7 +287,7 @@ def maken_clusters(k, lijst_inproducten, clone_ID_gesorteerd):
             # Bepaal of de waardes outliers zijn, en zo ja, verwijder deze uit
             # de dictionary en voeg deze aan de lijst outliers toe
             if (n-dict_clusternr_stats[key][1]) > \
-                    2.5*dict_clusternr_stats[key][0]:
+                    2.0*dict_clusternr_stats[key][0]:
                 outliers.append(n)
                 value.remove(n)
 
@@ -298,13 +298,13 @@ def maken_clusters(k, lijst_inproducten, clone_ID_gesorteerd):
         # onderstaande condities voldaan, voeg deze aan de value van het juiste
         # clusternummer in de dictionary toe.
         if abs(aantal-dict_clusternr_stats[1][1]) < \
-                2.5*dict_clusternr_stats[1][0]:
+                2.0*dict_clusternr_stats[1][0]:
 
             dict_clusternr_inproduct[1].append(aantal)
             dict_clusternr_inproduct[1].sort()
 
         elif abs(aantal-dict_clusternr_stats[k][1]) > \
-                2.5*dict_clusternr_stats[k][0]:
+                2.0*dict_clusternr_stats[k][0]:
 
             dict_clusternr_inproduct[k].append(aantal)
             dict_clusternr_inproduct[k].sort()

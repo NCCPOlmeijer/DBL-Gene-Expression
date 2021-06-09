@@ -76,7 +76,7 @@ def Plot_families(cloneID_dict, cluster_invoer_data, cluster_nummer):
         else:
             pass
 
-    plt.ylabel("Meetwaarden")
+    plt.ylabel("Relatieve expressiewaarde")
     plt.title("Familie" + " " + str(cluster_nummer))
 
     plt.ylim(-7, 4)
