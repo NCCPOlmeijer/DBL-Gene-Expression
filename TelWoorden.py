@@ -5,8 +5,6 @@ Created on Thu April 22 2021.
 @author: NoahOlmeijer/20203063
 """
 
-GenDescription = 'Data/GenDescription.txt'
-
 
 def TelWoorden(gen_beschrijving):
     """Programma maakt een dictionary aan met de frequentie van beschrijvingen.

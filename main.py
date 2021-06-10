@@ -160,27 +160,30 @@ class Genexpressie:
 
         if self.combobox_pp3.get() == 'Aan':
             relfilt = True
+
+            # proberen omzetten van rgrens-string in float.
+            try:
+                float(self.entry_pp1.get())
+                rgrens = float(self.entry_pp1.get())
+
+            # retourneer een errorbericht wanneer dit een ValueError oplevert.
+            except ValueError:
+                self.answer.config(
+                    text='Ingevoerde R-Grens is geen nummer!')
+                return
+
+            # checken of het ingevoerde getal kleiner of gelijk is aan 0.
+            if rgrens <= 0:
+
+                # retourneer errorbericht als dit het geval is.
+                self.answer.config(text='Ingevoerde R-Grens is ≤ 0')
+                return
+
         elif self.combobox_pp3.get() == 'Uit':
             relfilt = False
 
         # Hoeveelheid punten voor respectievelijk a, b, c en d.
         punten = [0, 1, 1, 5]
-
-        # proberen omzetten van rgrens-string in float.
-        try:
-            float(self.entry_pp1.get())
-            rgrens = float(self.entry_pp1.get())
-
-        # retourneer een errorbericht wanneer dit een ValueError oplevert.
-        except ValueError:
-            self.answer.config(text='Ingevoerde R-Grens is geen nummer!')
-            return
-
-        # checken of het ingevoerde getal kleiner of gelijk is aan 0.
-        if rgrens <= 0:
-            # retourneer errorbericht als dit het geval is.
-            self.answer.config(text='Ingevoerde R-Grens is ≤ 0')
-            return
 
         # aanpassen van label naar 'Processing...'
         self.answer.config(text='Processing...' + ' '*45)

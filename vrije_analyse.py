@@ -94,7 +94,8 @@ def Entrez(cluster_nummer, zoekterm):
     zoekterm_mouse_genes = ['>' + i for i in sequenties if zoekterm in i]
 
     # gefilterde 'zoekterm' genen schrijven naar 'filt_file'.
-    with open("Data_out/Nucleotides.fasta", 'w') as filt_file:
+    with open("Data_out/Sequences_" + zoekterm + '_Cluster_'
+              + str(cluster_nummer) + ".fasta", 'w') as filt_file:
         for gensum in zoekterm_mouse_genes:
 
             # formatteren van gen (1st line: summary, following lines mRNA
